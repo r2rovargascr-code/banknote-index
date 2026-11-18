@@ -464,13 +464,16 @@ def main():
                 continue
             # each source is tried on its own; a failure in one never stops the others
             def attempt(label, fn):
+                before = missing_sides(k)
+                ok = False
                 try:
-                    if fn():
-                        added.append(f"{k} ({label})")
-                        return True
+                    ok = bool(fn())
                 except Exception as e:
                     print(f"  {label} error {k}: {e}")
-                return False
+                new = sorted(before - missing_sides(k))
+                if new:  # log every saved side, even when the other side was not found
+                    added.append(f"{k} ({label}; sides {''.join(new)})")
+                return ok
             if k in banks and attempt("bank", lambda: from_bank(k, banks[k], credits)):
                 continue
             if k in overrides:
@@ -495,6 +498,8 @@ def main():
                 # no API calls, but photos already matched earlier can still be downloaded
                 if isinstance(cache.get(k), dict) and attempt("Numista", lambda: from_numista(cache[k], k, credits)):
                     continue
+            if os.environ.get("WIKI_ENABLED") != "1":  # automatic Wikimedia matching is off until it can be trusted
+                continue
             if attempt("Wikipedia", lambda: from_wikipedia(c, n[0], k, credits, article_cache)):
                 continue
             if attempt("Wikimedia Commons", lambda: from_wikimedia(c, n[0], k, credits)):
