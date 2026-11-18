@@ -1504,6 +1504,18 @@
     "Torres del Paine National Park"
    ],
    [
+    2000,
+    "#6353b5",
+    "Portrait of Manuel Rodríguez Erdoíza",
+    "Purple and brown., Nalcas National Park"
+   ],
+   [
+    5000,
+    "#c05777",
+    "Portrait of Gabriela Mistral",
+    "Pink., Illustration of La Campana National Park an owl"
+   ],
+   [
     10000,
     "#6491b4",
     "Blue., Portrait of Arturo Prat",
@@ -1519,8 +1531,7 @@
   "map": [
    "152"
   ],
-  "code": "CL",
-  "partial": true
+  "code": "CL"
  },
  {
   "iso": "UY",
@@ -1587,6 +1598,30 @@
     "Multicolor print., School students parade with flags"
    ],
    [
+    5000,
+    "#ba5e6f",
+    "Portrait of Don Carlos Antonio Lopez, who served as the First President of Paraguay",
+    "Palacio de Los López in Asunción that serves as workplace for the President of Paraguay…"
+   ],
+   [
+    10000,
+    "#b1654c",
+    "Portrait of Dr",
+    "Brown on multicolor., Scene of the Independence Declaratory, country name on top"
+   ],
+   [
+    20000,
+    "#40958b",
+    "Paraguayan woman",
+    "Multicolor print., Modern Banco Central del Paraguay headquarters building in Asunción"
+   ],
+   [
+    50000,
+    "#ba755e",
+    "Agustín Pío Barríos \"Mangore\" holding guitar",
+    "Multicolor print., Central part of guitar, stylized \"Ñanduty\" design"
+   ],
+   [
     100000,
     "#699045",
     "Green and multicolor., Spanish text",
@@ -1596,8 +1631,7 @@
   "map": [
    "600"
   ],
-  "code": "PY",
-  "partial": true
+  "code": "PY"
  },
  {
   "iso": "VE",
@@ -1606,28 +1640,58 @@
   "sym": "Bs.",
   "issuer": "",
   "region": "Americas",
-  "series": "Current notes",
-  "year": 2020,
+  "series": "Digital bolívar (2021)",
+  "year": 2023,
   "mat": "Paper",
   "notes": [
    [
-    200000,
-    "#a8b464",
-    "Vertical format, pale rose background",
-    "Horizontal format, pale rose background"
+    5,
+    "#957840",
+    "Portrait of Simon Bolívar at bottom",
+    "Arms"
    ],
    [
-    500000,
-    "#6465b4",
-    "Portrait of Simón Bolívar at bottom-centre",
-    "\"Mausoleum of the Liberator\" Simón Bolívar and the National Pantheon in Caracas, Coat of…"
+    10,
+    "#5d48aa",
+    "Simon Bolívar at bottom, star on back",
+    "At left, National coat of arms, Arch of Triumph, scene of painting \"Batalla de Carabobo\"…"
+   ],
+   [
+    20,
+    "#a96a48",
+    "Portrait of Simon Bolívar at bottom",
+    "Arms"
+   ],
+   [
+    50,
+    "#a9b04b",
+    "Portrait of Simon Bolívar at bottom",
+    "Coat of arms of Venezuela"
+   ],
+   [
+    100,
+    "#974046",
+    "Portrait of Simon Bolívar at bottom, with denomination and the country's name",
+    "Arms"
+   ],
+   [
+    200,
+    "#8a5aa8",
+    "Battle of Lake Maracaibo bicentenary design",
+    "Scene of Maracaibo lake battle"
+   ],
+   [
+    500,
+    "#e0883a",
+    "Battle of Lake Maracaibo bicentenary design",
+    "Scene of Maracaibo lake battle"
    ]
   ],
   "map": [
    "862"
   ],
   "code": "VE",
-  "partial": true
+  "curated": true
  },
  {
   "iso": "GT",
@@ -2001,17 +2065,52 @@
   "mat": "Paper",
   "notes": [
    [
+    1,
+    "#5e8eba",
+    "Black and red ascending serial numbers",
+    "Drum major, in full regalia, leading the Royal Bahamas Police Force’s marching band"
+   ],
+   [
+    3,
+    "#ba5e63",
+    "Black and red ascending serial numbers",
+    "Sailing boats"
+   ],
+   [
     5,
     "#cb904d",
     "Black and red ascending serial numbers",
     "Front-facing Junkanoo dancers, coat of arms of the Bahamas at lower left"
+   ],
+   [
+    10,
+    "#405b95",
+    "Red and black serial numbers",
+    "Elbow Reef Lighthouse in Hope Town, Bahamas and flamingoes (Phoenicopteridae sp"
+   ],
+   [
+    20,
+    "#c26256",
+    "Red and black ascending serial numbers",
+    "Port Authority Building tower in Nassau, the Bahamas and cruise ship at lower part"
+   ],
+   [
+    50,
+    "#5e9dba",
+    "Black and red ascending serial numbers",
+    "Central Bank of The Bahamas building in Nassau, Bahamas and palm tree"
+   ],
+   [
+    100,
+    "#955540",
+    "Black and red ascending serial numbers",
+    "Atlantic blue marlin surrounded by marine life"
    ]
   ],
   "map": [
    "044"
   ],
-  "code": "BS",
-  "partial": true
+  "code": "BS"
  },
  {
   "iso": "BZ",
@@ -2126,6 +2225,24 @@
   "mat": "Paper",
   "notes": [
    [
+    10,
+    "#955140",
+    "The front of the banknote is decorated with a portrait of Prince Mieszko I - the founder…",
+    "The reverse features a silver denar coin issued during the reign of Mieszko I presenting…"
+   ],
+   [
+    20,
+    "#ba5e89",
+    "The front of the banknote features a portrait of King Boleslaw I the Brave - the first…",
+    "The reverse side is decorated with a silver denar coin of Boleslaw I the Brave with a…"
+   ],
+   [
+    100,
+    "#957840",
+    "The front of the banknote features a portrait of King Wladyslaw II Jagiello",
+    "The reverse side is decorated with the White Eagle on a shield of the coat of arms from…"
+   ],
+   [
     200,
     "#b48a64",
     "Golden,brown and tan print",
@@ -2135,8 +2252,7 @@
   "map": [
    "616"
   ],
-  "code": "PL",
-  "partial": true
+  "code": "PL"
  },
  {
   "iso": "CZ",
@@ -2150,6 +2266,18 @@
   "mat": "Paper",
   "notes": [
    [
+    100,
+    "#955d40",
+    "Karel IV., Obverse and reverse images of a silver Prague gross",
+    "Seal of Charles University, Prague, in centre., National arms"
+   ],
+   [
+    200,
+    "#ba765e",
+    "Jan Ámos Komenský",
+    "Hands, stylized open book at bottom right"
+   ],
+   [
     5000,
     "#8c7a79",
     "Tomáš Garrigue Masaryk",
@@ -2159,8 +2287,7 @@
   "map": [
    "203"
   ],
-  "code": "CZ",
-  "partial": true
+  "code": "CZ"
  },
  {
   "iso": "HU",
@@ -2333,6 +2460,18 @@
   "mat": "Paper",
   "notes": [
    [
+    5,
+    "#ba705e",
+    "Belaja tower in Kamenets city, Brest district, Denomination left and below",
+    "The collage devoted to the first Slavic settlements: A leather belt fragment, a wooden…"
+   ],
+   [
+    10,
+    "#5085b4",
+    "The church of the Savior and Transfiguration in the town of Polatsk, Vitsiebsk Region,…",
+    "The collage devoted to enlightenment and printing: Books, the Cross of Euphrosyne of…"
+   ],
+   [
     20,
     "#b48e64",
     "The Rumyantsaŭ-Paskievich Palace in Homiel, Denomination left and below",
@@ -2345,6 +2484,12 @@
     "The collage devoted to art: A lyre and laurel twigs, a quill pen, a sheet of paper, and a…"
    ],
    [
+    100,
+    "#ba725e",
+    "The Radziwiłł family Residential Palace in Niasviž, Denomination left",
+    "The collage devoted to the theatre and folk festivals: A violin, a tambourine, a zhaleika…"
+   ],
+   [
     200,
     "#a55db1",
     "Mahiloŭ Regional Art Museum named after Pavieł Vasilevič Masleńikaŭ, Denomination left…",
@@ -2354,8 +2499,7 @@
   "map": [
    "112"
   ],
-  "code": "BY",
-  "partial": true
+  "code": "BY"
  },
  {
   "iso": "MK",
@@ -2375,17 +2519,40 @@
     "Mosaic, peacock"
    ],
    [
+    50,
+    "#5e95ba",
+    "Bronze Follis, Emperor Justin II",
+    "Archangel Gabriel from the the scene of the Annunciation on the east wall of the church…"
+   ],
+   [
+    100,
+    "#8b8f93",
+    "Wooden ceiling in Debar/Dibra Town House",
+    "Skopje/Skoplje/Shkup"
+   ],
+   [
     500,
     "#b38163",
     "Gold death mask found in Trebeništa",
     "Poppies"
+   ],
+   [
+    1000,
+    "#ba765e",
+    "Madonna Episkepsis",
+    "Part of St"
+   ],
+   [
+    2000,
+    "#b06e4b",
+    "Bronze artifact in the form of cup poppy",
+    "Decoration on the inside of a gilded bowl, \"Source of Life\", peacocks"
    ]
   ],
   "map": [
    "807"
   ],
-  "code": "MK",
-  "partial": true
+  "code": "MK"
  },
  {
   "iso": "AL",
@@ -2399,23 +2566,46 @@
   "mat": "Paper",
   "notes": [
    [
+    200,
+    "#ba825e",
+    "Naim Frashëri, one of the most distinguished writers of the Albanian Renaissance",
+    "View of the house where Naim Frashëri was born"
+   ],
+   [
     500,
     "#649ab4",
     "Denomination, eagle emblem of Albania and pen used to sign the Independence Act",
     "Albanian coat of arms and watermark"
    ],
    [
+    1000,
+    "#87ba5e",
+    "Denomination and stylized sun",
+    "Watermark"
+   ],
+   [
     2000,
     "#864da1",
     "Denomination and security strip",
     "Albanian coat of arms and watermark"
+   ],
+   [
+    5000,
+    "#957840",
+    "Skanderberg",
+    "Kruja Castle"
+   ],
+   [
+    10000,
+    "#bd675a",
+    "Aleksandër Starve Drenova, Banka e Shqipërisë building in Tirana",
+    "Flag of Albania, a musical score, a music box, and the first two lines of \"Himni i…"
    ]
   ],
   "map": [
    "008"
   ],
-  "code": "AL",
-  "partial": true
+  "code": "AL"
  },
  {
   "iso": "IS",
@@ -2429,6 +2619,18 @@
   "mat": "Paper",
   "notes": [
    [
+    500,
+    "#bd5b6a",
+    "Red print., Independence advocate Jón Sigurðsson in the middle",
+    "Red print., Jón Sigurðsson at his desk and parlimant building to the bottom right"
+   ],
+   [
+    5000,
+    "#ba915e",
+    "Bishop Gísli Þorláksson‘s 3rd wife Ragnheiður Jónsdóttir as the main figure on the print",
+    "Ragnheiður Jónsdóttir instructing to girls about embroidering"
+   ],
+   [
     10000,
     "#6496b4",
     "Bust portrait of natural scientist and poet Jónas Hallgrímsson",
@@ -2438,8 +2640,7 @@
   "map": [
    "352"
   ],
-  "code": "IS",
-  "partial": true
+  "code": "IS"
  },
  {
   "iso": "AZ",
@@ -2812,6 +3013,36 @@
   "mat": "Paper",
   "notes": [
    [
+    1,
+    "#5e81ba",
+    "Dharmachakra between two dragons",
+    "Simtokha Dzong Palace"
+   ],
+   [
+    5,
+    "#ba745e",
+    "In the centre - Dharma Chakra with DeyNga which means offerings of sensory enjoyment",
+    "Taktsang Monastery"
+   ],
+   [
+    10,
+    "#5eba9f",
+    "Green and yellow print., Jigme Singye Wangchuck",
+    "Paro Rinpung Dzong"
+   ],
+   [
+    20,
+    "#b7a458",
+    "Yellow and multicolour print., Jigme Khesar Namgyel Wangchuck portrait",
+    "Punakha Dzong also known as Pungtang Dewa chhenbi Phodrang, is the administrative centre…"
+   ],
+   [
+    50,
+    "#ba725e",
+    "Jigme Khesar Namgyel Wangchuck",
+    "Tongsa Dzong"
+   ],
+   [
     100,
     "#b4a064",
     "King Jingme Singye Wangchuk",
@@ -2822,13 +3053,18 @@
     "#b47564",
     "—",
     "Punakha Dzong"
+   ],
+   [
+    1000,
+    "#ba755e",
+    "King Jigme Khesar Namqyel Wangchuk with the Raven Crown",
+    "Tashichho Dzong"
    ]
   ],
   "map": [
    "064"
   ],
-  "code": "BT",
-  "partial": true
+  "code": "BT"
  },
  {
   "iso": "MM",
@@ -2848,6 +3084,18 @@
     "Central Bank of Myanmar building"
    ],
    [
+    1000,
+    "#406f95",
+    "Aung San",
+    "Hluttaw complex, Naypyidaw"
+   ],
+   [
+    10000,
+    "#599db7",
+    "Symbolic elements",
+    "The Mandalay Royal Palace, shown with its reflection in water"
+   ],
+   [
     20000,
     "#85b464",
     "White elephant Named Rattha Mandaka in traditional elephant-associated regalia",
@@ -2857,8 +3105,7 @@
   "map": [
    "104"
   ],
-  "code": "MM",
-  "partial": true
+  "code": "MM"
  },
  {
   "iso": "KH",
@@ -2872,6 +3119,18 @@
   "mat": "Paper",
   "notes": [
    [
+    200,
+    "#bb8d5d",
+    "Royal arms of Cambodia, naga, King Norodom Sihamoni as a young man",
+    "Preah Thineang Chan Chhaya of the Royal Palace in Phnom Penh, Paul Ducuing’s statue of…"
+   ],
+   [
+    2000,
+    "#ba785e",
+    "Royal arms of Cambodia, naga, King Norodom Sihamoni as an adult",
+    "Ancient stone artifact, Prasat Tao at Sambo Prei Kuk Kampong Tom Province"
+   ],
+   [
     50000,
     "#ae8e57",
     "King Norodom Sihanouk, Naga head",
@@ -2881,8 +3140,7 @@
   "map": [
    "116"
   ],
-  "code": "KH",
-  "partial": true
+  "code": "KH"
  },
  {
   "iso": "LA",
@@ -3002,6 +3260,24 @@
   "mat": "Paper",
   "notes": [
    [
+    500,
+    "#5eabba",
+    "Blue and gray print., Head of Transcaspian urial in profile",
+    "Snow-covered mountains in outline of infinity ornament"
+   ],
+   [
+    1000,
+    "#b1634c",
+    "\"Tree of Life\" with bird, Dog's head, DNA spiral, arms",
+    "Sloping hills, Central Asian Shepherd Dog and Tazy sighthound, stylized ornamental shield"
+   ],
+   [
+    2000,
+    "#5eba95",
+    "Green, blue, and purple",
+    "Green, blue, and purple"
+   ],
+   [
     5000,
     "#b46472",
     "National emblem, Golden eagle detail and 6th or 7th century BCE ornament found in Taldy…",
@@ -3012,13 +3288,18 @@
     "#627eb3",
     "Qazaq Eli monument, Peace doves",
     "The residence of the President of the Republic of Kazakhstan “Aq orda” in Nur-Sultan"
+   ],
+   [
+    20000,
+    "#899540",
+    "Mangilik El monumental arch",
+    "Outline of Kazakhstan"
    ]
   ],
   "map": [
    "398"
   ],
-  "code": "KZ",
-  "partial": true
+  "code": "KZ"
  },
  {
   "iso": "KG",
@@ -3047,8 +3328,7 @@
   "map": [
    "417"
   ],
-  "code": "KG",
-  "partial": true
+  "code": "KG"
  },
  {
   "iso": "BN",
@@ -3109,17 +3389,40 @@
   "mat": "Polymer",
   "notes": [
    [
+    5,
+    "#b55473",
+    "Football players., Fish., Dancers",
+    "Conch shell"
+   ],
+   [
+    10,
+    "#b69855",
+    "People playing traditional drums and a man climbing a coconut tree",
+    "Oldest traditional drum in Maldives, as displayed in national museum"
+   ],
+   [
     20,
     "#9761b3",
     "—",
     "It is vertically oriented and depicts a traditional sailboat"
+   ],
+   [
+    50,
+    "#54b594",
+    "Green print",
+    "Green print., Mosque"
+   ],
+   [
+    100,
+    "#bf5965",
+    "Colouration predominantly red and pink, with details in green., Group of locals in…",
+    "Early Dhivehi scripture"
    ]
   ],
   "map": [
    "462"
   ],
-  "code": "MV",
-  "partial": true
+  "code": "MV"
  },
  {
   "iso": "IR",
@@ -3255,13 +3558,30 @@
     "#b49164",
     "Murabba Palace, King Salman Bin Abdulaziz Al Saud",
     "King Abdullah Bin Abdulaziz Financial District"
+   ],
+   [
+    50,
+    "#b7b95d",
+    "In the center we see the Dome of the Rock, an Islamic shrine, located on the Temple Mount…",
+    "In the center we see a picture that features the Al-Aqsa Mosque located in the Old City…"
+   ],
+   [
+    100,
+    "#ba5e72",
+    "King Salman",
+    "Grand Mosque in Mecca"
+   ],
+   [
+    500,
+    "#5e71ba",
+    "Arabic text",
+    "English text"
    ]
   ],
   "map": [
    "682"
   ],
-  "code": "SA",
-  "partial": true
+  "code": "SA"
  },
  {
   "iso": "AE",
@@ -3287,17 +3607,40 @@
     "Green colour banknote., In the middle - Khor Fakkan Amphitheatre, a cultural landmark in…"
    ],
    [
+    50,
+    "#ba6b5e",
+    "Oryx",
+    "Al Jahli Fort"
+   ],
+   [
+    100,
+    "#ba5e85",
+    "Pink and red predominant color., Umm Al Quwain Fort",
+    "Port of Fujairah and Etihad Rail"
+   ],
+   [
+    200,
+    "#ba825e",
+    "Sharia Court and Zayed Sports City",
+    "Falcon and Central Bank"
+   ],
+   [
     500,
     "#6090b8",
     "The front side includes an image of the bold architecture of the Terra Sustainability,…",
     "The reverse side highlights the Museum of the Future in Dubai, an image of iconic…"
+   ],
+   [
+    1000,
+    "#b2664c",
+    "The obverse side features a portrait of of Sheikh Zayed bin Sultan",
+    "The reverse side features an image of the Barakah Nuclear Energy Plant which is located…"
    ]
   ],
   "map": [
    "784"
   ],
-  "code": "AE",
-  "partial": true
+  "code": "AE"
  },
  {
   "iso": "QA",
@@ -3385,8 +3728,7 @@
   "map": [
    "414"
   ],
-  "code": "KW",
-  "partial": true
+  "code": "KW"
  },
  {
   "iso": "OM",
@@ -3488,6 +3830,36 @@
   "mat": "Paper",
   "notes": [
    [
+    1000,
+    "#a6ab49",
+    "Green and brown print, table with Phoenician alphabet letters in the background",
+    "Green print, disc of Latin and Phoenician letters in the background"
+   ],
+   [
+    5000,
+    "#c05f58",
+    "Pink and purple print, butterfly, and Arabic text",
+    "Pink and purple print, boxes of square and rectangle varieties, and French text"
+   ],
+   [
+    10000,
+    "#d2a645",
+    "Yellow, orange, & green colour., Cedar tree, value in Arabic",
+    "Martyr’s Monument, stylized cedar trees"
+   ],
+   [
+    20000,
+    "#ba705e",
+    "Face value on Geometric square spaces that symbolize the reconstruction of Lebanon, block…",
+    "Stairs and the sun-like rosette symbolizing development and progress of the Lebanese…"
+   ],
+   [
+    50000,
+    "#5e9cba",
+    "State Emblem of Lebanon - Cedar of Lebanon., Geometric square spaces symbolizing…",
+    "Blue & violet colour., State Emblem., Bank monogram 'BDL' at diamond shaped square"
+   ],
+   [
     100000,
     "#74b464",
     "—",
@@ -3497,8 +3869,7 @@
   "map": [
    "422"
   ],
-  "code": "LB",
-  "partial": true
+  "code": "LB"
  },
  {
   "iso": "SY",
@@ -4442,33 +4813,39 @@
   "sym": "Le",
   "issuer": "",
   "region": "Africa",
-  "series": "Current notes",
-  "year": 2010,
+  "series": "New leone (2022)",
+  "year": 2022,
   "mat": "Paper",
   "notes": [
    [
-    1000,
-    "#b47064",
-    "Multicolour print., Bai Bureh",
-    "Multicolour print, Satellite dish"
+    1,
+    "#be595e",
+    "Coat of arms",
+    "Telecommunications satellite dish"
    ],
    [
-    2000,
-    "#b47964",
+    2,
+    "#ba765e",
     "Isaac Theophilus Akunna Wallace-Johnson, cargo ship, Coat of arms of Sierra Leone",
     "Bank of Sierra Leone building, Freetown"
    ],
    [
-    5000,
-    "#664693",
-    "Multicolour print., Sengbe Pieh",
-    "Multicolour print., Bumbuna Dam"
+    5,
+    "#405f95",
+    "Old Fourah Bay College building in Freetown",
+    "Bumbuna Dam"
    ],
    [
-    10000,
-    "#64b46f",
-    "Dove flying over the map of Sierra Leone, Flag of Sierra Leone",
-    "Multicolur print., White silk-cotton tree"
+    10,
+    "#4581a2",
+    "Dove flying over the map of Sierra Leone, national flag at full mast",
+    "Coat of arms and Cotton Tree in Freetown"
+   ],
+   [
+    20,
+    "#c48954",
+    "Coat of arms",
+    "Crowd of 16 students seated at school desks"
    ]
   ],
   "map": [

@@ -118,10 +118,16 @@ def all_types(nm, code):
     return types
 
 
-def collect(nm, code, deep=False):
+# countries whose currency was redenominated: only notes of the new currency count
+SERIES_FROM = {"VE": 2021, "SL": 2022, "BY": 2009}
+
+
+def collect(nm, code, deep=False, since=0):
     """Newest design of each denomination that is still being printed."""
     keep = {}
     for t in all_types(nm, code):
+        if since and (t.get("min_year") or 0) < since:
+            continue
         if (t.get("issuer") or {}).get("code") != code:
             continue
         if "standard circulation" not in ((t.get("object_type") or {}).get("name", "")).lower():
@@ -136,7 +142,7 @@ def collect(nm, code, deep=False):
     if not keep:
         return {}
     newest = max((t.get("max_year") or t.get("min_year") or 0) for t in keep.values())
-    floor = max(newest - 8, Y - 15)   # denominations not printed for years are treated as withdrawn
+    floor = max(newest - 12, Y - 15)   # denominations not printed for years are treated as withdrawn
     return {d: t for d, t in keep.items() if (t.get("max_year") or t.get("min_year") or 0) >= floor}
 
 
@@ -154,7 +160,7 @@ def colour_from_thumb(t):
 
 
 def build_entry(nm, code, iso, display, cur, sym, region, cache, map_ids, skip=()):
-    found = collect(nm, code)
+    found = collect(nm, code, since=SERIES_FROM.get(iso, 0))
     found = {d: t for d, t in found.items() if d not in skip}
     if not found:
         return None

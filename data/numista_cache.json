@@ -1,4 +1,76 @@
 {
+ "BZ-5": {
+  "id": 480191,
+  "title": "5 Dollars",
+  "years": [
+   2025,
+   2025
+  ],
+  "issuer": "belize",
+  "score": 14,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/belize/68a2e5edbd49f0.90784369-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "English text and red color;\r\nPortrait of George Cadle Price at left; coat of arms at top; National Assembly building at Independence Plaza in Belmopan at center; denomination as registration device."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/belize/68a2e5f0650502.03238948-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Red; multicolour underprint.\r\nEnglish text; denomination as registration device; Belize City Peninsula and Haulover Creek; Supreme Court building in Belize City; Saint John’s Cathedral in Belize City.\r\nPureImage windowed holographic security thread with Belize Supreme Courtcupula."
+  }
+ },
+ "BZ-10": {
+  "id": 480192,
+  "title": "10 Dollars",
+  "years": [
+   2025,
+   2025
+  ],
+  "issuer": "belize",
+  "score": 11,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/belize/68a2e899a20470.89818938-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "English text and green color;\r\nPortrait of Philip Goldson at left; coat of arms at top; green heron (Butorides virescens); denomination as registration device."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/belize/68a2e89c2c6631.45410320-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Green; multicolour underprint.\r\nEnglish text; denomination as registration device; keel-billed toucan perched on branch; long-billed hermit hummingbird collecting pollen; scaly-breasted hummingbird in flight. \r\nHolographic foil stripe with keel-billed toucan and scarlet macaw. Windowed security thread with demetalized keel-billed toucan."
+  }
+ },
+ "BZ-20": {
+  "id": 480193,
+  "title": "20 Dollars",
+  "years": [
+   2025,
+   2025
+  ],
+  "issuer": "belize",
+  "score": 8,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/belize/68968c41f2b923.07637145-original.jpg",
+   "author": "Central Bank of Belize",
+   "license": null,
+   "license_url": null,
+   "description": "English text and brown color;\r\nPortrait of George Cadle Price at left; coat of arms at top; Baird’s tapir; denomination as registration device."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/belize/68968c4342e1a1.41541687-original.jpg",
+   "author": "Central Bank of Belize",
+   "license": null,
+   "license_url": null,
+   "description": "Brown; multicolour underprint.\r\nEnglish text; denomination as registration device; jaguar (Panthera onca); green iguana. Holographic foil stripe thread with blue morpho butterfly. Windowed security thread with demetalized keel-billed toucan."
+  }
+ },
  "_issuers": {
   "USD": "etats-unis",
   "EUR": "zone_euro",
@@ -12926,7 +12998,28 @@
   }
  },
  "_checked": {
-  "HN": "2026-11-18"
+  "HN": "2026-11-18",
+  "CL": "2026-11-18",
+  "PY": "2026-11-18",
+  "VE": "2026-11-18",
+  "BS": "2026-11-18",
+  "PL": "2026-11-18",
+  "CZ": "2026-11-18",
+  "BY": "2026-11-18",
+  "MK": "2026-11-18",
+  "AL": "2026-11-18",
+  "IS": "2026-11-18",
+  "BT": "2026-11-18",
+  "MM": "2026-11-18",
+  "KH": "2026-11-18",
+  "KZ": "2026-11-18",
+  "KG": "2026-11-18",
+  "MV": "2026-11-18",
+  "SA": "2026-11-18",
+  "AE": "2026-11-18",
+  "KW": "2026-11-18",
+  "LB": "2026-11-18",
+  "SL": "2026-11-18"
  },
  "HN-1": {
   "id": 203998,
@@ -13120,76 +13213,1924 @@
    "description": "Mining buildings at Rosary of San Juancito (Mina del Rosario de San Juancito, 1893)"
   }
  },
- "BZ-5": {
-  "id": 480191,
-  "title": "5 Dollars",
+ "CL-2000": {
+  "id": 203633,
+  "title": "2000 Pesos",
   "years": [
-   2025,
-   2025
+   2009,
+   2021
   ],
-  "issuer": "belize",
-  "score": 14,
+  "issuer": "chili",
+  "score": 9,
   "obverse": {
-   "picture": "https://en.numista.com/catalogue/photos/belize/68a2e5edbd49f0.90784369-original.jpg",
-   "author": "hex7ech",
-   "license": "CC BY-NC",
-   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
-   "description": "English text and red color;\r\nPortrait of George Cadle Price at left; coat of arms at top; National Assembly building at Independence Plaza in Belmopan at center; denomination as registration device."
+   "picture": "https://en.numista.com/catalogue/photos/chili/6753578edd26f0.89034457-original.jpg",
+   "author": "bakerd13",
+   "license": null,
+   "license_url": null,
+   "description": "Black on purple and rose underprint.\r\nPortrait of Manuel Rodríguez Erdoíza at center right; Copihue design on center.\r\nIssuer name below; face value in numbers on top left and lower right; in letters on upper right."
   },
   "reverse": {
-   "picture": "https://en.numista.com/catalogue/photos/belize/68a2e5f0650502.03238948-original.jpg",
+   "picture": "https://en.numista.com/catalogue/photos/chili/6753578f67f0a8.33311527-original.jpg",
+   "author": "bakerd13",
+   "license": null,
+   "license_url": null,
+   "description": "Purple and brown.\r\nNalcas National Park (Araucania); slender built parakeet (enicognathus leptorhynchus)."
+  }
+ },
+ "CL-5000": {
+  "id": 205234,
+  "title": "5000 Pesos",
+  "years": [
+   2009,
+   2021
+  ],
+  "issuer": "chili",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/chili/6270db874f3ba4.34290649-original.jpg",
    "author": "hex7ech",
    "license": "CC BY-NC",
    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
-   "description": "Red; multicolour underprint.\r\nEnglish text; denomination as registration device; Belize City Peninsula and Haulover Creek; Supreme Court building in Belize City; Saint John’s Cathedral in Belize City.\r\nPureImage windowed holographic security thread with Belize Supreme Courtcupula."
+   "description": "Pink on blue underprint.\r\nPortrait of Gabriela Mistral at center right; Copihue design on center.\r\nIssuer name below; face value in numbers on top left and lower right; in letters on upper right."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/chili/6270db880cea25.88516288-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Pink.\r\nIllustration of La Campana National Park an owl at center."
   }
  },
- "BZ-10": {
-  "id": 480192,
+ "PY-5000": {
+  "id": 202312,
+  "title": "5000 Guaranies (Polymer; Series G-J)",
+  "years": [
+   2011,
+   2022
+  ],
+  "issuer": "paraguay",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/paraguay/65a6cda56f3143.70985225-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Red on multicolor underprint.\r\nPortrait of Don Carlos Antonio Lopez (1792–1862), who served as the First President of Paraguay (1844–1862) at right; Paraguayan Coat of Arms and Coat of arms of the Treasury, lion with Phrygian cap and the inscription \"Paz y Justicia\" (Peace and Justice) above value denomination."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/paraguay/65a6cda7e01163.61713440-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Palacio de Los López in Asunción that serves as workplace for the President of Paraguay and is also the seat of the government of Paraguay."
+  }
+ },
+ "PY-10000": {
+  "id": 292380,
+  "title": "10 000 Guaranies (Series H-K)",
+  "years": [
+   2015,
+   2024
+  ],
+  "issuer": "paraguay",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/paraguay/64e660e339c353.96146865-original.jpg",
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "Brown on multicolor underprint.\r\nPortrait of Dr. José Gaspar Rodríguez de Francia to right, issuer name on top, face value on numbers and letters on top corners, on numbers at center, and in letters below. Serial #s black, increasing size vertical on left, horizontal on right. Both Paraguayan coat of arms on sides of face value in numbers."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/paraguay/64e660e42ea994.55162609-original.jpg",
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "Brown on multicolor.\r\nScene of the Independence Declaratory, country name on top, face value in numbers on all 4 corners, and on sides of image, in letters at bottom, in Guarani language."
+  }
+ },
+ "PY-20000": {
+  "id": 222524,
+  "title": "20 000 Guaranies (Series F-I)",
+  "years": [
+   2015,
+   2024
+  ],
+  "issuer": "paraguay",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/paraguay/6614ff4d5acde6.94428416-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Blue and green on multicolor underprint.\r\nParaguayan woman on right, holding pitcher, which shows coat of arms symbols, issuer name on top, face value combined numbers a letters on to corners, and on numbers and on letters at center. Black serial #s, vertical on left, horizontal on lower right. The two official coats of arms below value, security thread and watermark to left. Circle symbol for visually impaired; BCP perfect printing registration device below watermark."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/paraguay/6614ff4f6b7439.59286749-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Multicolor print.\r\nModern Banco Central del Paraguay headquarters building in Asunción. Stylized \"Ñanduti\" design on left, on back of face value. Country name on top. Face value in numbers on left, combined numbers and letters on top right, and in letters, in guarani language on bottom."
+  }
+ },
+ "PY-50000": {
+  "id": 258250,
+  "title": "50 000 Guaranies (Series H-K)",
+  "years": [
+   2015,
+   2022
+  ],
+  "issuer": "paraguay",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/paraguay/6793d4641cc511.18786254-original.jpg",
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Purple, green and light brown on multicolor underprint.\r\nAgustín Pío Barríos \"Mangore\" holding guitar at center, face value combining numbers and letters on top an lower left; and on numbers and on letters on center right. issuer name on top right, security thread to right of center, see-thru device (guitar shape) on lower left, the 2 official coats of arms on sides on lettered face of value (right). \r\nRed vertical serial #s on left, black horizontal on lower right."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/paraguay/6793d464d63d48.70375177-original.jpg",
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Multicolor print.\r\nCentral part of guitar, stylized \"Ñanduty\" design, face value on numbers to left, combined numbers and letters on top right, country name on top, face value in Guarani language on bottom."
+  }
+ },
+ "VE-2": {
+  "id": 204755,
+  "title": "2 Bolívares",
+  "years": [
+   2018,
+   2018
+  ],
+  "issuer": "venezuela",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/62fbbf413f2953.73877349-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Black and dark red on teal, turquoise, and light tan underprint; serial numbers black and red; vertical format.\r\nState name, Denomination (number and written out), issue date, signiture of president and vice president, safety thread (half exposed) bust of woman, Josefa Camejo, heroine of independence movement and church in background. Intermittent security thread with letters BCV. Registration image star and parrot left of serial number."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/62fbbf41b8f629.73467439-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Dark red on teal, turquoise, and light tan underprint.\r\nBanner of Venezuela with picture of Cayo Sal island in the background and a yellow headed parrot on a cactus in the foreground with denomination (number and written out) on the left."
+  }
+ },
+ "VE-5": {
+  "id": 309202,
+  "title": "5 Bolívares (200th Anniversary of the Battle of Carabobo)",
+  "years": [
+   2021,
+   2021
+  ],
+  "issuer": "venezuela",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/685697bec01242.25121691-original.jpg",
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Brown on tan underprint.\r\nPortrait of Simon Bolívar at bottom."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/685697c00a5df1.93156202-original.jpg",
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Arms at left.\nMonument to the Motherland on Carabobo Fields in centre.\nBattle of Carabobo at right"
+  }
+ },
+ "VE-10": {
+  "id": 309203,
+  "title": "10 Bolívares (200th Anniversary of the Battle of Carabobo)",
+  "years": [
+   2021,
+   2021
+  ],
+  "issuer": "venezuela",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/6621870fa703d3.94680063-original.jpg",
+   "author": "Jen Waters",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "description": "Simon Bolívar at bottom, star on back"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/66218710b57c27.24154339-original.jpg",
+   "author": "Jen Waters",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "description": "At left, National coat of arms, Arch of Triumph, scene of painting \"Batalla de Carabobo\" by Martín Tovar y Tovar. In the lower part there is commemorative logo for 200 years of Battle of Carabobo."
+  }
+ },
+ "VE-20": {
+  "id": 325231,
+  "title": "20 Bolívares (200th Anniversary of the Battle of Carabobo)",
+  "years": [
+   2021,
+   2021
+  ],
+  "issuer": "venezuela",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/68569bcb8e4e09.52482435-original.jpg",
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Red-brown on orange underprint.\r\nPortrait of Simon Bolívar at bottom."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/68569bccc99d01.01690738-original.jpg",
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Arms at left.\r\nMonument to the Motherland on Carabobo Fieldsin centre.\r\nBattle of Carabobo at right"
+  }
+ },
+ "VE-50": {
+  "id": 330909,
+  "title": "50 Bolívares (200th Anniversary of the Battle of Carabobo)",
+  "years": [
+   2021,
+   2021
+  ],
+  "issuer": "venezuela",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/68569e7b5111e9.97731284-original.jpg",
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Dark-green on light-green underprint.\r\nPortrait of Simon Bolívar at bottom. with denomination and the country's name."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/68569e7ca72bd4.55876880-original.jpg",
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Coat of arms of Venezuela at left, Triumphal Arch of Carabobo at centre-left, painting of the Battle of Carabobo by Martín Tovar y Tovar at centre."
+  }
+ },
+ "VE-100": {
+  "id": 330916,
+  "title": "100 Bolívares (200th Anniversary of the Battle of Carabobo)",
+  "years": [
+   2021,
+   2021
+  ],
+  "issuer": "venezuela",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/6856a1d8bdba59.61574924-original.jpg",
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Purple on violet underprint.\r\nPortrait of Simon Bolívar at bottom, with denomination and the country's name."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/6856a1da1c5db8.58590693-original.jpg",
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Arms at left.\r\nMonument to the Motherland on Carabobo Fieldsin centre.\r\nBattle of Carabobo at right."
+  }
+ },
+ "VE-200": {
+  "id": 429703,
+  "title": "200 Bolívares (Battle of Lake Maracaibo)",
+  "years": [
+   2023,
+   2025
+  ],
+  "issuer": "venezuela",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/69f249e401dd52.22391715-original.jpg",
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Purple, yellow, black, vertical design. Three portraits or Simón Bolívar in different ages, bridge Urdaneta on background. Country name on top, with face value in number and letters below. Red serial #s with letter prefix on top right and lower left edges, perfect registry design on center left, horizontal windowed security strip at center, two dark yellow signatures, president and first vicepresident of BCV, watermark area on top."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/69f249e589a134.94796370-original.jpg",
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Scene of Maracaibo lake battle to right, general Rafael Urdaneta Bridge to left, issuer name on left top, Venezuelan coat of arms on center left, event on lower left, face value in letters and numbers on lower right, printer name on bottom right edge."
+  }
+ },
+ "VE-500": {
+  "id": 429704,
+  "title": "500 Bolívares (Battle of Lake Maracaibo)",
+  "years": [
+   2023,
+   2025
+  ],
+  "issuer": "venezuela",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/6738890deadef6.38838570-original.jpg",
+   "author": "edamame2113",
+   "license": null,
+   "license_url": null,
+   "description": "Orange, brown, and green, vertical design. Three portraits or Simón Bolívar in different ages, ship on background. Country name on top, with face value in number and letters below. Red serial #s with letter prefix on top right and lower left edges, perfect registry design on center left, horizontal windowed security strip at center, two dark green signatures, president and first vicepresident of BCV, watermark area on top."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/6738891041eae9.14345200-original.jpg",
+   "author": "edamame2113",
+   "license": null,
+   "license_url": null,
+   "description": "Scene of Maracaibo lake battle to right, general Rafael Urdaneta Bridge to left, issuer name on left top, Venezuelan coat of arms on center left, event on lower left, face value in letters and numbers on lower right, printer name on bottom right edge."
+  }
+ },
+ "VE-1000": {
+  "id": 205358,
+  "title": "1000 Bolívares",
+  "years": [
+   2016,
+   2017
+  ],
+  "issuer": "venezuela",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/629a2fa05840d5.39357488-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Dark purple on light purple, sky blue, and yellow underprint; serial numbers black on top right, and dark blue on lower left; both rotated to vertical format.\r\nPortrait of Negro Primero (Pedro Camejo) at lower centre; Venezuelan flag waving in the background behind Negro Primero.\r\nCountry name on top, face value in numbers and letters on upper left, in number only on right bottom; Issuing date below upper face value; two black signatures"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/629a2fa0e113f7.49963835-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Dark purple on light purple, light grey, and pink underprint.\r\nImage of two Giant Armadillos, Venezuelan coat of arms to left with trees in the background.\r\nIssuer name on left top, face value in numbers and letters on lower right, in numbers only repeated e13 times each on left and right edges, in letters only on lower left, rotated 90°, printer name on lower right."
+  }
+ },
+ "VE-2000": {
+  "id": 205362,
+  "title": "2000 Bolívares",
+  "years": [
+   2016,
+   2016
+  ],
+  "issuer": "venezuela",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/629a2f483ff3f2.50696955-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Black and dark brown on light brown, tan, green and orange underprint; serial number red and black.\r\nPortrait of Cacique Guaicaipuro at bottom-centre; spears and masks in the background behind Cacique Guaicaipuro; vertical format."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/629a2f48c14201.09482420-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Black and dark brown on light brown, tan, green and orange underprint.\r\nCoat of arms of Venezuela at left, Harpy Eagle at centre, Ucaima Falls, Kurun & Venado Tepuys."
+  }
+ },
+ "VE-5000": {
+  "id": 205364,
+  "title": "5000 Bolívares",
+  "years": [
+   2016,
+   2017
+  ],
+  "issuer": "venezuela",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/696e30d21f3826.41319254-original.jpg",
+   "author": "apadilha",
+   "license": null,
+   "license_url": null,
+   "description": "Green/blue printing, vertical layout.\r\nLuisa Cáceres de Arismendi facing.\r\nCountry name on top, face value in numbers on top left and lower right; in letters on upper left, below numbers. Serial #s, 8 digits with one letter prefix, rotated 90º, black on top right, red on lower left.\r\nTwo green signatures, with titles below on center to left. Issuing date on upper left, below face value. Watermark area on upper right. Raised mark for visually impaired identification, bar with Braille code below, on left center. Perfect match printing device, turtle and 5-pointed star on upper right; must match perfectly with reverse printing when looked with backlight. Narrow windowed security strip at center."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/696a86b61ea919.48040930-original.jpg",
+   "author": "apadilha",
+   "license": null,
+   "license_url": null,
+   "description": "Green and grey printing, horizontal layout.\r\nTwo hawksbill sea turtles with Macanao Mountains, Laguna de la Restinga National Park as background; Venezuelan coat of arms on left.\r\nIssuer name on top left, face value in numbers and letters on lower right, in letters on lower left. Printer name on right bottom."
+  }
+ },
+ "VE-10000": {
+  "id": 215192,
+  "title": "10 000 Bolívares",
+  "years": [
+   2019,
+   2019
+  ],
+  "issuer": "venezuela",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/63bb388fdcf7b4.30643787-original.jpg",
+   "author": "masterguru",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "Portrait of Simón Bolívar."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/63bb389039a566.33886426-original.jpg",
+   "author": "masterguru",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "\"Mausoleum of the Liberator\" Simón Bolívar and the National Pantheon in Caracas; Coat of arms of Venezuela."
+  }
+ },
+ "VE-20000": {
+  "id": 216017,
+  "title": "20 000 Bolívares",
+  "years": [
+   2019,
+   2019
+  ],
+  "issuer": "venezuela",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/6a0ad11536d5a6.11368694-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Portrait of Simón Bolívar."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/6a0ad116407816.56509205-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "\"Mausoleum of the Liberator\" Simón Bolívar and the National Pantheon in Caracas; Coat of arms of Venezuela."
+  }
+ },
+ "VE-50000": {
+  "id": 216019,
+  "title": "50 000 Bolívares",
+  "years": [
+   2019,
+   2019
+  ],
+  "issuer": "venezuela",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/6a0ad47ed31873.57592858-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Portrait of Simón Bolívar."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/6a0ad47fd82ca7.36607835-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "\"Mausoleum of the Liberator\" Simón Bolívar and the National Pantheon in Caracas; Coat of arms of Venezuela."
+  }
+ },
+ "VE-100000": {
+  "id": 208841,
+  "title": "100 000 Bolívares",
+  "years": [
+   2017,
+   2017
+  ],
+  "issuer": "venezuela",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/62fbd64adb1140.05601601-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Vertical layout. Lime green underprint; Bolivar facing. \r\nCountry name on top, face value in numbers and letters on top left, in numbers (only thousands) on both lower corners. Serial #s rotated, 8 digits with 1 letter prefix, black on top right, red on lower left. 2 brown signatures over image, windowed security strip below signatures. Issuing date below face value, on top, 2 raised black dots as identification device for visually impaired, on left center."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/venezuela/62fbd64b66afb2.33175535-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Horizontal layout, blue and yellow underprint. Cardenalito (Red siskin), National Park \"El Ávila\", coat of Arms of Venezuela to left.\r\nIssuer name on top left, face value in numbers and letters on lower right corner, in letters, rotated, on lower left. Printer name on lower right, rotated."
+  }
+ },
+ "BS-1": {
+  "id": 456584,
+  "title": "1 Dollar (Vibrant green)",
+  "years": [
+   2024,
+   2024
+  ],
+  "issuer": "bahamas",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bahamas/6a33aea3437b70.99538778-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Multicolour print and underprint. Black and red ascending serial numbers.\r\n\r\nFront-facing bust of Sir Lynden O. Pindling at right, lignum vitae flower (Guaiacum sp.) at centre, map of the Bahamas at centre-left.\r\n\r\nSee-through feature at lower left."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bahamas/6a33aea572dc18.57535575-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Multicolour print and underprint.\r\n\r\nDrum major, in full regalia, leading the Royal Bahamas Police Force’s marching band. Band members at lower right. Coat of arms of the Bahamas at lower left.\r\n\r\nSecurity thread windowed into four pieces."
+  }
+ },
+ "BS-3": {
+  "id": 215575,
+  "title": "3 Dollars - Elizabeth II",
+  "years": [
+   2019,
+   2019
+  ],
+  "issuer": "bahamas",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bahamas/630cfe231e7473.39388242-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Red print; multicolour underprint. Black and red ascending serial numbers.\r\n\r\nFront-facing bust of Queen Elizabeth II, wearing the Burmese Ruby Tiara at centre right. Outline map of the Bahamas Islands and passion flowe (Passiflora sp.) at centre.\r\n\r\nColour-changing, metallic foil at centre. Sand dollar as off-set register at lower left."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bahamas/630cfe23bcc390.59177459-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Red print; multicolour underprint.\r\n\r\nSailing boats at centre, beach scene at bottom, coat of arms of the Bahamas at lower left.\r\n\r\nWindowed security thread with country name and bank logo. Sand dollar off-set register at upper right."
+  }
+ },
+ "BS-10": {
+  "id": 352958,
   "title": "10 Dollars",
   "years": [
-   2025,
-   2025
+   2022,
+   2022
   ],
-  "issuer": "belize",
-  "score": 11,
+  "issuer": "bahamas",
+  "score": 9,
   "obverse": {
-   "picture": "https://en.numista.com/catalogue/photos/belize/68a2e899a20470.89818938-original.jpg",
+   "picture": "https://en.numista.com/catalogue/photos/bahamas/65b6123dca1833.42807071-original.jpg",
    "author": "hex7ech",
    "license": "CC BY-NC",
    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
-   "description": "English text and green color;\r\nPortrait of Philip Goldson at left; coat of arms at top; green heron (Butorides virescens); denomination as registration device."
+   "description": "Blue print; multicolour underprint. Red and black serial numbers.\r\n\r\nFront-facing bust of Sir Stafford Sands at right, yellow elder (Tecoma stans) flower at centre, map of the Bahamas at left.\r\n\r\nColour-changing, metallic foil in the shape of a butterfly at centre. See-through feature at lower left."
   },
   "reverse": {
-   "picture": "https://en.numista.com/catalogue/photos/belize/68a2e89c2c6631.45410320-original.jpg",
+   "picture": "https://en.numista.com/catalogue/photos/bahamas/65b6123fe71885.64348600-original.jpg",
    "author": "hex7ech",
    "license": "CC BY-NC",
    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
-   "description": "Green; multicolour underprint.\r\nEnglish text; denomination as registration device; keel-billed toucan perched on branch; long-billed hermit hummingbird collecting pollen; scaly-breasted hummingbird in flight. \r\nHolographic foil stripe with keel-billed toucan and scarlet macaw. Windowed security thread with demetalized keel-billed toucan."
+   "description": "Red print; multicolour underprint.\r\n\r\nElbow Reef Lighthouse in Hope Town, Bahamas and flamingoes (Phoenicopteridae sp.) in foreground. Coat of arms of the Bahamas at lower left. Flying flamingoes at upper right.\r\n\r\nSecurity thread with denomination and bank logo at upper centre. See-trough feature at upper right."
   }
  },
- "BZ-20": {
-  "id": 480193,
+ "BS-20": {
+  "id": 274420,
   "title": "20 Dollars",
+  "years": [
+   2018,
+   2018
+  ],
+  "issuer": "bahamas",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bahamas/602a961e567326.64571068-original.jpg",
+   "author": "CGB",
+   "license": null,
+   "license_url": null,
+   "description": "Pink print; multicolour underprint. Red and black ascending serial numbers.\r\n\r\nFront-facing bust of Sir Milo B. Butler at right, bougainvillea flower at centre, map of the Bahamas at left.\r\n\r\nColour-changing, bird-shaped, metallic foil at centre. See-through feature at lower left."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bahamas/602a961e9ce8e9.39443368-original.jpg",
+   "author": "CGB",
+   "license": null,
+   "license_url": null,
+   "description": "Pink print; multicolour underprint.\r\n\r\nPort Authority Building tower in Nassau, the Bahamas and cruise ship at lower part. Sir Sidney Poitier and Paradise Island bridges at centre. Coat of arms of the Bahamas at lower left.\r\n\r\nSegmented security thread with denomination at upper centre. See-trough feature at upper right."
+  }
+ },
+ "BS-50": {
+  "id": 277744,
+  "title": "50 Dollars",
+  "years": [
+   2019,
+   2019
+  ],
+  "issuer": "bahamas",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bahamas/60e1e6ea3f9d86.84773467-original.jpg",
+   "author": "CGB",
+   "license": null,
+   "license_url": null,
+   "description": "Blue print; multicolour underprint. Black and red ascending serial numbers.\r\n\r\nFront-facing bust of Sir Roland T. Symonette at right. Outline map of the Bahamas Islands and blooming frangipani flower (Plumeria sp.)at centre, map at left.\r\n\r\nBird-shaped, colour-changing, metallic foil at centre. See-through feature at lower left."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bahamas/60e1e6eaad2f16.27080403-original.jpg",
+   "author": "CGB",
+   "license": null,
+   "license_url": null,
+   "description": "Blue print; multicolour underprint.\r\n\r\nCentral Bank of The Bahamas building in Nassau, Bahamas and palm tree at centre, coat of arms of the Bahamas at lower left.\r\n\r\nWindowed security thread with country name and bank logo. See-trough feature at upper right."
+  }
+ },
+ "BS-100": {
+  "id": 310380,
+  "title": "100 Dollars",
+  "years": [
+   2021,
+   2021
+  ],
+  "issuer": "bahamas",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bahamas/6191f001a500c2.57858964-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null,
+   "description": "Brown print; multicolour underprint. Black and red ascending serial numbers.\r\n\r\nFront-facing bust of Arthur Dion Hanna at center right. Outline map of the Bahamas Islands and royal poinciana flower (Delonix regia) at centre.\r\n\r\nShell-shaped, colour-changing, metallic foil at centre. See-through feature at lower left."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bahamas/6191f001d56a40.37003883-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null,
+   "description": "Brown print; multicolour underprint.\r\n\r\nAtlantic blue marlin (Makaira nigricans) surrounded by marine life at centre, coat of arms of the Bahamas at lower left.\r\n\r\nWide security strip at top. See-trough feature at upper right."
+  }
+ },
+ "PL-10": {
+  "id": 206814,
+  "title": "10 Zlotys",
+  "years": [
+   2012,
+   2025
+  ],
+  "issuer": "pologne",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/pologne/651aea70676a80.30812046-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "The front of the banknote is decorated with a portrait of Prince Mieszko I - the founder and ruler of the first unified Polish state. On its left side are depicted two rosettes inspired by the pattern from the floor of Gniezno Cathedral. On the right - a floral motif found on Romanesque liturgical vessels."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/pologne/651aea7198b7f5.82071573-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "The reverse features a silver denar coin issued during the reign of Mieszko I presenting either the dome of a chapel or a crown with a cross. On either side of the denarius are stylized Romanesque columns from the Benedictine Abbey in Tyniec."
+  }
+ },
+ "PL-20": {
+  "id": 207463,
+  "title": "20 Zlotys",
+  "years": [
+   2012,
+   2025
+  ],
+  "issuer": "pologne",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/pologne/66a82352b17f60.01788133-original.jpg",
+   "author": "Igiuriel",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "The front of the banknote features a portrait of King Boleslaw I the Brave - the first King of Poland. To his left is a Romanesque portal, while to his right is the crown of a young oak tree from the Drzwi Gnieźnieńskie (Door of Gniezno) from the scene of the display of the corpse of St. Adalbert."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/pologne/66a823533469a8.08434395-original.jpg",
+   "author": "Igiuriel",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "The reverse side is decorated with a silver denar coin of Boleslaw I the Brave with a silhouette of a bird and the inscription PRINCES POLONIE - One of the most famous coins in the history of Polish minting. On the left side is an image of the rotunda of St. Nicholas in Cieszyn, and on the right - a lion stretched on a plant twig from the frame of the Drzwi Gnieźnieńskie (Door of Gniezno)."
+  }
+ },
+ "PL-100": {
+  "id": 209016,
+  "title": "100 Zlotys",
+  "years": [
+   2012,
+   2018
+  ],
+  "issuer": "pologne",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/pologne/62cfff0ef27d18.52157612-original.jpg",
+   "author": null,
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "The front of the banknote features a portrait of King Wladyslaw II Jagiello. In the background on both sides of it are stylized elements of Gothic ornamentation."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/pologne/62cfff0f4f3900.56135163-original.jpg",
+   "author": null,
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "The reverse side is decorated with the White Eagle on a shield of the coat of arms from the king's tombstone. Below the shield are a helmet, a Teutonic mantle and two swords referring to the victorious Battle of Grunwald in 1410. To the left of the shield is the outline of the castle in Malbork - the biggest castle by land area in the world."
+  }
+ },
+ "CZ-100": {
+  "id": 323392,
+  "title": "100 Korun (With Omron Rings)",
+  "years": [
+   2018,
+   2018
+  ],
+  "issuer": "republique_tcheque",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/republique_tcheque/676af48b8d5d58.06677393-original.jpg",
+   "author": "JessySz",
+   "license": null,
+   "license_url": null,
+   "description": "Karel IV (the Czech, Holy Roman Emperor).\r\nObverse and reverse images of a silver Prague gross (from the Kingdom of Bohemia)."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/republique_tcheque/676af48c37f2e9.34852333-original.jpg",
+   "author": "JessySz",
+   "license": null,
+   "license_url": null,
+   "description": "Seal of Charles University, Prague, in centre.\r\nNational arms at right."
+  }
+ },
+ "CZ-200": {
+  "id": 231886,
+  "title": "200 Korun (With Omron Rings)",
+  "years": [
+   2018,
+   2018
+  ],
+  "issuer": "republique_tcheque",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/republique_tcheque/651aedd32a6215.75439254-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Jan Ámos Komenský (Czech educator and Theologian)."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/republique_tcheque/651aedd466f447.27847845-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Hands, stylized open book at bottom right."
+  }
+ },
+ "BY-5": {
+  "id": 353522,
+  "title": "5 Roubles",
+  "years": [
+   2019,
+   2019
+  ],
+  "issuer": "bielorussie",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bielorussie/6521b003516893.69448702-original.jpg",
+   "author": "Jen Waters",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "description": "Belaja tower in Kamenets city, Brest district, Denomination left and below"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bielorussie/6521b0041ddf76.95450028-original.jpg",
+   "author": "Jen Waters",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "description": "The collage devoted to the first Slavic settlements: A leather belt fragment, a wooden wheel, and a picture of \"Berestie\" ancient stronghold, Denomination below"
+  }
+ },
+ "BY-10": {
+  "id": 353523,
+  "title": "10 Roubles",
+  "years": [
+   2019,
+   2019
+  ],
+  "issuer": "bielorussie",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bielorussie/67504f3e3f27c4.16699645-original.jpg",
+   "author": "Honey System",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "The church of the Savior and Transfiguration in the town of Polatsk, Vitsiebsk Region, Denomination left and below"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bielorussie/67504f406ad0c6.56870492-original.jpg",
+   "author": "Honey System",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "The collage devoted to enlightenment and printing: Books, the Cross of Euphrosyne of Polatsk, and an ornamental pattern fragment, Denomination below"
+  }
+ },
+ "BY-100": {
+  "id": 332450,
+  "title": "100 Roubles",
+  "years": [
+   2022,
+   2022
+  ],
+  "issuer": "bielorussie",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bielorussie/63306e1eef4f24.03034501-original.jpg",
+   "author": null,
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en",
+   "description": "The Radziwiłł family Residential Palace in Niasviž, Denomination left."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bielorussie/63306e1f419070.49446857-original.jpg",
+   "author": null,
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en",
+   "description": "The collage devoted to the theatre and folk festivals: A violin, a tambourine, a zhaleika woodwind instrument, the belts of Słutsk, and the symbols of folk festivals such as the \"Kalyady's star\", a she-goat, and \"Batlejka\" folk puppet theatre, Denomination below"
+  }
+ },
+ "MK-50": {
+  "id": 203110,
+  "title": "50 Denari (Polymer)",
+  "years": [
+   2018,
+   2018
+  ],
+  "issuer": "macedoine",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/macedoine/651dbc69879b79.74823013-original.jpg",
+   "author": "vasillazarevic99",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en",
+   "description": "Bronze Follis, Emperor Justin II (565-578); decorative stucco arch from the south wall of the church of St. Pantheleimon in Gorno Nerezi, Skopje"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/macedoine/651dbc6db2e128.25661832-original.jpg",
+   "author": "vasillazarevic99",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en",
+   "description": "Archangel Gabriel from the the scene of the Annunciation on the east wall of the church of St.Ghiorghi in Kurbinovo on the Lake Prespa"
+  }
+ },
+ "MK-100": {
+  "id": 367023,
+  "title": "100 Denari (Republic of North Macedonia inscription)",
+  "years": [
+   2022,
+   2022
+  ],
+  "issuer": "macedoine",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/macedoine/678ffc5c090e53.53123131-original.jpg",
+   "author": "vasillazarevic99",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en",
+   "description": "Wooden ceiling in Debar/Dibra Town House"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/macedoine/678ffc60792035.06426405-original.jpg",
+   "author": "vasillazarevic99",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en",
+   "description": "Skopje/Skoplje/Shkup"
+  }
+ },
+ "MK-1000": {
+  "id": 367025,
+  "title": "1000 Denari",
+  "years": [
+   2022,
+   2022
+  ],
+  "issuer": "macedoine",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/macedoine/677524e6bff3c7.43443721-original.jpg",
+   "author": "vasillazarevic99",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en",
+   "description": "Madonna Episkepsis (St. Vrach Mali church, Ohrid)"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/macedoine/677524ea835de2.10993169-original.jpg",
+   "author": "vasillazarevic99",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en",
+   "description": "Part of St. Sophia's church, Ohrid"
+  }
+ },
+ "MK-2000": {
+  "id": 350320,
+  "title": "2000 Denari",
+  "years": [
+   2022,
+   2025
+  ],
+  "issuer": "macedoine",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/macedoine/6845e21dccde00.72604599-original.jpg",
+   "author": "vasillazarevic99",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en",
+   "description": "Bronze artifact in the form of cup poppy (discovered in Suva Reka, Gevgelija); Macedonian bridal dress from Prilep."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/macedoine/643bb353cb5a24.96410294-original.jpg",
+   "author": "vasillazarevic99",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en",
+   "description": "Decoration on the inside of a gilded bowl (XVI century), \"Source of Life\", peacocks."
+  }
+ },
+ "AL-200": {
+  "id": 202805,
+  "title": "200 Lekë",
+  "years": [
+   2017,
+   2019
+  ],
+  "issuer": "albanie",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/albanie/626c26652c1721.26369791-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Portrait of Naim Frashëri, one of the most distinguished writers of the Albanian Renaissance; an open book in the background."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/albanie/626c2665d7df14.12875018-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "View of the house where Naim Frashëri was born; a page with verses from his poem: \"Ti Shqipëri më jep nder, më jep emrin Shqipëtar\"; a stylized image of his pen and signatures."
+  }
+ },
+ "AL-1000": {
+  "id": 299484,
+  "title": "1000 Lekë",
+  "years": [
+   2019,
+   2019
+  ],
+  "issuer": "albanie",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/albanie/64dba9012af2f5.70217674-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Denomination and stylized sun at left, portrait of Pjetër Bogdani and Banka e Shqipërisë building in Tirana at centre, watermark at right."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/albanie/64dba902714390.61858036-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Watermark at left, astronomical drawing of a lunar eclipse at centre, church of Vau i Dejës and denomination at right."
+  }
+ },
+ "AL-5000": {
+  "id": 243642,
+  "title": "5000 Leke",
+  "years": [
+   2017,
+   2019
+  ],
+  "issuer": "albanie",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/albanie/5fa4946c1e1d98.28121882-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null,
+   "description": "Skanderberg at left"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/albanie/5fa4946c3f5061.97747685-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null,
+   "description": "Kruja Castle at left, crowned arms at centre"
+  }
+ },
+ "AL-10000": {
+  "id": 298649,
+  "title": "10 000 Lekë",
+  "years": [
+   2019,
+   2019
+  ],
+  "issuer": "albanie",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/albanie/60e4fc5aeec388.32429321-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null,
+   "description": "Aleksandër Starve Drenova (Asdreni), Banka e Shqipërisë building in Tirana."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/albanie/60e4fc5b39a394.20324422-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null,
+   "description": "Flag of Albania, a musical score, a music box, and the first two lines of \"Himni i Flamurit\", the Albanian national anthem, which is \"Rreth flamurit të përbashkuar, me një dëshirë e një qëllim"
+  }
+ },
+ "IS-500": {
+  "id": 203070,
+  "title": "500 Krónur (No top and bottom border)",
+  "years": [
+   2005,
+   2024
+  ],
+  "issuer": "islande",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/islande/64b16adbcd27e6.03640333-original.jpg",
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "Red print.\r\nIndependence advocate Jón Sigurðsson in the middle. Value to the right and to the left the law and signatures."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/islande/64b16adc997449.68361930-original.jpg",
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "Red print.\r\nJón Sigurðsson at his desk and parlimant building to the bottom right."
+  }
+ },
+ "IS-5000": {
+  "id": 203486,
+  "title": "5000 Krónur (No top and bottom border)",
+  "years": [
+   2001,
+   2024
+  ],
+  "issuer": "islande",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/islande/680658b930e6c8.50840957-original.jpg",
+   "author": "Nate Sterling",
+   "license": null,
+   "license_url": null,
+   "description": "Predominantly blue on multicoloured underprint.\r\nBishop Gísli Þorláksson‘s 3rd wife Ragnheiður Jónsdóttir as the main figure on the print; him and his two former wifes Gróa Þorleifsdóttir and Ingibjörg Benediktsdóttir in the upper corner. Value written like embriodery."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/islande/680658bacf1ec8.76386601-original.jpg",
+   "author": "Nate Sterling",
+   "license": null,
+   "license_url": null,
+   "description": "Predominantly blue on multicoloured underprint.\r\nRagnheiður Jónsdóttir instructing to girls about embroidering; an instructive example of her embroidery book in shape of \"R I\" on the right."
+  }
+ },
+ "BT-1": {
+  "id": 204513,
+  "title": "1 Ngultrum",
+  "years": [
+   2006,
+   2019
+  ],
+  "issuer": "bhoutan",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bhoutan/63fdf88a27bed7.07596226-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "Blue on multicolor underprint. Dharmachakra between two dragons (Druk) at centre."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bhoutan/63fdf88d40e406.11700922-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "Simtokha Dzong Palace at centre."
+  }
+ },
+ "BT-5": {
+  "id": 202782,
+  "title": "5 Ngultrum",
+  "years": [
+   2006,
+   2015
+  ],
+  "issuer": "bhoutan",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bhoutan/626bec0f667df6.60208723-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "In the centre - Dharma Chakra with DeyNga which means offerings of sensory enjoyment. On each side is a Bja Tshering, a mythical bird that brings about long life."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bhoutan/626bec10075123.82093440-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Taktsang Monastery"
+  }
+ },
+ "BT-10": {
+  "id": 202774,
+  "title": "10 Ngultrum",
+  "years": [
+   2006,
+   2019
+  ],
+  "issuer": "bhoutan",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bhoutan/626bebc444cd02.60788553-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Green and yellow print.\r\nJigme Singye Wangchuck; Norbu Rimpochhe, one of the seven auspicious gems"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bhoutan/626bebc4de06a1.31624120-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Paro Rinpung Dzong"
+  }
+ },
+ "BT-20": {
+  "id": 202777,
+  "title": "20 Ngultrum",
+  "years": [
+   2006,
+   2013
+  ],
+  "issuer": "bhoutan",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bhoutan/626c1f5ad1f8d2.58357745-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Yellow and multicolour print.\r\nJigme Khesar Namgyel Wangchuck portrait to the right."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bhoutan/626c1f5b7c3d85.51350731-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Punakha Dzong also known as Pungtang Dewa chhenbi Phodrang (Meaning \"The Palace of great happiness or bliss\"), is the administrative centre of Punakha District in Punakha, Bhutan"
+  }
+ },
+ "BT-50": {
+  "id": 204967,
+  "title": "50 Ngultrum",
+  "years": [
+   2008,
+   2021
+  ],
+  "issuer": "bhoutan",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bhoutan/62978191c4d954.62349357-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Jigme Khesar Namgyel Wangchuck"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bhoutan/629781925dc214.93488896-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Tongsa Dzong"
+  }
+ },
+ "BT-1000": {
+  "id": 207040,
+  "title": "1000 Ngultrum",
+  "years": [
+   2008,
+   2021
+  ],
+  "issuer": "bhoutan",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bhoutan/5ea2ad20d295c0.71825998-original.jpg",
+   "author": "sivavarma",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en",
+   "description": "King Jigme Khesar Namqyel Wangchuk with the Raven Crown"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bhoutan/5ea2ad214f23e6.01508416-original.jpg",
+   "author": "sivavarma",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en",
+   "description": "Tashichho Dzong."
+  }
+ },
+ "MM-1000": {
+  "id": 212210,
+  "title": "1000 Kyats",
+  "years": [
+   2019,
+   2019
+  ],
+  "issuer": "myanmar",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/myanmar/5eb1ef5ad8c104.39235757-original.jpg",
+   "author": "Micheal Linke",
+   "license": null,
+   "license_url": null,
+   "description": "Aung San"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/myanmar/5eb1ef5c9f6469.58643357-original.jpg",
+   "author": "Micheal Linke",
+   "license": null,
+   "license_url": null,
+   "description": "Hluttaw (National Parliament) complex, Naypyidaw"
+  }
+ },
+ "MM-10000": {
+  "id": 223488,
+  "title": "10 000 Kyats",
+  "years": [
+   2015,
+   2015
+  ],
+  "issuer": "myanmar",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/myanmar/62f120a771d790.58126241-original.jpg",
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "Symbolic elements at right: Two elephants facing, flanking a laurel wreath, plus an outline map of Myanmar.\r\nLarge 10000 at bottom right in Burmese numerals printed in SPARK."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/myanmar/62f120a8360506.56157743-original.jpg",
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "The Mandalay Royal Palace, shown with its reflection in water."
+  }
+ },
+ "KH-200": {
+  "id": 347583,
+  "title": "200 Riels - Norodom Sihamoni",
+  "years": [
+   2022,
+   2022
+  ],
+  "issuer": "cambodge",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/cambodge/644ff499913212.21361932-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Royal arms of Cambodia, naga (mythical snake), King Norodom Sihamoni as a young man"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/cambodge/644ff49ac22326.43799878-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Preah Thineang Chan Chhaya (Moonlight Pavilion) of the Royal Palace in Phnom Penh, Paul Ducuing’s statue of King Sisowath at the National Museum of Cambodia"
+  }
+ },
+ "KH-2000": {
+  "id": 347586,
+  "title": "2000 Riels",
+  "years": [
+   2022,
+   2022
+  ],
+  "issuer": "cambodge",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/cambodge/653cccb4c09ec8.70570256-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Royal arms of Cambodia, naga (mythical snake), King Norodom Sihamoni as an adult"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/cambodge/653cccb6138a63.27185825-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Ancient stone artifact, Prasat Tao (King Lion Temple) at Sambo Prei Kuk Kampong Tom Province; chinthe (King Lion)"
+  }
+ },
+ "KZ-500": {
+  "id": 547369,
+  "title": "500 Tenge",
   "years": [
    2025,
    2025
   ],
-  "issuer": "belize",
-  "score": 8,
+  "issuer": "kazakhstan",
+  "score": 9,
   "obverse": {
-   "picture": "https://en.numista.com/catalogue/photos/belize/68968c41f2b923.07637145-original.jpg",
-   "author": "Central Bank of Belize",
-   "license": null,
-   "license_url": null,
-   "description": "English text and brown color;\r\nPortrait of George Cadle Price at left; coat of arms at top; Baird’s tapir; denomination as registration device."
+   "picture": "https://en.numista.com/catalogue/photos/kazakhstan/6a33a869a54f65.49076800-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Blue and gray print.\r\nHead of Transcaspian urial (Ovis vignei arkal) in profile; “Tree of Life” detail of sacred branch with hovering bird from headgear of 3rd or 4th century BCE “Golden Man” found in the Issyk kurgan burial mound; DNA spiral; national emblem.\r\nWindowed security thread with demetalized text."
   },
   "reverse": {
-   "picture": "https://en.numista.com/catalogue/photos/belize/68968c4342e1a1.41541687-original.jpg",
-   "author": "Central Bank of Belize",
+   "picture": "https://en.numista.com/catalogue/photos/kazakhstan/6a33a86ab30748.25630043-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Snow-covered mountains in outline of infinity ornament; standing Transcaspian urial; circular Kazakh symbol."
+  }
+ },
+ "KZ-1000": {
+  "id": 532534,
+  "title": "1000 Tenge",
+  "years": [
+   2024,
+   2024
+  ],
+  "issuer": "kazakhstan",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/kazakhstan/692f1c47da0938.78081144-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "\"Tree of Life\" with bird (Issyk Kurgan burial mound, 3rd or 4th century b. Chr.) \r\nDog's head, DNA spiral, arms"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/kazakhstan/692f1c494486d3.41884742-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Sloping hills, Central Asian Shepherd Dog and Tazy sighthound, stylized ornamental shield"
+  }
+ },
+ "KZ-2000": {
+  "id": 459993,
+  "title": "2000 Tenge",
+  "years": [
+   2024,
+   2024
+  ],
+  "issuer": "kazakhstan",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/kazakhstan/689849fc16df28.03449206-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Green, blue, and purple. Kazakh text.\r\nHead of antelope in profile; unknown ornament; “Tree of Life” detail of sacred branch with hovering bird from headgear of 3rd or 4th century BCE “Golden Man” found in the Issyk kurgan burial mound; DNA spiral; national emblem."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/kazakhstan/689849fd2c60e8.16229941-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Green, blue, and purple. Kazakh text.\r\nHills and lake in outline of infinity ornament; stylized saiga antelope gold ornament; four standing saiga antelope (Saiga tatarica); circular Kazakh symbol. \r\nWindowed security thread with demetalized text."
+  }
+ },
+ "KZ-20000": {
+  "id": 353033,
+  "title": "20 000 Tenge",
+  "years": [
+   2022,
+   2022
+  ],
+  "issuer": "kazakhstan",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/kazakhstan/68322243404425.09747089-original.jpg",
+   "author": "Enot1",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "Mangilik El monumental arch; flying doves and Kazakh Eli monument in Astana, Flag and Coat of arms of Kazakhstan"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/kazakhstan/68322249877202.81526435-original.jpg",
+   "author": "Enot1",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "Outline of Kazakhstan; Akorda Palace (the presidential residence in Astana) as seen from Ishim River"
+  }
+ },
+ "MV-5": {
+  "id": 202014,
+  "title": "5 Rufiyaa",
+  "years": [
+   2017,
+   2017
+  ],
+  "issuer": "maldives",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/maldives/637bb2dc130e39.27328239-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Football players. \r\nFish. \r\nDancers."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/maldives/63c80feb6a4339.63786012-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Conch shell."
+  }
+ },
+ "MV-10": {
+  "id": 582059,
+  "title": "10 Rufiyaa (with Rufiyaa Sign)",
+  "years": [
+   2025,
+   2025
+  ],
+  "issuer": "maldives",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/maldives/6a6b39a5bbe149.40802238-original.jpg",
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "People playing traditional drums (toddy tapper) and a man climbing a coconut tree."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/maldives/6a6b39a87c8a35.00405805-original.jpg",
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Oldest traditional drum in Maldives, as displayed in national museum."
+  }
+ },
+ "MV-50": {
+  "id": 346363,
+  "title": "50 Rufiyaa (With Rufiyaa sign)",
+  "years": [
+   2022,
+   2022
+  ],
+  "issuer": "maldives",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/maldives/67555c35b94925.05003915-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Green print."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/maldives/67555c37c0ade4.46564017-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Green print.\r\nMosque."
+  }
+ },
+ "MV-100": {
+  "id": 452957,
+  "title": "100 Rufiyaa (with Rufiyaa sign)",
+  "years": [
+   2024,
+   2025
+  ],
+  "issuer": "maldives",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/maldives/67a32d4e9cde72.26136613-original.jpg",
+   "author": "Bank Note Museum",
    "license": null,
    "license_url": null,
-   "description": "Brown; multicolour underprint.\r\nEnglish text; denomination as registration device; jaguar (Panthera onca); green iguana. Holographic foil stripe thread with blue morpho butterfly. Windowed security thread with demetalized keel-billed toucan."
+   "description": "Colouration predominantly red and pink, with details in green.\r\n\r\nGroup of locals in traditional attire, seated woman wearing traditional dress (Libaas), working on the neckline threading (Hiru) of a similar dress."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/maldives/67a32e529a8484.95836541-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null,
+   "description": "Early Dhivehi scripture (Dambidū Lōmāfānu)."
+  }
+ },
+ "SA-50": {
+  "id": 412890,
+  "title": "50 Riyals (Saudi Central Bank)",
+  "years": [
+   2021,
+   2024
+  ],
+  "issuer": "saudi-arabia-period",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/saudi-arabia-period/663627db58dfc5.81273965-original.jpg",
+   "author": "Mazen Al Masri",
+   "license": null,
+   "license_url": null,
+   "description": "In the center we see the Dome of the Rock (Qubbat As Sakhra), an Islamic shrine, located on the Temple Mount in the Old City of Jerusalem.\r\n\r\nTo the right we see the image of the Custodian of the Two Holy Mosques, King Salman Bin Abdulaziz Al Saud, facing left.\r\n\r\nTo the left, is a watermark of King Salman, facing left."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/saudi-arabia-period/663627db6b14e4.63301047-original.jpg",
+   "author": "Mazen Al Masri",
+   "license": null,
+   "license_url": null,
+   "description": "In the center we see a picture that features the Al-Aqsa Mosque located in the Old City of Jerusalem.\r\n\r\nTo the right we see the emblem of the kingdom.\r\n\r\nFurther right is a watermark of King Salman, facing right."
+  }
+ },
+ "SA-100": {
+  "id": 343234,
+  "title": "100 Riyals (Saudi Central Bank)",
+  "years": [
+   2021,
+   2024
+  ],
+  "issuer": "saudi-arabia-period",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/saudi-arabia-period/6632510dbeb424.81979212-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null,
+   "description": "Portrait of King Salman at right.\r\n\r\nMosque in centre."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/saudi-arabia-period/6632510dc87458.52315779-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null,
+   "description": "Grand Mosque in Mecca at left.\r\n\r\nEmblem at top right."
+  }
+ },
+ "SA-500": {
+  "id": 372099,
+  "title": "500 Riyals (Saudi Central Bank)",
+  "years": [
+   2021,
+   2025
+  ],
+  "issuer": "saudi-arabia-period",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/saudi-arabia-period/6632510dcd6e89.89199407-original.jpg",
+   "author": "KSACurrency.com",
+   "license": null,
+   "license_url": null,
+   "description": "Arabic text; Kaa’ba of Holy Mosque in Mecca in the center; Portrait of King Abdulaziz on the right."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/saudi-arabia-period/6632510ddc8255.31406585-original.jpg",
+   "author": "KSACurrency.com",
+   "license": null,
+   "license_url": null,
+   "description": "English text; Holy Mosque in Mecca in the center; Kingdom’s Emblem on the right."
+  }
+ },
+ "AE-50": {
+  "id": 206028,
+  "title": "50 Dirhams (Green Arms)",
+  "years": [
+   2014,
+   2017
+  ],
+  "issuer": "emirats_arabes_unis",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/emirats_arabes_unis/691d45b7ade169.54257203-original.jpg",
+   "author": "Hammad Numismatics",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en",
+   "description": "Oryx"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/emirats_arabes_unis/691d45be060d11.36909925-original.jpg",
+   "author": "Hammad Numismatics",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en",
+   "description": "Al Jahli Fort"
+  }
+ },
+ "AE-100": {
+  "id": 462121,
+  "title": "100 Dirhams",
+  "years": [
+   2025,
+   2025
+  ],
+  "issuer": "emirats_arabes_unis",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/emirats_arabes_unis/6918393a8347e9.21717016-original.jpg",
+   "author": "Hammad Numismatics",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en",
+   "description": "Pink and red predominant color.\r\nUmm Al Quwain Fort at center."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/emirats_arabes_unis/6918393fe825d2.61566622-original.jpg",
+   "author": "Hammad Numismatics",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en",
+   "description": "Port of Fujairah and Etihad Rail."
+  }
+ },
+ "AE-200": {
+  "id": 205128,
+  "title": "200 Dirhams (Green Arms; wide security thread)",
+  "years": [
+   2015,
+   2017
+  ],
+  "issuer": "emirats_arabes_unis",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/emirats_arabes_unis/5e9d4eb44cc798.35223915-original.jpg",
+   "author": null,
+   "license": null,
+   "license_url": null,
+   "description": "Sharia Court and Zayed Sports City"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/emirats_arabes_unis/5e9d4eb4c6e7f8.27158563-original.jpg",
+   "author": null,
+   "license": null,
+   "license_url": null,
+   "description": "Falcon and Central Bank"
+  }
+ },
+ "AE-1000": {
+  "id": 349636,
+  "title": "1000 Dirhams",
+  "years": [
+   2022,
+   2024
+  ],
+  "issuer": "emirats_arabes_unis",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/emirats_arabes_unis/69c9f952df2f90.29798712-original.jpg",
+   "author": "wisso",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "The obverse side features a portrait of of Sheikh Zayed bin Sultan. What makes this portrait special is that it actually comes from a 1976 meeting with NASA space crew from the Apollo 17. The clear windows show Sheikh Zayed and also a space suit. In the background is an image of a spaceship in addition to the HOPE Probe Spacecraft from the Emirates Mars Mission, orbiter satellite and the Tanegashima Space Center located in Japan. It went into orbit in early 2021."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/emirats_arabes_unis/69c9f9549f8dc3.16703686-original.jpg",
+   "author": "wisso",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "The reverse side features an image of the Barakah Nuclear Energy Plant which is located in Abu Dhabi. It symbolizes the countries dedication to clean energies."
+  }
+ },
+ "LB-1000": {
+  "id": 206844,
+  "title": "1000 Livres",
+  "years": [
+   2011,
+   2016
+  ],
+  "issuer": "liban",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/liban/630e4f41abd9f6.10670900-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Green and brown print, table with Phoenician alphabet letters in the background. Cedar tree at bottom left. Arabic text."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/liban/630e4f428233c0.59289054-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Green print, disc of Latin and Phoenician letters in the background. Cedar tree at bottom left corner of large denomination 1000. French text."
+  }
+ },
+ "LB-5000": {
+  "id": 211292,
+  "title": "5000 Livres",
+  "years": [
+   2012,
+   2022
+  ],
+  "issuer": "liban",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/liban/6450aa5c5969b8.92074696-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Pink and purple print, butterfly, and Arabic text."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/liban/6450aa5d9a70b9.35298746-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Pink and purple print, boxes of square and rectangle varieties, and French text."
+  }
+ },
+ "LB-10000": {
+  "id": 216093,
+  "title": "10 000 Livres",
+  "years": [
+   2012,
+   2021
+  ],
+  "issuer": "liban",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/liban/644fffd884dfd3.00089957-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Yellow, orange, & green colour. \r\nCedar tree, value in Arabic."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/liban/644fffd9e07c89.06511915-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Martyr’s Monument, stylized cedar trees."
+  }
+ },
+ "LB-20000": {
+  "id": 210490,
+  "title": "20 000 Livres",
+  "years": [
+   2012,
+   2019
+  ],
+  "issuer": "liban",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/liban/6450abf054b461.43796961-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Face value on Geometric square spaces that symbolize the reconstruction of Lebanon, block by block.\r\ncoat of arms the State of Lebanon - Cedar of Lebanon (Cedrus libani) upper inscription in Braille."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/liban/6450abf1c0d541.46271987-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Stairs and the sun-like rosette symbolizing development and progress of the Lebanese economy. Coat of Arms"
+  }
+ },
+ "LB-50000": {
+  "id": 216103,
+  "title": "50 000 Livres",
+  "years": [
+   2011,
+   2019
+  ],
+  "issuer": "liban",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/liban/64500787b88560.10183199-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "State Emblem of Lebanon - Cedar of Lebanon (Cedrus libani). \r\nGeometric square spaces symbolizing reconstruction of Lebanon city block by city block. Flying flag of unknown origin.\r\nStylized boat below signatures, date at the right."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/liban/6450078926a4e8.12483418-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Blue & violet colour.\r\nState Emblem. \r\nBank monogram 'BDL' at diamond shaped square at left centre, boat to the left.\r\nModern geometric designs symbolizing the reconstruction of Lebanon. Rectangular blocks on the back symbolize the reconstruction taking place in Lebanon. There are about 25 rectangles in the background of the note. These symbolise the unity of the 25 \"Cazas\" of the country. \r\nThis unity constitutes the indispensable basis to the guarantee of the safety, the prosperity and the future of Lebanon."
+  }
+ },
+ "SL-1": {
+  "id": 335269,
+  "title": "1 Leone",
+  "years": [
+   2022,
+   2022
+  ],
+  "issuer": "sierra_leone",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/sierra_leone/6335c8f37a1b97.70937696-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Coat of arms; carvings, portrait of Bai Bureh facing left."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/sierra_leone/6335c8f43b5da8.93974573-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Telecommunications satellite dish"
+  }
+ },
+ "SL-2": {
+  "id": 340867,
+  "title": "2 Leones",
+  "years": [
+   2022,
+   2022
+  ],
+  "issuer": "sierra_leone",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/sierra_leone/63c4fcee1957d0.62044450-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Brown and blue on multicolor underprint. Isaac Theophilus Akunna Wallace-Johnson, cargo ship, Coat of arms of Sierra Leone."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/sierra_leone/63c4fceeeb0694.90708525-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Bank of Sierra Leone building, Freetown."
+  }
+ },
+ "SL-5": {
+  "id": 335301,
+  "title": "5 Leones",
+  "years": [
+   2022,
+   2022
+  ],
+  "issuer": "sierra_leone",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/sierra_leone/6335d04ae5d6b2.41037739-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Old Fourah Bay College building in Freetown; coat of arms; Sengbe Pieh facing left."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/sierra_leone/6335d04b97b761.71892322-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Bumbuna Dam"
+  }
+ },
+ "SL-10": {
+  "id": 335303,
+  "title": "10 Leones",
+  "years": [
+   2022,
+   2022
+  ],
+  "issuer": "sierra_leone",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/sierra_leone/6335d1fbab2706.91891736-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Dove flying over the map of Sierra Leone, national flag at full mast."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/sierra_leone/6335d1fc5ee581.87160240-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Coat of arms and Cotton Tree in Freetown."
+  }
+ },
+ "SL-20": {
+  "id": 335304,
+  "title": "20 Leones",
+  "years": [
+   2022,
+   2022
+  ],
+  "issuer": "sierra_leone",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/sierra_leone/6335d3a72ebcd9.42228410-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Coat of arms, at the centre is laurels flanking open book with flame and Constance Cummings-John facing left."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/sierra_leone/6335d3a7d97255.98485893-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Crowd of 16 students seated at school desks; map of Sierra Leone."
   }
  }
 }
