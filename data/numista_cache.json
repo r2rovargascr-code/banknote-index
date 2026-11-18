@@ -12546,5 +12546,383 @@
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
    "description": "Pine martin top right\r\nScientist at left, a loom worker and airplane building at right"
   }
+ },
+ "CR-1000": {
+  "id": 308516,
+  "title": "1000 Colones",
+  "years": [
+   2019,
+   2019
+  ],
+  "issuer": "costa_rica",
+  "score": 8,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/costa_rica/63ee14676539c0.92732166-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Red tint with security window strip at right.\r\nPortrait of Braulio Carrillo Colina beside the State of Costa Rica coat of arms in green color-changing ink\r\nOutline of Costa Rica in color-changing ink at the left."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/costa_rica/63ee1468ce5bd3.41546378-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Red tint.\r\nDry forest in the background, with Guanacaste tree, white tailed deer, and Costa Rican Pitahaya cactus flower."
+  }
+ },
+ "CR-2000": {
+  "id": 259225,
+  "title": "2000 Colones",
+  "years": [
+   2018,
+   2022
+  ],
+  "issuer": "costa_rica",
+  "score": 6,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/costa_rica/63ee16223082f2.46143045-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Blue tint with security window strip at right.\r\nPortrait of Mauro Fernández Acuña with Colegio Superior de Señoritas, San José in the background.\r\nOutline of Costa Rica in color-changing ink at the left."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/costa_rica/63ee16239176b7.59187808-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Bull shark (Carcharhinus leucas), sea star (asteroidea), sea pens (pennatulacea)"
+  }
+ },
+ "CR-5000": {
+  "id": 259226,
+  "title": "5000 Colones",
+  "years": [
+   2018,
+   2018
+  ],
+  "issuer": "costa_rica",
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/costa_rica/653bed70ca3426.04947186-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Portrait of Alfredo González Flores with the Banco Internacional de Costa Rica building (San José) in the background.\nOutline of Costa Rica in yellow color-changing ink at the left."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/costa_rica/653bed726bcdd0.04646966-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Mangrove swamp, flowers, crab, monkey"
+  }
+ },
+ "CR-10000": {
+  "id": 308581,
+  "title": "10 000 Colones",
+  "years": [
+   2019,
+   2022
+  ],
+  "issuer": "costa_rica",
+  "score": 7,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/costa_rica/6837ad9c888171.17189355-original.jpg",
+   "author": "Yilmar SRS",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "Green tint with transparent security strip at right.\nPortrait of José Figueres Ferrer with himself pictured in the background abolishing the Costa Rican Army.\nOutline of Costa Rica in color-changing ink at the left."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/costa_rica/6837ad9e19f0d5.19106199-original.jpg",
+   "author": "Yilmar SRS",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "Rainforest in the background, with three-toed sloth, 2 birds, cup mushrooms, and orchid flower."
+  }
+ },
+ "CR-20000": {
+  "id": 254190,
+  "title": "20 000 Colones",
+  "years": [
+   2018,
+   2018
+  ],
+  "issuer": "costa_rica",
+  "score": 7,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/costa_rica/5fcd9a311bc9a5.46039858-original.jpg",
+   "author": "MinorBR",
+   "license": null,
+   "license_url": null,
+   "description": "Orange and multicolor. Maria Isabel Carvajal (alias Carmen Lyra), outline of Costa Rica, rabbit stroking a coyote - from Lyra's \"Cuentos De Mi Tía Panchita\" (Tales of My Aunt Panchita)"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/costa_rica/5fcd9a3180ec51.68290112-original.jpg",
+   "author": "MinorBR",
+   "license": null,
+   "license_url": null,
+   "description": "Orange tint. Mountainous landscape (paramo) in background, with Chispita hummingbird at left center, rabbits and papelillo flower, and papelillo plant at right."
+  }
+ },
+ "CR-50000": {
+  "id": 215226,
+  "title": "50 000 Colones",
+  "years": [
+   2009,
+   2009
+  ],
+  "issuer": "costa_rica",
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/costa_rica/5ebe8ca9dd7114.30777553-original.jpg",
+   "author": "worth",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "description": "Purple and multicolor. Ricardo Jimenez Oreamuno (1859-1945), statesmen who held numerous offices to include 3 separate terms as President of Costa Rica. Supreme Court building in background."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/costa_rica/5ebe8caa5e8805.50954184-original.jpg",
+   "author": "worth",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "description": "Purple.\r\nSpecies with natural colors. Cloud forest, parasol mushroom, Bromelia plant, Morpho butterfly. Tree fern in the background."
+  }
+ },
+ "RU-50": {
+  "none": true
+ },
+ "RU-100": {
+  "none": true
+ },
+ "RU-200": {
+  "none": true
+ },
+ "RU-500": {
+  "none": true
+ },
+ "RU-1000": {
+  "none": true
+ },
+ "RU-5000": {
+  "none": true
+ },
+ "RS-10": {
+  "id": 204324,
+  "title": "10 Dinars (2nd Coat of Arms)",
+  "years": [
+   2011,
+   2013
+  ],
+  "issuer": "serbie",
+  "score": 2,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/serbie/629a2ab590a290.05127965-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Portrait of Vuk Stefanović Karadžić, his writing kit, and an open book (exhibits from the standing collection of the Museum devoted to Vuk S. Karadžic and Dositej Obradović) and three letters of modern Serbian alphabet. Behind the letters is Filip Višnjić, epic poet and guslar from the 18th century."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/serbie/629a2ab645afe4.93090190-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Figure of Vuk Stefanović Karadžić (photo detail), participants to the First Slavic Congress held in Prague in 1848 (photo detail) and vignette of letters; great coat-of-arms of the Republic of Serbia in the top left corner of the banknote, against ochre background"
+  }
+ },
+ "RS-20": {
+  "id": 204326,
+  "title": "20 Dinara (2nd coat of arms)",
+  "years": [
+   2011,
+   2013
+  ],
+  "issuer": "serbie",
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/serbie/623c4209a267e1.63369005-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Portrait of Petar Petrović Njegoš, with a line sketch of the Cetinje Monastery on the right side"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/serbie/62695d32d48016.88449810-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Figure of Petar II PetroviĆ Njegoš, detail from the decorative miniature featured on the first Slavic Octoechos, printed in Cetinje in 1494, mountain range of Komovi; great coat-of-arms of the Republic of Serbia in the top left corner of the banknote, against green background"
+  }
+ },
+ "RS-50": {
+  "id": 204328,
+  "title": "50 Dinara (2nd coat of arms)",
+  "years": [
+   2011,
+   2014
+  ],
+  "issuer": "serbie",
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/serbie/629a2b240071e9.86938908-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Stevan Stojanović Mokranjac at left center, violin, keyboard and music score at center."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/serbie/629a2b24932338.90238296-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Mokranjac standing, scores and linear art from Gospel of Miroslav illuminated manuscript."
+  }
+ },
+ "RS-100": {
+  "id": 204329,
+  "title": "100 Dinara (2nd coat of arms)",
+  "years": [
+   2012,
+   2013
+  ],
+  "issuer": "serbie",
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/serbie/62b9fa549727f4.77979232-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Portrait of the scientist Nikola Tesla, mathematical formulae for the unit of magnetic flux density, an image of electric discharge, and an image of a Tesla’s plant"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/serbie/62b9fa554065c1.07813841-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "The figure of Nikola Tesla (detail from a photograph kept in his Museum in Belgrade), a sketch of Tesla’s electromagnetic induction engine, “Tesla’s dove”; logo of the National Bank of Serbia/great coat-of-arms of the Republic of Serbia in the top left corner of the banknote, against a blue background"
+  }
+ },
+ "RS-200": {
+  "id": 204331,
+  "title": "200 Dinara (2nd coat of arms)",
+  "years": [
+   2011,
+   2013
+  ],
+  "issuer": "serbie",
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/serbie/5e9b5310e9c1e1.28604782-original.jpg",
+   "author": "CGB",
+   "license": null,
+   "license_url": null,
+   "description": "Portrait of Nadežda Petrović, sculpture featuring the artist, silhouette of the Gračanica Monastery, painter's brush"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/serbie/5e9bcccf78a956.90318347-original.jpg",
+   "author": "CGB",
+   "license": null,
+   "license_url": null,
+   "description": "Figure of Nadežda Petrović as a volunteer nurse in the First Balkan War, silhouette of the Gračanica Monastery, part of a composition/ detail from Nadežda Petrović’s painting; great coat-of-arms of the Republic of Serbia against gray-blue background in the top left corner of the banknote"
+  }
+ },
+ "RS-500": {
+  "id": 204335,
+  "title": "500 Dinara (2nd coat of arms)",
+  "years": [
+   2011,
+   2012
+  ],
+  "issuer": "serbie",
+  "score": 2,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/serbie/65d76630173182.43499469-original.jpg",
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "Dark green and dark red print on multishaded/multicoloured light green, red, blue, and yellow underprint; at left, a portrait of Jovan Cvijić, a geographer; in background, geographic charts and a map of Serbia; hologram patch under the map."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/serbie/65d76631cd7175.97050789-original.jpg",
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "Image of Jovan Cvijić, stylized ethno motives; logo of the National Bank of Serbia/great coat-of-arms of the Republic of Serbia against green background, in the top left corner of the banknote"
+  }
+ },
+ "RS-1000": {
+  "id": 204336,
+  "title": "1000 Dinara (2nd coat of arms)",
+  "years": [
+   2011,
+   2014
+  ],
+  "issuer": "serbie",
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/serbie/65d7680232a847.96803213-original.jpg",
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "Portrait of Ðorde Vajfert, an outline of Vajfert's beer brewery, hologram image of St. Đorđe slaying a dragon"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/serbie/65d76804575d28.55714065-original.jpg",
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "Image of Ðorde Vajfert seated, details from the interior of the National Bank's Main Building, image of a medal; logo of the National Bank of Serbia/great coat-of-arms of the Republic of Serbia in the top left corner, against reddish background"
+  }
+ },
+ "RS-2000": {
+  "id": 204337,
+  "title": "2000 Dinara (2nd coat of arms)",
+  "years": [
+   2011,
+   2012
+  ],
+  "issuer": "serbie",
+  "score": 2,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/serbie/65d76a6f83fca6.14116908-original.jpg",
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "Portrait of Milutin Milanković; in the central part: the figure of Milutin Milanković sitting at his work desk; presented below: the graphic presentation of his calculations of movement of the snow line for the past portion of the Quaternary of 600000 years"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/serbie/65d76a71b5bdc3.44753802-original.jpg",
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "Figure of Milutin Milanković, a fragment of a stylized presentation of the sun disk; in the central part: presentation of Milanković’s work “The Path of the North Celestial Pole”; great coat-of-arms of the Republic of Serbia in the top left corner, against olive background"
+  }
+ },
+ "RS-5000": {
+  "id": 204339,
+  "title": "5000 Dinara (2nd coat of arms)",
+  "years": [
+   2016,
+   2016
+  ],
+  "issuer": "serbie",
+  "score": 2,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/serbie/62695f34a2ae60.96163753-original.jpg",
+   "author": "Heritage Auctions",
+   "license": null,
+   "license_url": null,
+   "description": "Portrait of Slobodan Jovanović"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/serbie/62695f34e4c6c1.11055060-original.jpg",
+   "author": "Heritage Auctions",
+   "license": null,
+   "license_url": null,
+   "description": "Image of Slobodan Jovanović, silhouette of the Federal Parliament and a detail from the interior of the Parliament building; logo of the National Bank of Serbia/ great coat-of-arms of the Republic of Serbia in the top left corner, against mauve background"
+  }
  }
 }

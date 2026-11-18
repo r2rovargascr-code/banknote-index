@@ -2664,5 +2664,131 @@
    "license": "CC BY-SA 4.0",
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
+ },
+ "NI-10": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:Banknote_10_Cordoba_2015_back.jpg",
+  "f": {
+   "author": "NagerLB",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "b": {
+   "author": "NagerLB",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ },
+ "NI-50": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:NIO_50_obverse_Polymer_2015_Series.jpg",
+  "f": {
+   "author": "NagerLB",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "b": {
+   "author": "NagerLB",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ },
+ "NI-100": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:NIO_100_obverse_2015_Polymer.jpg",
+  "f": {
+   "author": "NagerLB",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "b": {
+   "author": "NagerLB",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ },
+ "MD-1": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:1_leu_Moldova_2010_obverse.jpg",
+  "f": {
+   "author": "National Bank of Moldova",
+   "license": "Public domain",
+   "license_url": null
+  },
+  "b": {
+   "author": "National Bank of Moldova",
+   "license": "Public domain",
+   "license_url": null
+  }
+ },
+ "RU-100": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:100_fotball_rubles_2018_obverse.jpg",
+  "f": {
+   "author": "ЦБ РФ",
+   "license": "Public domain",
+   "license_url": null
+  },
+  "b": {
+   "author": "ЦБ РФ",
+   "license": "Public domain",
+   "license_url": null
+  }
+ },
+ "RU-200": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:200_rubles_2017_obverse.jpg",
+  "f": {
+   "author": "ЦБ РФ",
+   "license": "Public domain",
+   "license_url": null
+  },
+  "b": {
+   "author": "ЦБ РФ",
+   "license": "Public domain",
+   "license_url": null
+  }
+ },
+ "RU-1000": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:1000_rubles_obverse_2023.jpg",
+  "f": {
+   "author": "w:ru:Банк России",
+   "license": "Public domain",
+   "license_url": null
+  },
+  "b": {
+   "author": "Банк России",
+   "license": "Public domain",
+   "license_url": null
+  }
+ },
+ "RU-5000": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:5000_rubles_obverse_2023.jpg",
+  "f": {
+   "author": "w:ru:Банк России",
+   "license": "Public domain",
+   "license_url": null
+  },
+  "b": {
+   "author": "w:ru:Банк России",
+   "license": "Public domain",
+   "license_url": null
+  }
+ },
+ "RS-500": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:500RSD_2007_obverse.jpg",
+  "f": {
+   "author": "National bank of Serbia",
+   "license": "Public domain",
+   "license_url": null
+  },
+  "b": {
+   "author": "Original uploader was Meelosh at en.wikipedia",
+   "license": "Public domain",
+   "license_url": null
+  }
  }
 }
