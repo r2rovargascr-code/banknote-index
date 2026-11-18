@@ -140,7 +140,9 @@ def pick_files(titles, c, denom, need, strict_year):
 GENERIC = set("dollar dollars peso pesos pound pounds franc francs rupee rupees rupiah shilling shillings dinar dinars "
               "riyal riyals rial rials krone kroner krona kronor euro euros ruble rubles rouble roubles dirham dirhams "
               "lira lire banknote banknotes note notes bill bills billete billetes billet billets cedula manat som won yuan "
-              "real reais pataca kwacha leu lei lev cent cents new old series obverse reverse front back anverso reverso".split())
+              "real reais pataca kwacha leu lei lev cent cents new old series obverse reverse front back anverso reverso "
+              "bank banks banco banque reserve central national nationale federal monetary authority republic republica "
+              "state states united kingdom islands island government treasury currency board people peoples".split())
 
 
 def specific_tokens(c, denom):
@@ -170,7 +172,7 @@ def rank_files(titles, c, denom, need):
         tl = norm(t)
         if tl in rejected or norm(t.replace("_", " ")) in rejected:
             continue
-        if not denom_in(t, denom) or any(w in tl for w in EXCLUDED_WORDS) or re.search(r"\bcoins?\b|\bfils\b|piastre|\bkurus|\bcentavos?\b|\bcents?\b|conmemorativ|commemorativ|specimen.*19|resello", tl):
+        if not denom_in(t, denom) or any(w in tl for w in EXCLUDED_WORDS) or re.search(r"\bcoins?\b|\bfils\b|piastre|\bkurus|\bcentavos?\b|\bcents?\b|conmemorativ|commemorativ|specimen.*19|resello|million|billion|trillion|football|fotball|olympi|sochi|jubilee|anniversary|world cup", tl):
             continue
         twords = set(re.split(r"[^a-z]+", tl))
         if not (tokens & twords) and not any(tok in tl for tok in tokens if len(tok) >= 6):
