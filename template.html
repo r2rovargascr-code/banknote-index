@@ -228,6 +228,7 @@ const VERIFIED = "17 November 2026";
 /* Photo files, keyed "CODE-denomination": {f:"img/....jpg", b:"img/....jpg"}. Notes without a photo show a plain colour tile. */
 const IMG = /*IMG*/{};
 const CREDITS = /*CREDITS*/{};
+const SRC = /*SRC*/{};
 
 const NUM = {"US":"840","GB":"826","JP":"392","CN":"156","IN":"356","CA":"124","AU":"036","NZ":"554","CH":"756","SE":"752","NO":"578","DK":"208","KR":"410","SG":"702","MX":"484","BR":"076","ZA":"710","TR":"792","TH":"764","PH":"608","ID":"360","VN":"704","MY":"458","KE":"404","TW":"158","CO":"170","CW":"531"};
 const EXTRA_IDS={"534":"XCG"};
@@ -265,10 +266,24 @@ const FLAGSVG={
 const flagOf=c=>c.iso?flag(c.iso):FLAGSVG[c.code]?`<svg class="fsvg" viewBox="0 0 30 20" aria-hidden="true">${FLAGSVG[c.code]}</svg>`:"";
 const val=(c,n)=>(c.sym||"")+fmt(n[0])+(c.suf||"");
 function note(c,n,side="f",extra="",big=false){
-  const im=IMG[c.code+"-"+n[0]];
-  if(big&&im&&im[side+"l"]) return `<img class="bn ph ${extra}" src="${im[side+"l"]}"`+` alt="${esc(c.country+" "+val(c,n))}">`;
-  if(im&&im[side]) return `<img class="bn ph ${extra}" src="${im[side]}" alt="${esc(c.country+" "+val(c,n)+(side==="b"?" back":" front"))}" loading="lazy">`;
-  return `<div class="bn tile ${extra}" style="--c:${n[1]}" role="img" aria-label="${esc(c.country+" "+val(c,n))}"><span class="d">${esc(val(c,n))}</span><span class="k">${esc(c.country)}</span><span class="s">${side==="b"?"Back":"Front"}</span></div>`;
+  const k=c.code+"-"+n[0],list=(SRC[k]||{})[side];
+  if(list&&list.length){
+    const urls=list.map(x=>big?x.u:x.t);
+    return `<img class="bn ph ${extra}" src="${esc(urls[0])}" data-k="${k}" data-s="${side}" data-i="0" data-big="${big?1:0}" onerror="nextSrc(this)" onload="srcOk(this)" alt="${esc(c.country+" "+val(c,n)+(side==="b"?" back":" front"))}" loading="lazy" referrerpolicy="no-referrer">`;
+  }
+  return tile(c,n,side,extra);
+}
+function tile(c,n,side,extra){return `<div class="bn tile ${extra}" style="--c:${n[1]}" role="img" aria-label="${esc(c.country+" "+val(c,n))}"><span class="d">${esc(val(c,n))}</span><span class="k">${esc(c.country)}</span><span class="s">${side==="b"?"Back":"Front"}</span></div>`}
+function nextSrc(img){
+  const list=(SRC[img.dataset.k]||{})[img.dataset.s]||[],i=+img.dataset.i+1;
+  if(i<list.length){img.dataset.i=i;img.src=img.dataset.big==="1"?list[i].u:list[i].t;return}
+  const [code,d]=img.dataset.k.split(/-(?=[^-]+$)/),c=D.find(x=>x.code===code),n=c&&c.notes.find(x=>String(x[0])===d);
+  if(n){img.outerHTML=tile(c,n,img.dataset.s,img.className.replace(/\bbn\b|\bph\b/g,""))}
+}
+function srcOk(img){
+  const el=document.getElementById("cred-"+img.dataset.k);if(!el||img.dataset.s!=="f")return;
+  const x=((SRC[img.dataset.k]||{}).f||[])[+img.dataset.i];if(!x)return;
+  el.innerHTML=`Photo: ${esc(x.by||x.src||"")}${x.lic?" · "+esc(x.lic):""} · <a href="${esc(x.link||"#")}" target="_blank" rel="noopener">${esc(x.src||"Source")}</a>`;
 }
 function family(hex){
   const n=parseInt(hex.slice(1),16),r=(n>>16)/255,g=(n>>8&255)/255,b=(n&255)/255;
@@ -389,11 +404,7 @@ function renderBoty(){
 }
 
 /* ---------- country ---------- */
-function credit(c,n){const k=c.code+"-"+n[0],cr=CREDITS[k];if(!cr||!IMG[k])return"";
-  const who=[...new Set(["f","b"].map(s=>cr[s]&&IMG[k][s]?cr[s].author:null).filter(Boolean))].join(", ");
-  const lic=(cr.f&&cr.f.license)||(cr.b&&cr.b.license)||"";
-  const src={numista:"Numista",wikimedia:"Wikimedia Commons",openverse:"Openverse",bank:cr.bank||"Issuing bank"}[cr.source||"numista"];
-  return `<div class="cred">Photo: ${esc(who||src)}${lic?" · "+esc(lic):""} · <a href="${cr.url}" target="_blank" rel="noopener">${esc(src)}</a></div>`}
+function credit(c,n){const k=c.code+"-"+n[0];return SRC[k]?`<div class="cred" id="cred-${k}"></div>`:""}
 function renderCountry(c){
   const S=[...D].sort((a,b)=>a.country.localeCompare(b.country)),i=S.indexOf(c),p=S[(i-1+S.length)%S.length],nx=S[(i+1)%S.length];
   $("#cbox").innerHTML=`<button class="back" onclick="history.length>1?history.back():go('explore')">← Back</button>
@@ -401,7 +412,7 @@ function renderCountry(c){
    <div style="display:flex;gap:8px"><button class="back" onclick="go('${p.code.toLowerCase()}')">← ${esc(p.country)}</button><button class="back" onclick="go('${nx.code.toLowerCase()}')">${esc(nx.country)} →</button></div></div>
    <div class="cfacts"><div><small>Series</small>${esc(c.series)}</div><div><small>Latest issue</small>${c.year}</div><div><small>Material</small>${esc(c.mat)}</div><div><small>Notes</small>${c.notes.length}</div></div>
    ${c.upcoming?`<div class="msg"><b style="font-weight:400;color:#c9a36a">Upcoming</b> · ${esc(c.upcoming)}</div>`:""}${c.info?`<div class="msg i">${esc(c.info)}</div>`:""}${c.partial?`<div class="msg i">Some of this country's notes are still being added.</div>`:""}
-   <div class="notes">${c.notes.map(n=>`<div class="nb" role="button" tabindex="0"><div class="flip">${note(c,n,"f")}${note(c,n,"b")}</div>
+   <div class="notes">${c.notes.map(n=>`<div class="nb" role="button" tabindex="0"><div class="flip">${note(c,n,"f","",true)}${note(c,n,"b","",true)}</div>
      <h3>${esc(val(c,n))}<small>Tap to flip</small></h3><div class="nbtns"><button type="button" class="vb" data-d="${n[0]}">View larger</button></div><dl><dt>Front</dt><dd>${esc(n[2])}</dd><dt>Back</dt><dd>${esc(n[3])}</dd></dl>${credit(c,n)}</div>`).join("")}</div>`;
   document.querySelectorAll(".nb").forEach(b=>b.addEventListener("click",e=>{const v=e.target.closest(".vb");if(v){e.stopPropagation();openViewer(c,c.notes.find(n=>String(n[0])===v.dataset.d));return}squashFlip(b.querySelector(".flip"),()=>b.classList.toggle("b"))}));
 }

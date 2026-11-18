@@ -445,7 +445,7 @@ def us_currency(notes, credits):
     added = []
     for n in usd["notes"]:
         k = f'USD-{n[0]}'
-        if (credits.get(k) or {}).get("source") == "bank" and have(k):
+        if k in load("remote.json", {}):
             continue
         page = f"https://www.uscurrency.gov/denominations/{n[0]}"
         with urllib.request.urlopen(urllib.request.Request(page, headers={"User-Agent": UA}), timeout=30) as f:
@@ -458,11 +458,10 @@ def us_currency(notes, credits):
                 got[side] = f"https://www.uscurrency.gov/sites/default/files/denominations/{n[0]}_{year}-present-{word}.jpg"
         if len(got) < 2:
             print("  uscurrency: no current images found for", k); continue
-        for side, url in got.items():
-            download(url, os.path.join(IMG, f"{k}-{side}.jpg"))
-        cr = {"author": "U.S. Currency Education Program", "license": "Public domain", "license_url": page}
-        credits[k] = {"source": "bank", "bank": "U.S. Currency Education Program", "url": page, "f": cr, "b": cr}
-        added.append(f"{k} (U.S. Currency Education Program; sides fb)")
+        remote = load("remote.json", {})
+        remote[k] = {**got, "bank": "U.S. Currency Education Program", "license": "Public domain", "url": page}
+        save("remote.json", remote)
+        added.append(f"{k} (U.S. Currency Education Program, loaded live)")
     return added
 
 
