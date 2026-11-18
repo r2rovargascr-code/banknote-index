@@ -140,7 +140,7 @@ def pick_files(titles, c, denom, need, strict_year):
         tl = norm(t)
         if tl in rejected or norm(t.replace("_", " ")) in rejected:
             continue
-        if not denom_in(t, denom) or any(w in tl for w in EXCLUDED_WORDS):
+        if not denom_in(t, denom) or any(w in tl for w in EXCLUDED_WORDS) or re.search(r"\bcoins?\b|\bfils\b|piastre|\bkurus|\bcentavos?\b|\bcents?\b", tl):
             continue
         years = [int(y) for y in re.findall(r"(?:19|20)\d\d", tl)]
         if years and max(years) < min_year:

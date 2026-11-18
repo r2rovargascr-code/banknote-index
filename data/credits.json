@@ -2567,48 +2567,6 @@
    "license_url": null
   }
  },
- "KW-5": {
-  "source": "wikimedia",
-  "url": "https://commons.wikimedia.org/wiki/File:5_Kuwaitian_fils_in_2012_Obverse.jpg",
-  "f": {
-   "author": "Mohamed0189",
-   "license": "CC BY-SA 4.0",
-   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
-  },
-  "b": {
-   "author": "Mohamed0189",
-   "license": "CC BY-SA 4.0",
-   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
-  }
- },
- "KW-20": {
-  "source": "wikimedia",
-  "url": "https://commons.wikimedia.org/wiki/File:20_Kuwaitian_fils_in_2015_Obverse.jpg",
-  "f": {
-   "author": "Mohamed0189",
-   "license": "CC BY-SA 4.0",
-   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
-  },
-  "b": {
-   "author": "Mohamed0189",
-   "license": "CC BY-SA 4.0",
-   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
-  }
- },
- "EG-1": {
-  "source": "wikimedia",
-  "url": "https://commons.wikimedia.org/wiki/File:0.50_EGP_obverse_2017-1-8.jpg",
-  "f": {
-   "author": "Central Bank of Egypt",
-   "license": "Public domain",
-   "license_url": null
-  },
-  "b": {
-   "author": "Central Bank of Egypt",
-   "license": "Public domain",
-   "license_url": null
-  }
- },
  "EG-5": {
   "source": "wikimedia",
   "url": "https://commons.wikimedia.org/wiki/File:5_EGP_obverse_2013.jpg",
@@ -2626,11 +2584,7 @@
    "license": "Public domain",
    "license_url": null
   },
-  "b": {
-   "author": "Central Bank of Egypt",
-   "license": "Public domain",
-   "license_url": null
-  }
+  "b": null
  },
  "EG-20": {
   "source": "wikimedia",
@@ -2640,11 +2594,7 @@
    "license": "Public domain",
    "license_url": null
   },
-  "b": {
-   "author": "Central Bank of Egypt",
-   "license": "Public domain",
-   "license_url": null
-  }
+  "b": null
  },
  "EG-100": {
   "source": "wikimedia",
@@ -2667,20 +2617,6 @@
    "author": "البنك المركزي المصري",
    "license": "Public domain",
    "license_url": null
-  }
- },
- "TN-10": {
-  "source": "wikimedia",
-  "url": "https://commons.wikimedia.org/wiki/File:10_Dinars_bill_TND_(back)_berber_poteries_emitted_in_2020.jpg",
-  "b": {
-   "author": "DrRachT",
-   "license": "CC BY-SA 4.0",
-   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
-  },
-  "f": {
-   "author": "Davric",
-   "license": "CC BY-SA 4.0",
-   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
  },
  "TZ-2000": {
