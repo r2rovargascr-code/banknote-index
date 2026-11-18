@@ -134,9 +134,12 @@ def denom_in(title, denom):
 def pick_files(titles, c, denom, need, strict_year):
     """Choose one file per needed side from a list of 'File:...' titles."""
     min_year = c.get("year", CUR_YEAR) - 10
+    rejected = {norm(x) for x in load("rejected_photos.json", [])}
     chosen = {}
     for t in titles:
         tl = norm(t)
+        if tl in rejected or norm(t.replace("_", " ")) in rejected:
+            continue
         if not denom_in(t, denom) or any(w in tl for w in EXCLUDED_WORDS):
             continue
         years = [int(y) for y in re.findall(r"(?:19|20)\d\d", tl)]
@@ -193,7 +196,8 @@ def missing_sides(k):
 
 def from_wikipedia(c, denom, k, credits, article_cache):
     need = missing_sides(k)
-    for art in WIKI_ARTICLES.get(c["code"], []):
+    arts = WIKI_ARTICLES.get(c["code"]) or [c["cur"], "Banknotes of the " + c["cur"], c["cur"] + " banknotes"]
+    for art in arts:
         art = art.replace("{word}", WORDS.get(denom, str(denom)))
         if art not in article_cache:
             try:
@@ -202,7 +206,7 @@ def from_wikipedia(c, denom, k, credits, article_cache):
                                       for im in p.get("images", [])]
             except Exception as e:
                 print("  wiki article failed", art, e); article_cache[art] = []
-        chosen = pick_files(article_cache[art], c, denom, need, strict_year=False)
+        chosen = pick_files(article_cache[art], c, denom, need, strict_year=True)
         if chosen and save_sides(chosen, file_info(list(chosen.values())), k, credits, "wikipedia"):
             need = missing_sides(k)
             if not need:

@@ -189,22 +189,6 @@
   },
   "source": "numista"
  },
- "JPY-1000": {
-  "id": 385520,
-  "title": "1000 Yen",
-  "url": "https://commons.wikimedia.org/wiki/File:Series_B_1000_Yen_Bank_of_Japan_note_-_back.jpg",
-  "f": {
-   "author": "Eclipse2009",
-   "license": "Public domain",
-   "license_url": null
-  },
-  "b": {
-   "author": "Eclipse2009",
-   "license": "Public domain",
-   "license_url": null
-  },
-  "source": "wikimedia"
- },
  "JPY-5000": {
   "source": "wikimedia",
   "url": "https://commons.wikimedia.org/wiki/File:Series_F_5,000_yen_reverse.jpg",
@@ -218,22 +202,6 @@
    "license": "CC BY 4.0",
    "license_url": "https://creativecommons.org/licenses/by/4.0"
   }
- },
- "JPY-10000": {
-  "id": 385524,
-  "title": "10 000 Yen",
-  "url": "https://commons.wikimedia.org/wiki/File:10000_Yenes_(Anverso).jpg",
-  "f": {
-   "author": "Fer1997",
-   "license": "Public domain",
-   "license_url": null
-  },
-  "b": {
-   "author": "Fer1997",
-   "license": "Public domain",
-   "license_url": null
-  },
-  "source": "wikimedia"
  },
  "CNY-1": {
   "id": 220873,
@@ -651,22 +619,6 @@
   },
   "source": "numista"
  },
- "CHF-1000": {
-  "id": 203275,
-  "title": "1000 Francs (9th series)",
-  "url": "https://commons.wikimedia.org/wiki/File:CHF1000_1_back_horizontal.jpg",
-  "f": {
-   "author": "Wikimedia contributor",
-   "license": "Public domain",
-   "license_url": null
-  },
-  "b": {
-   "author": "Wikimedia contributor",
-   "license": "Public domain",
-   "license_url": null
-  },
-  "source": "wikimedia"
- },
  "SEK-20": {
   "id": 201994,
   "title": "20 Kronor",
@@ -987,22 +939,6 @@
   },
   "source": "numista"
  },
- "BRL-2": {
-  "id": 202197,
-  "title": "2 Reais (2nd. Family; Casa da Moeda do Brasil)",
-  "url": "https://commons.wikimedia.org/wiki/File:2_Brazil_real_First_Obverse.jpg",
-  "f": {
-   "author": "Rawlan1998",
-   "license": "CC BY-SA 4.0",
-   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
-  },
-  "b": {
-   "author": "Rawlan1998",
-   "license": "CC BY-SA 4.0",
-   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
-  },
-  "source": "wikimedia"
- },
  "BRL-5": {
   "id": 201713,
   "title": "5 Reais (2nd. Family)",
@@ -1290,22 +1226,6 @@
    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
   },
   "source": "numista"
- },
- "PHP-100": {
-  "id": 446774,
-  "title": "100 Piso (Seal type 7; polymer)",
-  "url": "https://commons.wikimedia.org/wiki/File:100-peso_VICTORY-CBP_banknote_obverse.png",
-  "f": {
-   "author": "United States Bureau of Engraving and Printing",
-   "license": "Public domain",
-   "license_url": null
-  },
-  "b": {
-   "author": "United States Bureau of Engraving and Printing",
-   "license": "Public domain",
-   "license_url": null
-  },
-  "source": "wikimedia"
  },
  "PHP-200": {
   "id": 232127,
@@ -1802,38 +1722,6 @@
    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
   },
   "source": "numista"
- },
- "PRB-50": {
-  "id": 473427,
-  "title": "50 Roubles",
-  "url": "https://commons.wikimedia.org/wiki/File:50_Kupon_Ruble_Obverse.jpg",
-  "f": {
-   "author": "Transnistrian Republican Bank",
-   "license": "Public domain",
-   "license_url": null
-  },
-  "b": {
-   "author": "Transnistrian Republican Bank",
-   "license": "Public domain",
-   "license_url": null
-  },
-  "source": "wikimedia"
- },
- "PRB-100": {
-  "id": 611200,
-  "title": "100 Roubles",
-  "url": "https://commons.wikimedia.org/wiki/File:100_Kupon_Ruble_Obverse.png",
-  "f": {
-   "author": "Transnistrian Republican Bank",
-   "license": "Public domain",
-   "license_url": null
-  },
-  "b": {
-   "author": "Transnistrian Republican Bank",
-   "license": "Public domain",
-   "license_url": null
-  },
-  "source": "wikimedia"
  },
  "PRB-200": {
   "id": 565087,

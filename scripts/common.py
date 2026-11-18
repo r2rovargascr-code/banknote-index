@@ -104,6 +104,18 @@ def dominant_colour(path):
     return "#%02x%02x%02x" % tuple(int(x * 255) for x in (r, g, b))
 
 
+COLOUR_ONLY = re.compile(r"underprint|multicolou?r printing|^(deep|dark|light|pale|bright)\b|on multishade", re.I)
+
+
 def short(desc, limit=90):
-    d = re.split(r"(?<=[.;])\s", (desc or "").strip())[0].strip(" .;")
+    d = (desc or "").replace("\r", " ").replace("\n", ", ").strip()
+    if COLOUR_ONLY.search(d.split(".")[0]):
+        parts = [p for p in re.split(r"\.\s*", d) if p and not COLOUR_ONLY.search(p)]
+        d = parts[0] if parts else ""
+    d = re.sub(r"^(it has the image of|image of|portrait of)\s+", "", d, flags=re.I)
+    d = re.split(r"\s+(?:to|at|on) (?:the )?(?:right|left|center|centre)\b|, issuer name|, face value", d)[0]
+    d = re.sub(r"\s*\([^)]*\)", "", d)
+    d = re.sub(r"\s+,", ",", re.sub(r",\s*,", ",", d))
+    d = re.split(r"(?<=[.;])\s", d.strip())[0].strip(" .;,")
+    d = d[:1].upper() + d[1:]
     return d if len(d) <= limit else d[:limit].rsplit(" ", 1)[0] + "…"

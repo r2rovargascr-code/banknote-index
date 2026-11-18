@@ -1420,5 +1420,3215 @@
    ]
   ],
   "info": "Introduced in 2025, replacing the Netherlands Antilles guilder. The 200 guilder is the IBNS Banknote of the Year 2025."
+ },
+ {
+  "iso": "AR",
+  "country": "Argentina",
+  "cur": "Argentine peso",
+  "sym": "$",
+  "issuer": "",
+  "region": "Americas",
+  "series": "Current notes",
+  "year": 2024,
+  "mat": "Paper",
+  "notes": [
+   [
+    20,
+    "#b8605f",
+    "Guanaco, flower",
+    "Patagonian landscape, map of Argentina"
+   ],
+   [
+    50,
+    "#af64b4",
+    "Andean Condor",
+    "Aconcagua mountain, Map of Argentina, Condor"
+   ],
+   [
+    200,
+    "#6478b4",
+    "Southern right whale, flowers",
+    "Valdés Peninsula, map of Argentina"
+   ],
+   [
+    500,
+    "#b2ab5f",
+    "Jaguar, flower",
+    "Jaguar cub, Yungas jungle, map of Argentina, coat of arms of Argentina"
+   ],
+   [
+    1000,
+    "#d37545",
+    "Portrait of José Francisco de San Martín, father of the Nation, the Liberator, led the…",
+    "Artistic representation of the Crossing of the Andes, which began on January 17, 1817…"
+   ],
+   [
+    2000,
+    "#b46d64",
+    "Portraits of Grierson and Carrillo, precursors in the development of medicine in Argentina",
+    "Façade of the National Institute of Microbiology Dr"
+   ],
+   [
+    10000,
+    "#64aeb4",
+    "Manuel Belgrano and María Remedios del Valle",
+    "Artistic representation of the scene of the Pledge to Flag held on February 27, 1812.,…"
+   ],
+   [
+    20000,
+    "#918686",
+    "Juan Bautista Alberdi, Argentine writer, journalist, philosopher, economist, diplomat and…",
+    "Artistic recreation of the birthplace of Juan Bautista Alberdi"
+   ]
+  ],
+  "map": [
+   "032"
+  ],
+  "code": "AR"
+ },
+ {
+  "iso": "CL",
+  "country": "Chile",
+  "cur": "Chilean peso",
+  "sym": "$",
+  "issuer": "",
+  "region": "Americas",
+  "series": "Current notes",
+  "year": 2010,
+  "mat": "Paper & polymer",
+  "notes": [
+   [
+    1000,
+    "#99b464",
+    "Ignacio Carrera Pinto",
+    "Torres del Paine National Park"
+   ],
+   [
+    10000,
+    "#6491b4",
+    "Blue., Portrait of Arturo Prat",
+    "Blue., Illustration of Alberto de Agostini National Park"
+   ],
+   [
+    20000,
+    "#b58462",
+    "Brown and orange., Portrait of Andres Bello",
+    "Illustration of Salar de Surire Natural Monument, two flamingos flying right., Face value…"
+   ]
+  ],
+  "map": [
+   "152"
+  ],
+  "code": "CL",
+  "partial": true
+ },
+ {
+  "iso": "UY",
+  "country": "Uruguay",
+  "cur": "Uruguayan peso",
+  "sym": "$",
+  "issuer": "",
+  "region": "Americas",
+  "series": "Current notes",
+  "year": 2020,
+  "mat": "Paper & polymer",
+  "notes": [
+   [
+    20,
+    "#88b464",
+    "Juan Zorrilla de San Martín",
+    "Allegory of the Homeland Legend and part of the manuscript of the poet"
+   ],
+   [
+    50,
+    "#839488",
+    "José Pedro Varela",
+    "Monument to José Pedro Varela"
+   ],
+   [
+    500,
+    "#b48f64",
+    "Alfredo Vazquez Acevedo",
+    "Republic University building"
+   ],
+   [
+    1000,
+    "#b4a264",
+    "Main colors: green and light brown., Main theme: portrait of Juana de Ibarbourou., Serial…",
+    "Main colors: green and light brown., Main theme: shelf with books, palm tree., Face…"
+   ],
+   [
+    2000,
+    "#b0b464",
+    "Main theme: Dámaso Antonio Larrañagaon right, Uruguayan coat of arms on top left, Uruguay…",
+    "Main colors: shades of gray, dark blue., Main theme: First building of the National…"
+   ]
+  ],
+  "map": [
+   "858"
+  ],
+  "code": "UY"
+ },
+ {
+  "iso": "PY",
+  "country": "Paraguay",
+  "cur": "Paraguayan guaraní",
+  "sym": "₲",
+  "issuer": "",
+  "region": "Americas",
+  "series": "Current notes",
+  "year": 2026,
+  "mat": "Paper & polymer",
+  "notes": [
+   [
+    2000,
+    "#b4646e",
+    "Portraits of educators and sisters Adela Speratti and Celsa Speratti",
+    "Multicolor print., School students parade with flags"
+   ],
+   [
+    100000,
+    "#699045",
+    "Green and multicolor., Spanish text",
+    "Green and multicolor., Spanish and Guarani text"
+   ]
+  ],
+  "map": [
+   "600"
+  ],
+  "code": "PY",
+  "partial": true
+ },
+ {
+  "iso": "VE",
+  "country": "Venezuela",
+  "cur": "Venezuelan bolívar",
+  "sym": "Bs.",
+  "issuer": "",
+  "region": "Americas",
+  "series": "Current notes",
+  "year": 2020,
+  "mat": "Paper",
+  "notes": [
+   [
+    200000,
+    "#a8b464",
+    "Vertical format, pale rose background",
+    "Horizontal format, pale rose background"
+   ],
+   [
+    500000,
+    "#6465b4",
+    "Portrait of Simón Bolívar at bottom-centre",
+    "\"Mausoleum of the Liberator\" Simón Bolívar and the National Pantheon in Caracas, Coat of…"
+   ]
+  ],
+  "map": [
+   "862"
+  ],
+  "code": "VE",
+  "partial": true
+ },
+ {
+  "iso": "GT",
+  "country": "Guatemala",
+  "cur": "Guatemalan quetzal",
+  "sym": "Q",
+  "issuer": "",
+  "region": "Americas",
+  "series": "Current notes",
+  "year": 2020,
+  "mat": "Paper",
+  "notes": [
+   [
+    5,
+    "#b48964",
+    "General Justo Rufino Barrios",
+    "Classroom scene"
+   ],
+   [
+    10,
+    "#b47164",
+    "At right, General Miguel Garcia Granados",
+    "—"
+   ],
+   [
+    20,
+    "#7c7872",
+    "Mariano Gálvez",
+    "Signing of Central American Independence Act"
+   ],
+   [
+    50,
+    "#c18156",
+    "Carlos O Zachrisson",
+    "Coffee harvest"
+   ],
+   [
+    100,
+    "#b47e64",
+    "Francisco Marroquín",
+    "Multicolour print., Inner yard of San Carlos de Borromeo University - formerly \"Major…"
+   ],
+   [
+    200,
+    "#64a0b4",
+    "Denomination as registration device",
+    "Musical notes of \"La Flor del Café [The coffee flower]\", Marimba of S"
+   ]
+  ],
+  "map": [
+   "320"
+  ],
+  "code": "GT"
+ },
+ {
+  "iso": "HN",
+  "country": "Honduras",
+  "cur": "Honduran lempira",
+  "sym": "L",
+  "issuer": "",
+  "region": "Americas",
+  "series": "Current notes",
+  "year": 2023,
+  "mat": "Paper",
+  "notes": [
+   [
+    200,
+    "#64a3b4",
+    "Blue printing., Bertha Isabel Cáceres Flores with river landscape as background., Country…",
+    "Blue printing., Aerial image of La Esperanza, Intibuca"
+   ]
+  ],
+  "map": [
+   "340"
+  ],
+  "code": "HN",
+  "partial": true
+ },
+ {
+  "iso": "DO",
+  "country": "Dominican Republic",
+  "cur": "Dominican peso",
+  "sym": "RD$",
+  "issuer": "",
+  "region": "Americas",
+  "series": "Current notes",
+  "year": 2017,
+  "mat": "Paper",
+  "notes": [
+   [
+    50,
+    "#8253ac",
+    "Catedral Primada de América, Santa María La Menor in Santo Domingo, the first cathedral…",
+    "Basilica de Nuestra Señora de la Altagracia in Salvaleón de Higüey"
+   ],
+   [
+    100,
+    "#be6b59",
+    "F.dR",
+    "Puerta del Conde in centre"
+   ],
+   [
+    200,
+    "#b4647e",
+    "Red and black printing",
+    "Red and black printing"
+   ],
+   [
+    500,
+    "#64b49f",
+    "Issuer name on top, Salome Ureña de Henriquez and Pedro Henriquez Ureña",
+    "Banco Central building, Santo Domingo, Issuer name on top, and below image"
+   ],
+   [
+    1000,
+    "#c0585b",
+    "At left, the coat of arms of the Central Bank of the Dominican Republic and flower below",
+    "Fortress of Don Diego Colón"
+   ],
+   [
+    2000,
+    "#649eb4",
+    "Emilio Prud-Homme and José Reyes",
+    "National Theater"
+   ]
+  ],
+  "map": [
+   "214"
+  ],
+  "code": "DO"
+ },
+ {
+  "iso": "CU",
+  "country": "Cuba",
+  "cur": "Cuban peso",
+  "sym": "$",
+  "issuer": "",
+  "region": "Americas",
+  "series": "Current notes",
+  "year": 2026,
+  "mat": "Paper",
+  "notes": [
+   [
+    1,
+    "#b4a264",
+    "Black and olive green",
+    "Olive green printing., Scene of Fidel Castro and Camilo Cienfuegos on victory parade,…"
+   ],
+   [
+    5,
+    "#86b464",
+    "Green printing., Antonio Maceo",
+    "Illustration of conference between Antonio Maceo and Spanish General A"
+   ],
+   [
+    10,
+    "#b47664",
+    "Máximo Gómez",
+    "Allegory of \"Guerra de todo el Pueblo\" - War of all the People, country name on top"
+   ],
+   [
+    20,
+    "#598daf",
+    "C",
+    "Illustration of Agricultural scenes:"
+   ],
+   [
+    50,
+    "#a54f77",
+    "Calixto García Iñiguez",
+    "Illustration of Genetic Engineering and Biotechnology Building"
+   ],
+   [
+    100,
+    "#b46e64",
+    "Carlos Manuel de Cespedes",
+    "Statue of José Martí on the Malecón in Havana"
+   ],
+   [
+    200,
+    "#c07957",
+    "Frank País",
+    "Ciudad Escolar 26 de Julio, Santiago de Cuba"
+   ],
+   [
+    500,
+    "#8a868a",
+    "Ignacio Agramonte y Loynáz",
+    "Constituent Assembly in Guáimaro, 10 April 1869 with Carlos Manuel de Céspedes and others…"
+   ],
+   [
+    1000,
+    "#b66f61",
+    "Julio Antonio Mella McPartland",
+    "University of Havana"
+   ],
+   [
+    2000,
+    "#a35eb1",
+    "Mariposa flower, Cuban national flower",
+    "\"Madre de la Patria\" monument, placed at Santa Ifigenia Cementery, Santiago de cuba,…"
+   ],
+   [
+    5000,
+    "#649ab4",
+    "Mariposa flower, Cuban national flower",
+    "Blue printing., Celia Sánchez Manduley Memorial, placed at Lenin Park, Havana, Mariposa…"
+   ],
+   [
+    10000,
+    "#4da189",
+    "Blue printing, multicolor undeprint., Haydée Santamaría Cuadrado, Cuban revolutionary and…",
+    "Blue printing., Main building of the Casa de las Américas in the district of Vedado,…"
+   ],
+   [
+    20000,
+    "#b49e64",
+    "Vilma Espín Guillois, First Lady of Cuba and wife of Raúl Castro",
+    "Vilma Espín talking to Cuban Women Federation members"
+   ]
+  ],
+  "map": [
+   "192"
+  ],
+  "code": "CU"
+ },
+ {
+  "iso": "JM",
+  "country": "Jamaica",
+  "cur": "Jamaican dollar",
+  "sym": "J$",
+  "issuer": "",
+  "region": "Americas",
+  "series": "Current notes",
+  "year": 2014,
+  "mat": "Paper",
+  "notes": [
+   [
+    50,
+    "#b46468",
+    "Samuel Sharpe",
+    "Doctor's Cave beach"
+   ],
+   [
+    100,
+    "#b49e64",
+    "Sir Donald Sangster",
+    "Dunn's River Falls"
+   ],
+   [
+    500,
+    "#b48664",
+    "Nanny of the Maroons",
+    "Map, Port Royal"
+   ],
+   [
+    1000,
+    "#6e7979",
+    "Michael Manley",
+    "Jamaica house"
+   ]
+  ],
+  "map": [
+   "388"
+  ],
+  "code": "JM"
+ },
+ {
+  "iso": "TT",
+  "country": "Trinidad and Tobago",
+  "cur": "Trinidad and Tobago dollar",
+  "sym": "TT$",
+  "issuer": "",
+  "region": "Americas",
+  "series": "Current notes",
+  "year": 2020,
+  "mat": "Polymer",
+  "notes": [
+   [
+    1,
+    "#c75167",
+    "Coat of arms",
+    "Eric Williams Finance Building in Port of Spain where Central bank of T&T is located"
+   ],
+   [
+    5,
+    "#64b467",
+    "Blue-crowned motmot, Coat of arms, Flag of Trinidad and Tobago",
+    "Building, Market"
+   ],
+   [
+    10,
+    "#904564",
+    "Coat of Arms of the Republic of Trinidad and Tobago / Cocrico, National Flag",
+    "Central Bank of Trinidad and Tobago Building / Container Terminal"
+   ],
+   [
+    20,
+    "#af59ac",
+    "Hummingbird, Coat of arms, Trinidad and Tobago flag",
+    "Arrangement of steel pans"
+   ],
+   [
+    50,
+    "#bd7d5b",
+    "Red capped cardinal bird, national arms, flag",
+    "Central Bank building in Eric Williams Financial Complex, dancer, Red capped cardinal bird"
+   ]
+  ],
+  "map": [
+   "780"
+  ],
+  "code": "TT"
+ },
+ {
+  "iso": "BS",
+  "country": "Bahamas",
+  "cur": "Bahamian dollar",
+  "sym": "B$",
+  "issuer": "",
+  "region": "Americas",
+  "series": "Current notes",
+  "year": 2020,
+  "mat": "Paper",
+  "notes": [
+   [
+    5,
+    "#cb904d",
+    "Black and red ascending serial numbers",
+    "Front-facing Junkanoo dancers, coat of arms of the Bahamas at lower left"
+   ]
+  ],
+  "map": [
+   "044"
+  ],
+  "code": "BS",
+  "partial": true
+ },
+ {
+  "iso": "BZ",
+  "country": "Belize",
+  "cur": "Belize dollar",
+  "sym": "BZ$",
+  "issuer": "",
+  "region": "Americas",
+  "series": "Current notes",
+  "year": 1999,
+  "mat": "Paper",
+  "notes": [
+   [
+    5,
+    "#bc715c",
+    "Front-facing bust of Queen Elizabeth II wearing the Vladimir Tiara",
+    "Bathing kraal and cannon"
+   ],
+   [
+    10,
+    "#b48b64",
+    "Front-facing bust of Queen Elizabeth II wearing the Vladimir Tiara",
+    "Government House and Court House"
+   ],
+   [
+    20,
+    "#b47b64",
+    "Front-facing bust of Queen Elizabeth II wearing the Vladimir Tiara",
+    "Neotropical fruit bat (Artibeus sp"
+   ]
+  ],
+  "map": [
+   "084"
+  ],
+  "code": "BZ",
+  "partial": true
+ },
+ {
+  "iso": "SR",
+  "country": "Suriname",
+  "cur": "Surinamese dollar",
+  "sym": "$",
+  "issuer": "",
+  "region": "Americas",
+  "series": "Current notes",
+  "year": 2010,
+  "mat": "Paper",
+  "notes": [
+   [
+    5,
+    "#b4646e",
+    "Central Bank building in Paramaribo",
+    "Coconut palm tree"
+   ],
+   [
+    10,
+    "#b4a564",
+    "Central Bank building in Paramaribo",
+    "Yellow lapachi tree and Suriname river"
+   ],
+   [
+    20,
+    "#80828f",
+    "Central Bank building in Paramaribo",
+    "Red mangrove"
+   ],
+   [
+    50,
+    "#b48964",
+    "Central Bank building in Paramaribo",
+    "Kapok tree"
+   ],
+   [
+    100,
+    "#a0704d",
+    "Central Bank building in Paramaribo",
+    "Bloodwood in the left"
+   ]
+  ],
+  "map": [
+   "740"
+  ],
+  "code": "SR"
+ },
+ {
+  "iso": "PL",
+  "country": "Poland",
+  "cur": "Polish złoty",
+  "sym": "zł",
+  "issuer": "",
+  "region": "Europe",
+  "series": "Current notes",
+  "year": 2015,
+  "mat": "Paper",
+  "notes": [
+   [
+    200,
+    "#b48a64",
+    "Golden,brown and tan print",
+    "Golden, brown and tan print"
+   ]
+  ],
+  "map": [
+   "616"
+  ],
+  "code": "PL",
+  "partial": true
+ },
+ {
+  "iso": "CZ",
+  "country": "Czechia",
+  "cur": "Czech koruna",
+  "sym": "Kč",
+  "issuer": "",
+  "region": "Europe",
+  "series": "Current notes",
+  "year": 2009,
+  "mat": "Paper",
+  "notes": [
+   [
+    5000,
+    "#8c7a79",
+    "Tomáš Garrigue Masaryk",
+    "Buildings in Prague, Czech coat of arms"
+   ]
+  ],
+  "map": [
+   "203"
+  ],
+  "code": "CZ",
+  "partial": true
+ },
+ {
+  "iso": "HU",
+  "country": "Hungary",
+  "cur": "Hungarian forint",
+  "sym": "Ft",
+  "issuer": "",
+  "region": "Europe",
+  "series": "Current notes",
+  "year": 2017,
+  "mat": "Paper",
+  "notes": [
+   [
+    1000,
+    "#6498b4",
+    "At right, the portrait of King Matthias Corvinus",
+    "The Hercules Fountain from the Castle of Visegrád"
+   ],
+   [
+    2000,
+    "#b18f5e",
+    "Brown and olive",
+    "A scene of Prince Gábor with several scientists"
+   ],
+   [
+    5000,
+    "#b98f5e",
+    "Brown and yellow",
+    "At center, Count Széchenyi's home at Nagycenk"
+   ],
+   [
+    10000,
+    "#b4648b",
+    "Purple, brown, and multicolor",
+    "At left, a view of Esztergom Palace"
+   ],
+   [
+    20000,
+    "#b48564",
+    "—",
+    "—"
+   ]
+  ],
+  "map": [
+   "348"
+  ],
+  "code": "HU"
+ },
+ {
+  "iso": "RO",
+  "country": "Romania",
+  "cur": "Romanian leu",
+  "sym": "lei",
+  "issuer": "",
+  "region": "Europe",
+  "series": "Current notes",
+  "year": 2021,
+  "mat": "Polymer",
+  "notes": [
+   [
+    1,
+    "#64b468",
+    "Historian Nicolae Iorga, a Gentian flower, the Coat of Arms of Romania, name of the…",
+    "Episcopal Cathedral of Curtea de Arges Monastery, ancient Wallachian Coat of Arms…"
+   ],
+   [
+    5,
+    "#b46473",
+    "Composer George Enescu, a Carnation flower, a violin and two notes, the Coat of Arms of…",
+    "The Romanian Athenaeum, a piano and a musical stave, banknote denomination in digits and…"
+   ],
+   [
+    10,
+    "#b48464",
+    "Nicolae Grigorescu",
+    "Center: typical house from the Oltenia region"
+   ],
+   [
+    20,
+    "#b38562",
+    "In center a bouquet of crocuses over the stylised depiction of the infantery insignia",
+    "The Mărășești Mausoleum"
+   ],
+   [
+    50,
+    "#b4ae64",
+    "Airplane builder Aurel Vlaicu, an Edelweiss flower, a stylised airplane propeller, the…",
+    "Mountain eagle head, Vlaicu II airplane sketch, sketch of an airplane engine section,…"
+   ],
+   [
+    100,
+    "#87888c",
+    "Playwriter Ion Luca Caragiale, a Violet flower, two theatre masks, the Coat of Arms of…",
+    "The Old National Theatre of Bucharest, statue of Caragiale, banknote denomination in…"
+   ],
+   [
+    200,
+    "#b29c60",
+    "Poet Lucian Blaga, poppy flowers, an open book featuring the Autoportret and 9 mai 1895…",
+    "The Neolithic statue The thinker of Hamangia, a rainbow, an old water mill, banknote…"
+   ]
+  ],
+  "map": [
+   "642"
+  ],
+  "code": "RO"
+ },
+ {
+  "iso": "UA",
+  "country": "Ukraine",
+  "cur": "Ukrainian hryvnia",
+  "sym": "₴",
+  "issuer": "",
+  "region": "Europe",
+  "series": "Current notes",
+  "year": 2026,
+  "mat": "Paper",
+  "notes": [
+   [
+    20,
+    "#91b464",
+    "Ivan Franko was a prominent Ukrainian writer, critic, translator, opinion journalist,…",
+    "Lviv Opera House was built in 1900 to a design by the architect Zygmunt Gorgolewski"
+   ],
+   [
+    100,
+    "#b49964",
+    "Taras Shevchenko was an outstanding Ukrainian poet, artist and thinker, the founder of…",
+    "Taras Shevchenko National University of Kyiv"
+   ],
+   [
+    200,
+    "#ae5889",
+    "Lesia Ukrainka is one of Ukrainian literature's foremost writers, best known for her…",
+    "Lutsk Castle, also locally known as Lubart's Castle or Upper Castle, began its life in…"
+   ],
+   [
+    500,
+    "#b49064",
+    "Hryhorii Skovoroda",
+    "Kyiv Mohyla Academy – the first higher education school in Ukraine founded in 1632"
+   ],
+   [
+    1000,
+    "#6492b4",
+    "Volodymyr Vernadskyi was a famous Ukrainian scientist, philosopher, natural scientist,…",
+    "The Presidium of Ukraine’s National Academy of Sciences was built in the 1850s to a…"
+   ],
+   [
+    2000,
+    "#6470b4",
+    "Vasyl Stus, a prominent Ukrainian writer, human rights activist, political prisoner of…",
+    "Faculty of Philology of Donetsk National University, where Vasyl Stus studied"
+   ]
+  ],
+  "map": [
+   "804"
+  ],
+  "code": "UA"
+ },
+ {
+  "iso": "BY",
+  "country": "Belarus",
+  "cur": "Belarusian ruble",
+  "sym": "Br",
+  "issuer": "",
+  "region": "Europe",
+  "series": "Current notes",
+  "year": 2026,
+  "mat": "Paper",
+  "notes": [
+   [
+    20,
+    "#b48e64",
+    "The Rumyantsaŭ-Paskievich Palace in Homiel, Denomination left and below",
+    "The collage devoted to spiritualit: A bell, the Turaŭ Gospel, Ancient town of Turaŭ, and…"
+   ],
+   [
+    50,
+    "#9fb15e",
+    "The Castle of Mir in the settlement of Mir, Hrodna Region, Denomination left and below",
+    "The collage devoted to art: A lyre and laurel twigs, a quill pen, a sheet of paper, and a…"
+   ],
+   [
+    200,
+    "#a55db1",
+    "Mahiloŭ Regional Art Museum named after Pavieł Vasilevič Masleńikaŭ, Denomination left…",
+    "The collage devoted to handicraft and urban construction: The Golden Key and the seal of…"
+   ]
+  ],
+  "map": [
+   "112"
+  ],
+  "code": "BY",
+  "partial": true
+ },
+ {
+  "iso": "MK",
+  "country": "North Macedonia",
+  "cur": "Macedonian denar",
+  "sym": "ден",
+  "issuer": "",
+  "region": "Europe",
+  "series": "Current notes",
+  "year": 2020,
+  "mat": "Paper & polymer",
+  "notes": [
+   [
+    10,
+    "#b4646a",
+    "Crescent shaped gold filigree and Torso of Goddess Isis",
+    "Mosaic, peacock"
+   ],
+   [
+    500,
+    "#b38163",
+    "Gold death mask found in Trebeništa",
+    "Poppies"
+   ]
+  ],
+  "map": [
+   "807"
+  ],
+  "code": "MK",
+  "partial": true
+ },
+ {
+  "iso": "AL",
+  "country": "Albania",
+  "cur": "Albanian lek",
+  "sym": "L",
+  "issuer": "",
+  "region": "Europe",
+  "series": "Current notes",
+  "year": 2020,
+  "mat": "Paper",
+  "notes": [
+   [
+    500,
+    "#649ab4",
+    "Denomination, eagle emblem of Albania and pen used to sign the Independence Act",
+    "Albanian coat of arms and watermark"
+   ],
+   [
+    2000,
+    "#864da1",
+    "Denomination and security strip",
+    "Albanian coat of arms and watermark"
+   ]
+  ],
+  "map": [
+   "008"
+  ],
+  "code": "AL",
+  "partial": true
+ },
+ {
+  "iso": "IS",
+  "country": "Iceland",
+  "cur": "Icelandic króna",
+  "sym": "kr",
+  "issuer": "",
+  "region": "Europe",
+  "series": "Current notes",
+  "year": 2013,
+  "mat": "Paper",
+  "notes": [
+   [
+    10000,
+    "#6496b4",
+    "Bust portrait of natural scientist and poet Jónas Hallgrímsson",
+    "A plover and Hallgrímsson's poem Skjaldbreiður Mountain"
+   ]
+  ],
+  "map": [
+   "352"
+  ],
+  "code": "IS",
+  "partial": true
+ },
+ {
+  "iso": "AZ",
+  "country": "Azerbaijan",
+  "cur": "Azerbaijani manat",
+  "sym": "₼",
+  "issuer": "",
+  "region": "Asia",
+  "series": "Current notes",
+  "year": 2026,
+  "mat": "Paper",
+  "notes": [
+   [
+    1,
+    "#b4a264",
+    "Traditional musical instruments - Tar, Kamancheh, and Daf, Musical Note and sheet music…",
+    "Map of Azerbaijan, arched windows in the background, Denomination below"
+   ],
+   [
+    5,
+    "#b89260",
+    "Books, quill and pen, part, from the state anthem in background, Denomination below",
+    "Map of Azerbaijan and Europe, Qobustan rock hieroglyphs, Denomination below"
+   ],
+   [
+    50,
+    "#b4ac64",
+    "Architectural and scientific elements, Denomination below",
+    "Map of Azerbaijan"
+   ],
+   [
+    100,
+    "#666974",
+    "Azeri text",
+    "Azeri text"
+   ]
+  ],
+  "map": [
+   "031"
+  ],
+  "code": "AZ"
+ },
+ {
+  "iso": "HK",
+  "country": "Hong Kong",
+  "cur": "Hong Kong dollar",
+  "sym": "HK$",
+  "issuer": "",
+  "region": "Asia",
+  "series": "Current notes",
+  "year": 2018,
+  "mat": "Paper",
+  "notes": [
+   [
+    20,
+    "#64a0b4",
+    "Lion statue superimposed upon HSBC headquarters building in background",
+    "Chinese and English text"
+   ],
+   [
+    50,
+    "#64b46c",
+    "—",
+    "—"
+   ],
+   [
+    100,
+    "#b46474",
+    "Bust of a lion",
+    "—"
+   ],
+   [
+    500,
+    "#af9059",
+    "—",
+    "—"
+   ],
+   [
+    1000,
+    "#c47654",
+    "Orange, red, green, HSBC Lion sculpture",
+    "Orange, red and green., Wide-angle aerial view of Hong Kong's financial district and…"
+   ]
+  ],
+  "map": [
+   "344"
+  ],
+  "code": "HK"
+ },
+ {
+  "iso": "MO",
+  "country": "Macau",
+  "cur": "Macanese pataca",
+  "sym": "MOP$",
+  "issuer": "",
+  "region": "Asia",
+  "series": "Current notes",
+  "year": 2026,
+  "mat": "Paper",
+  "notes": [
+   [
+    10,
+    "#cc4b4b",
+    "Façades of small buildings at lower left",
+    "Macau Tower in centre foreground with skyline of large buildings in background"
+   ],
+   [
+    20,
+    "#a364b4",
+    "Façades of small buildings at lower left",
+    "Macau Science Center with ancient compass and geometric figures in background"
+   ],
+   [
+    50,
+    "#b49c64",
+    "Southern Lion",
+    "Kiang Wu History Museum"
+   ],
+   [
+    100,
+    "#6493b4",
+    "Southern Lion",
+    "Tung Sin Tong Historical Archive Exhibition Hall"
+   ],
+   [
+    500,
+    "#7ab562",
+    "Old and new façades of Banco Nacional Ultramarino building",
+    "Tree, fishing boat, map of Macau in 1986"
+   ],
+   [
+    1000,
+    "#caa34d",
+    "Old and new façades of Banco Nacional Ultramarino building",
+    "Map of Macau in 2022"
+   ]
+  ],
+  "map": [
+   "446"
+  ],
+  "code": "MO"
+ },
+ {
+  "iso": "PK",
+  "country": "Pakistan",
+  "cur": "Pakistani rupee",
+  "sym": "₨",
+  "issuer": "",
+  "region": "Asia",
+  "series": "Current notes",
+  "year": 2009,
+  "mat": "Paper",
+  "notes": [
+   [
+    10,
+    "#b49864",
+    "Quaid-e-Azam Muhammad Ali Jinnah in National Dress i.e",
+    "Khyber Pass Gateway on Jamrud Road in Yaghistan near Peshawar"
+   ],
+   [
+    20,
+    "#b49264",
+    "Multicoloured orange, green, and yellow print., Muhammad Ali Jinnah",
+    "Multicoloured orange, green, and yellow print., Picture of Mohen Jo Daro"
+   ],
+   [
+    50,
+    "#9958ae",
+    "LQuaid-e-Azam Muhammad Ali Jinnah",
+    "Karakoram Peak of Himalaya mountains"
+   ],
+   [
+    100,
+    "#cb4c55",
+    "Main color red, Picture of Mohammed Ali Jinnah",
+    "Picture of Quaid-e-Azam Residency in Ziarat"
+   ],
+   [
+    500,
+    "#748370",
+    "Rich deep green color",
+    "Picture of Badshahi Masjid in Lahore"
+   ],
+   [
+    1000,
+    "#5074a7",
+    "—",
+    "Picture of Islamia College in Peshawar"
+   ],
+   [
+    5000,
+    "#b47c64",
+    "Quaid-e-Azam Muhammad Ali Jinnah",
+    "King Faisal Mosque, Islamabad"
+   ]
+  ],
+  "map": [
+   "586"
+  ],
+  "code": "PK"
+ },
+ {
+  "iso": "BD",
+  "country": "Bangladesh",
+  "cur": "Bangladeshi taka",
+  "sym": "৳",
+  "issuer": "",
+  "region": "Asia",
+  "series": "Current notes",
+  "year": 2026,
+  "mat": "Paper",
+  "notes": [
+   [
+    2,
+    "#b48764",
+    "Portrait of Bangabandhu Sheikh Mujibur Rahman, the Father of the Nation",
+    "Shaheed Minar Monument in Dhaka established to commemorate those martyrs killed during…"
+   ],
+   [
+    5,
+    "#b46467",
+    "The front of the note features a detailed, earth-toned illustration of the historic Tara…",
+    "The central feature is an elaborate, woodcut-style mural depicting a student uprising or…"
+   ],
+   [
+    10,
+    "#b4648d",
+    "Picture of Baitul Mukarram National Mosque, Dhaka in the left‐side",
+    "Photograph of Graffiti 2024"
+   ],
+   [
+    20,
+    "#aab464",
+    "At Left-Portrait of Sheikh Mujibur Rahman, shortened as Sheikh Mujib or Mujib",
+    "The Sixty Dome Mosque, is a mosque in Bangladesh"
+   ],
+   [
+    50,
+    "#b48c64",
+    "Orange Colored, Portrait of Bangabandhu Sheikh Muzibur Rahman, the Father of the Nation.,…",
+    "Picture of the famous painting Moi deya by Shilpacharza Zainul Abedin"
+   ],
+   [
+    100,
+    "#5c9fb0",
+    "Portrait of Bangabandhu Sheikh Muzibur Rahman, the Father of the Nation",
+    "Picture of the Star Mosque, is a mosque located in Armanitola area, Dhaka, Bangladesh"
+   ],
+   [
+    500,
+    "#7a9447",
+    "Green and red print., Shaheed Minar of the Language Movement in Dhaka",
+    "Denomination as registration device"
+   ],
+   [
+    1000,
+    "#924da0",
+    "On the front of the note, the National Memorial, Savar, is printed",
+    "The design on the back of the note is the image of the National Parliament Building, Dhaka"
+   ]
+  ],
+  "map": [
+   "050"
+  ],
+  "code": "BD"
+ },
+ {
+  "iso": "LK",
+  "country": "Sri Lanka",
+  "cur": "Sri Lankan rupee",
+  "sym": "Rs",
+  "issuer": "",
+  "region": "Asia",
+  "series": "Current notes",
+  "year": 2010,
+  "mat": "Paper",
+  "notes": [
+   [
+    20,
+    "#b46474",
+    "At the centre is a drawing of the view of the Port of Colombo as seen now and in…",
+    "In the centre - Ves Netuma dancer with traditional costume of 64 ornaments"
+   ],
+   [
+    50,
+    "#6194b3",
+    "The newly constructed bridge in Manampitiya appears",
+    "When the back of the note is viewed vertically, a Vadiga Patuna Dancer is dancing to the…"
+   ],
+   [
+    100,
+    "#ca664e",
+    "The Norochcholai Coal Power Plant Project is",
+    "When the back of the note is viewed vertically, a Mridangam drummer is seated playing his…"
+   ],
+   [
+    500,
+    "#90458a",
+    "World Trade Centre and Bank of Ceylon Headquarters in Colombo, ancient Buddhist temple…",
+    "Thelme dancer and Yak Bera drummer, Padmanidhi guard stone, stylized floral motif"
+   ],
+   [
+    1000,
+    "#9eb464",
+    "Newly constructed Ramboda Tunnel with the rock wall at the same location before…",
+    "Malpadaya dancer and Dawul Bera drummer, guard stone with guardian deities, stylized…"
+   ],
+   [
+    5000,
+    "#b9905e",
+    "Weheragala Dam with the Canyon Dam",
+    "Nagaraksha dancer and a Guruluraksha dancer, guard stone with guardian deities, stylized…"
+   ]
+  ],
+  "map": [
+   "144"
+  ],
+  "code": "LK"
+ },
+ {
+  "iso": "NP",
+  "country": "Nepal",
+  "cur": "Nepalese rupee",
+  "sym": "रू",
+  "issuer": "",
+  "region": "Asia",
+  "series": "Current notes",
+  "year": 2017,
+  "mat": "Paper",
+  "notes": [
+   [
+    5,
+    "#bd6a5a",
+    "Mt",
+    "Watermark Window, Wild Yak, Limi Himal of Humla in Background"
+   ],
+   [
+    10,
+    "#b48264",
+    "Mount Everest, Changunarayan on Garuda, Watermark Windo",
+    "Watermark Window, Black Buck, Nepal Rastra Bank Logo on Top"
+   ],
+   [
+    20,
+    "#ba695d",
+    "Mt",
+    "Sambar deer, Himalayan mountains in the background"
+   ],
+   [
+    500,
+    "#b48e64",
+    "Mt",
+    "Watermark Window, Roaming Tiger"
+   ]
+  ],
+  "map": [
+   "524"
+  ],
+  "code": "NP"
+ },
+ {
+  "iso": "BT",
+  "country": "Bhutan",
+  "cur": "Bhutanese ngultrum",
+  "sym": "Nu.",
+  "issuer": "",
+  "region": "Asia",
+  "series": "Current notes",
+  "year": 2006,
+  "mat": "Paper",
+  "notes": [
+   [
+    100,
+    "#b4a064",
+    "King Jingme Singye Wangchuk",
+    "Tashichho Dzong palace"
+   ],
+   [
+    500,
+    "#b47564",
+    "—",
+    "Punakha Dzong"
+   ]
+  ],
+  "map": [
+   "064"
+  ],
+  "code": "BT",
+  "partial": true
+ },
+ {
+  "iso": "MM",
+  "country": "Myanmar",
+  "cur": "Myanmar kyat",
+  "sym": "K",
+  "issuer": "",
+  "region": "Asia",
+  "series": "Current notes",
+  "year": 2023,
+  "mat": "Paper",
+  "notes": [
+   [
+    500,
+    "#b4646b",
+    "Aung San",
+    "Central Bank of Myanmar building"
+   ],
+   [
+    20000,
+    "#85b464",
+    "White elephant Named Rattha Mandaka in traditional elephant-associated regalia",
+    "Sagaing Bridge and Irrawaddy Bridge"
+   ]
+  ],
+  "map": [
+   "104"
+  ],
+  "code": "MM",
+  "partial": true
+ },
+ {
+  "iso": "KH",
+  "country": "Cambodia",
+  "cur": "Cambodian riel",
+  "sym": "៛",
+  "issuer": "",
+  "region": "Asia",
+  "series": "Current notes",
+  "year": 2026,
+  "mat": "Paper",
+  "notes": [
+   [
+    50000,
+    "#ae8e57",
+    "King Norodom Sihanouk, Naga head",
+    "Bakong temple ruins and stone sculpture of baby elephant, denomination in Khmer"
+   ]
+  ],
+  "map": [
+   "116"
+  ],
+  "code": "KH",
+  "partial": true
+ },
+ {
+  "iso": "LA",
+  "country": "Laos",
+  "cur": "Lao kip",
+  "sym": "₭",
+  "issuer": "",
+  "region": "Asia",
+  "series": "Current notes",
+  "year": 2020,
+  "mat": "Paper",
+  "notes": [
+   [
+    1000,
+    "#6aac53",
+    "Lao text",
+    "Lao text"
+   ],
+   [
+    5000,
+    "#b47964",
+    "Lao text",
+    "Lao text"
+   ],
+   [
+    10000,
+    "#b4a264",
+    "Coat of arms of Laos, portrait of President Kaysone Phomvihane, Wat That Luang stupa in…",
+    "Lao-Nippon bridge over the Mekong River in Pakse"
+   ],
+   [
+    20000,
+    "#b47b64",
+    "Coat of arms of Laos, portrait of President Kaysone Phomvihane, Pha That Luang pagoda in…",
+    "Theun-Hinboun hydroelectric dam"
+   ],
+   [
+    50000,
+    "#b46864",
+    "Lao text",
+    "Lao text"
+   ],
+   [
+    100000,
+    "#b49564",
+    "Coat of arms of Laos",
+    "—"
+   ]
+  ],
+  "map": [
+   "418"
+  ],
+  "code": "LA"
+ },
+ {
+  "iso": "MN",
+  "country": "Mongolia",
+  "cur": "Mongolian tögrög",
+  "sym": "₮",
+  "issuer": "",
+  "region": "Asia",
+  "series": "Current notes",
+  "year": 2020,
+  "mat": "Paper",
+  "notes": [
+   [
+    10,
+    "#5bb09b",
+    "Damdiny Sühbaatar was a founding member of the Mongolian People's Party and leader of the…",
+    "Mountain scenery with horses grazing in the valley"
+   ],
+   [
+    20,
+    "#b66163",
+    "Damdiny Sühbaatar was a founding member of the Mongolian People's Party and leader of the…",
+    "Mountain scenery with horses grazing in the valley"
+   ],
+   [
+    100,
+    "#b05b80",
+    "Damdiny Sühbaatar was a founding member of the Mongolian People's Party and leader of the…",
+    "Mountain scenery with horses grazing in the valley"
+   ],
+   [
+    500,
+    "#b1a65e",
+    "Chingis Khaan, a Paiza – a tablet of authority for the Mongol officials and envoys, which…",
+    "Ger building and delivery scene"
+   ],
+   [
+    1000,
+    "#81837d",
+    "Chingis Khaan, a Paiza – a tablet of authority for the Mongol officials and envoys, which…",
+    "Multicoloured blue and orange print., Ox-drawn ger"
+   ],
+   [
+    20000,
+    "#ad7255",
+    "Chingis Khaan, a Paiza – a tablet of authority for the Mongol officials and envoys, which…",
+    "The State's Nine-Legged White Flag, which is placed at the State Ceremony Hall and is…"
+   ]
+  ],
+  "map": [
+   "496"
+  ],
+  "code": "MN"
+ },
+ {
+  "iso": "KZ",
+  "country": "Kazakhstan",
+  "cur": "Kazakhstani tenge",
+  "sym": "₸",
+  "issuer": "",
+  "region": "Asia",
+  "series": "Current notes",
+  "year": 2023,
+  "mat": "Paper",
+  "notes": [
+   [
+    5000,
+    "#b46472",
+    "National emblem, Golden eagle detail and 6th or 7th century BCE ornament found in Taldy…",
+    "Kazakh text"
+   ],
+   [
+    10000,
+    "#627eb3",
+    "Qazaq Eli monument, Peace doves",
+    "The residence of the President of the Republic of Kazakhstan “Aq orda” in Nur-Sultan"
+   ]
+  ],
+  "map": [
+   "398"
+  ],
+  "code": "KZ",
+  "partial": true
+ },
+ {
+  "iso": "KG",
+  "country": "Kyrgyzstan",
+  "cur": "Kyrgyzstani som",
+  "sym": "с",
+  "issuer": "",
+  "region": "Asia",
+  "series": "Current notes",
+  "year": 2026,
+  "mat": "Paper",
+  "notes": [
+   [
+    20,
+    "#b4647b",
+    "Kyrgyz text",
+    "Kyrgyz text"
+   ],
+   [
+    50,
+    "#c9794e",
+    "Qurmanjan Mamatbai Qızı, the outstanding stateswoman of the Kyrgyz people, National…",
+    "Minaret and mausoleum of Özğön architectural complex, one of the ancient sctructures of…"
+   ]
+  ],
+  "map": [
+   "417"
+  ],
+  "code": "KG",
+  "partial": true
+ },
+ {
+  "iso": "BN",
+  "country": "Brunei",
+  "cur": "Brunei dollar",
+  "sym": "B$",
+  "issuer": "",
+  "region": "Asia",
+  "series": "Current notes",
+  "year": 2026,
+  "mat": "Polymer",
+  "notes": [
+   [
+    1,
+    "#649cb4",
+    "Vertical and horizontal ascending serial numbers",
+    "Aerial view of the capital"
+   ],
+   [
+    5,
+    "#a1b464",
+    "Vertical and horizontal ascending serial numbers",
+    "Yellow and green print., Lapau ceremonial hall building"
+   ],
+   [
+    10,
+    "#b46464",
+    "Orange print, Sultan Hassanal Bolkiah I, rancah rancah flower",
+    "Orange print,Jame Asrihassan al-Bolkiah mosque"
+   ],
+   [
+    100,
+    "#b47664",
+    "Vertical and horizontal ascending serial numbers",
+    "Brown print., Chermin Island"
+   ],
+   [
+    500,
+    "#b46482",
+    "Vertical and horizontal ascending serial numbers",
+    "Omar Ali Saifuddien Mosque"
+   ]
+  ],
+  "map": [
+   "096"
+  ],
+  "code": "BN"
+ },
+ {
+  "iso": "MV",
+  "country": "Maldives",
+  "cur": "Maldivian rufiyaa",
+  "sym": "Rf",
+  "issuer": "",
+  "region": "Asia",
+  "series": "Current notes",
+  "year": 2015,
+  "mat": "Polymer",
+  "notes": [
+   [
+    20,
+    "#9761b3",
+    "—",
+    "It is vertically oriented and depicts a traditional sailboat"
+   ]
+  ],
+  "map": [
+   "462"
+  ],
+  "code": "MV",
+  "partial": true
+ },
+ {
+  "iso": "IR",
+  "country": "Iran",
+  "cur": "Iranian rial",
+  "sym": "﷼",
+  "issuer": "",
+  "region": "Middle East",
+  "series": "Current notes",
+  "year": 2026,
+  "mat": "Paper",
+  "notes": [
+   [
+    5,
+    "#b464ab",
+    "Ruhollah Khomeini",
+    "Tomb of Hafez"
+   ],
+   [
+    10,
+    "#adb464",
+    "Ruhollah Khomeini",
+    "Saadi tomb - shiraz, آرامگاه سعدی - شیراز"
+   ],
+   [
+    50,
+    "#bf7358",
+    "Brown-red colours and the dome of Imam Reza mosque, Mashad",
+    "Mount Damavand"
+   ],
+   [
+    100,
+    "#5f9eb9",
+    "Shrine of Fatima Masumeh in Qom",
+    "Map of the Persian Gulf and Strait of Hormuz"
+   ],
+   [
+    200,
+    "#64b49d",
+    "Farsi/Persian text",
+    "Two men on horseback holding mallets playing Chovgan"
+   ],
+   [
+    500,
+    "#bca65c",
+    "Agha Borzog mosque in Kashan",
+    "Mausoleum of poet Ferdowsi"
+   ],
+   [
+    1000,
+    "#b56276",
+    "Jameh Mosque, Yazd",
+    "Arg-e Bam Fortress, Bam"
+   ],
+   [
+    2000000,
+    "#64b49b",
+    "Karoun 3 Dam",
+    "Persian script and floral and geometric patterns"
+   ]
+  ],
+  "map": [
+   "364"
+  ],
+  "code": "IR"
+ },
+ {
+  "iso": "IQ",
+  "country": "Iraq",
+  "cur": "Iraqi dinar",
+  "sym": "ع.د",
+  "issuer": "",
+  "region": "Middle East",
+  "series": "Current notes",
+  "year": 2015,
+  "mat": "Paper",
+  "notes": [
+   [
+    250,
+    "#948f84",
+    "Astrolabe",
+    "Minaret of the Great Mosque of Samarra is a mosque from the 9th century CE located in…"
+   ],
+   [
+    5000,
+    "#5981af",
+    "Gali Ali Beg and waterfall",
+    "Al-Ukhether fortress"
+   ],
+   [
+    10000,
+    "#a0b464",
+    "Sculptor Jawad Saleem's Monument of Freedom at Liberation Square in Tahrir Square in the…",
+    "Al Habda Minerat of the Great Mosque of Al-Nuri, Mosul Iraq., The Great Mosque of Al-Nuri…"
+   ],
+   [
+    25000,
+    "#be715a",
+    "Woman carrying jug on shoulder",
+    "Fragment of the top of the stele \"fingernail\" of Hammurabi as part of the Code of King…"
+   ],
+   [
+    50000,
+    "#b49e64",
+    "Violet and brown with multicolor., Water wheel on the Euphrates River, palm trees and the…",
+    "Fishermen, traditional reed house of the Mesopotamian marshes, Tigris and Euphrates rives…"
+   ]
+  ],
+  "map": [
+   "368"
+  ],
+  "code": "IQ"
+ },
+ {
+  "iso": "SA",
+  "country": "Saudi Arabia",
+  "cur": "Saudi riyal",
+  "sym": "﷼",
+  "issuer": "",
+  "region": "Middle East",
+  "series": "Current notes",
+  "year": 2023,
+  "mat": "Paper & polymer",
+  "notes": [
+   [
+    5,
+    "#a24e7e",
+    "King Salman ibn Abdulaziz al-Saud",
+    "Field of flowers"
+   ],
+   [
+    10,
+    "#b49164",
+    "Murabba Palace, King Salman Bin Abdulaziz Al Saud",
+    "King Abdullah Bin Abdulaziz Financial District"
+   ]
+  ],
+  "map": [
+   "682"
+  ],
+  "code": "SA",
+  "partial": true
+ },
+ {
+  "iso": "AE",
+  "country": "United Arab Emirates",
+  "cur": "UAE dirham",
+  "sym": "د.إ",
+  "issuer": "",
+  "region": "Middle East",
+  "series": "Current notes",
+  "year": 2023,
+  "mat": "Polymer",
+  "notes": [
+   [
+    5,
+    "#b47764",
+    "Brown color banknote, Ajman Fort features prominently on the front",
+    "Ras al-Khaimah’s Dhayah Fort appears on the back"
+   ],
+   [
+    10,
+    "#55ad72",
+    "Green color banknote., Sheikh Zayed Grand Mosque, Abu Dhabi at front",
+    "Green colour banknote., In the middle - Khor Fakkan Amphitheatre, a cultural landmark in…"
+   ],
+   [
+    500,
+    "#6090b8",
+    "The front side includes an image of the bold architecture of the Terra Sustainability,…",
+    "The reverse side highlights the Museum of the Future in Dubai, an image of iconic…"
+   ]
+  ],
+  "map": [
+   "784"
+  ],
+  "code": "AE",
+  "partial": true
+ },
+ {
+  "iso": "QA",
+  "country": "Qatar",
+  "cur": "Qatari riyal",
+  "sym": "﷼",
+  "issuer": "",
+  "region": "Middle East",
+  "series": "Current notes",
+  "year": 2020,
+  "mat": "Paper",
+  "notes": [
+   [
+    1,
+    "#6ab464",
+    "Traditional geometric patterns, the State of Qatar flag, Qatari flora",
+    "Traditional Dhow and the Oyster and Pearl Monument"
+   ],
+   [
+    5,
+    "#b47264",
+    "Traditional geometric patterns, the State of Qatar flag, Qatari flora",
+    "Multicolor print., Traditional desert scene comprising fauna, flora and 'hair tent"
+   ],
+   [
+    10,
+    "#6394b4",
+    "Traditional geometric patterns, the State of Qatar flag, Qatari flora",
+    "Lusail Stadium, Torch Tower, Sidra Medicine and Education City"
+   ],
+   [
+    50,
+    "#b4647a",
+    "Traditional geometric patterns, the State of Qatar flag, Qatari flora and an ornate gate…",
+    "Qatar Central Bank building and Ministry of Finance building"
+   ],
+   [
+    100,
+    "#5da8b1",
+    "Traditional geometric patterns, the State of Qatar flag, Qatari flora",
+    "Abu Al Qubaib Mosque"
+   ],
+   [
+    200,
+    "#c38654",
+    "Traditional geometric patterns, the State of Qatar flag, Qatari flora and an ornate gate…",
+    "Palace of Sheikh Abdullah bin Jassim Al Thani, Qatar National Museum and Museum of…"
+   ],
+   [
+    500,
+    "#7a54ad",
+    "Traditional geometric patterns, the State of Qatar flag, Qatari flora and an ornate gate…",
+    "Multicolor printed., Ras Laffan LNG refinery and LNG canter ship"
+   ]
+  ],
+  "map": [
+   "634"
+  ],
+  "code": "QA"
+ },
+ {
+  "iso": "KW",
+  "country": "Kuwait",
+  "cur": "Kuwaiti dinar",
+  "sym": "د.ك",
+  "issuer": "",
+  "region": "Middle East",
+  "series": "Current notes",
+  "year": 2014,
+  "mat": "Paper",
+  "notes": [
+   [
+    5,
+    "#6e64b4",
+    "Central bank of Kuwait headquarters, arms, dhow",
+    "Oil tanker, refinery"
+   ],
+   [
+    20,
+    "#61acb3",
+    "Seif palace, arms, dhow",
+    "Pearl diver, oyster, dhow"
+   ]
+  ],
+  "map": [
+   "414"
+  ],
+  "code": "KW",
+  "partial": true
+ },
+ {
+  "iso": "OM",
+  "country": "Oman",
+  "cur": "Omani rial",
+  "sym": "﷼",
+  "issuer": "",
+  "region": "Middle East",
+  "series": "Current notes",
+  "year": 2020,
+  "mat": "Paper",
+  "notes": [
+   [
+    1,
+    "#bb5d64",
+    "Oman Across Ages Museum, in Nizwa",
+    "Red and green print., Khasab Castle - Musandan, Wadi Ain Cemetery - Ibri, khanjar Omani…"
+   ],
+   [
+    5,
+    "#b46488",
+    "Omani national emblem at top-left corner",
+    "Royal Opera House, Muscat"
+   ],
+   [
+    10,
+    "#af805a",
+    "Multicolor print., Sultan Haitham ibn Tariq ibn Taymur as-Sa'id",
+    "Multicolour print., Al Baleed Archeological Park"
+   ],
+   [
+    20,
+    "#7f8579",
+    "Blue and multicolor., Sultan Haitham ibn Tariq ibn Taymur as-Sa'id",
+    "Multicolour print, Batinah Expressway"
+   ],
+   [
+    100,
+    "#b48764",
+    "Brown, yellow and multicolor., Green terraces of Jabal al-Akhdar, Coat of arms of Oman",
+    "Coconut trees, Falaj"
+   ]
+  ],
+  "map": [
+   "512"
+  ],
+  "code": "OM"
+ },
+ {
+  "iso": "JO",
+  "country": "Jordan",
+  "cur": "Jordanian dinar",
+  "sym": "JD",
+  "issuer": "",
+  "region": "Middle East",
+  "series": "Current notes",
+  "year": 2002,
+  "mat": "Paper",
+  "notes": [
+   [
+    1,
+    "#9db260",
+    "Sherif Hussain ibn Ali",
+    "Great Arab Revolt scene"
+   ],
+   [
+    5,
+    "#bf7e58",
+    "Portrait King Abdullah bin Hussein",
+    "Ma'an palace"
+   ],
+   [
+    10,
+    "#6488b4",
+    "King Talal Ibn Abdullah",
+    "Camels at Petra"
+   ],
+   [
+    20,
+    "#5093a6",
+    "King Hussein at Right., Middle: The King Abdullah I Mosque in Amman, Jordan",
+    "Dome of the Rock, Jerusalem, Part of Masjid-ul-Aqsa can be seen"
+   ]
+  ],
+  "map": [
+   "400"
+  ],
+  "code": "JO"
+ },
+ {
+  "iso": "LB",
+  "country": "Lebanon",
+  "cur": "Lebanese pound",
+  "sym": "ل.ل",
+  "issuer": "",
+  "region": "Middle East",
+  "series": "Current notes",
+  "year": 2023,
+  "mat": "Paper",
+  "notes": [
+   [
+    100000,
+    "#74b464",
+    "—",
+    "Bunch of grapes, ears of wheat, and a spindle of thread"
+   ]
+  ],
+  "map": [
+   "422"
+  ],
+  "code": "LB",
+  "partial": true
+ },
+ {
+  "iso": "SY",
+  "country": "Syria",
+  "cur": "Syrian pound",
+  "sym": "£S",
+  "issuer": "",
+  "region": "Middle East",
+  "series": "Current notes",
+  "year": 2019,
+  "mat": "Paper",
+  "notes": [
+   [
+    5000,
+    "#b48864",
+    "Syrian soldier saluting next to the Flag of Syria",
+    "Fresco from the Baalshamin Temple and roman amphitheater in the ancient city of Palmyra"
+   ]
+  ],
+  "map": [
+   "760"
+  ],
+  "code": "SY",
+  "partial": true
+ },
+ {
+  "iso": "EG",
+  "country": "Egypt",
+  "cur": "Egyptian pound",
+  "sym": "E£",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2023,
+  "mat": "Paper & polymer",
+  "notes": [
+   [
+    1,
+    "#b47d64",
+    "Sultan Qaitbay mosque",
+    "At the center left the main entrance to the Great Temple at Abu Simbel"
+   ],
+   [
+    5,
+    "#64b4b0",
+    "Ahmed bin Tolon Mosque",
+    "Pharonic scenes depicting the Nile God and Egyptian workers farming and fishing"
+   ],
+   [
+    10,
+    "#6495b4",
+    "Al-Rifa'i Mosque is located in Midan al-Qal'a, adjacent to the Cairo Citadel",
+    "The side view of statue of Pharaoh Khafre., This statue, often referred to as “Khafre…"
+   ],
+   [
+    20,
+    "#5fb2a4",
+    "The Great Mosque of Muhammad Ali Pasha or Alabaster Mosque is a mosque situated in the…",
+    "Queen Cleopatra, Great Pyramid of Giza, Ramses II in war chariot, papyrus"
+   ],
+   [
+    50,
+    "#a75450",
+    "Multicolour print and background., Abu Hariba Mosque",
+    "Maroon print on multicoloured background., Nile boat"
+   ],
+   [
+    100,
+    "#8fae57",
+    "Sultan Hassan mosque",
+    "Sphinx"
+   ],
+   [
+    200,
+    "#b47964",
+    "Qani-Bay Mosque Al-Rammah",
+    "The Seated Scribe"
+   ]
+  ],
+  "map": [
+   "818"
+  ],
+  "code": "EG"
+ },
+ {
+  "iso": "MA",
+  "country": "Morocco",
+  "cur": "Moroccan dirham",
+  "sym": "DH",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2023,
+  "mat": "Paper",
+  "notes": [
+   [
+    20,
+    "#9c64b4",
+    "King Mohammed VI, Coat of Arms of Morocco, Architectural Details inspired from Moroccan…",
+    "Artistic representation of :, - The Great Theatre of Rabat, - Mohammed VI Museum of…"
+   ],
+   [
+    50,
+    "#64b465",
+    "King Mohammed VI, Coat of Arms of Morocco, Architectural Details inspired from Moroccan…",
+    "Stylized views of :, - NOOR solar power plant in Ouarzazate, - Wind turbines, - Ouirgane…"
+   ],
+   [
+    100,
+    "#b68862",
+    "King Mohammed VI, Coat of Arms of Morocco, Architectural Details inspired from Moroccan…",
+    "Stylized view of \"Mechouar Square\" in Laayoune and Tiznit Dakhla expressway., Tan-Tan…"
+   ],
+   [
+    200,
+    "#647eb4",
+    "King Mohammed VI",
+    "Stylized views of \"Mohammed VI\" tower and on the international aiport of \"Marrakesh…"
+   ]
+  ],
+  "map": [
+   "504"
+  ],
+  "code": "MA"
+ },
+ {
+  "iso": "TN",
+  "country": "Tunisia",
+  "cur": "Tunisian dinar",
+  "sym": "DT",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2020,
+  "mat": "Paper",
+  "notes": [
+   [
+    10,
+    "#64a2b4",
+    "Blue",
+    "Berbere Pottery & Jewelry"
+   ]
+  ],
+  "map": [
+   "788"
+  ],
+  "code": "TN",
+  "partial": true
+ },
+ {
+  "iso": "NG",
+  "country": "Nigeria",
+  "cur": "Nigerian naira",
+  "sym": "₦",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2022,
+  "mat": "Paper & polymer",
+  "notes": [
+   [
+    5,
+    "#b48764",
+    "Alhaji Sir Abubakar Tafawa Balewa",
+    "Nkpokiti dancers with drums"
+   ],
+   [
+    10,
+    "#ba7f5e",
+    "Dr",
+    "Fulani milk maids"
+   ],
+   [
+    20,
+    "#458a90",
+    "General Murtala R",
+    "Ladi Kwali, a famous potter"
+   ],
+   [
+    50,
+    "#6191b3",
+    "Nigerians, varied citizenry",
+    "Fishermen with big catch"
+   ],
+   [
+    100,
+    "#b47064",
+    "Black serial numbers",
+    "Zuma Rock in Niger"
+   ],
+   [
+    200,
+    "#b4646e",
+    "Black serial numbers and signatures",
+    "Cattle and agricultural products"
+   ],
+   [
+    500,
+    "#45904f",
+    "Dr",
+    "Offshore oil rig platform"
+   ],
+   [
+    1000,
+    "#648db4",
+    "Portraits of Alhaji Aliyu Mai-Bornu and Dr",
+    "Central Bank of Nigeria - Abuja / Chappal Waddi - highest mont in the country"
+   ]
+  ],
+  "map": [
+   "566"
+  ],
+  "code": "NG"
+ },
+ {
+  "iso": "ET",
+  "country": "Ethiopia",
+  "cur": "Ethiopian birr",
+  "sym": "Br",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2020,
+  "mat": "Paper",
+  "notes": [
+   [
+    10,
+    "#82b464",
+    "Lion",
+    "Two couples"
+   ],
+   [
+    50,
+    "#b46469",
+    "Tractor plowing the land / Lion of Judah roaring and map of Ethiopia in the background",
+    "Industrial plant with three chimneys"
+   ],
+   [
+    100,
+    "#6490b4",
+    "Emperor Fasilides’ castle in Gondar, Amhara region",
+    "Sof Omar Cave in Bale Mountains National Park in Bale Province"
+   ],
+   [
+    200,
+    "#a34e97",
+    "Peace dove in centre, lion head",
+    "Nubian ibex in mountainous landscape"
+   ]
+  ],
+  "map": [
+   "231"
+  ],
+  "code": "ET"
+ },
+ {
+  "iso": "TZ",
+  "country": "Tanzania",
+  "cur": "Tanzanian shilling",
+  "sym": "TSh",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2010,
+  "mat": "Paper",
+  "notes": [
+   [
+    1000,
+    "#649fb4",
+    "Front facing bust of president Julius Kambarage Nyerere",
+    "State House building"
+   ],
+   [
+    2000,
+    "#b47064",
+    "Lion's head facing towards left",
+    "View of Ngome Kongwe Fortress in Zanzibar"
+   ],
+   [
+    5000,
+    "#775eb1",
+    "Rhinoceros head towards left",
+    "—"
+   ],
+   [
+    10000,
+    "#bf5869",
+    "Elephant head towards left",
+    "Bank of Tanzania building"
+   ]
+  ],
+  "map": [
+   "834"
+  ],
+  "code": "TZ"
+ },
+ {
+  "iso": "UG",
+  "country": "Uganda",
+  "cur": "Ugandan shilling",
+  "sym": "USh",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2010,
+  "mat": "Paper",
+  "notes": [
+   [
+    5000,
+    "#81b261",
+    "Multiple shades of green coloring, World War II monument",
+    "Multiple shades of green coloring, Border map of Uganda, Nature scene, bird nest, Wooden…"
+   ],
+   [
+    10000,
+    "#b46485",
+    "Statue",
+    "Border map of Uganda"
+   ]
+  ],
+  "map": [
+   "800"
+  ],
+  "code": "UG",
+  "partial": true
+ },
+ {
+  "iso": "BI",
+  "country": "Burundi",
+  "cur": "Burundian franc",
+  "sym": "FBu",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2021,
+  "mat": "Paper",
+  "notes": [
+   [
+    500,
+    "#c79050",
+    "Coffee (Coffea sp",
+    "Map of Burundi with boat on Lake Tanganyika"
+   ],
+   [
+    1000,
+    "#92b464",
+    "Two cows",
+    "Map of Burundi with banana plants (Musa sp"
+   ],
+   [
+    2000,
+    "#b46477",
+    "Pineapple plant and fruit",
+    "Map of Burundi with man harvesting tea"
+   ]
+  ],
+  "map": [
+   "108"
+  ],
+  "code": "BI",
+  "partial": true
+ },
+ {
+  "iso": "CD",
+  "country": "DR Congo",
+  "cur": "Congolese franc",
+  "sym": "FC",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2007,
+  "mat": "Paper",
+  "notes": [
+   [
+    50,
+    "#b46c64",
+    "Tshokwe female mask \"Mwana Pwo\"",
+    "Fishermen village on Congo river"
+   ],
+   [
+    200,
+    "#b46486",
+    "Male fieldworker",
+    "Telegraphic gong drummers"
+   ],
+   [
+    500,
+    "#599daf",
+    "Miners and diamond",
+    "—"
+   ],
+   [
+    1000,
+    "#85b464",
+    "Okapi, Kanioka box",
+    "Parrot, yellow corn"
+   ],
+   [
+    5000,
+    "#b68161",
+    "Zebras in the center, hemba statuette",
+    "Food packages and two Congo peacock birds"
+   ],
+   [
+    10000,
+    "#6e4c9f",
+    "Two water buffalos and statue",
+    "Bird and banana trees"
+   ],
+   [
+    20000,
+    "#b7a361",
+    "Two giraffes and carved head",
+    "Palm trees, date clusters and two crowned cranes"
+   ]
+  ],
+  "map": [
+   "180"
+  ],
+  "code": "CD"
+ },
+ {
+  "iso": "AO",
+  "country": "Angola",
+  "cur": "Angolan kwanza",
+  "sym": "Kz",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2020,
+  "mat": "Paper & polymer",
+  "notes": [
+   [
+    200,
+    "#6493b4",
+    "Dr",
+    "Piedras Negras de Punduandongo in Malanje, Denomination lower left, National Coat of Arms…"
+   ],
+   [
+    500,
+    "#b48264",
+    "Dr",
+    "Gap of Tundavala in Huila, Denomination lower left, National Coat of Arms lower right"
+   ],
+   [
+    1000,
+    "#b4648a",
+    "Dr",
+    "Luvili Peak in Huambo, Denomination lower left, National Coat of Arms lower roght"
+   ],
+   [
+    2000,
+    "#8c8f7f",
+    "Dr",
+    "The Mountain range Serra da Leba in Namibe province, Denomination lower left, National…"
+   ],
+   [
+    5000,
+    "#b49964",
+    "Dr",
+    "Ruins of the old Kulumbimbi cathedral Mbanza Kongo, Denomination lower left, National…"
+   ]
+  ],
+  "map": [
+   "024"
+  ],
+  "code": "AO"
+ },
+ {
+  "iso": "ZM",
+  "country": "Zambia",
+  "cur": "Zambian kwacha",
+  "sym": "K",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2018,
+  "mat": "Paper",
+  "notes": [
+   [
+    2,
+    "#b48664",
+    "Fish eagle",
+    "Roan antelope"
+   ],
+   [
+    5,
+    "#b4646e",
+    "African Fish Eagle / Mopani tree",
+    "African Lion / Cassava plant and its root"
+   ],
+   [
+    10,
+    "#84948d",
+    "Eagle, Tree",
+    "Porcupine, Farmers, Liberty Monument"
+   ],
+   [
+    20,
+    "#b47464",
+    "Eagle, Tree",
+    "Antelope, workers, Liberty Monument"
+   ],
+   [
+    50,
+    "#8d8e89",
+    "Eagle, Tree",
+    "Leopard, bank of Zambia building, Liberty monument"
+   ],
+   [
+    100,
+    "#b49664",
+    "Fish eagle, tree",
+    "Cape Buffalo, National Assembly, Liberty monument"
+   ]
+  ],
+  "map": [
+   "894"
+  ],
+  "code": "ZM"
+ },
+ {
+  "iso": "ZW",
+  "country": "Zimbabwe",
+  "cur": "Zimbabwe Gold (ZiG)",
+  "sym": "ZiG",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2026,
+  "mat": "Paper",
+  "notes": [
+   [
+    10,
+    "#ba5d60",
+    "Zimbabwe bird on star as registration device",
+    "Gold bars"
+   ],
+   [
+    20,
+    "#c08958",
+    "Zimbabwe bird on star as registration device",
+    "Gold bars"
+   ],
+   [
+    50,
+    "#97b860",
+    "Zimbabwe bird on star as registration device",
+    "Gold bars in gold-to-green ColorShift"
+   ],
+   [
+    100,
+    "#b49964",
+    "Chiremba Balancing Rocks in Matopos National Park",
+    "The Big Baobab Tree at Victoria Falls, and The conical tower inside the Great Enclosure…"
+   ]
+  ],
+  "map": [
+   "716"
+  ],
+  "code": "ZW"
+ },
+ {
+  "iso": "MW",
+  "country": "Malawi",
+  "cur": "Malawian kwacha",
+  "sym": "MK",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2021,
+  "mat": "Paper",
+  "notes": [
+   [
+    20,
+    "#ad5572",
+    "Reserve Bank of Malawi headquarters in Lilongwe",
+    "Machinga Teacher's Training College"
+   ],
+   [
+    50,
+    "#64b49f",
+    "Fishermen in boat",
+    "Elephants, tree and safari vehicle in Kasungu National Park"
+   ],
+   [
+    100,
+    "#b56368",
+    "Effigy of James Frederick Sangala",
+    "College of Medicine in Blantyre"
+   ],
+   [
+    200,
+    "#649eb4",
+    "Reserve Bank of Malawi headquarters building in Lilongwe",
+    "New Parliament building in Lilongwe"
+   ],
+   [
+    500,
+    "#b58163",
+    "Reserve Bank of Malawi, Reverend John Chilembwe",
+    "Mulunguzi Dam, faucet"
+   ],
+   [
+    1000,
+    "#9fb464",
+    "Reserve Bank of Malawi headquarters building in Lilongwe",
+    "Mzuzu maize silos"
+   ],
+   [
+    2000,
+    "#b89f5f",
+    "Reverend John Chilembwe",
+    "Malawi University of Science and Technology, Thyolo District"
+   ],
+   [
+    5000,
+    "#b49464",
+    "Dr",
+    "Reserve Bank of Malawi headquarters in Blantyre and outline of the country"
+   ]
+  ],
+  "map": [
+   "454"
+  ],
+  "code": "MW"
+ },
+ {
+  "iso": "BW",
+  "country": "Botswana",
+  "cur": "Botswana pula",
+  "sym": "P",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2020,
+  "mat": "Polymer",
+  "notes": [
+   [
+    10,
+    "#94b464",
+    "President Mokgweetsi Masisi, Coat of arms of Botswana",
+    "Parliament building, Gaborone"
+   ]
+  ],
+  "map": [
+   "072"
+  ],
+  "code": "BW",
+  "partial": true
+ },
+ {
+  "iso": "NA",
+  "country": "Namibia",
+  "cur": "Namibian dollar",
+  "sym": "N$",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2025,
+  "mat": "Paper",
+  "notes": [
+   [
+    10,
+    "#649db4",
+    "English text",
+    "English text"
+   ],
+   [
+    20,
+    "#b57b62",
+    "English text",
+    "English text"
+   ],
+   [
+    50,
+    "#8db464",
+    "English text",
+    "English text"
+   ],
+   [
+    100,
+    "#bf5968",
+    "Hendrik Witbooi",
+    "Three Orix in the center"
+   ],
+   [
+    200,
+    "#b47d64",
+    "Kaptein Hendrik Witbooi",
+    "Three standing roan antelope"
+   ]
+  ],
+  "map": [
+   "516"
+  ],
+  "code": "NA"
+ },
+ {
+  "iso": "SZ",
+  "country": "Eswatini",
+  "cur": "Swazi lilangeni",
+  "sym": "E",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2023,
+  "mat": "Paper",
+  "notes": [
+   [
+    200,
+    "#b48064",
+    "Orange",
+    "English text"
+   ]
+  ],
+  "map": [
+   "748"
+  ],
+  "code": "SZ",
+  "partial": true
+ },
+ {
+  "iso": "MG",
+  "country": "Madagascar",
+  "cur": "Malagasy ariary",
+  "sym": "Ar",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2017,
+  "mat": "Paper",
+  "notes": [
+   [
+    500,
+    "#bd945b",
+    "Royal Hill of Ambohimanga, Antananarivo",
+    "Tsingy Rouge, a stone formation of red laterite formed by erosion of the Irodo River in…"
+   ],
+   [
+    2000,
+    "#b69f61",
+    "Lemur",
+    "Carnivorous plant"
+   ]
+  ],
+  "map": [
+   "450"
+  ],
+  "code": "MG",
+  "partial": true
+ },
+ {
+  "iso": "MU",
+  "country": "Mauritius",
+  "cur": "Mauritian rupee",
+  "sym": "₨",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2013,
+  "mat": "Paper & polymer",
+  "notes": [
+   [
+    25,
+    "#b48364",
+    "Coat of arms, Sir Moilin, Jean ah-Chuen",
+    "Building façade"
+   ],
+   [
+    100,
+    "#b47364",
+    "Renganaden Seeneevassen",
+    "Supreme Court House in Port Louis"
+   ],
+   [
+    200,
+    "#898b77",
+    "Hologram on top right",
+    "Scene of people shopping in Central Market in Port Louis"
+   ],
+   [
+    500,
+    "#b48564",
+    "Sookdeo Bissondoyal",
+    "Building of the University of Mauritius"
+   ],
+   [
+    1000,
+    "#b46474",
+    "Sir Charles Gaetan Duval",
+    "The State Chateau de Reduit – the official residence of the president of Mauritius"
+   ]
+  ],
+  "map": [
+   "480"
+  ],
+  "code": "MU"
+ },
+ {
+  "iso": "SD",
+  "country": "Sudan",
+  "cur": "Sudanese pound",
+  "sym": "£SD",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2019,
+  "mat": "Paper",
+  "notes": [
+   [
+    1000,
+    "#64a7b4",
+    "Grain silos",
+    "Sorghum plant, waterfall, farmers plowing field with cattle"
+   ]
+  ],
+  "map": [
+   "729"
+  ],
+  "code": "SD",
+  "partial": true
+ },
+ {
+  "iso": "SS",
+  "country": "South Sudan",
+  "cur": "South Sudanese pound",
+  "sym": "SSP",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2020,
+  "mat": "Paper",
+  "notes": [
+   [
+    500,
+    "#aca652",
+    "Dr",
+    "River Nile"
+   ],
+   [
+    1000,
+    "#b4646e",
+    "Dr",
+    "There are two ostriches"
+   ]
+  ],
+  "map": [
+   "728"
+  ],
+  "code": "SS",
+  "partial": true
+ },
+ {
+  "iso": "GM",
+  "country": "Gambia",
+  "cur": "Gambian dalasi",
+  "sym": "D",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2019,
+  "mat": "Paper",
+  "notes": [
+   [
+    5,
+    "#bd5b5f",
+    "Giant kingfisher",
+    "Cattle"
+   ],
+   [
+    10,
+    "#73b260",
+    "Pigeon",
+    "Ferry Kinta Kinteh"
+   ],
+   [
+    20,
+    "#6196b7",
+    "Bird",
+    "Men working on milling machine"
+   ],
+   [
+    50,
+    "#8957ae",
+    "Bird Eagle, Coat of arms of the Gambia",
+    "Wassu stone circles"
+   ],
+   [
+    100,
+    "#4fa5a3",
+    "Black Crowned Crane, Coat of arms of The Gambia",
+    "Men fishing in small boat"
+   ],
+   [
+    200,
+    "#bf6c59",
+    "Bush Fowl bird, Coat of arms of The Gambia",
+    "Men planting rice in field"
+   ]
+  ],
+  "map": [
+   "270"
+  ],
+  "code": "GM"
+ },
+ {
+  "iso": "GN",
+  "country": "Guinea",
+  "cur": "Guinean franc",
+  "sym": "FG",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2018,
+  "mat": "Paper",
+  "notes": [
+   [
+    10000,
+    "#ba6d5d",
+    "Young male head at Left",
+    "Map at top left side"
+   ],
+   [
+    20000,
+    "#6499b4",
+    "On the left, portrait of smiling Guinean woman and two doves",
+    "Kaleta Hydropower Plant located in the Konkoure River, Western Guinea"
+   ]
+  ],
+  "map": [
+   "324"
+  ],
+  "code": "GN",
+  "partial": true
+ },
+ {
+  "iso": "SL",
+  "country": "Sierra Leone",
+  "cur": "Sierra Leonean leone",
+  "sym": "Le",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2010,
+  "mat": "Paper",
+  "notes": [
+   [
+    1000,
+    "#b47064",
+    "Multicolour print., Bai Bureh",
+    "Multicolour print, Satellite dish"
+   ],
+   [
+    2000,
+    "#b47964",
+    "Isaac Theophilus Akunna Wallace-Johnson, cargo ship, Coat of arms of Sierra Leone",
+    "Bank of Sierra Leone building, Freetown"
+   ],
+   [
+    5000,
+    "#664693",
+    "Multicolour print., Sengbe Pieh",
+    "Multicolour print., Bumbuna Dam"
+   ],
+   [
+    10000,
+    "#64b46f",
+    "Dove flying over the map of Sierra Leone, Flag of Sierra Leone",
+    "Multicolur print., White silk-cotton tree"
+   ]
+  ],
+  "map": [
+   "694"
+  ],
+  "code": "SL"
+ },
+ {
+  "iso": "LR",
+  "country": "Liberia",
+  "cur": "Liberian dollar",
+  "sym": "L$",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2016,
+  "mat": "Paper",
+  "notes": [
+   [
+    500,
+    "#4d54a1",
+    "Men and a woman",
+    "Hippopotamus and its child and the Seal of the Central Bank of Liberia"
+   ]
+  ],
+  "map": [
+   "430"
+  ],
+  "code": "LR",
+  "partial": true
+ },
+ {
+  "iso": "ST",
+  "country": "São Tomé and Príncipe",
+  "cur": "São Tomé dobra",
+  "sym": "Db",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2020,
+  "mat": "Paper",
+  "notes": [
+   [
+    5,
+    "#af8b5a",
+    "Butterfly / Central Bank building, coat of arms of Republic of São Tomé and Príncipe",
+    "Musaranho-fingui / Map of São Tomé and Príncipe, butterflies"
+   ],
+   [
+    10,
+    "#b77660",
+    "Arms, Acraea niobe butterfly, Banco Central building",
+    "Map of country lower center"
+   ],
+   [
+    200,
+    "#4f8aa5",
+    "Rei Amador",
+    "Map of São Tomé and Príncipe, chibi-ficha Príncipe sunbird"
+   ]
+  ],
+  "map": [
+   "678"
+  ],
+  "code": "ST",
+  "partial": true
+ },
+ {
+  "iso": "MR",
+  "country": "Mauritania",
+  "cur": "Mauritanian ouguiya",
+  "sym": "UM",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2020,
+  "mat": "Polymer",
+  "notes": [
+   [
+    20,
+    "#b46c64",
+    "The Great Mosque of Gataga in Kaédi, Star and crescent moon",
+    "Geological wonder of Guelb Errichât"
+   ],
+   [
+    100,
+    "#77ac53",
+    "The Grand Mosque of Oualata, Mauritania",
+    "Crescent, Cattle, and Open book in see through window"
+   ],
+   [
+    500,
+    "#5fa8b2",
+    "Tichit Mosque",
+    "Trawlers, fish"
+   ]
+  ],
+  "map": [
+   "478"
+  ],
+  "code": "MR",
+  "partial": true
+ },
+ {
+  "iso": "KM",
+  "country": "Comoros",
+  "cur": "Comorian franc",
+  "sym": "CF",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2006,
+  "mat": "Paper",
+  "notes": [
+   [
+    500,
+    "#c16856",
+    "Pink, green, and multicolor",
+    "Group of orchids and a poem in French"
+   ],
+   [
+    1000,
+    "#6295b3",
+    "Blue and multicolor banknote",
+    "A man in a pirogue boat and a poem in French"
+   ],
+   [
+    2000,
+    "#88b464",
+    "Green and multicolor., At upper middle - The mausoleum of first president Ahmed Abdallah…",
+    "Palm trees, thatched and clay huts in Mohéli"
+   ],
+   [
+    5000,
+    "#b4647c",
+    "Saïd Mohamed Cheikh",
+    "Mature tree near the beach, Excerpt from the poem 'Destinée' by Mbaye Trambwe,…"
+   ]
+  ],
+  "map": [
+   "174"
+  ],
+  "code": "KM"
+ },
+ {
+  "iso": "FJ",
+  "country": "Fiji",
+  "cur": "Fijian dollar",
+  "sym": "FJ$",
+  "issuer": "",
+  "region": "Oceania",
+  "series": "Current notes",
+  "year": 2026,
+  "mat": "Polymer",
+  "notes": [
+   [
+    5,
+    "#95b464",
+    "Black, vertical serial number",
+    "Multicoloured"
+   ],
+   [
+    10,
+    "#7464b4",
+    "Blue and purple",
+    "Multicoloured., Tree boys planting mangrove"
+   ],
+   [
+    20,
+    "#639fb5",
+    "Blue",
+    "Multicoloured., Bank of Fiji building"
+   ],
+   [
+    50,
+    "#ba755d",
+    "Orange and red",
+    "Orange., Seated Girmitiya woman, facing front-left"
+   ],
+   [
+    100,
+    "#b49764",
+    "Yellow and black",
+    "Yellow and multicloured., Front-facing man performing Fijian kava ceremony"
+   ]
+  ],
+  "map": [
+   "242"
+  ],
+  "code": "FJ"
+ },
+ {
+  "iso": "PG",
+  "country": "Papua New Guinea",
+  "cur": "Papua New Guinean kina",
+  "sym": "K",
+  "issuer": "",
+  "region": "Oceania",
+  "series": "Current notes",
+  "year": 2021,
+  "mat": "Polymer",
+  "notes": [
+   [
+    2,
+    "#68b464",
+    "Coat of arms of Papua New Guinea at upper left, Parliament building in Port Moresby",
+    "A Mount Hagen axe, a kula arm band from Milne Bay, engraved dogs' teeth from…"
+   ],
+   [
+    10,
+    "#859384",
+    "The main design elements on the front are the Parliament House and the National Crest of…",
+    "The main design elements on the back are a Tami Bowl, Bird of Paradise feathers, a…"
+   ],
+   [
+    100,
+    "#b4a464",
+    "Parliament building, Port Moresby",
+    "Coffee Beans & Cardamom Seeds & A Coconut Tree,Fishes, Timber,Cargo Ship carrying…"
+   ]
+  ],
+  "map": [
+   "598"
+  ],
+  "code": "PG",
+  "partial": true
  }
 ]

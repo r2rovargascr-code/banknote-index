@@ -133,14 +133,22 @@ nav button.star{color:var(--acc)}
 #viewer{position:fixed;inset:0;background:rgba(0,0,0,.94);z-index:100;display:none;flex-direction:column;align-items:center;justify-content:center;padding:20px}
 #viewer.on{display:flex}
 #viewer .stage{flex:1;width:100%;display:flex;align-items:center;justify-content:center;overflow:hidden}
-#viewer img,#viewer .tile{max-width:92vw;max-height:78vh;transition:transform .35s ease;object-fit:contain}
+#viewer .vcard{perspective:2000px;transition:transform .45s ease}
+#viewer.rot .vcard{transform:rotate(-90deg)}
+#viewer .vflip{position:relative;transition:transform .7s cubic-bezier(.3,.7,.3,1);transform-style:preserve-3d}
+#viewer.back .vflip{transform:rotateY(180deg)}
+#viewer .vflip>*{backface-visibility:hidden;-webkit-backface-visibility:hidden;display:block}
+#viewer .vflip>*:last-child{position:absolute;inset:0;transform:rotateY(180deg);width:100%;height:100%}
+#viewer img,#viewer .tile{max-width:92vw;max-height:76vh;object-fit:contain}
 #viewer .tile{width:min(92vw,900px)}
-#viewer.rot img,#viewer.rot .tile{transform:rotate(-90deg);max-width:78vh;max-height:92vw}
+#viewer.rot img,#viewer.rot .tile{max-width:76vh;max-height:88vw}
 #viewer .bar2{display:flex;gap:10px;align-items:center;padding:16px 0 4px;flex-wrap:wrap;justify-content:center}
 #viewer .bar2 button{border:1px solid #333;border-radius:999px;padding:8px 18px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#ddd}
 #viewer .bar2 button:hover{border-color:#777;color:#fff}
 #viewer .cap{color:var(--mute);font-size:12px;letter-spacing:.06em;margin-right:6px}
 #viewer .x{position:absolute;top:16px;right:22px;font-size:26px;font-weight:200;color:#aaa}
+.bigbtn{display:block;margin-top:34px;text-align:center;padding:20px 24px;border:1px solid var(--acc);border-radius:10px;color:var(--acc);text-decoration:none;font-size:15px;letter-spacing:.24em;text-transform:uppercase}
+.bigbtn:hover{background:var(--acc);color:#000}
 footer{border-top:1px solid var(--line);padding:24px 28px 36px;color:#666;font-size:11.5px;line-height:1.8}
 @media (max-width:760px){.key{width:30px;height:38px;padding-left:9px;font-size:15px}.kr{gap:6px}.kb{gap:8px}.boty{grid-template-columns:1fr}.lrow{grid-template-columns:1fr}header{padding:0 12px}.logo{display:none}}
 </style>
@@ -293,7 +301,7 @@ async function renderMap(){
   let topo;try{topo=await (await fetch("world.json")).json()}catch(e){$("#mapbox").insertAdjacentHTML("beforeend",'<p style="color:#666">Map data could not load.</p>');return}
   const feats=topojson.feature(topo,topo.objects.countries).features.filter(f=>f.id!=="010");
   const proj=d3.geoMiller().fitExtent([[6,6],[W-6,H-6]],{type:"FeatureCollection",features:feats}),path=d3.geoPath(proj);
-  const byNum={};D.forEach(c=>{if(NUM[c.iso])byNum[NUM[c.iso]]=c});const sl=D.find(c=>c.code==="SLS");feats.forEach(f=>{if(f.properties.name==="Somaliland"){f.id="SL-x";byNum["SL-x"]=sl}});const eur=D.find(c=>c.code==="EUR");EURO.forEach(n=>byNum[n]=eur);Object.entries(EXTRA_IDS).forEach(([id,code])=>byNum[id]=D.find(c=>c.code===code));
+  const byNum={};D.forEach(c=>{if(NUM[c.iso])byNum[NUM[c.iso]]=c;(c.map||[]).forEach(id=>byNum[id]=c)});const sl=D.find(c=>c.code==="SLS");feats.forEach(f=>{if(f.properties.name==="Somaliland"){f.id="SL-x";byNum["SL-x"]=sl}});const eur=D.find(c=>c.code==="EUR");EURO.forEach(n=>byNum[n]=eur);Object.entries(EXTRA_IDS).forEach(([id,code])=>byNum[id]=D.find(c=>c.code===code));
   const tip=$("#tip"),box=$("#mapbox");
   svg.append("g").selectAll("path").data(feats).join("path")
     .attr("d",path).attr("class",d=>"c"+(byNum[d.id]?" on":""))
@@ -322,7 +330,8 @@ function renderBoty(){
     <dt>Substrate</dt><dd>${esc(B.substrate)}</dd><dt>Printer</dt><dd>${esc(B.printer)}</dd><dt>Size</dt><dd>${esc(B.size)}</dd>
     <dt>Announced</dt><dd>${esc(B.announced)}</dd><dt>Ballot</dt><dd>${esc(B.nominees)}</dd>
     <dt>Runners-up</dt><dd>${B.runners.map(esc).join("<br>")}</dd></dl>
-    <div class="past"><div class="label" style="margin:0 0 6px">Previous winner</div>${B.past.map(p=>`<span>${p[0]}</span> &nbsp; ${esc(p[1])}`).join("<br>")}</div></div></div>`;
+    <div class="past"><div class="label" style="margin:0 0 6px">Previous winner</div>${B.past.map(p=>`<span>${p[0]}</span> &nbsp; ${esc(p[1])}`).join("<br>")}</div>
+    <a class="bigbtn" href="https://www.theibns.org/" target="_blank" rel="noopener">Visit the IBNS website →</a></div></div>`;
 }
 
 /* ---------- country ---------- */
@@ -334,10 +343,10 @@ function credit(c,n){const k=c.code+"-"+n[0],cr=CREDITS[k];if(!cr||!IMG[k])retur
 function renderCountry(c){
   const S=[...D].sort((a,b)=>a.country.localeCompare(b.country)),i=S.indexOf(c),p=S[(i-1+S.length)%S.length],nx=S[(i+1)%S.length];
   $("#cbox").innerHTML=`<button class="back" onclick="history.length>1?history.back():go('explore')">← Back</button>
-   <div class="chead"><div><h2>${flag(c.iso)} ${esc(c.country)}</h2><div class="sub">${esc(c.cur)} · ${c.code} · ${esc(c.issuer)}</div></div>
+   <div class="chead"><div><h2>${flag(c.iso)} ${esc(c.country)}</h2><div class="sub">${[c.cur,c.code.length===3?c.code:"",c.issuer].filter(Boolean).map(esc).join(" · ")}</div></div>
    <div style="display:flex;gap:8px"><button class="back" onclick="go('${p.code.toLowerCase()}')">← ${esc(p.country)}</button><button class="back" onclick="go('${nx.code.toLowerCase()}')">${esc(nx.country)} →</button></div></div>
    <div class="cfacts"><div><small>Series</small>${esc(c.series)}</div><div><small>Latest issue</small>${c.year}</div><div><small>Material</small>${esc(c.mat)}</div><div><small>Notes</small>${c.notes.length}</div></div>
-   ${c.upcoming?`<div class="msg"><b style="font-weight:400;color:#c9a36a">Upcoming</b> · ${esc(c.upcoming)}</div>`:""}${c.info?`<div class="msg i">${esc(c.info)}</div>`:""}
+   ${c.upcoming?`<div class="msg"><b style="font-weight:400;color:#c9a36a">Upcoming</b> · ${esc(c.upcoming)}</div>`:""}${c.info?`<div class="msg i">${esc(c.info)}</div>`:""}${c.partial?`<div class="msg i">Some of this country's notes are still being added.</div>`:""}
    <div class="notes">${c.notes.map(n=>`<div class="nb" role="button" tabindex="0"><div class="flip">${note(c,n,"f")}${note(c,n,"b")}</div>
      <h3>${esc(val(c,n))}<small>Tap to flip</small></h3><div class="nbtns"><button type="button" class="vb" data-d="${n[0]}">View larger</button></div><dl><dt>Front</dt><dd>${esc(n[2])}</dd><dt>Back</dt><dd>${esc(n[3])}</dd></dl>${credit(c,n)}</div>`).join("")}</div>`;
   document.querySelectorAll(".nb").forEach(b=>b.addEventListener("click",e=>{const v=e.target.closest(".vb");if(v){e.stopPropagation();openViewer(c,c.notes.find(n=>String(n[0])===v.dataset.d));return}b.classList.toggle("b")}));
@@ -345,12 +354,13 @@ function renderCountry(c){
 
 /* ---------- viewer ---------- */
 let V=null;
-function vDraw(){$("#vstage").innerHTML=note(V.c,V.n,V.side,"",true);$("#vcap").textContent=`${V.c.country} · ${val(V.c,V.n)} · ${V.side==="f"?"Front":"Back"}`;$("#viewer").classList.toggle("rot",V.rot)}
-function openViewer(c,n){V={c,n,side:"f",rot:false};vDraw();$("#viewer").classList.add("on")}
+function vCap(){$("#vcap").textContent=`${V.c.country} · ${val(V.c,V.n)} · ${V.side==="f"?"Front":"Back"}`}
+function vDraw(){$("#viewer").classList.toggle("rot",V.rot);$("#viewer").classList.toggle("back",V.side==="b");vCap()}
+function openViewer(c,n){V={c,n,side:"f",rot:false};$("#vstage").innerHTML=`<div class="vcard"><div class="vflip">${note(c,n,"f","",true)}${note(c,n,"b","",true)}</div></div>`;vDraw();$("#viewer").classList.add("on")}
 function closeViewer(){$("#viewer").classList.remove("on");V=null}
 function vFlip(){V.side=V.side==="f"?"b":"f";vDraw()}
 function vRot(){V.rot=!V.rot;vDraw()}
-$("#viewer").addEventListener("click",e=>{if(e.target.id==="viewer"||e.target.id==="vstage")closeViewer()});
+$("#viewer").addEventListener("click",e=>{if(e.target.closest(".vflip")){vFlip();return}if(e.target.id==="viewer"||e.target.id==="vstage")closeViewer()});
 document.addEventListener("keydown",e=>{if(!V)return;if(e.key==="Escape")closeViewer();if(e.key==="f")vFlip();if(e.key==="r")vRot()});
 
 /* ---------- routing ---------- */
