@@ -1,0 +1,2514 @@
+{
+ "USD-20": {
+  "id": 201837,
+  "title": "20 Dollars (Federal Reserve Note; colored)",
+  "url": "https://en.numista.com/201837",
+  "f": {
+   "author": "Daniel LeBowsky",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "Daniel LeBowsky",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "USD-50": {
+  "id": 201849,
+  "title": "50 Dollars (Federal Reserve Note; colored)",
+  "url": "https://en.numista.com/201849",
+  "f": {
+   "author": "agoodman",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en"
+  },
+  "b": {
+   "author": "agoodman",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "USD-100": {
+  "id": 201734,
+  "title": "100 Dollars (Federal Reserve Note; colored)",
+  "url": "https://en.numista.com/201734",
+  "f": {
+   "author": "agoodman",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en"
+  },
+  "b": {
+   "author": "agoodman",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "USD-2": {
+  "id": 201812,
+  "title": "2 Dollars (Federal Reserve Note)",
+  "url": "https://en.numista.com/201812",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "USD-5": {
+  "id": 201558,
+  "title": "5 Dollars (Federal Reserve Note; colored)",
+  "url": "https://en.numista.com/201558",
+  "f": {
+   "author": "Tanman2001",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "Tanman2001",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "USD-10": {
+  "id": 201824,
+  "title": "10 Dollars (Federal Reserve Note; colored)",
+  "url": "https://en.numista.com/201824",
+  "f": {
+   "author": "Brandon Bertolli",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "Brandon Bertolli",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "EUR-5": {
+  "id": 201658,
+  "title": "5 Euro (Europa Series)",
+  "url": "https://en.numista.com/201658",
+  "f": {
+   "author": "ECB",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "ECB",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "EUR-10": {
+  "id": 204879,
+  "title": "10 Euro (Europa Series)",
+  "url": "https://en.numista.com/204879",
+  "f": {
+   "author": "ECB",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "ECB",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "EUR-20": {
+  "id": 204877,
+  "title": "20 Euro (Europa Series)",
+  "url": "https://en.numista.com/204877",
+  "f": {
+   "author": "ECB",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "ECB",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "EUR-50": {
+  "id": 204874,
+  "title": "50 Euro (Europa Series)",
+  "url": "https://en.numista.com/204874",
+  "f": {
+   "author": "ECB",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "ECB",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "EUR-100": {
+  "id": 207796,
+  "title": "100 Euro (Europa Series)",
+  "url": "https://en.numista.com/207796",
+  "f": {
+   "author": "ECB",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "ECB",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "EUR-200": {
+  "id": 208216,
+  "title": "200 Euro (Europa Series)",
+  "url": "https://en.numista.com/208216",
+  "f": {
+   "author": "ECB",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "ECB",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "JPY-1000": {
+  "id": 385520,
+  "title": "1000 Yen",
+  "url": "https://en.numista.com/385520",
+  "f": {
+   "author": "akina1015",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "akina1015",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "JPY-5000": {
+  "id": 385523,
+  "title": "5000 Yen",
+  "url": "https://en.numista.com/385523",
+  "f": {
+   "author": "akina1015",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "akina1015",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "JPY-10000": {
+  "id": 385524,
+  "title": "10 000 Yen",
+  "url": "https://en.numista.com/385524",
+  "f": {
+   "author": "akina1015",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "akina1015",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "CNY-1": {
+  "id": 220873,
+  "title": "1 Yuan (enhanced security)",
+  "url": "https://en.numista.com/220873",
+  "f": {
+   "author": "Ivan Artamonov",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "Ivan Artamonov",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "CNY-5": {
+  "id": 243357,
+  "title": "5 Yuan (enhanced security)",
+  "url": "https://en.numista.com/243357",
+  "f": {
+   "author": "That0neZebra",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "b": {
+   "author": "That0neZebra",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "CNY-10": {
+  "id": 204747,
+  "title": "10 Yuan",
+  "url": "https://en.numista.com/204747",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "CNY-20": {
+  "id": 220875,
+  "title": "20 Yuan (enhanced security)",
+  "url": "https://en.numista.com/220875",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "CNY-50": {
+  "id": 223863,
+  "title": "50 Yuan (enhanced security)",
+  "url": "https://en.numista.com/223863",
+  "f": {
+   "author": "jerebe",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "jerebe",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "CNY-100": {
+  "id": 205868,
+  "title": "100 Yuan (enhanced security)",
+  "url": "https://en.numista.com/205868",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "CAD-5": {
+  "id": 201578,
+  "title": "5 Dollars",
+  "url": "https://en.numista.com/201578",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "CAD-10": {
+  "id": 201672,
+  "title": "10 Dollars",
+  "url": "https://en.numista.com/201672",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "CAD-20": {
+  "id": 201585,
+  "title": "20 Dollars",
+  "url": "https://en.numista.com/201585",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "CAD-50": {
+  "id": 201588,
+  "title": "50 Dollars",
+  "url": "https://en.numista.com/201588",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "CAD-100": {
+  "id": 201924,
+  "title": "100 Dollars",
+  "url": "https://en.numista.com/201924",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "AUD-5": {
+  "id": 202026,
+  "title": "5 Dollars - Elizabeth II",
+  "url": "https://en.numista.com/202026",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "AUD-10": {
+  "id": 202860,
+  "title": "10 Dollars",
+  "url": "https://en.numista.com/202860",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "AUD-20": {
+  "id": 202865,
+  "title": "20 Dollars",
+  "url": "https://en.numista.com/202865",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "AUD-50": {
+  "id": 202870,
+  "title": "50 Dollars",
+  "url": "https://en.numista.com/202870",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "AUD-100": {
+  "id": 239038,
+  "title": "100 Dollars",
+  "url": "https://en.numista.com/239038",
+  "f": {
+   "author": "Serverlan",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "Serverlan",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "NZD-5": {
+  "id": 203875,
+  "title": "5 Dollars",
+  "url": "https://en.numista.com/203875",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "NZD-10": {
+  "id": 204854,
+  "title": "10 Dollars",
+  "url": "https://en.numista.com/204854",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "NZD-20": {
+  "id": 210533,
+  "title": "20 Dollars - Elizabeth II",
+  "url": "https://en.numista.com/210533",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "NZD-50": {
+  "id": 210543,
+  "title": "50 Dollars",
+  "url": "https://en.numista.com/210543",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "NZD-100": {
+  "id": 210559,
+  "title": "100 Dollars",
+  "url": "https://en.numista.com/210559",
+  "f": {
+   "author": "CGB",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "CGB",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "CHF-10": {
+  "id": 201562,
+  "title": "10 Francs (9th series)",
+  "url": "https://en.numista.com/201562",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "CHF-20": {
+  "id": 201625,
+  "title": "20 Francs (9th series)",
+  "url": "https://en.numista.com/201625",
+  "f": {
+   "author": "Basteros",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "Basteros",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "CHF-50": {
+  "id": 202858,
+  "title": "50 Francs (9th series)",
+  "url": "https://en.numista.com/202858",
+  "f": {
+   "author": "Basteros",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "Basteros",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "CHF-100": {
+  "id": 202875,
+  "title": "100 Francs (9th series)",
+  "url": "https://en.numista.com/202875",
+  "f": {
+   "author": "Basteros",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "Basteros",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "CHF-200": {
+  "id": 201584,
+  "title": "200 Francs (9th series)",
+  "url": "https://en.numista.com/201584",
+  "f": {
+   "author": "Basteros",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "Basteros",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "CHF-1000": {
+  "id": 203275,
+  "title": "1000 Francs (9th series)",
+  "url": "https://en.numista.com/203275",
+  "f": {
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "SEK-20": {
+  "id": 201994,
+  "title": "20 Kronor",
+  "url": "https://en.numista.com/201994",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "SEK-50": {
+  "id": 202000,
+  "title": "50 Kronor",
+  "url": "https://en.numista.com/202000",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "SEK-100": {
+  "id": 202002,
+  "title": "100 Kronor",
+  "url": "https://en.numista.com/202002",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "SEK-200": {
+  "id": 205213,
+  "title": "200 Kronor",
+  "url": "https://en.numista.com/205213",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "SEK-500": {
+  "id": 205214,
+  "title": "500 Kronor",
+  "url": "https://en.numista.com/205214",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "SEK-1000": {
+  "id": 205215,
+  "title": "1000 Kronor",
+  "url": "https://en.numista.com/205215",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "KRW-1000": {
+  "id": 201806,
+  "title": "1000 Won",
+  "url": "https://en.numista.com/201806",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "KRW-5000": {
+  "id": 203157,
+  "title": "5000 Won",
+  "url": "https://en.numista.com/203157",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "KRW-10000": {
+  "id": 203421,
+  "title": "10 000 Won",
+  "url": "https://en.numista.com/203421",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "KRW-50000": {
+  "id": 203884,
+  "title": "50 000 Won",
+  "url": "https://en.numista.com/203884",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "SGD-2": {
+  "id": 202244,
+  "title": "2 Dollars (MAS; polymer)",
+  "url": "https://en.numista.com/202244",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "SGD-5": {
+  "id": 203037,
+  "title": "5 Dollars (MAS; polymer)",
+  "url": "https://en.numista.com/203037",
+  "f": {
+   "author": "banknotes_2021",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en"
+  },
+  "b": {
+   "author": "banknotes_2021",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "SGD-10": {
+  "id": 202498,
+  "title": "10 Dollars (MAS; polymer)",
+  "url": "https://en.numista.com/202498",
+  "f": {
+   "author": "Titus",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "Titus",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "SGD-50": {
+  "id": 205537,
+  "title": "50 Dollars (MAS)",
+  "url": "https://en.numista.com/205537",
+  "f": {
+   "author": null,
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": null,
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "SGD-100": {
+  "id": 205540,
+  "title": "100 Dollars (MAS)",
+  "url": "https://en.numista.com/205540",
+  "f": {
+   "author": null,
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": null,
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "MXN-50": {
+  "id": 310606,
+  "title": "50 Pesos",
+  "url": "https://en.numista.com/310606",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "MXN-100": {
+  "id": 244911,
+  "title": "100 Pesos",
+  "url": "https://en.numista.com/244911",
+  "f": {
+   "author": "KennyG",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "KennyG",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "MXN-200": {
+  "id": 202429,
+  "title": "200 Pesos",
+  "url": "https://en.numista.com/202429",
+  "f": {
+   "author": null,
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "b": {
+   "author": null,
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "MXN-500": {
+  "id": 212863,
+  "title": "500 Pesos",
+  "url": "https://en.numista.com/212863",
+  "f": {
+   "author": "freeze_coins",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "b": {
+   "author": "freeze_coins",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "MXN-1000": {
+  "id": 258918,
+  "title": "1000 Pesos",
+  "url": "https://en.numista.com/258918",
+  "f": {
+   "author": "Monetized History",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "b": {
+   "author": "Monetized History",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "BRL-2": {
+  "id": 202197,
+  "title": "2 Reais (2nd. Family; Casa da Moeda do Brasil)",
+  "url": "https://en.numista.com/202197",
+  "f": {
+   "author": "SmoCa",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "SmoCa",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "BRL-5": {
+  "id": 201713,
+  "title": "5 Reais (2nd. Family)",
+  "url": "https://en.numista.com/201713",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "BRL-10": {
+  "id": 202203,
+  "title": "10 Reais (2nd. Family)",
+  "url": "https://en.numista.com/202203",
+  "f": {
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "BRL-20": {
+  "id": 202208,
+  "title": "20 Reais (2nd. Family)",
+  "url": "https://en.numista.com/202208",
+  "f": {
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "BRL-50": {
+  "id": 202212,
+  "title": "50 Reais (2nd. Family)",
+  "url": "https://en.numista.com/202212",
+  "f": {
+   "author": "Rogbert",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "Rogbert",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "BRL-100": {
+  "id": 202214,
+  "title": "100 Reais (2nd. Family)",
+  "url": "https://en.numista.com/202214",
+  "f": {
+   "author": "Rogbert",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "Rogbert",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "BRL-200": {
+  "id": 235384,
+  "title": "200 Reais (2nd. Family)",
+  "url": "https://en.numista.com/235384",
+  "f": {
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "TRY-5": {
+  "id": 206382,
+  "title": "5 Lira (purple)",
+  "url": "https://en.numista.com/206382",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "TRY-10": {
+  "id": 206385,
+  "title": "10 Lira",
+  "url": "https://en.numista.com/206385",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "TRY-20": {
+  "id": 206387,
+  "title": "20 Lira",
+  "url": "https://en.numista.com/206387",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "TRY-50": {
+  "id": 206390,
+  "title": "50 Lira",
+  "url": "https://en.numista.com/206390",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "TRY-100": {
+  "id": 206392,
+  "title": "100 Lira",
+  "url": "https://en.numista.com/206392",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "TRY-200": {
+  "id": 206562,
+  "title": "200 Lira",
+  "url": "https://en.numista.com/206562",
+  "f": {
+   "author": "Pulee78",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "Pulee78",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "THB-20": {
+  "id": 317869,
+  "title": "20 Baht - Rama X (Series 17; polymer)",
+  "url": "https://en.numista.com/317869",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "THB-50": {
+  "id": 536198,
+  "title": "50 Baht - Rama X Series 17; polymer",
+  "url": "https://en.numista.com/536198",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "THB-100": {
+  "id": 538617,
+  "title": "100 Baht - Rama X (Series 17; polymer)",
+  "url": "https://en.numista.com/538617",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "THB-500": {
+  "id": 204710,
+  "title": "500 Baht - Rama X (Series 17)",
+  "url": "https://en.numista.com/204710",
+  "f": {
+   "author": "SB66",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "SB66",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "THB-1000": {
+  "id": 204677,
+  "title": "1000 Baht - Rama X (series 17)",
+  "url": "https://en.numista.com/204677",
+  "f": {
+   "author": "SB66",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "SB66",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "PHP-50": {
+  "id": 446780,
+  "title": "50 Piso (Seal type 7; polymer)",
+  "url": "https://en.numista.com/446780",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "PHP-100": {
+  "id": 446774,
+  "title": "100 Piso (Seal type 7; polymer)",
+  "url": "https://en.numista.com/446774",
+  "f": {
+   "author": "Vic_29Vic (CC BY-SA)",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "Vic_29Vic (CC BY-SA)",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "PHP-200": {
+  "id": 232127,
+  "title": "200 Piso (Seal type 6; with tactile marks)",
+  "url": "https://en.numista.com/232127",
+  "f": {
+   "author": "TLSHER",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "TLSHER",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "PHP-500": {
+  "id": 446654,
+  "title": "500 Piso (Seal type 7; polymer)",
+  "url": "https://en.numista.com/446654",
+  "f": {
+   "author": "andy_siegman",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "andy_siegman",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "PHP-1000": {
+  "id": 316600,
+  "title": "1000 Piso (Seal type 7; polymer)",
+  "url": "https://en.numista.com/316600",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "IDR-1000": {
+  "id": 338501,
+  "title": "1000 Rupiah",
+  "url": "https://en.numista.com/338501",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "IDR-2000": {
+  "id": 338503,
+  "title": "2000 Rupiah",
+  "url": "https://en.numista.com/338503",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "IDR-5000": {
+  "id": 338505,
+  "title": "5000 Rupiah",
+  "url": "https://en.numista.com/338505",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "IDR-10000": {
+  "id": 338508,
+  "title": "10 000 Rupiah",
+  "url": "https://en.numista.com/338508",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "IDR-20000": {
+  "id": 338506,
+  "title": "20 000 Rupiah",
+  "url": "https://en.numista.com/338506",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "IDR-50000": {
+  "id": 338510,
+  "title": "50 000 Rupiah",
+  "url": "https://en.numista.com/338510",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "IDR-100000": {
+  "id": 338509,
+  "title": "100 000 Rupiah",
+  "url": "https://en.numista.com/338509",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "KES-50": {
+  "id": 208060,
+  "title": "50 Shillings",
+  "url": "https://en.numista.com/208060",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "KES-100": {
+  "id": 203936,
+  "title": "100 Shillings",
+  "url": "https://en.numista.com/203936",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "KES-200": {
+  "id": 208067,
+  "title": "200 Shillings",
+  "url": "https://en.numista.com/208067",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "KES-500": {
+  "id": 208068,
+  "title": "500 Shillings",
+  "url": "https://en.numista.com/208068",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "KES-1000": {
+  "id": 208069,
+  "title": "1000 Shillings",
+  "url": "https://en.numista.com/208069",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "TWD-100": {
+  "id": 203019,
+  "title": "100 Yuan",
+  "url": "https://en.numista.com/203019",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "TWD-200": {
+  "id": 203120,
+  "title": "200 Yuan",
+  "url": "https://en.numista.com/203120",
+  "f": {
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "TWD-500": {
+  "id": 204414,
+  "title": "500 Yuan (with holographic strip)",
+  "url": "https://en.numista.com/204414",
+  "f": {
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "TWD-1000": {
+  "id": 204423,
+  "title": "1000 Yuan (with holographic strip)",
+  "url": "https://en.numista.com/204423",
+  "f": {
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "TWD-2000": {
+  "id": 203925,
+  "title": "2000 Yuan",
+  "url": "https://en.numista.com/203925",
+  "f": {
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "COP-2000": {
+  "id": 204972,
+  "title": "2000 Pesos",
+  "url": "https://en.numista.com/204972",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "COP-5000": {
+  "id": 208516,
+  "title": "5000 Pesos",
+  "url": "https://en.numista.com/208516",
+  "f": {
+   "author": null,
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": null,
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "COP-10000": {
+  "id": 206006,
+  "title": "10 000 Pesos",
+  "url": "https://en.numista.com/206006",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "COP-20000": {
+  "id": 208154,
+  "title": "20 000 Pesos",
+  "url": "https://en.numista.com/208154",
+  "f": {
+   "author": "RuibaiK",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "RuibaiK",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "COP-50000": {
+  "id": 205124,
+  "title": "50 000 Pesos",
+  "url": "https://en.numista.com/205124",
+  "f": {
+   "author": null,
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": null,
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "COP-100000": {
+  "id": 205125,
+  "title": "100 000 Pesos",
+  "url": "https://en.numista.com/205125",
+  "f": {
+   "author": null,
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": null,
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "MXN-20": {
+  "id": 306846,
+  "title": "20 Pesos (Independence)",
+  "url": "https://en.numista.com/306846",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "PRB-1": {
+  "id": 203746,
+  "title": "1 Rouble",
+  "url": "https://en.numista.com/203746",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "PRB-5": {
+  "id": 203747,
+  "title": "5 Roubles",
+  "url": "https://en.numista.com/203747",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "PRB-10": {
+  "id": 203748,
+  "title": "10 Roubles",
+  "url": "https://en.numista.com/203748",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "PRB-25": {
+  "id": 212164,
+  "title": "25 Roubles",
+  "url": "https://en.numista.com/212164",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "PRB-50": {
+  "id": 473427,
+  "title": "50 Roubles",
+  "url": "https://en.numista.com/473427",
+  "f": {
+   "author": "https://www.cbpmr.net",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "https://www.cbpmr.net",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "PRB-100": {
+  "id": 611200,
+  "title": "100 Roubles",
+  "url": "https://en.numista.com/611200",
+  "f": {
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "PRB-200": {
+  "id": 565087,
+  "title": "200 Roubles",
+  "url": "https://en.numista.com/565087",
+  "f": {
+   "author": "udimov",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en"
+  },
+  "b": {
+   "author": "udimov",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "PRB-500": {
+  "id": 206034,
+  "title": "500 Roubles",
+  "url": "https://en.numista.com/206034",
+  "f": {
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "SLS-500": {
+  "id": 203425,
+  "title": "500 Shillings",
+  "url": "https://en.numista.com/203425",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "SLS-1000": {
+  "id": 204865,
+  "title": "1000 Shillings",
+  "url": "https://en.numista.com/204865",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "SLS-5000": {
+  "id": 204873,
+  "title": "5000 Shillings",
+  "url": "https://en.numista.com/204873",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "GBP-5": {
+  "id": 350090,
+  "title": "5 Pounds - Charles III (Sir Winston Churchill; Polymer)",
+  "url": "https://en.numista.com/350090",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "GBP-10": {
+  "id": 414644,
+  "title": "10 Pounds - Charles III (Jane Austen; Polymer)",
+  "url": "https://en.numista.com/414644",
+  "f": {
+   "author": "Worldwide collection",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "Worldwide collection",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "GBP-20": {
+  "id": 414646,
+  "title": "20 Pounds - Charles III (JMW Turner; Polymer)",
+  "url": "https://en.numista.com/414646",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "GBP-50": {
+  "id": 414647,
+  "title": "50 Pounds - Charles III (Alan Turing; Polymer)",
+  "url": "https://en.numista.com/414647",
+  "f": {
+   "author": "Worldwide collection",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "Worldwide collection",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "INR-10": {
+  "id": 203081,
+  "title": "10 Rupees",
+  "url": "https://en.numista.com/203081",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "INR-20": {
+  "id": 202624,
+  "title": "20 Rupees",
+  "url": "https://en.numista.com/202624",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "INR-50": {
+  "id": 202325,
+  "title": "50 Rupees",
+  "url": "https://en.numista.com/202325",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "INR-100": {
+  "id": 202321,
+  "title": "100 Rupees",
+  "url": "https://en.numista.com/202321",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "INR-200": {
+  "id": 202288,
+  "title": "200 Rupees",
+  "url": "https://en.numista.com/202288",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "INR-500": {
+  "id": 202296,
+  "title": "500 Rupees",
+  "url": "https://en.numista.com/202296",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "NOK-50": {
+  "id": 201751,
+  "title": "50 Kroner (The sea that binds us together)",
+  "url": "https://en.numista.com/201751",
+  "f": {
+   "author": "freeze_coins",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "b": {
+   "author": "freeze_coins",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "NOK-100": {
+  "id": 201985,
+  "title": "100 Kroner (The sea that takes us out into the world)",
+  "url": "https://en.numista.com/201985",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "NOK-200": {
+  "id": 203892,
+  "title": "200 Kroner (The sea that feeds us)",
+  "url": "https://en.numista.com/203892",
+  "f": {
+   "author": "CGB",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "CGB",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "NOK-500": {
+  "id": 209716,
+  "title": "500 Kroner (The sea that gives us prosperity)",
+  "url": "https://en.numista.com/209716",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "NOK-1000": {
+  "id": 209719,
+  "title": "1000 Kroner (The sea that carries us forward)",
+  "url": "https://en.numista.com/209719",
+  "f": {
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "DKK-50": {
+  "id": 591379,
+  "title": "50 Kroner (Danish Bridges and Antiquities. Type 2)",
+  "url": "https://en.numista.com/591379",
+  "f": {
+   "author": "Danielthenumismatic",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "Danielthenumismatic",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "DKK-100": {
+  "id": 403936,
+  "title": "100 Kroner (Danish Bridges and Antiquities. Type 2)",
+  "url": "https://en.numista.com/403936",
+  "f": {
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "DKK-200": {
+  "id": 407959,
+  "title": "200 Kroner (Danish Bridges and Antiquities. Type 2)",
+  "url": "https://en.numista.com/407959",
+  "f": {
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "DKK-500": {
+  "id": 247247,
+  "title": "500 Kroner (Danish Bridges and Antiquities. Type 2)",
+  "url": "https://en.numista.com/247247",
+  "f": {
+   "author": "dampe54",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "dampe54",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "DKK-1000": {
+  "id": 205713,
+  "title": "1000 Kroner (Danish Bridges and Antiquities)",
+  "url": "https://en.numista.com/205713",
+  "f": {
+   "author": null,
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "b": {
+   "author": null,
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "ZAR-10": {
+  "id": 365097,
+  "title": "10 Rand",
+  "url": "https://en.numista.com/365097",
+  "f": {
+   "author": "Tolkien06",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "Tolkien06",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "ZAR-20": {
+  "id": 365101,
+  "title": "20 Rand",
+  "url": "https://en.numista.com/365101",
+  "f": {
+   "author": "Tolkien06",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "Tolkien06",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "ZAR-50": {
+  "id": 365103,
+  "title": "50 Rand",
+  "url": "https://en.numista.com/365103",
+  "f": {
+   "author": "Tolkien06",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "Tolkien06",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "ZAR-100": {
+  "id": 365105,
+  "title": "100 Rand",
+  "url": "https://en.numista.com/365105",
+  "f": {
+   "author": "Tolkien06",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "Tolkien06",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "ZAR-200": {
+  "id": 365107,
+  "title": "200 Rand",
+  "url": "https://en.numista.com/365107",
+  "f": {
+   "author": "Tolkien06",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "Tolkien06",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "VND-10000": {
+  "id": 203627,
+  "title": "10 000 Đồng",
+  "url": "https://en.numista.com/203627",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "VND-20000": {
+  "id": 204743,
+  "title": "20 000 Đồng",
+  "url": "https://en.numista.com/204743",
+  "f": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "VND-50000": {
+  "id": 204745,
+  "title": "50 000 Đồng",
+  "url": "https://en.numista.com/204745",
+  "f": {
+   "author": "Yoeri R",
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": "Yoeri R",
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "VND-100000": {
+  "id": 202790,
+  "title": "100 000 Đồng",
+  "url": "https://en.numista.com/202790",
+  "f": {
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "VND-200000": {
+  "id": 204964,
+  "title": "200 000 Đồng",
+  "url": "https://en.numista.com/204964",
+  "f": {
+   "author": null,
+   "license": null,
+   "license_url": null
+  },
+  "b": {
+   "author": null,
+   "license": null,
+   "license_url": null
+  },
+  "source": "numista"
+ },
+ "VND-500000": {
+  "id": 205915,
+  "title": "500 000 Đồng",
+  "url": "https://en.numista.com/205915",
+  "f": {
+   "author": "turtle_bienhoa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "turtle_bienhoa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "MYR-1": {
+  "id": 202971,
+  "title": "1 Ringgit",
+  "url": "https://en.numista.com/202971",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "MYR-5": {
+  "id": 203263,
+  "title": "5 Ringgit",
+  "url": "https://en.numista.com/203263",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "MYR-10": {
+  "id": 205316,
+  "title": "10 Ringgit",
+  "url": "https://en.numista.com/205316",
+  "f": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "b": {
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "MYR-20": {
+  "id": 202043,
+  "title": "20 Ringgit",
+  "url": "https://en.numista.com/202043",
+  "f": {
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "b": {
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "MYR-50": {
+  "id": 207710,
+  "title": "50 Ringgit",
+  "url": "https://en.numista.com/207710",
+  "f": {
+   "author": "banknotes_2021",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en"
+  },
+  "b": {
+   "author": "banknotes_2021",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en"
+  },
+  "source": "numista"
+ },
+ "MYR-100": {
+  "id": 208724,
+  "title": "100 Ringgit",
+  "url": "https://en.numista.com/208724",
+  "f": {
+   "author": null,
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "b": {
+   "author": null,
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "source": "numista"
+ }
+}

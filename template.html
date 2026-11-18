@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Banknote Index</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#000;--panel:#0d0d0d;--key:#262626;--line:#1f1f1f;--ink:#f2f2f2;--mute:#8a8a8a;--acc:#c9a36a}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;font-weight:300;-webkit-font-smoothing:antialiased;min-height:100vh}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:0 28px;height:56px;border-bottom:1px solid var(--line);position:sticky;top:0;background:#000;z-index:30}
+.logo{font-weight:200;letter-spacing:.32em;font-size:13px}
+.logo b{font-weight:400;color:var(--acc)}
+nav{display:flex;gap:4px;height:100%;overflow-x:auto}
+nav button{font-size:11px;font-weight:300;letter-spacing:.18em;text-transform:uppercase;color:var(--mute);padding:0 14px;height:100%;border-bottom:1px solid transparent;white-space:nowrap}
+nav button:hover{color:var(--ink)}
+nav button.on{color:var(--ink);border-bottom-color:var(--acc)}
+nav button.star{color:var(--acc)}
+.view{display:none}
+.view.on{display:block}
+
+/* banknote image / pending tile */
+.bn{display:block;width:100%;aspect-ratio:2.15/1;border-radius:3px;object-fit:cover;background:#111}
+.ph{object-fit:contain;background:transparent}
+.tile{position:relative;background:var(--c);overflow:hidden;container-type:inline-size}
+.tile::after{content:"";position:absolute;inset:5px;border:1px solid rgba(255,255,255,.28);border-radius:2px}
+.tile .d{position:absolute;left:6%;top:7%;font-weight:200;font-size:13cqw;line-height:1.1;color:#fff;letter-spacing:-.01em}
+.tile .k{position:absolute;left:6%;bottom:8%;font-size:max(7px,3.6cqw);letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.8)}
+.tile .s{position:absolute;right:6%;bottom:8%;font-size:max(7px,3.6cqw);letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.6)}
+
+/* keyboard */
+.kbwrap{background:var(--panel);padding:34px 20px 30px;border-bottom:1px solid var(--line)}
+.kb{display:flex;flex-direction:column;align-items:center;gap:14px}
+.kr{display:flex;gap:14px}
+.key{width:72px;height:42px;border-radius:5px;background:var(--key);text-align:left;padding-left:13px;font-size:19px;font-weight:300;color:#ddd;border:1px solid transparent;transition:.12s}
+.key:hover:not(:disabled){background:#333}
+.key:disabled{background:transparent;border-color:#262626;color:#3a3a3a;cursor:default}
+.key.on{border-color:var(--acc);background:#1c1c1c;color:#fff}
+.hits{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 26px;padding:30px 20px;min-height:110px;border-bottom:1px solid var(--line)}
+.hit{display:flex;align-items:center;gap:10px;color:var(--acc);font-size:12px;letter-spacing:.06em;text-transform:uppercase}
+.hit .bn{width:96px}
+.hit:hover{color:#fff}
+
+/* ticker */
+.rows{padding:30px 0 40px}
+.row{overflow:hidden;padding:9px 0;-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.track{display:flex;gap:22px;width:max-content;animation:scroll linear infinite}
+.row:hover .track{animation-play-state:paused}
+@keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.tn{width:220px;flex:none;transition:transform .25s}
+.tn:hover{transform:translateY(-5px)}
+.tn small{display:block;margin-top:8px;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);text-align:center}
+@media (prefers-reduced-motion:reduce){.track{animation:none}}
+
+/* shared section */
+.sec{padding:34px 28px 60px;max-width:1400px;margin:0 auto}
+.label{font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--mute);margin-bottom:18px}
+.swrow{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:30px}
+.sw{display:flex;align-items:center;gap:9px;border:1px solid var(--line);border-radius:999px;padding:7px 15px 7px 9px;font-size:12px;letter-spacing:.06em;color:var(--mute)}
+.sw i{width:16px;height:16px;border-radius:50%;background:var(--c)}
+.sw.on{border-color:var(--ink);color:var(--ink)}
+.sw em{font-style:normal;color:#555;font-size:11px}
+.ngrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:28px 20px}
+.ncard{text-align:left}
+.ncard p{margin-top:9px;font-size:12.5px}
+.ncard p span{color:var(--mute)}
+
+/* all currencies */
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:28px}
+.chip{border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:12px;color:var(--mute)}
+.chip.on{border-color:var(--ink);color:var(--ink)}
+.filters input{flex:1;min-width:180px;background:#0b0b0b;border:1px solid var(--line);color:var(--ink);border-radius:999px;padding:8px 16px;font:inherit;font-size:12.5px}
+.list{border-top:1px solid var(--line)}
+.lrow{display:grid;grid-template-columns:240px 1fr;align-items:center;gap:20px;padding:14px 4px;border-bottom:1px solid var(--line);width:100%;text-align:left}
+.lrow:hover{background:#0a0a0a}
+.lname{font-size:13px;letter-spacing:.06em;text-transform:uppercase;display:flex;align-items:center;gap:10px}
+.lname small{color:var(--mute);font-size:11px}
+.lstrip{display:flex;gap:8px;overflow:hidden}
+.lstrip .bn{width:92px;flex:none}
+
+/* map */
+#mapbox{position:relative}
+#map{width:100%;height:auto;display:block}
+#map path.c{fill:#1c1c1c;stroke:#000;stroke-width:.5}
+#map path.on{cursor:pointer;fill-opacity:.85}
+#map path.on:hover{fill-opacity:1;stroke:#fff;stroke-width:.8}
+#map .grat{fill:none;stroke:#141414;stroke-width:.5}
+#map .sphere{fill:#050505;stroke:#222;stroke-width:.8}
+.tip{position:absolute;pointer-events:none;background:#111;border:1px solid #2a2a2a;padding:8px 12px;font-size:12px;border-radius:4px;display:none;white-space:nowrap}
+.legend{font-size:12px;color:var(--mute);margin-top:14px}
+
+/* banknote of the year */
+.boty{display:grid;grid-template-columns:1.25fr 1fr;gap:50px;align-items:start}
+.boty h2{font-weight:200;font-size:clamp(30px,4vw,48px);line-height:1.08;margin-bottom:8px}
+.boty .yr{color:var(--acc);font-size:11px;letter-spacing:.3em;text-transform:uppercase;margin-bottom:22px}
+.facts dl{display:grid;grid-template-columns:130px 1fr;gap:12px 18px;font-size:13.5px;line-height:1.5;border-top:1px solid var(--line);padding-top:20px}
+.facts dt{color:var(--mute);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;padding-top:3px}
+.pair{display:flex;gap:18px;align-items:flex-end}
+.pair .bn{flex:1}
+@container (max-width:130px){.tile .k,.tile .s{display:none}.tile::after{inset:3px}}
+.vert{aspect-ratio:1/2.15;width:32%;flex:none!important}
+.past{margin-top:34px;font-size:13px;line-height:1.9}
+.past span{color:var(--mute)}
+
+/* country page */
+.back{border:1px solid var(--line);border-radius:999px;padding:7px 15px;font-size:12px;color:var(--mute)}
+.back:hover{color:var(--ink)}
+.chead{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px;margin:30px 0 26px}
+.chead h2{font-weight:200;font-size:clamp(34px,5vw,56px);line-height:1}
+.chead .sub{color:var(--mute);margin-top:10px;font-size:13px;letter-spacing:.04em}
+.cfacts{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:20px}
+.cfacts div{padding:16px 4px}
+.cfacts small{display:block;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--mute);margin-bottom:6px}
+.msg{font-size:13px;line-height:1.6;color:#cfcfcf;padding:10px 0 10px 14px;border-left:1px solid var(--acc);margin-bottom:10px}
+.msg.i{border-color:#444}
+.notes{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:34px 26px;margin-top:30px}
+.nb{text-align:left;perspective:1200px}
+.flip{position:relative;transition:transform .6s cubic-bezier(.3,.7,.3,1);transform-style:preserve-3d}
+.nb.b .flip{transform:rotateY(180deg)}
+.flip>*{backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.flip>*:last-child{position:absolute;inset:0;transform:rotateY(180deg)}
+.nb h3{font-weight:300;font-size:18px;margin-top:14px;display:flex;justify-content:space-between;align-items:baseline}
+.nb h3 small{font-size:10px;letter-spacing:.2em;color:var(--mute);text-transform:uppercase}
+.nb dl{display:grid;grid-template-columns:52px 1fr;gap:3px 12px;font-size:12.5px;margin-top:8px;line-height:1.5}
+.cred{font-size:10.5px;color:#666;margin-top:10px;letter-spacing:.02em}.cred a{color:#888}
+.nb dt{color:var(--mute);font-size:10px;letter-spacing:.18em;text-transform:uppercase;padding-top:2px}
+footer{border-top:1px solid var(--line);padding:24px 28px 36px;color:#666;font-size:11.5px;line-height:1.8}
+@media (max-width:760px){.key{width:30px;height:38px;padding-left:9px;font-size:15px}.kr{gap:6px}.kb{gap:8px}.boty{grid-template-columns:1fr}.lrow{grid-template-columns:1fr}header{padding:0 12px}.logo{display:none}}
+</style>
+</head>
+<body>
+<header>
+  <button class="logo" data-go="explore">BANKNOTE <b>INDEX</b></button>
+  <nav id="nav">
+    <button data-go="explore">Explore</button>
+    <button data-go="colors">Colors</button>
+    <button data-go="map">Map</button>
+    <button data-go="all">All currencies</button>
+    <button data-go="boty" class="star">Banknote of the Year</button>
+  </nav>
+</header>
+
+<section class="view" id="v-explore">
+  <div class="kbwrap"><div class="kb" id="kb"></div></div>
+  <div class="hits" id="hits"></div>
+  <div class="rows" id="rows"></div>
+</section>
+
+<section class="view" id="v-colors"><div class="sec">
+  <div class="label">Browse by colour</div>
+  <div class="swrow" id="swatches"></div>
+  <div class="ngrid" id="cgrid"></div>
+</div></section>
+
+<section class="view" id="v-map"><div class="sec">
+  <div class="label">World map</div>
+  <div id="mapbox"><svg id="map"></svg><div class="tip" id="tip"></div></div>
+  <div class="legend">Each country is shaded in the colour of one of its current notes. Click a country to open it.</div>
+</div></section>
+
+<section class="view" id="v-all"><div class="sec">
+  <div class="filters" id="filters"></div>
+  <div class="list" id="list"></div>
+</div></section>
+
+<section class="view" id="v-boty"><div class="sec" id="botybox"></div></section>
+
+<section class="view" id="v-country"><div class="sec" id="cbox"></div></section>
+
+<footer id="foot"></footer>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-geo-projection@4"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
+<script>
+const VERIFIED = "17 November 2026";
+/*DATA*/
+
+/* Photo files, keyed "CODE-denomination": {f:"img/....jpg", b:"img/....jpg"}. Notes without a photo show a plain colour tile. */
+const IMG = /*IMG*/{};
+const CREDITS = /*CREDITS*/{};
+
+const NUM = {"US":"840","GB":"826","JP":"392","CN":"156","IN":"356","CA":"124","AU":"036","NZ":"554","CH":"756","SE":"752","NO":"578","DK":"208","KR":"410","SG":"702","MX":"484","BR":"076","ZA":"710","TR":"792","TH":"764","PH":"608","ID":"360","VN":"704","MY":"458","KE":"404","TW":"158","CO":"170"};
+const EURO = ["040","056","100","191","196","233","246","250","276","300","372","380","428","440","442","470","528","620","703","705","724"];
+
+const BOTY = {
+  year:2025, country:"Curaçao and Sint Maarten", note:"200 Caribbean guilder", color:"#7d5aa6",
+  front:"Long-snout seahorses and a giant tun shell, printed in blue-to-green colour-shifting ink",
+  back:"Queen Emma Bridge, in a vertical layout",
+  layout:"Horizontal front, vertical back", substrate:"Paper", printer:"Crane Currency", size:"147 × 66 mm",
+  announced:"20 April 2026",
+  runners:["Fiji $5 (kulawai bird and sea turtle)","Zambia 100 kwacha (eagle and giraffes)"],
+  nominees:"17 notes nominated from 17 countries",
+  past:[["2024","Bermuda $5"]],
+  img:{f:"img/boty-f.jpg",b:"img/boty-b.jpg"},credit:"Photos: ajbbarbados · CC BY-NC · Numista"
+};
+
+/* ---------- helpers ---------- */
+const $=s=>document.querySelector(s);
+const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;");
+const fmt=n=>n.toLocaleString("en-US");
+const flag=iso=>iso?String.fromCodePoint(...[...iso].map(c=>127397+c.charCodeAt(0))):"";
+const val=(c,n)=>(c.sym||"")+fmt(n[0])+(c.suf||"");
+function note(c,n,side="f",extra=""){
+  const im=IMG[c.code+"-"+n[0]];
+  if(im&&im[side]) return `<img class="bn ph ${extra}" src="${im[side]}" alt="${esc(c.country+" "+val(c,n)+(side==="b"?" back":" front"))}" loading="lazy">`;
+  return `<div class="bn tile ${extra}" style="--c:${n[1]}" role="img" aria-label="${esc(c.country+" "+val(c,n))}"><span class="d">${esc(val(c,n))}</span><span class="k">${esc(c.country)}</span><span class="s">${side==="b"?"Back":"Front"}</span></div>`;
+}
+function family(hex){
+  const n=parseInt(hex.slice(1),16),r=(n>>16)/255,g=(n>>8&255)/255,b=(n&255)/255;
+  const mx=Math.max(r,g,b),mn=Math.min(r,g,b),l=(mx+mn)/2,d=mx-mn,s=d===0?0:d/(1-Math.abs(2*l-1));
+  let h=0;if(d){h=mx===r?((g-b)/d)%6:mx===g?(b-r)/d+2:(r-g)/d+4;h=(h*60+360)%360}
+  if(s<.16)return"Grey";
+  if(h>=18&&h<45&&l<.48&&s<.55)return"Brown";
+  if(h<14||h>=345)return"Red"; if(h<40)return"Orange"; if(h<62)return"Yellow"; if(h<160)return"Green";
+  if(h<195)return"Teal"; if(h<255)return"Blue"; if(h<292)return"Purple"; return"Pink";
+}
+const FAM={Red:"#c84a4a",Orange:"#e08a3a",Yellow:"#e0b83a",Green:"#4aa05a",Teal:"#3a9a9a",Blue:"#3a6ab0",Purple:"#8a5aa8",Pink:"#c87aa8",Brown:"#9a6a4a",Grey:"#8b8f93"};
+const ALL=D.flatMap(c=>c.notes.map(n=>({c,n,fam:family(n[1])})));
+
+/* ---------- explore: keyboard + ticker ---------- */
+const KEYS=["QWERTYUIOP","ASDFGHJKL","ZXCVBNM"];
+const byLetter=L=>D.filter(c=>c.country.normalize("NFD")[0].toUpperCase()===L).sort((a,b)=>a.country.localeCompare(b.country));
+let letter=null;
+$("#kb").innerHTML=KEYS.map(r=>`<div class="kr">${[...r].map(k=>`<button class="key" data-k="${k}" ${byLetter(k).length?"":"disabled"}>${k}</button>`).join("")}</div>`).join("");
+$("#kb").addEventListener("click",e=>{const b=e.target.closest(".key:not(:disabled)");if(b)pick(b.dataset.k)});
+function pick(L){
+  letter=L;document.querySelectorAll(".key").forEach(k=>k.classList.toggle("on",k.dataset.k===L));
+  $("#hits").innerHTML=byLetter(L).map(c=>{const n=c.notes[c.notes.length-1];return `<button class="hit" data-code="${c.code}">${note(c,n)}${esc(c.country)}</button>`}).join("");
+}
+$("#hits").addEventListener("click",e=>{const b=e.target.closest(".hit");if(b)go(b.dataset.code.toLowerCase())});
+document.addEventListener("keydown",e=>{if(!$("#v-explore").classList.contains("on")||e.target.tagName==="INPUT"||e.metaKey||e.ctrlKey)return;const L=e.key.toUpperCase();if(/^[A-Z]$/.test(L)&&byLetter(L).length)pick(L)});
+
+function buildRows(){
+  const pool=[...ALL].sort(()=>Math.random()-.5),R=3;
+  $("#rows").innerHTML=[...Array(R)].map((_,r)=>{
+    const it=pool.filter((_,i)=>i%R===r);
+    const h=it.map(({c,n})=>`<button class="tn" data-code="${c.code}">${note(c,n)}<small>${esc(c.country)} · ${esc(val(c,n))}</small></button>`).join("");
+    return `<div class="row"><div class="track" style="animation-duration:${it.length*(r===1?5.4:4.4)}s">${h}${h.replace(/<button class="tn"/g,'<button class="tn" tabindex="-1" aria-hidden="true"')}</div></div>`;
+  }).join("");
+}
+$("#rows").addEventListener("click",e=>{const b=e.target.closest(".tn");if(b)go(b.dataset.code.toLowerCase())});
+
+/* ---------- colours ---------- */
+let fam="Red";
+function renderColors(){
+  $("#swatches").innerHTML=Object.keys(FAM).map(f=>{const k=ALL.filter(x=>x.fam===f).length;return k?`<button class="sw${f===fam?" on":""}" data-f="${f}" style="--c:${FAM[f]}"><i></i>${f} <em>${k}</em></button>`:""}).join("");
+  $("#cgrid").innerHTML=ALL.filter(x=>x.fam===fam).sort((a,b)=>a.c.country.localeCompare(b.c.country)||a.n[0]-b.n[0]).map(({c,n})=>`<button class="ncard" data-code="${c.code}">${note(c,n)}<p>${esc(val(c,n))} <span>· ${esc(c.country)}</span></p></button>`).join("");
+}
+$("#swatches").addEventListener("click",e=>{const b=e.target.closest(".sw");if(b){fam=b.dataset.f;renderColors()}});
+$("#cgrid").addEventListener("click",e=>{const b=e.target.closest(".ncard");if(b)go(b.dataset.code.toLowerCase())});
+
+/* ---------- all currencies ---------- */
+const REG=["All","Americas","Europe","Asia","Oceania","Africa","Middle East"];let reg="All";
+$("#filters").innerHTML=REG.map(r=>`<button class="chip${r==="All"?" on":""}" data-r="${r}">${r}</button>`).join("")+`<input id="q" type="search" placeholder="Search country, currency or person">`;
+$("#filters").addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;reg=b.dataset.r;document.querySelectorAll(".chip").forEach(x=>x.classList.toggle("on",x===b));renderList()});
+$("#q").addEventListener("input",renderList);
+function renderList(){
+  const q=$("#q").value.trim().toLowerCase();
+  const L=D.filter(c=>(reg==="All"||c.region===reg)&&(!q||[c.country,c.cur,c.code,...c.notes.flatMap(n=>[n[2],n[3]])].join(" ").toLowerCase().includes(q))).sort((a,b)=>a.country.localeCompare(b.country));
+  $("#list").innerHTML=L.map(c=>`<button class="lrow" data-code="${c.code}"><div class="lname">${flag(c.iso)} ${esc(c.country)} <small>${c.code}</small></div><div class="lstrip">${c.notes.map(n=>note(c,n)).join("")}</div></button>`).join("")||`<p style="padding:30px 0;color:#666">No matches.</p>`;
+}
+$("#list").addEventListener("click",e=>{const b=e.target.closest(".lrow");if(b)go(b.dataset.code.toLowerCase())});
+
+/* ---------- map ---------- */
+let mapDone=false;
+async function renderMap(){
+  if(mapDone)return; mapDone=true;
+  const svg=d3.select("#map"),W=1000,H=600;svg.attr("viewBox",`0 0 ${W} ${H}`);
+  let topo;try{topo=await (await fetch("world.json")).json()}catch(e){$("#mapbox").insertAdjacentHTML("beforeend",'<p style="color:#666">Map data could not load.</p>');return}
+  const feats=topojson.feature(topo,topo.objects.countries).features.filter(f=>f.id!=="010");
+  const proj=d3.geoMiller().fitExtent([[6,6],[W-6,H-6]],{type:"FeatureCollection",features:feats}),path=d3.geoPath(proj);
+  const byNum={};D.forEach(c=>{if(NUM[c.iso])byNum[NUM[c.iso]]=c});const sl=D.find(c=>c.code==="SLS");feats.forEach(f=>{if(f.properties.name==="Somaliland"){f.id="SL-x";byNum["SL-x"]=sl}});const eur=D.find(c=>c.code==="EUR");EURO.forEach(n=>byNum[n]=eur);
+  const tip=$("#tip"),box=$("#mapbox");
+  svg.append("g").selectAll("path").data(feats).join("path")
+    .attr("d",path).attr("class",d=>"c"+(byNum[d.id]?" on":""))
+    .style("fill",d=>{const c=byNum[d.id];return c?c.notes[Math.floor(c.notes.length/2)][1]:null})
+    .on("mousemove",(ev,d)=>{const c=byNum[d.id],r=box.getBoundingClientRect();tip.style.display="block";tip.style.left=(ev.clientX-r.left+14)+"px";tip.style.top=(ev.clientY-r.top+10)+"px";
+      if(!d.properties.name){tip.style.display="none";return}tip.innerHTML=c?`${esc(d.properties.name)} · <span style="color:#c9a36a">${esc(c.cur)}</span> · ${c.notes.length} notes`:`${esc(d.properties.name)} <span style="color:#666">· not listed yet</span>`})
+    .on("mouseleave",()=>tip.style.display="none")
+    .on("click",(ev,d)=>{const c=byNum[d.id];if(c){tip.style.display="none";go(c.code.toLowerCase())}});
+}
+
+/* ---------- banknote of the year ---------- */
+function renderBoty(){
+  const B=BOTY,c={code:"BOTY",country:B.country,sym:"",cur:""},n=[200,B.color];
+  const f=B.img.f?`<img class="bn ph" src="${B.img.f}" alt="Front">`:`<div class="bn tile" style="--c:${B.color}"><span class="d">200 Cg</span><span class="k">${esc(B.country)}</span><span class="s">Front</span></div>`;
+  const b=B.img.b?`<img class="bn ph vert" src="${B.img.b}" alt="Back">`:`<div class="bn tile vert" style="--c:${B.color}"><span class="d">200</span><span class="s">Back</span></div>`;
+  $("#botybox").innerHTML=`<div class="boty"><div><div class="yr">IBNS Banknote of the Year ${B.year}</div><h2>${esc(B.country)}<br>${esc(B.note)}</h2><div class="pair" style="margin-top:28px">${f}${b}</div><div class="cred"><a href="https://en.numista.com/464507" target="_blank" rel="noopener">${esc(B.credit)}</a></div></div>
+   <div class="facts"><dl>
+    <dt>Front</dt><dd>${esc(B.front)}</dd><dt>Back</dt><dd>${esc(B.back)}</dd><dt>Layout</dt><dd>${esc(B.layout)}</dd>
+    <dt>Substrate</dt><dd>${esc(B.substrate)}</dd><dt>Printer</dt><dd>${esc(B.printer)}</dd><dt>Size</dt><dd>${esc(B.size)}</dd>
+    <dt>Announced</dt><dd>${esc(B.announced)}</dd><dt>Ballot</dt><dd>${esc(B.nominees)}</dd>
+    <dt>Runners-up</dt><dd>${B.runners.map(esc).join("<br>")}</dd></dl>
+    <div class="past"><div class="label" style="margin:0 0 6px">Previous winner</div>${B.past.map(p=>`<span>${p[0]}</span> &nbsp; ${esc(p[1])}`).join("<br>")}</div></div></div>`;
+}
+
+/* ---------- country ---------- */
+function credit(c,n){const k=c.code+"-"+n[0],cr=CREDITS[k];if(!cr||!IMG[k])return"";
+  const who=[...new Set(["f","b"].map(s=>cr[s]&&IMG[k][s]?cr[s].author:null).filter(Boolean))].join(", ");
+  const lic=(cr.f&&cr.f.license)||(cr.b&&cr.b.license)||"";
+  const src={numista:"Numista",wikimedia:"Wikimedia Commons",bank:cr.bank||"Issuing bank"}[cr.source||"numista"];
+  return `<div class="cred">Photo: ${esc(who||src)}${lic?" · "+esc(lic):""} · <a href="${cr.url}" target="_blank" rel="noopener">${esc(src)}</a></div>`}
+function renderCountry(c){
+  const S=[...D].sort((a,b)=>a.country.localeCompare(b.country)),i=S.indexOf(c),p=S[(i-1+S.length)%S.length],nx=S[(i+1)%S.length];
+  $("#cbox").innerHTML=`<button class="back" onclick="history.length>1?history.back():go('explore')">← Back</button>
+   <div class="chead"><div><h2>${flag(c.iso)} ${esc(c.country)}</h2><div class="sub">${esc(c.cur)} · ${c.code} · ${esc(c.issuer)}</div></div>
+   <div style="display:flex;gap:8px"><button class="back" onclick="go('${p.code.toLowerCase()}')">← ${esc(p.country)}</button><button class="back" onclick="go('${nx.code.toLowerCase()}')">${esc(nx.country)} →</button></div></div>
+   <div class="cfacts"><div><small>Series</small>${esc(c.series)}</div><div><small>Latest issue</small>${c.year}</div><div><small>Material</small>${esc(c.mat)}</div><div><small>Notes</small>${c.notes.length}</div></div>
+   ${c.upcoming?`<div class="msg"><b style="font-weight:400;color:#c9a36a">Upcoming</b> · ${esc(c.upcoming)}</div>`:""}${c.info?`<div class="msg i">${esc(c.info)}</div>`:""}
+   <div class="notes">${c.notes.map(n=>`<button class="nb"><div class="flip">${note(c,n,"f")}${note(c,n,"b")}</div>
+     <h3>${esc(val(c,n))}<small>Tap to flip</small></h3><dl><dt>Front</dt><dd>${esc(n[2])}</dd><dt>Back</dt><dd>${esc(n[3])}</dd></dl>${credit(c,n)}</button>`).join("")}</div>`;
+  document.querySelectorAll(".nb").forEach(b=>b.addEventListener("click",()=>b.classList.toggle("b")));
+}
+
+/* ---------- routing ---------- */
+const VIEWS=["explore","colors","map","all","boty"];
+function go(h){location.hash=h}
+function route(){
+  const h=(location.hash.slice(1)||"explore").toLowerCase(),c=D.find(x=>x.code.toLowerCase()===h);
+  const v=c?"country":(VIEWS.includes(h)?h:"explore");
+  document.querySelectorAll(".view").forEach(s=>s.classList.toggle("on",s.id==="v-"+v));
+  document.querySelectorAll("#nav button").forEach(b=>b.classList.toggle("on",b.dataset.go===v));
+  if(v==="colors")renderColors(); if(v==="all")renderList(); if(v==="map")renderMap(); if(v==="boty")renderBoty(); if(c)renderCountry(c);
+  document.title=c?`${c.country} · Banknote Index`:"Banknote Index"; window.scrollTo(0,0);
+}
+document.querySelectorAll("[data-go]").forEach(b=>b.addEventListener("click",()=>go(b.dataset.go)));
+window.addEventListener("hashchange",route);
+$("#foot").innerHTML=`Current banknotes only · verified ${VERIFIED} · ${ALL.length} notes, ${D.length} currencies. Photos from issuing banks, <a href="https://en.numista.com" target="_blank" rel="noopener" style="color:#888">Numista</a> and Wikimedia Commons contributors, credited on each country page. Notes without an openly licensed photo show a plain colour tile.`;
+buildRows(); pick(KEYS.join("").split("").find(k=>byLetter(k).length)); route();
+</script>
+</body>
+</html>

@@ -1,0 +1,1379 @@
+[
+ {
+  "code": "USD",
+  "iso": "US",
+  "country": "United States",
+  "cur": "US dollar",
+  "sym": "$",
+  "issuer": "Federal Reserve",
+  "region": "Americas",
+  "series": "Federal Reserve notes (NexGen redesigns)",
+  "year": 2013,
+  "mat": "Paper",
+  "notes": [
+   [
+    1,
+    "#6f7f5f",
+    "George Washington",
+    "Great Seal of the United States"
+   ],
+   [
+    2,
+    "#5f7f6a",
+    "Thomas Jefferson",
+    "Signing of the Declaration of Independence"
+   ],
+   [
+    5,
+    "#8e7fb0",
+    "Abraham Lincoln",
+    "Lincoln Memorial"
+   ],
+   [
+    10,
+    "#d39b62",
+    "Alexander Hamilton",
+    "U.S. Treasury Building"
+   ],
+   [
+    20,
+    "#8fae78",
+    "Andrew Jackson",
+    "The White House"
+   ],
+   [
+    50,
+    "#c48aa5",
+    "Ulysses S. Grant",
+    "U.S. Capitol"
+   ],
+   [
+    100,
+    "#5f9ea3",
+    "Benjamin Franklin",
+    "Independence Hall"
+   ]
+  ],
+  "info": "Cotton-linen paper. Colour-shifting ink and 3D security ribbon on the $100 (issued 2013)."
+ },
+ {
+  "code": "EUR",
+  "iso": "EU",
+  "country": "Euro area",
+  "cur": "Euro",
+  "sym": "€",
+  "issuer": "European Central Bank",
+  "region": "Europe",
+  "series": "Europa series (ES2)",
+  "year": 2019,
+  "mat": "Paper",
+  "notes": [
+   [
+    5,
+    "#8b8f93",
+    "Classical windows & gateways",
+    "Classical bridge"
+   ],
+   [
+    10,
+    "#c4524b",
+    "Romanesque windows & gateways",
+    "Romanesque bridge"
+   ],
+   [
+    20,
+    "#3f6fb3",
+    "Gothic windows & gateways",
+    "Gothic bridge"
+   ],
+   [
+    50,
+    "#df8a3d",
+    "Renaissance windows & gateways",
+    "Renaissance bridge"
+   ],
+   [
+    100,
+    "#3f9a5c",
+    "Baroque & rococo windows & gateways",
+    "Baroque & rococo bridge"
+   ],
+   [
+    200,
+    "#c7a246",
+    "Iron & glass architecture",
+    "Iron & glass bridge"
+   ]
+  ],
+  "info": "Used by 21 countries since Bulgaria joined on 1 January 2026. The portrait of Europa appears in the watermark and hologram. The €500 is no longer issued.",
+  "upcoming": "A completely new third series is being designed. The ECB expects to choose the final design concept around the end of 2026, and the notes will enter circulation in later years."
+ },
+ {
+  "code": "GBP",
+  "iso": "GB",
+  "country": "United Kingdom",
+  "cur": "Pound sterling",
+  "sym": "£",
+  "issuer": "Bank of England",
+  "region": "Europe",
+  "series": "Polymer series, King Charles III portrait",
+  "year": 2024,
+  "mat": "Polymer",
+  "notes": [
+   [
+    5,
+    "#36a0a3",
+    "King Charles III",
+    "Sir Winston Churchill"
+   ],
+   [
+    10,
+    "#d98a3a",
+    "King Charles III",
+    "Jane Austen"
+   ],
+   [
+    20,
+    "#7b4f9e",
+    "King Charles III",
+    "J. M. W. Turner"
+   ],
+   [
+    50,
+    "#c13b3d",
+    "King Charles III",
+    "Alan Turing"
+   ]
+  ],
+  "info": "King Charles III notes entered circulation in June 2024. Queen Elizabeth II notes remain legal tender but are no longer issued."
+ },
+ {
+  "code": "JPY",
+  "iso": "JP",
+  "country": "Japan",
+  "cur": "Japanese yen",
+  "sym": "¥",
+  "issuer": "Bank of Japan",
+  "region": "Asia",
+  "series": "Series F",
+  "year": 2024,
+  "mat": "Paper",
+  "notes": [
+   [
+    1000,
+    "#4a6fa5",
+    "Kitasato Shibasaburō",
+    "The Great Wave off Kanagawa (Hokusai)"
+   ],
+   [
+    5000,
+    "#8a6aa8",
+    "Tsuda Umeko",
+    "Wisteria"
+   ],
+   [
+    10000,
+    "#a8875a",
+    "Shibusawa Eiichi",
+    "Tokyo Station, Marunouchi building"
+   ]
+  ],
+  "info": "Issued 3 July 2024, with the world's first 3D hologram portraits on circulating notes. The ¥2000 note remains legal tender but is rarely seen."
+ },
+ {
+  "code": "CNY",
+  "iso": "CN",
+  "country": "China",
+  "cur": "Renminbi (yuan)",
+  "sym": "¥",
+  "issuer": "People's Bank of China",
+  "region": "Asia",
+  "series": "Fifth series (2019/2020 editions)",
+  "year": 2020,
+  "mat": "Paper",
+  "notes": [
+   [
+    1,
+    "#8a9a5b",
+    "Mao Zedong",
+    "West Lake, Hangzhou"
+   ],
+   [
+    5,
+    "#7a5a9a",
+    "Mao Zedong",
+    "Mount Tai"
+   ],
+   [
+    10,
+    "#3d5a8a",
+    "Mao Zedong",
+    "Three Gorges of the Yangtze"
+   ],
+   [
+    20,
+    "#a87a4a",
+    "Mao Zedong",
+    "Li River, Guilin"
+   ],
+   [
+    50,
+    "#3d8a6a",
+    "Mao Zedong",
+    "Potala Palace"
+   ],
+   [
+    100,
+    "#c4423b",
+    "Mao Zedong",
+    "Great Hall of the People"
+   ]
+  ]
+ },
+ {
+  "code": "INR",
+  "iso": "IN",
+  "country": "India",
+  "cur": "Indian rupee",
+  "sym": "₹",
+  "issuer": "Reserve Bank of India",
+  "region": "Asia",
+  "series": "Mahatma Gandhi (New) Series",
+  "year": 2017,
+  "mat": "Paper",
+  "notes": [
+   [
+    10,
+    "#8a5a3a",
+    "Mahatma Gandhi",
+    "Konark Sun Temple"
+   ],
+   [
+    20,
+    "#a9a83a",
+    "Mahatma Gandhi",
+    "Ellora Caves"
+   ],
+   [
+    50,
+    "#3fa9c4",
+    "Mahatma Gandhi",
+    "Hampi stone chariot"
+   ],
+   [
+    100,
+    "#9a8cc4",
+    "Mahatma Gandhi",
+    "Rani ki Vav stepwell"
+   ],
+   [
+    200,
+    "#e3b23c",
+    "Mahatma Gandhi",
+    "Sanchi Stupa"
+   ],
+   [
+    500,
+    "#8f9184",
+    "Mahatma Gandhi",
+    "Red Fort"
+   ]
+  ],
+  "info": "The ₹2000 note was withdrawn from circulation in 2023 and is left out. Notes printed in 2025 carry Governor Sanjay Malhotra's signature."
+ },
+ {
+  "code": "CAD",
+  "iso": "CA",
+  "country": "Canada",
+  "cur": "Canadian dollar",
+  "sym": "$",
+  "issuer": "Bank of Canada",
+  "region": "Americas",
+  "series": "Frontier series & vertical $10",
+  "year": 2018,
+  "mat": "Polymer",
+  "notes": [
+   [
+    5,
+    "#3a7ac0",
+    "Sir Wilfrid Laurier",
+    "Canadarm2 and Dextre"
+   ],
+   [
+    10,
+    "#8a4a9e",
+    "Viola Desmond",
+    "Canadian Museum for Human Rights"
+   ],
+   [
+    20,
+    "#3d9a5a",
+    "Queen Elizabeth II",
+    "Canadian National Vimy Memorial"
+   ],
+   [
+    50,
+    "#c84040",
+    "William Lyon Mackenzie King",
+    "CCGS Amundsen icebreaker"
+   ],
+   [
+    100,
+    "#a87a4a",
+    "Sir Robert Borden",
+    "Medical innovation"
+   ]
+  ],
+  "info": "The $10 has a vertical layout.",
+  "upcoming": "A new vertical $20 was unveiled on 3 September 2026. It has King Charles III on the front and the Vimy Memorial on the back, and enters circulation in early 2027."
+ },
+ {
+  "code": "AUD",
+  "iso": "AU",
+  "country": "Australia",
+  "cur": "Australian dollar",
+  "sym": "$",
+  "issuer": "Reserve Bank of Australia",
+  "region": "Oceania",
+  "series": "Next Generation Banknotes",
+  "year": 2020,
+  "mat": "Polymer",
+  "notes": [
+   [
+    5,
+    "#c87aa8",
+    "Queen Elizabeth II",
+    "Parliament House, Canberra"
+   ],
+   [
+    10,
+    "#3a8ac8",
+    "A. B. 'Banjo' Paterson",
+    "Dame Mary Gilmore"
+   ],
+   [
+    20,
+    "#c84a3a",
+    "Mary Reibey",
+    "Rev. John Flynn"
+   ],
+   [
+    50,
+    "#d9b236",
+    "David Unaipon",
+    "Edith Cowan"
+   ],
+   [
+    100,
+    "#3aa07a",
+    "Dame Nellie Melba",
+    "Sir John Monash"
+   ]
+  ],
+  "info": "Each note has a top-to-bottom clear window and tactile bumps for vision-impaired users.",
+  "upcoming": "The $5 is being redesigned to honour First Nations culture, with Parliament House kept on the other side. The current $5 stays in issue until the new note is released."
+ },
+ {
+  "code": "NZD",
+  "iso": "NZ",
+  "country": "New Zealand",
+  "cur": "New Zealand dollar",
+  "sym": "$",
+  "issuer": "Reserve Bank of New Zealand",
+  "region": "Oceania",
+  "series": "Brighter Money (Series 7)",
+  "year": 2016,
+  "mat": "Polymer",
+  "notes": [
+   [
+    5,
+    "#e08a3a",
+    "Sir Edmund Hillary",
+    "Hoiho (yellow-eyed penguin)"
+   ],
+   [
+    10,
+    "#3a7ac0",
+    "Kate Sheppard",
+    "Whio (blue duck)"
+   ],
+   [
+    20,
+    "#3aa05a",
+    "Queen Elizabeth II",
+    "Kārearea (NZ falcon)"
+   ],
+   [
+    50,
+    "#8a5aa8",
+    "Sir Āpirana Ngata",
+    "Kōkako"
+   ],
+   [
+    100,
+    "#c84a4a",
+    "Lord Rutherford of Nelson",
+    "Mohua (yellowhead)"
+   ]
+  ],
+  "info": "The RBNZ has no immediate plans to put King Charles III on banknotes. The $20 will keep Queen Elizabeth II until existing stock is used up."
+ },
+ {
+  "code": "CHF",
+  "iso": "CH",
+  "country": "Switzerland",
+  "cur": "Swiss franc",
+  "sym": "Fr.",
+  "issuer": "Swiss National Bank",
+  "region": "Europe",
+  "series": "Ninth series",
+  "year": 2019,
+  "mat": "Paper",
+  "notes": [
+   [
+    10,
+    "#d9b03a",
+    "Hands & globe: organisational talent",
+    "Time: clockwork & time zones"
+   ],
+   [
+    20,
+    "#c84a4a",
+    "Hands & globe: creativity",
+    "Light: film & prism"
+   ],
+   [
+    50,
+    "#4aa05a",
+    "Hands & globe: experience",
+    "Wind: dandelion & paraglider"
+   ],
+   [
+    100,
+    "#3a6ac0",
+    "Hands & globe: humanitarian tradition",
+    "Water: Valais irrigation channel"
+   ],
+   [
+    200,
+    "#a8704a",
+    "Hands & globe: scientific expertise",
+    "Matter: particle collision tracks"
+   ],
+   [
+    1000,
+    "#8a4aa8",
+    "Hands & globe: communication",
+    "Language: hands & dialogue"
+   ]
+  ],
+  "info": "Printed on Durasafe®, a three-layer paper–polymer substrate."
+ },
+ {
+  "code": "SEK",
+  "iso": "SE",
+  "country": "Sweden",
+  "cur": "Swedish krona",
+  "sym": "kr",
+  "issuer": "Sveriges Riksbank",
+  "region": "Europe",
+  "series": "Cultural journey series",
+  "year": 2016,
+  "mat": "Paper",
+  "notes": [
+   [
+    20,
+    "#8a5aa8",
+    "Astrid Lindgren",
+    "Småland landscape"
+   ],
+   [
+    50,
+    "#e0904a",
+    "Evert Taube",
+    "Bohuslän coast"
+   ],
+   [
+    100,
+    "#3a7ac0",
+    "Greta Garbo",
+    "Gotland"
+   ],
+   [
+    200,
+    "#4aa06a",
+    "Ingmar Bergman",
+    "Fårö"
+   ],
+   [
+    500,
+    "#c84a4a",
+    "Birgit Nilsson",
+    "Skåne"
+   ],
+   [
+    1000,
+    "#9a6a4a",
+    "Dag Hammarskjöld",
+    "Lapland"
+   ]
+  ]
+ },
+ {
+  "code": "NOK",
+  "iso": "NO",
+  "country": "Norway",
+  "cur": "Norwegian krone",
+  "sym": "kr",
+  "issuer": "Norges Bank",
+  "region": "Europe",
+  "series": "The Sea series",
+  "year": 2019,
+  "mat": "Paper",
+  "notes": [
+   [
+    50,
+    "#4a9a7a",
+    "Utvær lighthouse",
+    "Pixelated coastal pattern"
+   ],
+   [
+    100,
+    "#c8503a",
+    "Gokstad Viking ship",
+    "Pixelated coastal pattern"
+   ],
+   [
+    200,
+    "#3a6ab0",
+    "Atlantic cod",
+    "Pixelated coastal pattern"
+   ],
+   [
+    500,
+    "#9a6a4a",
+    "Rescue vessel RS 14 Stavanger",
+    "Pixelated coastal pattern"
+   ],
+   [
+    1000,
+    "#7a5aa0",
+    "The wave",
+    "Pixelated coastal pattern"
+   ]
+  ],
+  "info": "Backs designed by Snøhetta: pixel patterns that represent wind strength along the coast."
+ },
+ {
+  "code": "DKK",
+  "iso": "DK",
+  "country": "Denmark",
+  "cur": "Danish krone",
+  "sym": "kr",
+  "issuer": "Danmarks Nationalbank",
+  "region": "Europe",
+  "series": "Bridge series",
+  "year": 2011,
+  "mat": "Paper",
+  "notes": [
+   [
+    50,
+    "#8a5aa0",
+    "Sallingsund Bridge",
+    "Skarpsalling vessel"
+   ],
+   [
+    100,
+    "#e08a4a",
+    "Little Belt Bridge",
+    "Hindsgavl dagger"
+   ],
+   [
+    200,
+    "#4a9a6a",
+    "Knippelsbro",
+    "Langstrup belt plate"
+   ],
+   [
+    500,
+    "#3a6ab0",
+    "Queen Alexandrine Bridge",
+    "Keldby bronze bucket"
+   ],
+   [
+    1000,
+    "#c04a4a",
+    "Great Belt Bridge",
+    "Trundholm Sun Chariot"
+   ]
+  ],
+  "upcoming": "Danmarks Nationalbank is preparing a new banknote series to replace the Bridge series."
+ },
+ {
+  "code": "KRW",
+  "iso": "KR",
+  "country": "South Korea",
+  "cur": "South Korean won",
+  "sym": "₩",
+  "issuer": "Bank of Korea",
+  "region": "Asia",
+  "series": "Sixth series",
+  "year": 2009,
+  "mat": "Paper",
+  "notes": [
+   [
+    1000,
+    "#4a7ab0",
+    "Yi Hwang (Toegye)",
+    "Gyesang Jeonggeo-do painting"
+   ],
+   [
+    5000,
+    "#d08a4a",
+    "Yi I (Yulgok)",
+    "Chochungdo painting"
+   ],
+   [
+    10000,
+    "#4a9a5a",
+    "King Sejong the Great",
+    "Celestial globe & telescope"
+   ],
+   [
+    50000,
+    "#d0b04a",
+    "Sin Saimdang",
+    "Plum and bamboo paintings"
+   ]
+  ]
+ },
+ {
+  "code": "SGD",
+  "iso": "SG",
+  "country": "Singapore",
+  "cur": "Singapore dollar",
+  "sym": "$",
+  "issuer": "Monetary Authority of Singapore",
+  "region": "Asia",
+  "series": "Portrait series",
+  "year": 1999,
+  "mat": "Paper & polymer",
+  "notes": [
+   [
+    2,
+    "#8a5aa8",
+    "Yusof Ishak",
+    "Education"
+   ],
+   [
+    5,
+    "#4aa06a",
+    "Yusof Ishak",
+    "Garden city"
+   ],
+   [
+    10,
+    "#c84a4a",
+    "Yusof Ishak",
+    "Sports"
+   ],
+   [
+    50,
+    "#3a7ac0",
+    "Yusof Ishak",
+    "Arts"
+   ],
+   [
+    100,
+    "#e08a3a",
+    "Yusof Ishak",
+    "Youth"
+   ]
+  ],
+  "info": "The $2, $5, $10 and $50 are polymer and the $100 is paper. The $1,000 stopped being issued in 2021."
+ },
+ {
+  "code": "MXN",
+  "iso": "MX",
+  "country": "Mexico",
+  "cur": "Mexican peso",
+  "sym": "$",
+  "issuer": "Banco de México",
+  "region": "Americas",
+  "series": "Series G",
+  "year": 2021,
+  "mat": "Paper & polymer",
+  "notes": [
+   [
+    20,
+    "#3f9a86",
+    "Entry of the Trigarante Army (1821)",
+    "Sian Ka'an mangroves"
+   ],
+   [
+    50,
+    "#c85a9a",
+    "Founding of Tenochtitlan",
+    "Xochimilco & axolotl"
+   ],
+   [
+    100,
+    "#c84a4a",
+    "Sor Juana Inés de la Cruz",
+    "Monarch butterfly reserve"
+   ],
+   [
+    200,
+    "#5a9a4a",
+    "Miguel Hidalgo & José María Morelos",
+    "El Pinacate desert & golden eagle"
+   ],
+   [
+    500,
+    "#3a7ab0",
+    "Benito Juárez",
+    "El Vizcaíno & grey whale"
+   ],
+   [
+    1000,
+    "#8a5aa8",
+    "Madero, Galindo & Serdán",
+    "Calakmul & jaguar"
+   ]
+  ],
+  "info": "Each back shows one of Mexico's ecosystems. The $20 and $50 are polymer."
+ },
+ {
+  "code": "BRL",
+  "iso": "BR",
+  "country": "Brazil",
+  "cur": "Brazilian real",
+  "sym": "R$",
+  "issuer": "Banco Central do Brasil",
+  "region": "Americas",
+  "series": "Second family of the Real",
+  "year": 2020,
+  "mat": "Paper",
+  "notes": [
+   [
+    2,
+    "#5a8aa8",
+    "Effigy of the Republic",
+    "Hawksbill turtle"
+   ],
+   [
+    5,
+    "#8a5aa8",
+    "Effigy of the Republic",
+    "Great egret"
+   ],
+   [
+    10,
+    "#c84a4a",
+    "Effigy of the Republic",
+    "Green-winged macaw"
+   ],
+   [
+    20,
+    "#e0b03a",
+    "Effigy of the Republic",
+    "Golden lion tamarin"
+   ],
+   [
+    50,
+    "#d08a4a",
+    "Effigy of the Republic",
+    "Jaguar"
+   ],
+   [
+    100,
+    "#3a6ab0",
+    "Effigy of the Republic",
+    "Dusky grouper"
+   ],
+   [
+    200,
+    "#9a8a7a",
+    "Effigy of the Republic",
+    "Maned wolf"
+   ]
+  ]
+ },
+ {
+  "code": "ZAR",
+  "iso": "ZA",
+  "country": "South Africa",
+  "cur": "South African rand",
+  "sym": "R",
+  "issuer": "South African Reserve Bank",
+  "region": "Africa",
+  "series": "Upgraded Mandela series",
+  "year": 2023,
+  "mat": "Paper",
+  "notes": [
+   [
+    10,
+    "#4aa06a",
+    "Nelson Mandela",
+    "Rhinoceros family"
+   ],
+   [
+    20,
+    "#a8703a",
+    "Nelson Mandela",
+    "Elephant family"
+   ],
+   [
+    50,
+    "#c84a4a",
+    "Nelson Mandela",
+    "Lion family"
+   ],
+   [
+    100,
+    "#3a6ab0",
+    "Nelson Mandela",
+    "Cape buffalo family"
+   ],
+   [
+    200,
+    "#e08a3a",
+    "Nelson Mandela",
+    "Leopard family"
+   ]
+  ],
+  "info": "Issued from 4 May 2023. The Big Five now appear as families, and the constitution's preamble is printed in microtext around Mandela's portrait."
+ },
+ {
+  "code": "TRY",
+  "iso": "TR",
+  "country": "Türkiye",
+  "cur": "Turkish lira",
+  "sym": "₺",
+  "issuer": "Central Bank of the Republic of Türkiye",
+  "region": "Middle East",
+  "series": "E9 emission",
+  "year": 2009,
+  "mat": "Paper",
+  "notes": [
+   [
+    5,
+    "#8a5a7a",
+    "Mustafa Kemal Atatürk",
+    "Aydın Sayılı"
+   ],
+   [
+    10,
+    "#c84a4a",
+    "Mustafa Kemal Atatürk",
+    "Cahit Arf"
+   ],
+   [
+    20,
+    "#4aa06a",
+    "Mustafa Kemal Atatürk",
+    "Mimar Kemaleddin"
+   ],
+   [
+    50,
+    "#e08a3a",
+    "Mustafa Kemal Atatürk",
+    "Fatma Aliye"
+   ],
+   [
+    100,
+    "#3a7ab0",
+    "Mustafa Kemal Atatürk",
+    "Buhurizade Mustafa Itri"
+   ],
+   [
+    200,
+    "#b07ab0",
+    "Mustafa Kemal Atatürk",
+    "Yunus Emre"
+   ]
+  ]
+ },
+ {
+  "code": "THB",
+  "iso": "TH",
+  "country": "Thailand",
+  "cur": "Thai baht",
+  "sym": "฿",
+  "issuer": "Bank of Thailand",
+  "region": "Asia",
+  "series": "Series 17",
+  "year": 2018,
+  "mat": "Paper",
+  "notes": [
+   [
+    20,
+    "#4aa06a",
+    "King Vajiralongkorn (Rama X)",
+    "Kings Rama I & Rama II"
+   ],
+   [
+    50,
+    "#3a7ab0",
+    "King Vajiralongkorn (Rama X)",
+    "Kings Rama III & Rama IV"
+   ],
+   [
+    100,
+    "#c84a4a",
+    "King Vajiralongkorn (Rama X)",
+    "Kings Rama V & Rama VI"
+   ],
+   [
+    500,
+    "#8a5aa8",
+    "King Vajiralongkorn (Rama X)",
+    "Kings Rama VII & Rama VIII"
+   ],
+   [
+    1000,
+    "#9a7a5a",
+    "King Vajiralongkorn (Rama X)",
+    "Kings Rama IX & Rama X"
+   ]
+  ]
+ },
+ {
+  "code": "PHP",
+  "iso": "PH",
+  "country": "Philippines",
+  "cur": "Philippine peso",
+  "sym": "₱",
+  "issuer": "Bangko Sentral ng Pilipinas",
+  "region": "Asia",
+  "series": "Polymer series & New Generation Currency",
+  "year": 2024,
+  "mat": "Paper & polymer",
+  "notes": [
+   [
+    50,
+    "#c84a4a",
+    "Visayan leopard cat",
+    "Philippine natural heritage"
+   ],
+   [
+    100,
+    "#8a6ab0",
+    "Palawan peacock-pheasant",
+    "Philippine natural heritage"
+   ],
+   [
+    200,
+    "#4aa06a",
+    "Diosdado Macapagal",
+    "Chocolate Hills & Philippine tarsier"
+   ],
+   [
+    500,
+    "#d9b236",
+    "Visayan spotted deer",
+    "Philippine natural heritage"
+   ],
+   [
+    1000,
+    "#3a7ab0",
+    "Philippine eagle",
+    "Tubbataha Reefs & South Sea pearl"
+   ]
+  ],
+  "info": "The ₱50–₱1000 polymer notes (2022–2024) feature native wildlife in place of portraits. Earlier paper versions remain legal tender."
+ },
+ {
+  "code": "IDR",
+  "iso": "ID",
+  "country": "Indonesia",
+  "cur": "Indonesian rupiah",
+  "sym": "Rp",
+  "issuer": "Bank Indonesia",
+  "region": "Asia",
+  "series": "2022 issue",
+  "year": 2022,
+  "mat": "Paper",
+  "notes": [
+   [
+    1000,
+    "#6a8a6a",
+    "Cut Meutia",
+    "Tifa dance & Banda Neira"
+   ],
+   [
+    2000,
+    "#8a8a9a",
+    "Mohammad Husni Thamrin",
+    "Piring dance & Ngarai Sianok"
+   ],
+   [
+    5000,
+    "#9a7a4a",
+    "Idham Chalid",
+    "Gambyong dance & Mount Bromo"
+   ],
+   [
+    10000,
+    "#8a5aa8",
+    "Frans Kaisiepo",
+    "Pakarena dance & Wakatobi"
+   ],
+   [
+    20000,
+    "#4aa06a",
+    "Sam Ratulangi",
+    "Gong dance & Derawan Islands"
+   ],
+   [
+    50000,
+    "#3a7ab0",
+    "I Gusti Ngurah Rai",
+    "Legong dance & Komodo Island"
+   ],
+   [
+    100000,
+    "#c84a4a",
+    "Sukarno & Mohammad Hatta",
+    "Topeng Betawi dance & Raja Ampat"
+   ]
+  ]
+ },
+ {
+  "code": "VND",
+  "iso": "VN",
+  "country": "Vietnam",
+  "cur": "Vietnamese đồng",
+  "sym": "₫",
+  "issuer": "State Bank of Vietnam",
+  "region": "Asia",
+  "series": "Polymer series",
+  "year": 2006,
+  "mat": "Polymer",
+  "notes": [
+   [
+    10000,
+    "#b08a3a",
+    "Ho Chi Minh",
+    "Offshore oil rig"
+   ],
+   [
+    20000,
+    "#3a7ab0",
+    "Ho Chi Minh",
+    "Japanese Covered Bridge, Hội An"
+   ],
+   [
+    50000,
+    "#b05a8a",
+    "Ho Chi Minh",
+    "Nghênh Lương Đình, Huế"
+   ],
+   [
+    100000,
+    "#4a9a5a",
+    "Ho Chi Minh",
+    "Temple of Literature, Hanoi"
+   ],
+   [
+    200000,
+    "#b0603a",
+    "Ho Chi Minh",
+    "Hạ Long Bay"
+   ],
+   [
+    500000,
+    "#3a9ab0",
+    "Ho Chi Minh",
+    "Birthplace at Kim Liên"
+   ]
+  ]
+ },
+ {
+  "code": "MYR",
+  "iso": "MY",
+  "country": "Malaysia",
+  "cur": "Malaysian ringgit",
+  "sym": "RM",
+  "issuer": "Bank Negara Malaysia",
+  "region": "Asia",
+  "series": "Fourth series",
+  "year": 2012,
+  "mat": "Paper & polymer",
+  "notes": [
+   [
+    1,
+    "#3a7ab0",
+    "Tuanku Abdul Rahman",
+    "Wau bulan kite"
+   ],
+   [
+    5,
+    "#4aa06a",
+    "Tuanku Abdul Rahman",
+    "Rhinoceros hornbill"
+   ],
+   [
+    10,
+    "#c84a4a",
+    "Tuanku Abdul Rahman",
+    "Rafflesia"
+   ],
+   [
+    20,
+    "#e08a3a",
+    "Tuanku Abdul Rahman",
+    "Hawksbill & leatherback turtles"
+   ],
+   [
+    50,
+    "#3a9a9a",
+    "Tuanku Abdul Rahman",
+    "Oil palm"
+   ],
+   [
+    100,
+    "#8a5aa8",
+    "Tuanku Abdul Rahman",
+    "Mount Kinabalu & Mulu Caves"
+   ]
+  ],
+  "info": "The RM1 and RM5 are polymer."
+ },
+ {
+  "code": "KES",
+  "iso": "KE",
+  "country": "Kenya",
+  "cur": "Kenyan shilling",
+  "sym": "KSh",
+  "issuer": "Central Bank of Kenya",
+  "region": "Africa",
+  "series": "2019 series",
+  "year": 2019,
+  "mat": "Paper",
+  "notes": [
+   [
+    50,
+    "#4a9a6a",
+    "Kenyatta International Convention Centre",
+    "Green energy"
+   ],
+   [
+    100,
+    "#8a5aa8",
+    "Kenyatta International Convention Centre",
+    "Agriculture"
+   ],
+   [
+    200,
+    "#3a7ab0",
+    "Kenyatta International Convention Centre",
+    "Social services"
+   ],
+   [
+    500,
+    "#c84a4a",
+    "Kenyatta International Convention Centre",
+    "Tourism"
+   ],
+   [
+    1000,
+    "#9a6a3a",
+    "Kenyatta International Convention Centre",
+    "Governance"
+   ]
+  ],
+  "info": "Each back also shows one of the Big Five animals."
+ },
+ {
+  "code": "TWD",
+  "iso": "TW",
+  "country": "Taiwan",
+  "cur": "New Taiwan dollar",
+  "sym": "$",
+  "issuer": "Central Bank of the Republic of China (Taiwan)",
+  "region": "Asia",
+  "series": "Fifth series",
+  "year": 2005,
+  "mat": "Paper",
+  "notes": [
+   [
+    100,
+    "#c84a4a",
+    "Sun Yat-sen",
+    "Chung-Shan Building"
+   ],
+   [
+    200,
+    "#4aa06a",
+    "Chiang Kai-shek",
+    "Presidential Office Building"
+   ],
+   [
+    500,
+    "#a8703a",
+    "Youth baseball team",
+    "Formosan sika deer & Dabajian Mountain"
+   ],
+   [
+    1000,
+    "#3a7ab0",
+    "Schoolchildren & globe",
+    "Mikado pheasant & Jade Mountain"
+   ],
+   [
+    2000,
+    "#8a5aa8",
+    "FORMOSAT-1 satellite",
+    "Formosan landlocked salmon & Nanhu Mountain"
+   ]
+  ]
+ },
+ {
+  "code": "COP",
+  "iso": "CO",
+  "country": "Colombia",
+  "cur": "Colombian peso",
+  "sym": "$",
+  "issuer": "Banco de la República",
+  "region": "Americas",
+  "series": "2016 family",
+  "year": 2016,
+  "mat": "Paper",
+  "notes": [
+   [
+    2000,
+    "#3a9a9a",
+    "Débora Arango",
+    "Caño Cristales"
+   ],
+   [
+    5000,
+    "#9a7a4a",
+    "José Asunción Silva",
+    "Páramo ecosystem"
+   ],
+   [
+    10000,
+    "#c84a5a",
+    "Virginia Gutiérrez de Pineda",
+    "Amazon region"
+   ],
+   [
+    20000,
+    "#3a6ab0",
+    "Alfonso López Michelsen",
+    "Santa Cruz de Mompox"
+   ],
+   [
+    50000,
+    "#a85a9a",
+    "Gabriel García Márquez",
+    "Ciudad Perdida, Sierra Nevada"
+   ],
+   [
+    100000,
+    "#4a9a5a",
+    "Carlos Lleras Restrepo",
+    "Cocora Valley wax palms"
+   ]
+  ]
+ },
+ {
+  "code": "PRB",
+  "iso": null,
+  "country": "Transnistria",
+  "cur": "Transnistrian ruble",
+  "sym": "",
+  "issuer": "Pridnestrovian Republican Bank",
+  "region": "Europe",
+  "series": "2007 series (2012 modification) and 2025 issues",
+  "year": 2025,
+  "mat": "Paper",
+  "notes": [
+   [
+    1,
+    "#b47264",
+    "Alexander Suvorov",
+    "Kitskany bridgehead memorial complex"
+   ],
+   [
+    5,
+    "#5b4ea4",
+    "Alexander Suvorov",
+    "KVINT distillery building"
+   ],
+   [
+    10,
+    "#a3b464",
+    "Alexander Suvorov",
+    "Noul Neamț (Chițcani) Monastery"
+   ],
+   [
+    25,
+    "#b46466",
+    "Alexander Suvorov",
+    "Tighina Fortress and Russian soldiers' memorial"
+   ],
+   [
+    50,
+    "#708282",
+    "Taras Shevchenko",
+    "Government building, Tiraspol"
+   ],
+   [
+    100,
+    "#9152aa",
+    "Dimitrie Cantemir",
+    "Nativity Cathedral, Tiraspol"
+   ],
+   [
+    200,
+    "#b46466",
+    "Pyotr Rumyantsev-Zadunaisky",
+    "Battle of Kagul (1770)"
+   ],
+   [
+    500,
+    "#b86a5f",
+    "Catherine the Great",
+    "Decree founding Tiraspol and fortress plan"
+   ]
+  ],
+  "info": "Issued by Transnistria's own central bank. The 50, 100 and 200 ruble notes were redesigned in 2025. Transnistria is not shown separately on the map.",
+  "suf": " rubles"
+ },
+ {
+  "code": "SLS",
+  "iso": null,
+  "country": "Somaliland",
+  "cur": "Somaliland shilling",
+  "sym": "",
+  "issuer": "Bank of Somaliland",
+  "region": "Africa",
+  "series": "Somaliland shilling notes",
+  "year": 2016,
+  "mat": "Paper",
+  "notes": [
+   [
+    500,
+    "#7e8b81",
+    "Bank of Somaliland headquarters, Hargeisa",
+    "Berbera docks with sheep and goats"
+   ],
+   [
+    1000,
+    "#b4646d",
+    "Bank of Somaliland headquarters, Hargeisa",
+    "Berbera docks with sheep and goats"
+   ],
+   [
+    5000,
+    "#64b481",
+    "Bank of Somaliland headquarters, Hargeisa",
+    "Camels and goats foraging"
+   ]
+  ],
+  "suf": " shillings"
+ }
+]

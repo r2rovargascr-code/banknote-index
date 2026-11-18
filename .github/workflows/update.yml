@@ -1,0 +1,75 @@
+name: Update and publish
+
+on:
+  schedule:
+    - cron: "17 19 1 * *"   # 1st of every month, 14:17 New York time
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+
+      - name: Check Numista for new notes (monthly / manual runs)
+        if: github.event_name != 'push'
+        env:
+          NUMISTA_KEY: ${{ secrets.NUMISTA_KEY }}
+        run: python scripts/check_new_notes.py
+
+      - name: Fill missing photos (bank, Numista, Wikimedia)
+        env:
+          NUMISTA_KEY: ${{ secrets.NUMISTA_KEY }}
+          NUMISTA_BUDGET: "300"
+        run: python scripts/fetch_images.py
+
+      - name: Build site
+        run: python scripts/build.py
+
+      - name: Save changes to the repository
+        run: |
+          git config user.name "banknote-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data img
+          if ! git diff --cached --quiet; then
+            git commit -m "Monthly update: new notes and photos"
+            git push
+          fi
+
+      - name: Open an issue summarising changes (you get an email)
+        if: github.event_name != 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          body=""
+          [ -s data/last_changes.md ] && body="$body## Banknote changes"$'\n'"$(cat data/last_changes.md)"$'\n\n'
+          [ -s data/last_photos.txt ] && body="$body## Photos added"$'\n'"$(sed 's/^/- /' data/last_photos.txt)"$'\n'
+          if [ -n "$body" ]; then
+            gh issue create --title "Banknote Index update $(date +'%B %Y')" --body "$body"
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4

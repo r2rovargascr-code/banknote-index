@@ -1,0 +1,3332 @@
+{
+ "_issuers": {
+  "USD": "etats-unis",
+  "EUR": "zone_euro",
+  "JPY": "japon",
+  "CNY": "chine",
+  "CAD": "canada",
+  "AUD": "australie",
+  "NZD": "nouvelle-zelande",
+  "CHF": "suisse",
+  "SEK": "suede",
+  "KRW": "coree_du_sud",
+  "SGD": "singapour",
+  "MXN": "mexique",
+  "BRL": "bresil",
+  "TRY": "turquie",
+  "ILS": "israel",
+  "THB": "thailande",
+  "PHP": "philippines",
+  "IDR": "indonesie",
+  "KES": "kenya",
+  "TWD": "taiwan",
+  "COP": "colombie",
+  "GBP": "england",
+  "INR": "inde",
+  "NOK": "norvege",
+  "DKK": "danemark",
+  "ZAR": "afrique_du_sud",
+  "VND": "viet_nam",
+  "MYR": "malaisie"
+ },
+ "USD-20": {
+  "id": 201837,
+  "title": "20 Dollars (Federal Reserve Note; colored)",
+  "years": [
+   2004,
+   2021
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/etats-unis/65545a9e41b016.59831637-original.jpg",
+   "author": "Daniel LeBowsky",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/etats-unis/65545a9f5219d8.34767050-original.jpg",
+   "author": "Daniel LeBowsky",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "USD-50": {
+  "id": 201849,
+  "title": "50 Dollars (Federal Reserve Note; colored)",
+  "years": [
+   2004,
+   2021
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/etats-unis/5e9526726f6188.87832392-original.jpg",
+   "author": "agoodman",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/etats-unis/5e952672e1e615.55558139-original.jpg",
+   "author": "agoodman",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en"
+  }
+ },
+ "USD-100": {
+  "id": 201734,
+  "title": "100 Dollars (Federal Reserve Note; colored)",
+  "years": [
+   2009,
+   2025
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/etats-unis/5e94e607288ee9.51006634-original.jpg",
+   "author": "agoodman",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/etats-unis/5e94e6079ff282.92400620-original.jpg",
+   "author": "agoodman",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en"
+  }
+ },
+ "USD-1": {
+  "none": true
+ },
+ "USD-2": {
+  "id": 201812,
+  "title": "2 Dollars (Federal Reserve Note)",
+  "years": [
+   1976,
+   2017
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/etats-unis/63b83db770aa29.25070493-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/etats-unis/63b83db85c1e63.26469491-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "USD-5": {
+  "id": 201558,
+  "title": "5 Dollars (Federal Reserve Note; colored)",
+  "years": [
+   2006,
+   2021
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/etats-unis/67957f7880cde8.70320846-original.jpg",
+   "author": "Tanman2001",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/etats-unis/67957f79159680.76341011-original.jpg",
+   "author": "Tanman2001",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "USD-10": {
+  "id": 201824,
+  "title": "10 Dollars (Federal Reserve Note; colored)",
+  "years": [
+   2004,
+   2021
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/etats-unis/68a221feb5fa03.99152507-original.jpg",
+   "author": "Brandon Bertolli",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/etats-unis/68a222005f9a66.03980024-original.jpg",
+   "author": "Brandon Bertolli",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+  }
+ },
+ "EUR-5": {
+  "id": 201658,
+  "title": "5 Euro (Europa Series)",
+  "years": [
+   2011,
+   2019
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/zone_euro/686edfa13a8724.68574107-original.jpg",
+   "author": "ECB",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/zone_euro/686edfa18640f5.53926000-original.jpg",
+   "author": "ECB",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "EUR-10": {
+  "id": 204879,
+  "title": "10 Euro (Europa Series)",
+  "years": [
+   2014,
+   2019
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/zone_euro/686ee4902d2b49.05166546-original.jpg",
+   "author": "ECB",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/zone_euro/686ee4906bf250.28649676-original.jpg",
+   "author": "ECB",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "EUR-20": {
+  "id": 204877,
+  "title": "20 Euro (Europa Series)",
+  "years": [
+   2015,
+   2019
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/zone_euro/686eeb7b217500.49478292-original.jpg",
+   "author": "ECB",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/zone_euro/686eeb7b770198.46935040-original.jpg",
+   "author": "ECB",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "EUR-50": {
+  "id": 204874,
+  "title": "50 Euro (Europa Series)",
+  "years": [
+   2017,
+   2019
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/zone_euro/6870cdc3a6a826.72264288-original.jpg",
+   "author": "ECB",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/zone_euro/6870cdc4010745.95660819-original.jpg",
+   "author": "ECB",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "EUR-100": {
+  "id": 207796,
+  "title": "100 Euro (Europa Series)",
+  "years": [
+   2019,
+   2019
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/zone_euro/686eeca807b253.09731564-original.jpg",
+   "author": "ECB",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/zone_euro/686eeca84dec06.83117364-original.jpg",
+   "author": "ECB",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "EUR-200": {
+  "id": 208216,
+  "title": "200 Euro (Europa Series)",
+  "years": [
+   2019,
+   2019
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/zone_euro/686eecbcd80d01.43650928-original.jpg",
+   "author": "ECB",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/zone_euro/686eecbd509008.03087822-original.jpg",
+   "author": "ECB",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "JPY-1000": {
+  "id": 385520,
+  "title": "1000 Yen",
+  "years": [
+   2024,
+   2024
+  ],
+  "score": 6,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/japon/66855b7c83e347.23203622-original.jpg",
+   "author": "akina1015",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/japon/66855b7d242ea2.93980853-original.jpg",
+   "author": "akina1015",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "JPY-5000": {
+  "id": 385523,
+  "title": "5000 Yen",
+  "years": [
+   2024,
+   2024
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/japon/668558eac4fb99.31585124-original.jpg",
+   "author": "akina1015",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/japon/668558eb61d2d4.95214999-original.jpg",
+   "author": "akina1015",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "JPY-10000": {
+  "id": 385524,
+  "title": "10 000 Yen",
+  "years": [
+   2024,
+   2024
+  ],
+  "score": 6,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/japon/6685591fe09969.79220912-original.jpg",
+   "author": "akina1015",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/japon/66855920a5f468.35452708-original.jpg",
+   "author": "akina1015",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "CNY-1": {
+  "id": 220873,
+  "title": "1 Yuan (enhanced security)",
+  "years": [
+   2019,
+   2019
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/chine/5ede400ebef881.51111026-original.jpg",
+   "author": "Ivan Artamonov",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/chine/5ede400fc20b86.14884131-original.jpg",
+   "author": "Ivan Artamonov",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "CNY-5": {
+  "id": 243357,
+  "title": "5 Yuan (enhanced security)",
+  "years": [
+   2020,
+   2020
+  ],
+  "score": 2,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/chine/6555775363b502.03855347-original.jpg",
+   "author": "That0neZebra",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/chine/65557753d7b448.03030965-original.jpg",
+   "author": "That0neZebra",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  }
+ },
+ "CNY-10": {
+  "id": 204747,
+  "title": "10 Yuan",
+  "years": [
+   2005,
+   2005
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/chine/63c9033eca89e7.73905264-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/chine/63c9033fcadae2.03942251-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "CNY-20": {
+  "id": 220875,
+  "title": "20 Yuan (enhanced security)",
+  "years": [
+   2019,
+   2019
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/chine/63df74ce234a41.74320214-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/chine/63df74d0264699.06079628-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "CNY-50": {
+  "id": 223863,
+  "title": "50 Yuan (enhanced security)",
+  "years": [
+   2019,
+   2019
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/chine/5ef5d735a21884.04971230-original.jpg",
+   "author": "jerebe",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/chine/5ef5d735edcca6.81749254-original.jpg",
+   "author": "jerebe",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "CNY-100": {
+  "id": 205868,
+  "title": "100 Yuan (enhanced security)",
+  "years": [
+   2015,
+   2015
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/chine/63bda6941b8729.39160559-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/chine/63bda6956149b8.66960143-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "CAD-5": {
+  "id": 201578,
+  "title": "5 Dollars",
+  "years": [
+   2013,
+   2013
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/canada/63cd04c38c6563.32385328-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/canada/63cd04c6d3ef26.23323347-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "CAD-10": {
+  "id": 201672,
+  "title": "10 Dollars",
+  "years": [
+   2018,
+   2018
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/canada/64880efecc2285.61356140-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/canada/64880effc527f2.89038269-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "CAD-20": {
+  "id": 201585,
+  "title": "20 Dollars",
+  "years": [
+   2012,
+   2012
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/canada/63cd04ea7dfb15.65428655-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/canada/63cd04ed8af5b9.19128909-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "CAD-50": {
+  "id": 201588,
+  "title": "50 Dollars",
+  "years": [
+   2012,
+   2012
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/canada/63cd06c307eb18.31231784-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/canada/63cd06c6ac1310.12045102-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "CAD-100": {
+  "id": 201924,
+  "title": "100 Dollars",
+  "years": [
+   2011,
+   2011
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/canada/63cd0537351b10.74459377-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/canada/63cd053a663f52.86099148-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "AUD-5": {
+  "id": 202026,
+  "title": "5 Dollars - Elizabeth II",
+  "years": [
+   2016,
+   2021
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/australie/64de5cf08fdf39.36370719-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/australie/64de5cf1bf59a7.12246953-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "AUD-10": {
+  "id": 202860,
+  "title": "10 Dollars",
+  "years": [
+   2017,
+   2017
+  ],
+  "score": 2,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/australie/64df38f97e04d8.27562042-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/australie/64df38faa7b6f6.36487394-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "AUD-20": {
+  "id": 202865,
+  "title": "20 Dollars",
+  "years": [
+   2019,
+   2022
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/australie/651aeee01fee69.92021469-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/australie/651aeee114ee31.47490172-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "AUD-50": {
+  "id": 202870,
+  "title": "50 Dollars",
+  "years": [
+   2018,
+   2023
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/australie/66c060efdd3034.30643770-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/australie/66c060f19fc828.54445354-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "AUD-100": {
+  "id": 239038,
+  "title": "100 Dollars",
+  "years": [
+   2019,
+   2023
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/australie/5fa4eb59d5e512.61139737-original.jpg",
+   "author": "Serverlan",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/australie/5fa4eb5c515448.57464857-original.jpg",
+   "author": "Serverlan",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "NZD-5": {
+  "id": 203875,
+  "title": "5 Dollars",
+  "years": [
+   2015,
+   2018
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/nouvelle-zelande/64a53063b05955.92274060-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/nouvelle-zelande/64a53064e57c83.57160524-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "NZD-10": {
+  "id": 204854,
+  "title": "10 Dollars",
+  "years": [
+   2015,
+   2015
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/nouvelle-zelande/64a5327ded4557.77888419-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/nouvelle-zelande/64a5327f134e25.35913024-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "NZD-20": {
+  "id": 210533,
+  "title": "20 Dollars - Elizabeth II",
+  "years": [
+   2016,
+   2022
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/nouvelle-zelande/64de67c5642b22.55484430-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/nouvelle-zelande/64de67c68a7381.47047592-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "NZD-50": {
+  "id": 210543,
+  "title": "50 Dollars",
+  "years": [
+   2016,
+   2022
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/nouvelle-zelande/64de68b29a9930.28018858-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/nouvelle-zelande/64de68b3eae064.02885270-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "NZD-100": {
+  "id": 210559,
+  "title": "100 Dollars",
+  "years": [
+   2016,
+   2018
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/nouvelle-zelande/5f62ccc22b4f03.36525689-original.jpg",
+   "author": "CGB",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/nouvelle-zelande/5f62ccc27b44a1.80864124-original.jpg",
+   "author": "CGB",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "CHF-10": {
+  "id": 201562,
+  "title": "10 Francs (9th series)",
+  "years": [
+   2016,
+   2017
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/suisse/664f8851404a50.82490670-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/suisse/664f88530ca381.38788458-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "CHF-20": {
+  "id": 201625,
+  "title": "20 Francs (9th series)",
+  "years": [
+   2015,
+   2021
+  ],
+  "score": 0,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/suisse/5f4cfb666b4aa3.95359504-original.jpg",
+   "author": "Basteros",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/suisse/5f4cfb66cfc1a7.34299684-original.jpg",
+   "author": "Basteros",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "CHF-50": {
+  "id": 202858,
+  "title": "50 Francs (9th series)",
+  "years": [
+   2015,
+   2021
+  ],
+  "score": 0,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/suisse/5f4cf90833c786.05787275-original.jpg",
+   "author": "Basteros",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/suisse/5f4cf908a15e40.42460349-original.jpg",
+   "author": "Basteros",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "CHF-100": {
+  "id": 202875,
+  "title": "100 Francs (9th series)",
+  "years": [
+   2017,
+   2020
+  ],
+  "score": 0,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/suisse/5e9cc2e9909b73.37986465-original.jpg",
+   "author": "Basteros",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/suisse/5e9cc2e9d3c128.62125098-original.jpg",
+   "author": "Basteros",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "CHF-200": {
+  "id": 201584,
+  "title": "200 Francs (9th series)",
+  "years": [
+   2016,
+   2019
+  ],
+  "score": 0,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/suisse/5ee68990bf3ab6.17131167-original.jpg",
+   "author": "Basteros",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/suisse/5ee689914155e5.53962911-original.jpg",
+   "author": "Basteros",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "CHF-1000": {
+  "id": 203275,
+  "title": "1000 Francs (9th series)",
+  "years": [
+   2017,
+   2017
+  ],
+  "score": 1,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/suisse/5f18a0ec1c69e2.40014318-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/suisse/5f18a0c53d39f4.59694606-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "SEK-20": {
+  "id": 201994,
+  "title": "20 Kronor",
+  "years": [
+   2014,
+   2022
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/suede/63a56a061971d5.93746467-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/suede/63a56a08b1bbd1.60015524-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "SEK-50": {
+  "id": 202000,
+  "title": "50 Kronor",
+  "years": [
+   2013,
+   2014
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/suede/63a56b1ee4cad0.52197829-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/suede/63a56b21a00db8.66151355-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "SEK-100": {
+  "id": 202002,
+  "title": "100 Kronor",
+  "years": [
+   2014,
+   2022
+  ],
+  "score": 2,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/suede/63a56c7d14b429.93620891-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/suede/63a56c801b8c11.34966338-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "SEK-200": {
+  "id": 205213,
+  "title": "200 Kronor",
+  "years": [
+   2013,
+   2014
+  ],
+  "score": 2,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/suede/63a57fd747b756.59906407-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/suede/63a57fdaad1d17.17569682-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "SEK-500": {
+  "id": 205214,
+  "title": "500 Kronor",
+  "years": [
+   2014,
+   2022
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/suede/63a580023868b1.16590017-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/suede/63a58005584e18.98091362-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "SEK-1000": {
+  "id": 205215,
+  "title": "1000 Kronor",
+  "years": [
+   2014,
+   2014
+  ],
+  "score": 1,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/suede/63a56ebe37acb3.19762977-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/suede/63a56ec1a90c41.03650175-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "KRW-1000": {
+  "id": 201806,
+  "title": "1000 Won",
+  "years": [
+   2007,
+   2007
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/coree_du_sud/63b5735a5f91b6.79486187-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/coree_du_sud/63b5735d126c95.68223790-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "KRW-5000": {
+  "id": 203157,
+  "title": "5000 Won",
+  "years": [
+   2006,
+   2006
+  ],
+  "score": 2,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/coree_du_sud/63b573a7f0d758.76169643-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/coree_du_sud/63b573ab06c843.33203861-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "KRW-10000": {
+  "id": 203421,
+  "title": "10 000 Won",
+  "years": [
+   2007,
+   2007
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/coree_du_sud/63b573f5884b46.42250849-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/coree_du_sud/63b573f886e903.05760206-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "KRW-50000": {
+  "id": 203884,
+  "title": "50 000 Won",
+  "years": [
+   2009,
+   2009
+  ],
+  "score": 2,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/coree_du_sud/63b57528a81fd2.15891765-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/coree_du_sud/63b5752be6ba10.63898450-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "SGD-2": {
+  "id": 202244,
+  "title": "2 Dollars (MAS; polymer)",
+  "years": [
+   2006,
+   2024
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/singapour/626c1e69574431.97909339-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/singapour/626c1e69ec1b75.90044717-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "SGD-5": {
+  "id": 203037,
+  "title": "5 Dollars (MAS; polymer)",
+  "years": [
+   2007,
+   2024
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/singapour/678a45ad965309.73032411-original.jpg",
+   "author": "banknotes_2021",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/singapour/678a45ae7e0972.00674030-original.jpg",
+   "author": "banknotes_2021",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en"
+  }
+ },
+ "SGD-10": {
+  "id": 202498,
+  "title": "10 Dollars (MAS; polymer)",
+  "years": [
+   2004,
+   2026
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/singapour/604f9a466d0e96.13242974-original.jpg",
+   "author": "Titus",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/singapour/604f9a6581ec35.42905393-original.jpg",
+   "author": "Titus",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "SGD-50": {
+  "id": 205537,
+  "title": "50 Dollars (MAS)",
+  "years": [
+   2005,
+   2024
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/singapour/5e9e3cf032ee33.44152846-original.jpg",
+   "author": null,
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/singapour/5e9e3cf0896f65.92897362-original.jpg",
+   "author": null,
+   "license": null,
+   "license_url": null
+  }
+ },
+ "SGD-100": {
+  "id": 205540,
+  "title": "100 Dollars (MAS)",
+  "years": [
+   2009,
+   2026
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/singapour/5e9e3fd15f88a8.42493485-original.jpg",
+   "author": null,
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/singapour/5e9e3fd1b79854.65717464-original.jpg",
+   "author": null,
+   "license": null,
+   "license_url": null
+  }
+ },
+ "MXN-20": {
+  "id": 306846,
+  "title": "20 Pesos (Independence)",
+  "years": [
+   2021,
+   2024
+  ],
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/mexique/63655f9401da61.86612891-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/mexique/63655f94988567.10557954-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "MXN-50": {
+  "id": 310606,
+  "title": "50 Pesos",
+  "years": [
+   2021,
+   2024
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/mexique/63df8a646760f0.63101121-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/mexique/63df8a65c8dea1.89084352-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "MXN-100": {
+  "id": 244911,
+  "title": "100 Pesos",
+  "years": [
+   2020,
+   2025
+  ],
+  "score": 6,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/mexique/5ff045226b7a64.18419948-original.jpg",
+   "author": "KennyG",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/mexique/5ff045236acd14.13978878-original.jpg",
+   "author": "KennyG",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "MXN-200": {
+  "id": 202429,
+  "title": "200 Pesos",
+  "years": [
+   2018,
+   2025
+  ],
+  "score": 8,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/mexique/5e9648c9577ba0.25460725-original.jpg",
+   "author": null,
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/mexique/5e9648ca67c964.63594980-original.jpg",
+   "author": null,
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  }
+ },
+ "MXN-500": {
+  "id": 212863,
+  "title": "500 Pesos",
+  "years": [
+   2017,
+   2025
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/mexique/6a10bb8ae82101.65536236-original.jpg",
+   "author": "freeze_coins",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/mexique/6a10bb8c794013.87873970-original.jpg",
+   "author": "freeze_coins",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  }
+ },
+ "MXN-1000": {
+  "id": 258918,
+  "title": "1000 Pesos",
+  "years": [
+   2019,
+   2023
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/mexique/5fe2ac70375507.85486700-original.jpg",
+   "author": "Monetized History",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/mexique/5fe2ac70a02227.79101593-original.jpg",
+   "author": "Monetized History",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  }
+ },
+ "BRL-2": {
+  "id": 202197,
+  "title": "2 Reais (2nd. Family; Casa da Moeda do Brasil)",
+  "years": [
+   2010,
+   2026
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bresil/5eb4b89f99c432.97713538-original.jpg",
+   "author": "SmoCa",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bresil/5eb4b8a08cb728.23385429-original.jpg",
+   "author": "SmoCa",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "BRL-5": {
+  "id": 201713,
+  "title": "5 Reais (2nd. Family)",
+  "years": [
+   2010,
+   2025
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bresil/63e65016e938d7.40651051-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bresil/63e6501a179a77.60863269-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "BRL-10": {
+  "id": 202203,
+  "title": "10 Reais (2nd. Family)",
+  "years": [
+   2010,
+   2026
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bresil/674b7fc7dc8e70.51208127-original.jpg",
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bresil/674b7fc96e0442.55556856-original.jpg",
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "BRL-20": {
+  "id": 202208,
+  "title": "20 Reais (2nd. Family)",
+  "years": [
+   2010,
+   2025
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bresil/64d7d12b765f03.15557920-original.jpg",
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bresil/64d7d12cea9f28.76473344-original.jpg",
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "BRL-50": {
+  "id": 202212,
+  "title": "50 Reais (2nd. Family)",
+  "years": [
+   2010,
+   2025
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bresil/6adbe83897e5c6.05893462-original.jpg",
+   "author": "Rogbert",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bresil/6adbe83caa8436.79433148-original.jpg",
+   "author": "Rogbert",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "BRL-100": {
+  "id": 202214,
+  "title": "100 Reais (2nd. Family)",
+  "years": [
+   2010,
+   2026
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bresil/64171011db8455.62600143-original.jpg",
+   "author": "Rogbert",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bresil/641710144a7ef4.73943240-original.jpg",
+   "author": "Rogbert",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "BRL-200": {
+  "id": 235384,
+  "title": "200 Reais (2nd. Family)",
+  "years": [
+   2020,
+   2020
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bresil/64d763f1e6db86.02685006-original.jpg",
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bresil/64d763f39531e0.99234697-original.jpg",
+   "author": "vladthiengo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "TRY-5": {
+  "id": 206382,
+  "title": "5 Lira (purple)",
+  "years": [
+   2013,
+   2026
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/turquie/6299fbf2156168.63152135-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/turquie/6299fbf4d1c841.09987623-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "TRY-10": {
+  "id": 206385,
+  "title": "10 Lira",
+  "years": [
+   2009,
+   2025
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/turquie/6299fc0bb03942.58660627-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/turquie/6299fc0e798573.49030163-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "TRY-20": {
+  "id": 206387,
+  "title": "20 Lira",
+  "years": [
+   2009,
+   2025
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/turquie/6299fc239063f2.79819586-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/turquie/6299fc2623c180.23170639-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "TRY-50": {
+  "id": 206390,
+  "title": "50 Lira",
+  "years": [
+   2009,
+   2026
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/turquie/6299fc3f38bf96.41087562-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/turquie/6299fc4222a1c7.82820926-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "TRY-100": {
+  "id": 206392,
+  "title": "100 Lira",
+  "years": [
+   2009,
+   2025
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/turquie/6299fc56198bb4.85474949-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/turquie/6299fc58ba83e7.37081424-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "TRY-200": {
+  "id": 206562,
+  "title": "200 Lira",
+  "years": [
+   2009,
+   2026
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/turquie/6506f9678487e9.95854245-original.jpg",
+   "author": "Pulee78",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/turquie/6506f969bce1f4.60374861-original.jpg",
+   "author": "Pulee78",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "THB-20": {
+  "id": 317869,
+  "title": "20 Baht - Rama X (Series 17; polymer)",
+  "years": [
+   2022,
+   2025
+  ],
+  "score": 2,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/thailande/63df838aa99f08.22925937-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/thailande/63df838c666a21.31963691-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "THB-50": {
+  "id": 536198,
+  "title": "50 Baht - Rama X Series 17; polymer",
+  "years": [
+   2025,
+   2025
+  ],
+  "score": 2,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/thailande/69919789a145b2.02387884-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/thailande/6991978c485e95.86544859-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "THB-100": {
+  "id": 538617,
+  "title": "100 Baht - Rama X (Series 17; polymer)",
+  "years": [
+   2025,
+   2025
+  ],
+  "score": 2,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/thailande/699199e6ae10d7.44553170-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/thailande/699199e9152464.90253267-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "THB-500": {
+  "id": 204710,
+  "title": "500 Baht - Rama X (Series 17)",
+  "years": [
+   2018,
+   2018
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/thailande/687b870dc1ea70.37939451-original.jpg",
+   "author": "SB66",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/thailande/687b870ef39b34.10010521-original.jpg",
+   "author": "SB66",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+  }
+ },
+ "THB-1000": {
+  "id": 204677,
+  "title": "1000 Baht - Rama X (series 17)",
+  "years": [
+   2018,
+   2025
+  ],
+  "score": 2,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/thailande/687b8996adfff8.21747512-original.jpg",
+   "author": "SB66",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/thailande/687b8997acfd90.71602354-original.jpg",
+   "author": "SB66",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+  }
+ },
+ "PHP-50": {
+  "id": 446780,
+  "title": "50 Piso (Seal type 7; polymer)",
+  "years": [
+   2024,
+   2025
+  ],
+  "score": 2,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/philippines/67ff77f9277814.45493569-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/philippines/67ff77fb2b26c4.42836174-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "PHP-100": {
+  "id": 446774,
+  "title": "100 Piso (Seal type 7; polymer)",
+  "years": [
+   2024,
+   2026
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/philippines/6799b846b1eb43.40928467-original.jpg",
+   "author": "Vic_29Vic (CC BY-SA)",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/philippines/6799b846edfe75.03670502-original.jpg",
+   "author": "Vic_29Vic (CC BY-SA)",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "PHP-200": {
+  "id": 232127,
+  "title": "200 Piso (Seal type 6; with tactile marks)",
+  "years": [
+   2020,
+   2020
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/philippines/69b9ff313077f4.39960375-original.jpg",
+   "author": "TLSHER",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/philippines/69b9ff329bb020.94555313-original.jpg",
+   "author": "TLSHER",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "PHP-500": {
+  "id": 446654,
+  "title": "500 Piso (Seal type 7; polymer)",
+  "years": [
+   2024,
+   2025
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/philippines/67712711e739d4.85497547-original.jpg",
+   "author": "andy_siegman",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/philippines/677127126f9363.85886014-original.jpg",
+   "author": "andy_siegman",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "PHP-1000": {
+  "id": 316600,
+  "title": "1000 Piso (Seal type 7; polymer)",
+  "years": [
+   2022,
+   2026
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/philippines/65a6c375d2b762.69052079-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/philippines/65a6c378306e06.49821106-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "IDR-1000": {
+  "id": 338501,
+  "title": "1000 Rupiah",
+  "years": [
+   2022,
+   2025
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/indonesie/634d2ba4ac0599.26036727-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/indonesie/634d2ba55fc769.22021433-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "IDR-2000": {
+  "id": 338503,
+  "title": "2000 Rupiah",
+  "years": [
+   2022,
+   2026
+  ],
+  "score": 7,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/indonesie/634d2dcd7cc467.27286360-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/indonesie/634d2dce24fe65.07567515-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "IDR-5000": {
+  "id": 338505,
+  "title": "5000 Rupiah",
+  "years": [
+   2022,
+   2026
+  ],
+  "score": 6,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/indonesie/634d3037a3e3c0.09308644-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/indonesie/634d30385a0e18.20052407-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "IDR-10000": {
+  "id": 338508,
+  "title": "10 000 Rupiah",
+  "years": [
+   2022,
+   2025
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/indonesie/64f8258a672033.55528659-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/indonesie/64f8258b12d6a8.22140654-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "IDR-20000": {
+  "id": 338506,
+  "title": "20 000 Rupiah",
+  "years": [
+   2022,
+   2026
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/indonesie/63c4fc1df1fe15.27611275-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/indonesie/63c4fc1eaca4e5.17229955-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "IDR-50000": {
+  "id": 338510,
+  "title": "50 000 Rupiah",
+  "years": [
+   2022,
+   2025
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/indonesie/63c4fc45d1cc01.75599490-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/indonesie/63c4fc46924eb7.94757262-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "IDR-100000": {
+  "id": 338509,
+  "title": "100 000 Rupiah",
+  "years": [
+   2022,
+   2026
+  ],
+  "score": 8,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/indonesie/63c4fc66189366.53110780-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/indonesie/63c4fc66d3d533.93616298-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "KES-50": {
+  "id": 208060,
+  "title": "50 Shillings",
+  "years": [
+   2019,
+   2024
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/kenya/63e4aa5d45fc51.99279118-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/kenya/63e4aa5e0afd10.05422393-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "KES-100": {
+  "id": 203936,
+  "title": "100 Shillings",
+  "years": [
+   2019,
+   2024
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/kenya/63e4aa729f5665.26139298-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/kenya/63e4aa735ac7b1.99775404-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "KES-200": {
+  "id": 208067,
+  "title": "200 Shillings",
+  "years": [
+   2019,
+   2024
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/kenya/65c359819e9757.33389568-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/kenya/65c359840c8658.88322289-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "KES-500": {
+  "id": 208068,
+  "title": "500 Shillings",
+  "years": [
+   2019,
+   2024
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/kenya/63e4aa895f1cb8.84084614-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/kenya/63e4aa8a16dde4.28224227-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "KES-1000": {
+  "id": 208069,
+  "title": "1000 Shillings",
+  "years": [
+   2019,
+   2024
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/kenya/63e4aa9d884680.68788164-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/kenya/63e4aa9e33bd46.66867600-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "TWD-100": {
+  "id": 203019,
+  "title": "100 Yuan",
+  "years": [
+   2000,
+   2000
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/taiwan/63c8fe7d3d9a39.16948538-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/taiwan/63c8fe7e2c16a7.87332929-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "TWD-200": {
+  "id": 203120,
+  "title": "200 Yuan",
+  "years": [
+   2001,
+   2001
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/taiwan/62f27a39bdfad1.02701688-original.jpg",
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/taiwan/62f27a3a95dc24.93265293-original.jpg",
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "TWD-500": {
+  "id": 204414,
+  "title": "500 Yuan (with holographic strip)",
+  "years": [
+   2004,
+   2004
+  ],
+  "score": 6,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/taiwan/62f27acadbfa61.50016173-original.jpg",
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/taiwan/62f27acbc580c4.99353148-original.jpg",
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "TWD-1000": {
+  "id": 204423,
+  "title": "1000 Yuan (with holographic strip)",
+  "years": [
+   2004,
+   2004
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/taiwan/62f27c01020f37.43983582-original.jpg",
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/taiwan/62f27c01d0bfd5.99509384-original.jpg",
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "TWD-2000": {
+  "id": 203925,
+  "title": "2000 Yuan",
+  "years": [
+   2001,
+   2001
+  ],
+  "score": 6,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/taiwan/62f27cd5e19cd6.66676608-original.jpg",
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/taiwan/62f27cd6bdea75.74024860-original.jpg",
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "COP-2000": {
+  "id": 204972,
+  "title": "2000 Pesos",
+  "years": [
+   2015,
+   2023
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/colombie/65eaef50900e25.60429107-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/colombie/65eaef52eef592.84793552-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "COP-5000": {
+  "id": 208516,
+  "title": "5000 Pesos",
+  "years": [
+   2015,
+   2023
+  ],
+  "score": 2,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/colombie/5ea7f9bda0cfb0.52624775-original.jpg",
+   "author": null,
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/colombie/5ea7f9be26e614.44889020-original.jpg",
+   "author": null,
+   "license": null,
+   "license_url": null
+  }
+ },
+ "COP-10000": {
+  "id": 206006,
+  "title": "10 000 Pesos",
+  "years": [
+   2015,
+   2023
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/colombie/64213cfd4266a0.83197333-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/colombie/64213cff5af2b5.90977191-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "COP-20000": {
+  "id": 208154,
+  "title": "20 000 Pesos",
+  "years": [
+   2015,
+   2023
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/colombie/62caf9aa77d316.57456448-original.jpg",
+   "author": "RuibaiK",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/colombie/62caf9accb34b2.44783890-original.jpg",
+   "author": "RuibaiK",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "COP-50000": {
+  "id": 205124,
+  "title": "50 000 Pesos",
+  "years": [
+   2015,
+   2022
+  ],
+  "score": 7,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/colombie/5e9d4cc74d2544.32182823-original.jpg",
+   "author": null,
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/colombie/5e9d4cc7bac354.27618617-original.jpg",
+   "author": null,
+   "license": null,
+   "license_url": null
+  }
+ },
+ "COP-100000": {
+  "id": 205125,
+  "title": "100 000 Pesos",
+  "years": [
+   2014,
+   2025
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/colombie/5e9d4d57bf6777.62266868-original.jpg",
+   "author": null,
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/colombie/5e9d4d583b5281.97112794-original.jpg",
+   "author": null,
+   "license": null,
+   "license_url": null
+  }
+ },
+ "PRB-1": {
+  "id": 203746,
+  "title": "1 Rouble",
+  "years": [
+   2007,
+   2012
+  ],
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/transnistrie/63b5710f33f137.36712883-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/transnistrie/63b57111ab0ff1.24521663-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "PRB-5": {
+  "id": 203747,
+  "title": "5 Roubles",
+  "years": [
+   2007,
+   2012
+  ],
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/transnistrie/63b571342c6506.00904077-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/transnistrie/63b57136a00657.75661716-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "PRB-10": {
+  "id": 203748,
+  "title": "10 Roubles",
+  "years": [
+   2007,
+   2012
+  ],
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/transnistrie/63b571639beb18.26390732-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/transnistrie/63b571662efc06.25832579-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "PRB-25": {
+  "id": 212164,
+  "title": "25 Roubles",
+  "years": [
+   2007,
+   2012
+  ],
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/transnistrie/65d0fb303a3df9.16414659-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/transnistrie/65d0fb31bc2ce8.39572828-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "PRB-50": {
+  "id": 473427,
+  "title": "50 Roubles",
+  "years": [
+   2025,
+   2025
+  ],
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/transnistrie/68a4d3050da940.28531377-original.jpg",
+   "author": "https://www.cbpmr.net",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/transnistrie/68a4d3062e0053.34126277-original.jpg",
+   "author": "https://www.cbpmr.net",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "PRB-100": {
+  "id": 611200,
+  "title": "100 Roubles",
+  "years": [
+   2025,
+   2025
+  ],
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/transnistrie/6af67e67740bf5.92629415-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/transnistrie/6af67e67c01647.80831817-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "PRB-200": {
+  "id": 565087,
+  "title": "200 Roubles",
+  "years": [
+   2025,
+   2025
+  ],
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/transnistrie/69b1630715f357.02091418-original.jpg",
+   "author": "udimov",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/transnistrie/69b16307c16767.51064352-original.jpg",
+   "author": "udimov",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en"
+  }
+ },
+ "PRB-500": {
+  "id": 206034,
+  "title": "500 Roubles",
+  "years": [
+   2004,
+   2012
+  ],
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/transnistrie/5e9faf44841098.94852391-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/transnistrie/5e9faf44b3eb84.46168892-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "SLS-500": {
+  "id": 203425,
+  "title": "500 Shillings",
+  "years": [
+   1994,
+   2016
+  ],
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/somaliland/626e3c0108db69.16594177-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/somaliland/626e3c01ec5fd3.70055822-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "SLS-1000": {
+  "id": 204865,
+  "title": "1000 Shillings",
+  "years": [
+   2011,
+   2016
+  ],
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/somaliland/626e3c1ce5a7d2.60112229-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/somaliland/626e3c1e103ea6.31092544-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "SLS-5000": {
+  "id": 204873,
+  "title": "5000 Shillings",
+  "years": [
+   2011,
+   2016
+  ],
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/somaliland/63d566fbe74c52.35237700-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/somaliland/63d566ff8f8915.14393682-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "GBP-5": {
+  "id": 350090,
+  "title": "5 Pounds - Charles III (Sir Winston Churchill; Polymer)",
+  "years": [
+   2024,
+   2024
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/england/66a0d5fa16a4c4.62728205-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/england/66a0d5fc04efb0.14011990-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "GBP-10": {
+  "id": 414644,
+  "title": "10 Pounds - Charles III (Jane Austen; Polymer)",
+  "years": [
+   2024,
+   2024
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/england/667fba68790f91.80958742-original.jpg",
+   "author": "Worldwide collection",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/england/667fba697d7124.20522626-original.jpg",
+   "author": "Worldwide collection",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "GBP-20": {
+  "id": 414646,
+  "title": "20 Pounds - Charles III (JMW Turner; Polymer)",
+  "years": [
+   2024,
+   2025
+  ],
+  "score": 2,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/england/66c063f4157c90.05089485-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/england/66c063f6355ab6.06500698-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "GBP-50": {
+  "id": 414647,
+  "title": "50 Pounds - Charles III (Alan Turing; Polymer)",
+  "years": [
+   2024,
+   2024
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/england/667fbc35c9d8f9.01795138-original.jpg",
+   "author": "Worldwide collection",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/england/667fbc36ddcb30.21457940-original.jpg",
+   "author": "Worldwide collection",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "INR-10": {
+  "id": 203081,
+  "title": "10 Rupees",
+  "years": [
+   2017,
+   2026
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/inde/623d6c77dee4d7.19831925-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/inde/623d6c78535430.27079543-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "INR-20": {
+  "id": 202624,
+  "title": "20 Rupees",
+  "years": [
+   2019,
+   2026
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/inde/62fd0f84892d64.62844532-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/inde/62fd0f8534f4c7.47364122-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "INR-50": {
+  "id": 202325,
+  "title": "50 Rupees",
+  "years": [
+   2017,
+   2026
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/inde/626e32584340c1.09753964-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/inde/626e3259325369.34079509-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "INR-100": {
+  "id": 202321,
+  "title": "100 Rupees",
+  "years": [
+   2018,
+   2026
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/inde/664f6758cd8b02.09617413-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/inde/664f675c47d6d0.53406702-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "INR-200": {
+  "id": 202288,
+  "title": "200 Rupees",
+  "years": [
+   2017,
+   2026
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/inde/664f6d1d55b439.95661092-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/inde/664f6d209dee21.42246554-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "INR-500": {
+  "id": 202296,
+  "title": "500 Rupees",
+  "years": [
+   2016,
+   2026
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/inde/664f70cd7069f6.09167228-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/inde/664f70d0adea58.66780071-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "NOK-50": {
+  "id": 201751,
+  "title": "50 Kroner (The sea that binds us together)",
+  "years": [
+   2017,
+   2017
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/norvege/69f7ee38a61b76.01974594-original.jpg",
+   "author": "freeze_coins",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/norvege/69f7ee3a218251.37664952-original.jpg",
+   "author": "freeze_coins",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  }
+ },
+ "NOK-100": {
+  "id": 201985,
+  "title": "100 Kroner (The sea that takes us out into the world)",
+  "years": [
+   2016,
+   2024
+  ],
+  "score": 2,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/norvege/65ce415b53ea88.12768791-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/norvege/65ce415db44e64.53536559-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "NOK-200": {
+  "id": 203892,
+  "title": "200 Kroner (The sea that feeds us)",
+  "years": [
+   2016,
+   2022
+  ],
+  "score": 0,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/norvege/5f149848407364.72410800-original.jpg",
+   "author": "CGB",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/norvege/5f149848b8a6e8.92384387-original.jpg",
+   "author": "CGB",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "NOK-500": {
+  "id": 209716,
+  "title": "500 Kroner (The sea that gives us prosperity)",
+  "years": [
+   2018,
+   2025
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/norvege/63988348567856.82306112-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/norvege/6398834bb737a7.77162086-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "NOK-1000": {
+  "id": 209719,
+  "title": "1000 Kroner (The sea that carries us forward)",
+  "years": [
+   2019,
+   2019
+  ],
+  "score": 1,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/norvege/5ec3b0c03a35a9.92709462-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/norvege/5ec3b0c068c350.51768628-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "DKK-50": {
+  "id": 591379,
+  "title": "50 Kroner (Danish Bridges and Antiquities. Type 2)",
+  "years": [
+   2026,
+   2026
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/danemark/6a5de122a4dab0.05532625-original.jpg",
+   "author": "Danielthenumismatic",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/danemark/6a5de123694407.29197612-original.jpg",
+   "author": "Danielthenumismatic",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+  }
+ },
+ "DKK-100": {
+  "id": 403936,
+  "title": "100 Kroner (Danish Bridges and Antiquities. Type 2)",
+  "years": [
+   2024,
+   2024
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/danemark/65eca9abdee411.97880349-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/danemark/65eca9acae9b23.34878698-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "DKK-200": {
+  "id": 407959,
+  "title": "200 Kroner (Danish Bridges and Antiquities. Type 2)",
+  "years": [
+   2024,
+   2024
+  ],
+  "score": 2,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/danemark/660867bf82a926.38510066-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/danemark/660867c01cf374.53884347-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "DKK-500": {
+  "id": 247247,
+  "title": "500 Kroner (Danish Bridges and Antiquities. Type 2)",
+  "years": [
+   2020,
+   2022
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/danemark/5fbc2513e26bb1.11437244-original.jpg",
+   "author": "dampe54",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/danemark/5fbc25144885e0.79600696-original.jpg",
+   "author": "dampe54",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "DKK-1000": {
+  "id": 205713,
+  "title": "1000 Kroner (Danish Bridges and Antiquities)",
+  "years": [
+   2011,
+   2013
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/danemark/5e9eb8fbd97395.92191073-original.jpg",
+   "author": null,
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/danemark/5e9eb8fec56899.36903072-original.jpg",
+   "author": null,
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  }
+ },
+ "ZAR-10": {
+  "id": 365097,
+  "title": "10 Rand",
+  "years": [
+   2023,
+   2023
+  ],
+  "score": 2,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/afrique_du_sud/64ab21cc3c73e1.04264104-original.jpg",
+   "author": "Tolkien06",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/afrique_du_sud/64ab21ccdf0490.60460931-original.jpg",
+   "author": "Tolkien06",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "ZAR-20": {
+  "id": 365101,
+  "title": "20 Rand",
+  "years": [
+   2023,
+   2023
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/afrique_du_sud/64ab222be58d00.84554402-original.jpg",
+   "author": "Tolkien06",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/afrique_du_sud/64ab222c81ad95.66448342-original.jpg",
+   "author": "Tolkien06",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "ZAR-50": {
+  "id": 365103,
+  "title": "50 Rand",
+  "years": [
+   2023,
+   2023
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/afrique_du_sud/64ab229a782170.60058255-original.jpg",
+   "author": "Tolkien06",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/afrique_du_sud/64ab229b2c4262.52061212-original.jpg",
+   "author": "Tolkien06",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "ZAR-100": {
+  "id": 365105,
+  "title": "100 Rand",
+  "years": [
+   2023,
+   2023
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/afrique_du_sud/64ab22f14f8630.41892086-original.jpg",
+   "author": "Tolkien06",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/afrique_du_sud/64ab22f20ad6a9.50156832-original.jpg",
+   "author": "Tolkien06",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "ZAR-200": {
+  "id": 365107,
+  "title": "200 Rand",
+  "years": [
+   2023,
+   2023
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/afrique_du_sud/64b169acc3b2b5.55179177-original.jpg",
+   "author": "Tolkien06",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/afrique_du_sud/64b169ad707030.32749471-original.jpg",
+   "author": "Tolkien06",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "VND-10000": {
+  "id": 203627,
+  "title": "10 000 Đồng",
+  "years": [
+   2006,
+   2025
+  ],
+  "score": 2,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/viet_nam/629a30e8e84ca4.62721942-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/viet_nam/629a30e97f22e2.67265051-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "VND-20000": {
+  "id": 204743,
+  "title": "20 000 Đồng",
+  "years": [
+   2006,
+   2025
+  ],
+  "score": 3,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/viet_nam/63fdf045478aa8.79782893-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/viet_nam/63fdf048f16474.69949110-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "VND-50000": {
+  "id": 204745,
+  "title": "50 000 Đồng",
+  "years": [
+   2003,
+   2025
+  ],
+  "score": 1,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/viet_nam/5e9e97d1456249.52677947-original.jpg",
+   "author": "Yoeri R",
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/viet_nam/5e9e97d1a0fc48.03218172-original.jpg",
+   "author": "Yoeri R",
+   "license": null,
+   "license_url": null
+  }
+ },
+ "VND-100000": {
+  "id": 202790,
+  "title": "100 000 Đồng",
+  "years": [
+   2004,
+   2025
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/viet_nam/64f38ae1a90dc4.91546703-original.jpg",
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/viet_nam/64f38ae265ffd3.72692798-original.jpg",
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "VND-200000": {
+  "id": 204964,
+  "title": "200 000 Đồng",
+  "years": [
+   2006,
+   2023
+  ],
+  "score": 2,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/viet_nam/5e9ceba72ab570.69167788-original.jpg",
+   "author": null,
+   "license": null,
+   "license_url": null
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/viet_nam/5e9ceba77f3fd1.66621952-original.jpg",
+   "author": null,
+   "license": null,
+   "license_url": null
+  }
+ },
+ "VND-500000": {
+  "id": 205915,
+  "title": "500 000 Đồng",
+  "years": [
+   2003,
+   2022
+  ],
+  "score": 2,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/viet_nam/65ca1a3c37c767.33491922-original.jpg",
+   "author": "turtle_bienhoa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/viet_nam/65ca1a4112ae69.44780004-original.jpg",
+   "author": "turtle_bienhoa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "MYR-1": {
+  "id": 202971,
+  "title": "1 Ringgit",
+  "years": [
+   2011,
+   2025
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/malaisie/6270eddd547428.84771733-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/malaisie/6270edde13a468.55829063-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "MYR-5": {
+  "id": 203263,
+  "title": "5 Ringgit",
+  "years": [
+   2012,
+   2025
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/malaisie/65797a9b9977c0.74376708-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/malaisie/65797a9d9ee8e0.94979900-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "MYR-10": {
+  "id": 205316,
+  "title": "10 Ringgit",
+  "years": [
+   2012,
+   2024
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/malaisie/654a01c7480428.84817281-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/malaisie/654a01c8866c69.35079887-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+  }
+ },
+ "MYR-20": {
+  "id": 202043,
+  "title": "20 Ringgit",
+  "years": [
+   2011,
+   2025
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/malaisie/60afe9c1cfc2f2.90503403-original.jpg",
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/malaisie/60afe9c2a746b0.34432829-original.jpg",
+   "author": "gyoschak",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+  }
+ },
+ "MYR-50": {
+  "id": 207710,
+  "title": "50 Ringgit",
+  "years": [
+   2009,
+   2026
+  ],
+  "score": 4,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/malaisie/677ce8b2749512.69363514-original.jpg",
+   "author": "banknotes_2021",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/malaisie/677ce8b37d7427.75128446-original.jpg",
+   "author": "banknotes_2021",
+   "license": "CC BY",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/deed.en"
+  }
+ },
+ "MYR-100": {
+  "id": 208724,
+  "title": "100 Ringgit",
+  "years": [
+   2012,
+   2024
+  ],
+  "score": 5,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/malaisie/5ea86f0d5005c1.10799570-original.jpg",
+   "author": null,
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/malaisie/5ea86f0dce1bf3.39704866-original.jpg",
+   "author": null,
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  }
+ }
+}
