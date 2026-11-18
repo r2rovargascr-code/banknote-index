@@ -1690,21 +1690,68 @@
   "issuer": "",
   "region": "Americas",
   "series": "Current notes",
-  "year": 2023,
+  "year": 2024,
   "mat": "Paper",
   "notes": [
+   [
+    1,
+    "#d06447",
+    "Effigy of Indio Lempira, national arms of Honduras., Braille denomination",
+    "Ruins of Copan"
+   ],
+   [
+    2,
+    "#7a5aa8",
+    "Former President Marco Aurelio Soto, National Coat of arms - Escudo Nacional",
+    "Isla del Tigre and Ciudad Puerto de Ampala in decorative boarder"
+   ],
+   [
+    5,
+    "#8b8f93",
+    "Coat of arms of Honduras, effigy of Francisco Morazán facing left",
+    "Battle of Trinidad in decorative boarder"
+   ],
+   [
+    10,
+    "#b4704a",
+    "Honduran coat of arms",
+    "Ciudad Universitaria in decorative boarder"
+   ],
+   [
+    20,
+    "#6a9a4a",
+    "The obverse has the portrait of Jose Dionisio de la Trinidad de Herrera y Diaz del Valle",
+    "The reverse depicts the Presidential House in centre"
+   ],
+   [
+    50,
+    "#3a8aa0",
+    "Portrait of Juan Manuel Galvez Duron",
+    "Banco Central de Honduras building, Tegucigalpa"
+   ],
+   [
+    100,
+    "#e0a03a",
+    "Portrait of José Cecilio Díaz del Valle at riht",
+    "House with colonnade in Choluteca where José Cecilio Díaz del Valle was born"
+   ],
    [
     200,
     "#64a3b4",
     "Blue printing., Bertha Isabel Cáceres Flores with river landscape as background., Country…",
     "Blue printing., Aerial image of La Esperanza, Intibuca"
+   ],
+   [
+    500,
+    "#c84a6a",
+    "Ramón Rosa",
+    "Mining buildings at Rosary of San Juancito"
    ]
   ],
   "map": [
    "340"
   ],
-  "code": "HN",
-  "partial": true
+  "code": "HN"
  },
  {
   "iso": "DO",
@@ -2017,7 +2064,8 @@
   "map": [
    "084"
   ],
-  "code": "BZ"
+  "code": "BZ",
+  "curated": true
  },
  {
   "iso": "SR",
@@ -5006,7 +5054,8 @@
     "Páramo"
    ]
   ],
-  "info": "Each note shows one of Costa Rica's ecosystems with a native animal."
+  "info": "Each note shows one of Costa Rica's ecosystems with a native animal.",
+  "curated": true
  },
  {
   "code": "RU",
@@ -5066,7 +5115,8 @@
     "Ural Federal District landmarks"
    ]
   ],
-  "info": "The Bank of Russia is replacing its 1997-series notes: new designs of the 100 (2022), 5,000 (2023) and 1,000 (December 2025) are in circulation, and the older versions remain legal tender."
+  "info": "The Bank of Russia is replacing its 1997-series notes: new designs of the 100 (2022), 5,000 (2023) and 1,000 (December 2025) are in circulation, and the older versions remain legal tender.",
+  "curated": true
  },
  {
   "code": "RS",
@@ -5137,7 +5187,8 @@
     "Slobodan Jovanović",
     "—"
    ]
-  ]
+  ],
+  "curated": true
  },
  {
   "iso": "JE",

@@ -91,15 +91,30 @@ def download(url, out, referer=None, max_side=640):
 
 
 def dominant_colour(path):
+    """Main ink colour of a note: the most common saturated hue (a plain average of all
+    hues turns most paper notes into the same beige)."""
     import colorsys
     im = Image.open(path).convert("RGB")
     im.thumbnail((160, 160))
-    px = list(im.getdata())
-    sel = [p for p in px if (lambda h, s, v: s > .18 and .25 < v < .97)(*colorsys.rgb_to_hsv(*[x / 255 for x in p]))] or px
-    r, g, b = [sum(p[i] for p in sel) / len(sel) / 255 for i in range(3)]
+    bins = [[0.0, 0.0, 0.0, 0.0] for _ in range(24)]  # weight, sum sin/cos replaced by r,g,b sums
+    for p in im.getdata():
+        h, s, v = colorsys.rgb_to_hsv(*[x / 255 for x in p])
+        if s < .22 or not (.2 < v < .97):
+            continue
+        if .06 < h < .14 and s < .45:   # skip cream / beige paper tone
+            continue
+        w = s * v
+        bn = bins[int(h * 24) % 24]
+        bn[0] += w; bn[1] += p[0] * w; bn[2] += p[1] * w; bn[3] += p[2] * w
+    # merge neighbouring bins so a hue split across a boundary still wins
+    score = [bins[i][0] + .5 * (bins[i - 1][0] + bins[(i + 1) % 24][0]) for i in range(24)]
+    i = max(range(24), key=lambda i: score[i])
+    if score[i] < 1:
+        return "#8b8f93"
+    tot = sum(bins[j][0] for j in (i - 1, i, (i + 1) % 24)) or 1
+    r, g, b = [sum(bins[j][k] for j in (i - 1, i, (i + 1) % 24)) / tot / 255 for k in (1, 2, 3)]
     h, l, s = colorsys.rgb_to_hls(r, g, b)
-    l = min(max(l, .42), .55)
-    s = max(s, .35) if s > .08 else s
+    l = min(max(l, .42), .55); s = max(s, .4)
     r, g, b = colorsys.hls_to_rgb(h, l, s)
     return "#%02x%02x%02x" % tuple(int(x * 255) for x in (r, g, b))
 

@@ -107,26 +107,21 @@ def issuer_candidates(name):
     return exact + loose[:2]
 
 
+def all_types(nm, code):
+    """Every banknote type Numista lists for an issuer (all pages).
+    Numista's date= filter only matches notes printed in exactly that year, and its pages are
+    ordered by denomination, not by age, so reading only some pages or years misses notes."""
+    first = nm.get("/types", issuer=code, category="banknote", count=50, page=1)
+    types = list(first.get("types", []))
+    for pg in range(2, -(-first.get("count", 0) // 50) + 1):
+        types += nm.get("/types", issuer=code, category="banknote", count=50, page=pg).get("types", [])
+    return types
+
+
 def collect(nm, code, deep=False):
-    types = {}
-    if not deep:
-        for yr in (Y, Y - 3, Y - 6):
-            res = nm.get("/types", issuer=code, category="banknote", date=yr, count=50)
-            for t in res.get("types", []):
-                types[t["id"]] = t
-    else:
-        # newest catalogue entries (results come oldest first, so read the last pages)
-        res = nm.get("/types", issuer=code, category="banknote", count=50, page=1)
-        pages = -(-res.get("count", 0) // 50)
-        pool = res.get("types", []) if pages <= 1 else []
-        for pg in sorted({pages, pages - 1} - {0}, reverse=True):
-            if pg == 1 and pool:
-                continue
-            pool += nm.get("/types", issuer=code, category="banknote", count=50, page=pg).get("types", [])
-        for t in pool:
-            types[t["id"]] = t
+    """Newest design of each denomination that is still being printed."""
     keep = {}
-    for t in types.values():
+    for t in all_types(nm, code):
         if (t.get("issuer") or {}).get("code") != code:
             continue
         if "standard circulation" not in ((t.get("object_type") or {}).get("name", "")).lower():
@@ -141,7 +136,7 @@ def collect(nm, code, deep=False):
     if not keep:
         return {}
     newest = max((t.get("max_year") or t.get("min_year") or 0) for t in keep.values())
-    floor = Y - 6 if not deep else newest - 12
+    floor = max(newest - 8, Y - 15)   # denominations not printed for years are treated as withdrawn
     return {d: t for d, t in keep.items() if (t.get("max_year") or t.get("min_year") or 0) >= floor}
 
 
@@ -160,9 +155,6 @@ def colour_from_thumb(t):
 
 def build_entry(nm, code, iso, display, cur, sym, region, cache, map_ids, skip=()):
     found = collect(nm, code)
-    if len(found) < 4:
-        deep = collect(nm, code, deep=True)
-        found = {**deep, **found}
     found = {d: t for d, t in found.items() if d not in skip}
     if not found:
         return None
@@ -211,16 +203,16 @@ def main():
                 print("  nothing found for", disp); continue
             cc = iso  # internal code: ISO2 for countries, 3 letters for monetary unions
             entry["code"] = cc
-            entry["partial"] = len(entry["notes"]) < 4
             for d, pick in cache.pop("_pending", {}).items():
                 cache[f"{cc}-{d}"] = pick
             notes.append(entry)
             added.append(disp)
             print(f"added {disp}: {[n[0] for n in entry['notes']]}")
             save("notes.json", notes); save("numista_cache.json", cache)
-        # complete countries that came in partial (marked "partial": true)
-        for c in notes:
-            if not c.get("partial") or (only and c["code"] not in only):
+        # check every country for missing denominations, oldest check first, until the budget runs out
+        checked = cache.setdefault("_checked", {})
+        for c in sorted(notes, key=lambda c: checked.get(c["code"], "")):
+            if (only and c["code"] not in only) or c.get("curated"):
                 continue
             code = cache.get("_issuers", {}).get(c["code"])
             if not code:
@@ -232,8 +224,9 @@ def main():
                 c["notes"] = sorted(c["notes"] + more["notes"], key=lambda n: n[0])
                 for d, pick in cache.pop("_pending", {}).items():
                     cache[f'{c["code"]}-{d}'] = pick
-            c["partial"] = False if len(c["notes"]) >= 4 or more is not None else c["partial"]
-            print(f'refreshed {c["country"]}: {[n[0] for n in c["notes"]]}')
+                print(f'completed {c["country"]}: added {[n[0] for n in more["notes"]]}')
+            c.pop("partial", None)
+            checked[c["code"]] = datetime.date.today().isoformat()
             save("notes.json", notes); save("numista_cache.json", cache)
     except RuntimeError as e:
         print("STOP:", e)
