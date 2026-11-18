@@ -3410,5 +3410,21 @@
    "license_url": null,
    "page": "File:Billete 1000 Colones A reverso.jpg"
   }
+ },
+ "CHF-1000": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:CHF1000_8_back.jpg",
+  "f": {
+   "author": "Wikimedia contributor",
+   "license": "Public domain",
+   "license_url": null,
+   "page": "File:CHF1000 7 front horizontal.jpg"
+  },
+  "b": {
+   "author": "Swiss National Bank (SNB)",
+   "license": "Public domain",
+   "license_url": null,
+   "page": "File:CHF1000 8 back.jpg"
+  }
  }
 }
