@@ -1,2 +1,16 @@
-{"_note": "Numista photos reviewed and rejected (old design or wrong image). Keys are CODE-denomination.",
- "keys": ["BN-500", "KZ-5000", "VE-500000", "NIR-20", "NIR-50"]}
+{
+ "_note": "Numista photos reviewed and rejected (old design or wrong image). Keys are CODE-denomination.",
+ "keys": [
+  "BN-500",
+  "KZ-5000",
+  "VE-500000",
+  "NIR-20",
+  "NIR-50",
+  "BZ-2",
+  "BZ-5",
+  "BZ-10",
+  "BZ-20",
+  "BZ-50",
+  "BZ-100"
+ ]
+}

@@ -5,5 +5,47 @@
   "bank": "U.S. Currency Education Program",
   "license": "Public domain",
   "url": "https://www.uscurrency.gov/denominations/20"
+ },
+ "BZ-2": {
+  "f": "https://www.centralbank.org.bz/images/default-source/new-currency/specimen-notes/two-front_0001.jpg?sfvrsn=e281a17c_4",
+  "b": "https://www.centralbank.org.bz/images/default-source/new-currency/specimen-notes/two-back_0001_0001.jpg?sfvrsn=9dfc3cf5_4",
+  "bank": "Central Bank of Belize",
+  "license": "Specimen published by the issuing bank",
+  "url": "https://www.centralbank.org.bz/home/core-functions/currency/currency-notes/2005-issue--detail/2005_series_2"
+ },
+ "BZ-5": {
+  "f": "https://www.centralbank.org.bz/images/default-source/new-currency/specimen-notes/5-front_00017be15550-d175-4e65-9e14-658ed879824a.jpg?sfvrsn=77b477c8_4",
+  "b": "https://www.centralbank.org.bz/images/default-source/new-currency/specimen-notes/5-back_0001-copy.jpg?sfvrsn=b0ee0eec_5",
+  "bank": "Central Bank of Belize",
+  "license": "Specimen published by the issuing bank",
+  "url": "https://www.centralbank.org.bz/home/core-functions/currency/currency-notes/2005-issue--detail/2005_series_5"
+ },
+ "BZ-10": {
+  "f": "https://www.centralbank.org.bz/images/default-source/new-currency/specimen-notes/10-front_0001.jpg?sfvrsn=88459f5_4",
+  "b": "https://www.centralbank.org.bz/images/default-source/new-currency/specimen-notes/10-back_0001.jpg?sfvrsn=e8c88226_4",
+  "bank": "Central Bank of Belize",
+  "license": "Specimen published by the issuing bank",
+  "url": "https://www.centralbank.org.bz/home/core-functions/currency/currency-notes/2005-issue--detail/2005_series_10"
+ },
+ "BZ-20": {
+  "f": "https://www.centralbank.org.bz/images/default-source/new-currency/specimen-notes/20-front_0001_0001-copy.jpg?sfvrsn=7e99a3b0_4",
+  "b": "https://www.centralbank.org.bz/images/default-source/new-currency/specimen-notes/20-front_0001-copy.jpg?sfvrsn=28dffe7a_4",
+  "bank": "Central Bank of Belize",
+  "license": "Specimen published by the issuing bank",
+  "url": "https://www.centralbank.org.bz/home/core-functions/currency/currency-notes/2005-issue--detail/2005_series_20"
+ },
+ "BZ-50": {
+  "f": "https://www.centralbank.org.bz/images/default-source/new-currency/specimen-notes/50-front_0001-copy.jpg?sfvrsn=4146f0b4_4",
+  "b": "https://www.centralbank.org.bz/images/default-source/new-currency/specimen-notes/50-back_0001-copy.jpg?sfvrsn=9e0bde49_4",
+  "bank": "Central Bank of Belize",
+  "license": "Specimen published by the issuing bank",
+  "url": "https://www.centralbank.org.bz/home/core-functions/currency/currency-notes/2005-issue--detail/2005_series_50"
+ },
+ "BZ-100": {
+  "f": "https://www.centralbank.org.bz/images/default-source/new-currency/specimen-notes/100-front_0001-copy.jpg?sfvrsn=9ffef328_4",
+  "b": "https://www.centralbank.org.bz/images/default-source/new-currency/specimen-notes/100-back_0001-copy.jpg?sfvrsn=5c1529c8_4",
+  "bank": "Central Bank of Belize",
+  "license": "Specimen published by the issuing bank",
+  "url": "https://www.centralbank.org.bz/home/core-functions/currency/currency-notes/2005-issue--detail/2005_series_100"
  }
 }

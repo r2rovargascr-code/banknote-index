@@ -1971,36 +1971,53 @@
   "country": "Belize",
   "cur": "Belize dollar",
   "sym": "BZ$",
-  "issuer": "",
+  "issuer": "Central Bank of Belize",
   "region": "Americas",
-  "series": "Current notes",
-  "year": 1999,
+  "series": "2025 series",
+  "year": 2025,
   "mat": "Paper",
   "notes": [
    [
+    2,
+    "#7a5aa8",
+    "Philip Goldson; Antelope Falls, Mayflower Bocawina National Park",
+    "Sapodilla Falls; 1000 Foot Falls"
+   ],
+   [
     5,
-    "#bc715c",
-    "Front-facing bust of Queen Elizabeth II wearing the Vladimir Tiara",
-    "Bathing kraal and cannon"
+    "#c84a4a",
+    "George Cadle Price; National Assembly Building",
+    "Belize City and Haulover Creek; Supreme Court; St John's Cathedral"
    ],
    [
     10,
-    "#b48b64",
-    "Front-facing bust of Queen Elizabeth II wearing the Vladimir Tiara",
-    "Government House and Court House"
+    "#4aa05a",
+    "Philip Goldson; green heron",
+    "Keel-billed toucan; long-billed hermit and scaly-breasted hummingbirds"
    ],
    [
     20,
-    "#b47b64",
-    "Front-facing bust of Queen Elizabeth II wearing the Vladimir Tiara",
-    "Neotropical fruit bat (Artibeus sp"
+    "#8a5a3a",
+    "George Cadle Price; Baird's tapir",
+    "Jaguar; green iguana"
+   ],
+   [
+    50,
+    "#8a2a3a",
+    "Philip Goldson; Mask Temple, Lamanai",
+    "Caana, Caracol; Xunantunich; Xunantunich frieze"
+   ],
+   [
+    100,
+    "#3a6ab0",
+    "George Cadle Price; queen triggerfish",
+    "Great Blue Hole; hawksbill turtle; nurse shark; French angelfish"
    ]
   ],
   "map": [
    "084"
   ],
-  "code": "BZ",
-  "partial": true
+  "code": "BZ"
  },
  {
   "iso": "SR",
