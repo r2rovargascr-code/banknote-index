@@ -447,7 +447,8 @@ def main():
     nm = Numista(os.environ.get("NUMISTA_KEY"), BUDGET)
     added, article_cache = [], {}
     try:
-        added += ecb_pack(notes, credits)
+        if os.environ.get("ECB_ENABLED") == "1":  # off until the user approves the euro images
+            added += ecb_pack(notes, credits)
     except Exception as e:
         print("  ECB pack error:", e)
     numista_ok = bool(nm.key) and BUDGET > 0
