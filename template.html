@@ -151,16 +151,16 @@ nav button.star{color:var(--acc)}
 #viewer.on{display:flex}
 #viewer .stage{flex:1;width:100%;display:flex;align-items:center;justify-content:center;overflow:hidden}
 #viewer .vcard{transition:transform .45s ease}
-#viewer.rot .vcard{transform:rotate(-90deg)}
+#viewer.rot .vcard{transform:rotate(90deg)}
 #viewer .vflip{transition:transform .22s ease-in;cursor:pointer}
 #viewer .vflip.squash{transform:scaleX(0)}
 #viewer .vflip>*{display:block}
 #viewer .vflip>*:last-child{display:none}
 #viewer.back .vflip>*:first-child{display:none}
 #viewer.back .vflip>*:last-child{display:block}
-#viewer img,#viewer .tile{max-width:92vw;max-height:76vh;object-fit:contain}
+#viewer img,#viewer canvas,#viewer .tile{max-width:92vw;max-height:76vh;object-fit:contain}
 #viewer .tile{width:min(92vw,900px)}
-#viewer.rot img,#viewer.rot .tile{max-width:76vh;max-height:88vw}
+#viewer.rot img,#viewer.rot canvas,#viewer.rot .tile{max-width:76vh;max-height:88vw}
 #viewer .bar2{display:flex;gap:10px;align-items:center;padding:16px 0 4px;flex-wrap:wrap;justify-content:center}
 #viewer .bar2 button{border:1px solid #333;border-radius:999px;padding:8px 18px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#ddd}
 #viewer .bar2 button:hover{border-color:#777;color:#fff}
@@ -281,6 +281,18 @@ function nextSrc(img){
   if(n){img.outerHTML=tile(c,n,img.dataset.s,img.className.replace(/\bbn\b|\bph\b/g,""))}
 }
 function srcOk(img){
+  if(img.naturalHeight>img.naturalWidth*1.15)turnFlat(img);
+  credOk(img);
+}
+function turnFlat(img){ /* vertical note: lay it horizontal (same direction as saved copies) */
+  const w=img.naturalWidth,h=img.naturalHeight,cv=document.createElement("canvas");
+  cv.width=h;cv.height=w;const g=cv.getContext("2d");
+  g.translate(0,w);g.rotate(-Math.PI/2);g.drawImage(img,0,0);
+  cv.className=img.className;cv.setAttribute("role","img");cv.setAttribute("aria-label",img.alt);
+  for(const a of ["k","s","i","big"])cv.dataset[a]=img.dataset[a];
+  img.replaceWith(cv);
+}
+function credOk(img){
   const el=document.getElementById("cred-"+img.dataset.k);if(!el||img.dataset.s!=="f")return;
   const x=((SRC[img.dataset.k]||{}).f||[])[+img.dataset.i];if(!x)return;
   el.innerHTML=`Photo: ${esc(x.by||x.src||"")}${x.lic?" · "+esc(x.lic):""} · <a href="${esc(x.link||"#")}" target="_blank" rel="noopener">${esc(x.src||"Source")}</a>`;
