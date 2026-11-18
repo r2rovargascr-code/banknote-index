@@ -2641,5 +2641,28 @@
    "license": "CC BY-SA 4.0",
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
+ },
+ "EG-1": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:0.50_EGP_reverse_2017-1-8.jpg",
+  "b": {
+   "author": "Central Bank of Egypt",
+   "license": "Public domain",
+   "license_url": null
+  }
+ },
+ "TN-10": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:10_TND_2013_obverse.jpg",
+  "f": {
+   "author": "Davric",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "b": {
+   "author": "Davric",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
  }
 }
