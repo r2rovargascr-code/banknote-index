@@ -132,7 +132,34 @@ def denom_in(title, denom):
 
 
 def pick_files(titles, c, denom, need, strict_year):
-    """Choose one file per needed side from a list of 'File:...' titles."""
+    """Choose one file per needed side (files with a recent year in the name)."""
+    return {s: v[0][0] for s, v in rank_files(titles, c, denom, need).items() if v and v[0][1]} if strict_year else \
+           {s: v[0][0] for s, v in rank_files(titles, c, denom, need).items() if v}
+
+
+def rank_files(titles, c, denom, need):
+    """Per side: list of (title, has_recent_year), recent-year files first."""
+    min_year = c.get("year", CUR_YEAR) - 10
+    rejected = {norm(x) for x in load("rejected_photos.json", [])}
+    out = {s: [] for s in need}
+    for t in titles:
+        tl = norm(t)
+        if tl in rejected or norm(t.replace("_", " ")) in rejected:
+            continue
+        if not denom_in(t, denom) or any(w in tl for w in EXCLUDED_WORDS) or re.search(r"\bcoins?\b|\bfils\b|piastre|\bkurus|\bcentavos?\b|\bcents?\b|conmemorativ|commemorativ|specimen.*19|resello", tl):
+            continue
+        years = [int(y) for y in re.findall(r"(?:19|20)\d\d", tl)]
+        if years and max(years) < min_year:
+            continue
+        side = "f" if re.search(FRONT, tl) else "b" if re.search(BACK, tl) else None
+        if side in out:
+            out[side].append((t, bool(years)))
+    for s in out:
+        out[s].sort(key=lambda x: not x[1])
+    return out
+
+
+def _unused_pick(titles, c, denom, need, strict_year):
     min_year = c.get("year", CUR_YEAR) - 10
     rejected = {norm(x) for x in load("rejected_photos.json", [])}
     chosen = {}
@@ -167,6 +194,53 @@ def file_info(titles):
                 "license_url": (meta.get("LicenseUrl") or {}).get("value"),
                 "author": re.sub(r"<[^>]+>", "", (meta.get("Artist") or {}).get("value", "")).strip()[:80]}
     return out
+
+
+def hue_ok(path, expected):
+    """True if the photo's main colour is close to the note's known colour (or the colour is unknown/grey)."""
+    import colorsys
+    if not expected or expected.lower() in ("#777777", "#000000"):
+        return True
+    def hs(hexc):
+        r, g, b = (int(hexc[i:i + 2], 16) / 255 for i in (1, 3, 5))
+        h, l, s_ = colorsys.rgb_to_hls(r, g, b)
+        return h * 360, s_
+    h1, s1 = hs(dominant_colour(path))
+    h2, s2 = hs(expected)
+    if s1 < .2 or s2 < .2:
+        return True
+    d = abs(h1 - h2) % 360
+    return min(d, 360 - d) <= 45
+
+
+def try_candidates(ranked, k, credits, expected, source):
+    """Download the best candidate per side; files without a year must also pass the colour check."""
+    got = False
+    for side, cands in ranked.items():
+        if not cands:
+            continue
+        infos = file_info([t for t, _ in cands[:6]])
+        for t, has_year in cands[:6]:
+            i = infos.get(t) or {}
+            if not (i.get("img") and OK_LICENSE.match(i.get("license") or "")):
+                continue
+            out = os.path.join(IMG, f"{k}-{side}.jpg")
+            try:
+                download(i["img"], out)
+            except Exception as e:
+                print("  download failed", k, side, e); continue
+            if not has_year and not hue_ok(out, expected):
+                os.remove(out)
+                lg = os.path.join(IMG, "lg", f"{k}-{side}.jpg")
+                if os.path.exists(lg): os.remove(lg)
+                continue
+            cr = credits.get(k) or {}
+            cr.update({"source": "wikimedia", "url": i["page"]})
+            cr[side] = {"author": i["author"] or "Wikimedia contributor", "license": i["license"], "license_url": i["license_url"]}
+            credits[k] = cr
+            got = True
+            break
+    return got
 
 
 def save_sides(chosen, infos, k, credits, source):
@@ -206,20 +280,47 @@ def from_wikipedia(c, denom, k, credits, article_cache):
                                       for im in p.get("images", [])]
             except Exception as e:
                 print("  wiki article failed", art, e); article_cache[art] = []
-        chosen = pick_files(article_cache[art], c, denom, need, strict_year=True)
-        if chosen and save_sides(chosen, file_info(list(chosen.values())), k, credits, "wikipedia"):
+        ranked = rank_files(article_cache[art], c, denom, need)
+        if any(ranked.values()) and try_candidates(ranked, k, credits, expected_colour(c, denom), "wikipedia"):
             need = missing_sides(k)
             if not need:
                 return True
     return not missing_sides(k)
 
 
+def expected_colour(c, denom):
+    return next((n[1] for n in c["notes"] if n[0] == denom), None)
+
+
+def unit_words(c, denom):
+    """Words the note itself uses (from Numista's title, e.g. '1000 Colones') plus the currency name."""
+    words = []
+    pick = load("numista_cache.json", {}).get(f'{c["code"]}-{denom}') or {}
+    t = re.sub(r"^[\d\s,.']+", "", pick.get("title") or "")
+    t = re.sub(r"\(.*?\)|-.*$", "", t).strip()
+    if t:
+        words.append(t)
+    words.append(c["cur"].split()[-1])
+    return list(dict.fromkeys(words))
+
+
 def from_wikimedia(c, denom, k, credits):
     need = missing_sides(k)
-    pages = list(commons(f'{c["country"]} {denom} {c["cur"]} banknote'))
-    titles = [p.get("title") for p in pages]
-    chosen = pick_files(titles, c, denom, need, strict_year=True)
-    return bool(chosen) and save_sides(chosen, file_info(list(chosen.values())), k, credits, "commons") and not missing_sides(k)
+    queries = []
+    for w in unit_words(c, denom):
+        queries += [f"{denom} {w} {c['country']}", f"billete {denom} {w}", f"billet {denom} {w}", f"{denom} {w} banknote"]
+    queries.append(f'{c["country"]} {denom} {c["cur"]} banknote')
+    titles = []
+    for q in dict.fromkeys(queries):
+        try:
+            titles += [p.get("title") for p in commons(q)]
+        except Exception as e:
+            print("  commons search failed", q, e)
+        ranked = rank_files(list(dict.fromkeys(titles)), c, denom, need)
+        if all(ranked.values()):
+            break
+    ranked = rank_files(list(dict.fromkeys(titles)), c, denom, need)
+    return any(ranked.values()) and try_candidates(ranked, k, credits, expected_colour(c, denom), "commons") and not missing_sides(k)
 
 
 def _old_commons(c, denom, k, credits):
@@ -290,31 +391,53 @@ def main():
     cache = load("numista_cache.json", {})
     credits = load("credits.json", {})
     banks = load("bank_sources.json", {})
+    overrides = load("commons_overrides.json", {})
     nm = Numista(os.environ.get("NUMISTA_KEY"), BUDGET)
     added, article_cache = [], {}
+    numista_ok = bool(nm.key) and BUDGET > 0
     for c in notes:
         for n in c["notes"]:
             k = f'{c["code"]}-{n[0]}'
             if have(k) and k in credits:
                 continue
-            try:
-                if k in banks and from_bank(k, banks[k], credits):
-                    added.append(f"{k} (bank)"); continue
-                if nm.key:
+            # each source is tried on its own; a failure in one never stops the others
+            def attempt(label, fn):
+                try:
+                    if fn():
+                        added.append(f"{k} ({label})")
+                        return True
+                except Exception as e:
+                    print(f"  {label} error {k}: {e}")
+                return False
+            if k in banks and attempt("bank", lambda: from_bank(k, banks[k], credits)):
+                continue
+            if k in overrides:
+                def ov():
+                    ranked = {s: [(t, True)] for s, t in overrides[k].items() if s in missing_sides(k)}
+                    return bool(ranked) and try_candidates(ranked, k, credits, None, "override") and not missing_sides(k)
+                if attempt("Wikimedia, chosen", ov):
+                    continue
+            if numista_ok:
+                def nu():
                     if k not in cache:
                         cache[k] = numista_find(nm, c, n[0], n[2], n[3], cache) or {"none": True}
-                    if from_numista(cache[k], k, credits):
+                    return from_numista(cache[k], k, credits)
+                try:
+                    if nu():
                         added.append(f"{k} (Numista)"); continue
-                if from_wikipedia(c, n[0], k, credits, article_cache):
-                    added.append(f"{k} (Wikipedia)"); continue
-                if from_wikimedia(c, n[0], k, credits):
-                    added.append(f"{k} (Wikimedia Commons)"); continue
-                if from_openverse(c, n[0], k, credits):
-                    added.append(f"{k} (Openverse)"); continue
-            except RuntimeError as e:
-                print("STOP:", e); break
-            except Exception as e:
-                print("  error", k, e)
+                except RuntimeError as e:
+                    print("  Numista off for the rest of this run:", e); numista_ok = False
+                except Exception as e:
+                    print(f"  Numista error {k}: {e}")
+            else:
+                # no API calls, but photos already matched earlier can still be downloaded
+                if isinstance(cache.get(k), dict) and attempt("Numista", lambda: from_numista(cache[k], k, credits)):
+                    continue
+            if attempt("Wikipedia", lambda: from_wikipedia(c, n[0], k, credits, article_cache)):
+                continue
+            if attempt("Wikimedia Commons", lambda: from_wikimedia(c, n[0], k, credits)):
+                continue
+            attempt("Openverse", lambda: from_openverse(c, n[0], k, credits))
     # large versions for the viewer (Numista photos saved before large copies existed)
     for k, cr in credits.items():
         if cr.get("source") != "numista" or not isinstance(cache.get(k), dict):

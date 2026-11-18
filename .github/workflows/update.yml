@@ -2,7 +2,8 @@ name: Update and publish
 
 on:
   schedule:
-    - cron: "17 19 1 * *"   # 1st of every month, 14:17 New York time
+    - cron: "17 19 1 * *"   # 1st of every month, 14:17 New York time: full update (Numista)
+    - cron: "41 11 * * 3"   # every Wednesday: retry missing photos (no Numista searches)
   workflow_dispatch:
   push:
     branches: [main]
@@ -31,13 +32,13 @@ jobs:
       - run: pip install pillow pycountry
 
       - name: Check Numista for new notes (monthly / manual runs)
-        if: github.event_name != 'push'
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '17 19 1 * *'
         env:
           NUMISTA_KEY: ${{ secrets.NUMISTA_KEY }}
         run: python scripts/check_new_notes.py
 
       - name: Add countries not on the site yet (monthly / manual runs)
-        if: github.event_name != 'push'
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '17 19 1 * *'
         env:
           NUMISTA_KEY: ${{ secrets.NUMISTA_KEY }}
           NUMISTA_BUDGET: "900"
@@ -46,7 +47,7 @@ jobs:
       - name: Fill missing photos (bank, Numista, Wikimedia)
         env:
           NUMISTA_KEY: ${{ secrets.NUMISTA_KEY }}
-          NUMISTA_BUDGET: "300"
+          NUMISTA_BUDGET: ${{ github.event.schedule == '41 11 * * 3' && '0' || '300' }}
         run: python scripts/fetch_images.py
 
       - name: Build site
