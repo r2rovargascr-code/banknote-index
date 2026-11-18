@@ -40,7 +40,7 @@ jobs:
         if: github.event_name != 'push'
         env:
           NUMISTA_KEY: ${{ secrets.NUMISTA_KEY }}
-          NUMISTA_BUDGET: "400"
+          NUMISTA_BUDGET: "900"
         run: python scripts/add_countries.py
 
       - name: Fill missing photos (bank, Numista, Wikimedia)
