@@ -1,19 +1,18 @@
 {
  "USD-20": {
-  "id": 201837,
-  "title": "20 Dollars (Federal Reserve Note; colored)",
-  "url": "https://en.numista.com/201837",
+  "source": "bank",
+  "bank": "U.S. Currency Education Program",
+  "url": "https://www.uscurrency.gov/denominations/20",
   "f": {
-   "author": "Daniel LeBowsky",
-   "license": "CC BY-NC-SA",
-   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+   "author": "U.S. Currency Education Program",
+   "license": "Public domain",
+   "license_url": "https://www.uscurrency.gov/denominations/20"
   },
   "b": {
-   "author": "Daniel LeBowsky",
-   "license": "CC BY-NC-SA",
-   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
-  },
-  "source": "numista"
+   "author": "U.S. Currency Education Program",
+   "license": "Public domain",
+   "license_url": "https://www.uscurrency.gov/denominations/20"
+  }
  },
  "USD-50": {
   "id": 201849,
