@@ -417,26 +417,49 @@ def from_openverse(c, denom, k, credits):
 
 
 def ecb_pack(notes, credits):
-    """Euro notes: download the ECB's official low-resolution SPECIMEN images into preview/ for approval
-    (they are not used on the site until moved into img/)."""
+    """Euro notes: the ECB's official low-resolution (72 dpi) images marked SPECIMEN, which the ECB
+    allows to be used freely (ES2 zip for EUR 5-200, ES1 zip for the EUR 500)."""
     import zipfile, io
-    prev = os.path.join(ROOT, "preview", "ecb")
-    if os.path.exists(prev):
-        return []
-    url = "https://www.ecb.europa.eu/euro/shared/img/Banknotes%20ES2%20Specimen%2072dpi.zip"
-    with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=120) as f:
-        z = zipfile.ZipFile(io.BytesIO(f.read()))
-    os.makedirs(prev, exist_ok=True)
     from PIL import Image
+    eur = next((c for c in notes if c["code"] == "EUR"), None)
+    if not eur:
+        return []
+    want = {n[0] for n in eur["notes"]}
+    if all(os.path.exists(os.path.join(IMG, f"EUR-{d}-{s}.jpg")) for d in want for s in "fb"):
+        return []
     saved = []
-    for name in z.namelist():
-        if not re.search(r"\.(jpe?g|png|tif+)$", name, re.I):
-            continue
-        out = os.path.join(prev, re.sub(r"[^\w.-]+", "_", os.path.basename(name)).rsplit(".", 1)[0] + ".jpg")
-        Image.open(io.BytesIO(z.read(name))).convert("RGB").save(out, "JPEG", quality=88)
-        saved.append(os.path.basename(out))
-    print("ECB preview files:", saved)
-    return [f"ECB preview: {len(saved)} images in preview/ecb (awaiting approval)"]
+    for series, url, dens in (("ES2", "https://www.ecb.europa.eu/euro/shared/img/Banknotes%20ES2%20Specimen%2072dpi.zip", {5, 10, 20, 50, 100, 200}),
+                              ("ES1", "https://www.ecb.europa.eu/euro/shared/img/Banknotes%20ES1%20Specimen%2072dpi.zip", {500})):
+        with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=120) as f:
+            z = zipfile.ZipFile(io.BytesIO(f.read()))
+        names = [x for x in z.namelist() if re.search(r"\.(jpe?g|png|tiff?)$", x, re.I)]
+        print(f"ECB {series} zip:", names)
+        for name in names:
+            base = os.path.basename(name).lower()
+            nums = [int(x) for x in re.findall(r"(?<!\d)(\d{1,3})(?!\d)", base) if int(x) in dens]
+            if not nums:
+                continue
+            side = "b" if re.search(r"back|reverse|verso|r(?:ue|ü)ck|(?:^|[_\- ])(?:b|r|rv|bk)(?:[_\- .]|$)", base) else \
+                   "f" if re.search(r"front|obverse|recto|vorder|(?:^|[_\- ])(?:f|fr|ft|av)(?:[_\- .]|$)", base) else None
+            if not side:
+                continue
+            k = f"EUR-{nums[0]}"
+            out = os.path.join(IMG, f"{k}-{side}.jpg")
+            if any(x.startswith(k + "-" + side) for x in saved):
+                continue
+            im = Image.open(io.BytesIO(z.read(name))).convert("RGB")
+            if im.height > im.width:
+                im = im.rotate(90, expand=True)
+            os.makedirs(os.path.join(IMG, "lg"), exist_ok=True)
+            im.save(os.path.join(IMG, "lg", f"{k}-{side}.jpg"), "JPEG", quality=90)
+            t = im.copy(); t.thumbnail((640, 640)); t.save(out, "JPEG", quality=86)
+            saved.append(f"{k}-{side} <- {name}")
+            cr = credits.setdefault(k, {"source": "bank", "bank": "European Central Bank",
+                                        "url": "https://www.ecb.europa.eu/euro/banknotes/images/html/index.en.html"})
+            cr.update(source="bank", bank="European Central Bank")
+            cr[side] = {"author": "European Central Bank", "license": "ECB reproduction rules (specimen)"}
+    print("ECB images saved:", saved)
+    return [f"ECB specimen images: {len(saved)} sides"] if saved else []
 
 
 def us_currency(notes, credits):
@@ -481,8 +504,7 @@ def main():
     except Exception as e:
         print("  uscurrency error:", e)
     try:
-        if os.environ.get("ECB_ENABLED") == "1":  # off until the user approves the euro images
-            added += ecb_pack(notes, credits)
+        added += ecb_pack(notes, credits)
     except Exception as e:
         print("  ECB pack error:", e)
     numista_ok = bool(nm.key) and BUDGET > 0
