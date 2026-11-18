@@ -2408,5 +2408,302 @@
    "license": "Public domain",
    "license_url": null
   }
+ },
+ "CL-20000": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:20000-chilean-pesos-banknote-andres-bello-obverse-1.jpg",
+  "f": {
+   "author": "Leftover Currency",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "b": {
+   "author": "Leftover Currency",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0"
+  }
+ },
+ "UA-20": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:20_Ukrainian_hryvnia_in_2018_Obverse.jpg",
+  "f": {
+   "author": "ТамараГончарук",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "b": {
+   "author": "ТамараГончарук",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ },
+ "UA-100": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:100_hryvnia_2018_reverse.jpg",
+  "b": {
+   "author": "NBU",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ },
+ "UA-200": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:200-UAH-2021-commemorative-30yearsofIndependence-obverse.jpg",
+  "f": {
+   "author": "National Bank of Ukraine",
+   "license": "Public domain",
+   "license_url": null
+  },
+  "b": {
+   "author": "National Bank of Ukraine",
+   "license": "Public domain",
+   "license_url": null
+  }
+ },
+ "UA-500": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:10_500_UAH_2023_%D0%9F%D0%B8%D1%88%D0%BD%D0%B8%D0%B9_obverse.jpg",
+  "f": {
+   "author": "Salandr",
+   "license": "Public domain",
+   "license_url": null
+  },
+  "b": {
+   "author": "Salandr",
+   "license": "Public domain",
+   "license_url": null
+  }
+ },
+ "UA-1000": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:1000-UAH-2021-commemorative-30yearsofIndependence-reverse.jpg",
+  "f": {
+   "author": "National Bank of Ukraine",
+   "license": "Public domain",
+   "license_url": null
+  },
+  "b": {
+   "author": "National Bank of Ukraine",
+   "license": "Public domain",
+   "license_url": null
+  }
+ },
+ "AZ-1": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:1_Azerbaijani_manat_in_2017_Obverse.jpg",
+  "f": {
+   "author": "YusifSarkarov1234",
+   "license": "Public domain",
+   "license_url": null
+  },
+  "b": {
+   "author": "YusifSarkarov1234",
+   "license": "Public domain",
+   "license_url": null
+  }
+ },
+ "AZ-5": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:5_Azerbaijani_manat_in_2017_Obverse.jpg",
+  "f": {
+   "author": "YusifSarkarov1234",
+   "license": "Public domain",
+   "license_url": null
+  },
+  "b": {
+   "author": "YusifSarkarov1234",
+   "license": "Public domain",
+   "license_url": null
+  }
+ },
+ "AZ-100": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:Turkmenistan_banknote_-_2017_series_-_100_manat_-_reverse.jpg",
+  "b": {
+   "author": "Central Bank of Turkmenistan",
+   "license": "Public domain",
+   "license_url": null
+  }
+ },
+ "LA-100000": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:100.000_Laotian_kip_in_2020_Obverse.jpg",
+  "f": {
+   "author": "https://www.bol.gov.la/",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "b": {
+   "author": "https://www.bol.gov.la/",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ },
+ "KG-20": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:Obverse_20_som_2024.jpg",
+  "f": {
+   "author": "Кыргыз Республикасынын Улуттук банкы",
+   "license": "Public domain",
+   "license_url": null
+  },
+  "b": {
+   "author": "Кыргыз Республикасынын Улуттук банкы",
+   "license": "Public domain",
+   "license_url": null
+  }
+ },
+ "KG-50": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:Obverse_50_som_2024.jpg",
+  "f": {
+   "author": "Кыргыз Республикасынын Улуттук банкы",
+   "license": "Public domain",
+   "license_url": null
+  },
+  "b": {
+   "author": "Кыргыз Республикасынын Улуттук банкы",
+   "license": "Public domain",
+   "license_url": null
+  }
+ },
+ "KW-5": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:5_Kuwaitian_fils_in_2012_Obverse.jpg",
+  "f": {
+   "author": "Mohamed0189",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "b": {
+   "author": "Mohamed0189",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ },
+ "KW-20": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:20_Kuwaitian_fils_in_2015_Obverse.jpg",
+  "f": {
+   "author": "Mohamed0189",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "b": {
+   "author": "Mohamed0189",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ },
+ "EG-1": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:0.50_EGP_obverse_2017-1-8.jpg",
+  "f": {
+   "author": "Central Bank of Egypt",
+   "license": "Public domain",
+   "license_url": null
+  },
+  "b": {
+   "author": "Central Bank of Egypt",
+   "license": "Public domain",
+   "license_url": null
+  }
+ },
+ "EG-5": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:5_EGP_obverse_2013.jpg",
+  "f": {
+   "author": "Knyaz-1988",
+   "license": "Public domain",
+   "license_url": null
+  }
+ },
+ "EG-10": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:10_EGP_reverse_2014-8-13.jpg",
+  "f": {
+   "author": "Central Bank of Egypt",
+   "license": "Public domain",
+   "license_url": null
+  },
+  "b": {
+   "author": "Central Bank of Egypt",
+   "license": "Public domain",
+   "license_url": null
+  }
+ },
+ "EG-20": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:20_EGP_reverse_2014-3-11.jpg",
+  "f": {
+   "author": "Central Bank of Egypt",
+   "license": "Public domain",
+   "license_url": null
+  },
+  "b": {
+   "author": "Central Bank of Egypt",
+   "license": "Public domain",
+   "license_url": null
+  }
+ },
+ "EG-100": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:100_EGP_reverse_2014-1-26.jpg",
+  "b": {
+   "author": "Central Bank of Egypt",
+   "license": "Public domain",
+   "license_url": null
+  },
+  "f": {
+   "author": "البنك المركزي المصري",
+   "license": "Public domain",
+   "license_url": null
+  }
+ },
+ "EG-200": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:EGP_200_Pounds_2015_(Front).jpg",
+  "f": {
+   "author": "البنك المركزي المصري",
+   "license": "Public domain",
+   "license_url": null
+  }
+ },
+ "TN-10": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:10_Dinars_bill_TND_(back)_berber_poteries_emitted_in_2020.jpg",
+  "b": {
+   "author": "DrRachT",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "f": {
+   "author": "Davric",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ },
+ "TZ-2000": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:2000_tz_shillings_back.jpg",
+  "b": {
+   "author": "Fanny Schertzer",
+   "license": "CC BY-SA 3.0",
+   "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "f": {
+   "author": "Fanny Schertzer",
+   "license": "CC BY-SA 3.0",
+   "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  }
+ },
+ "TZ-5000": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:5,000_Tanzanian_shillings_banknote_2011_-_obverse.jpg",
+  "f": {
+   "author": "Plouf250",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
  }
 }
