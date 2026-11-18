@@ -27,7 +27,8 @@
   "DKK": "danemark",
   "ZAR": "afrique_du_sud",
   "VND": "viet_nam",
-  "MYR": "malaisie"
+  "MYR": "malaisie",
+  "XCG": "curacao_sint_marteen"
  },
  "USD-20": {
   "id": 201837,
@@ -3327,6 +3328,126 @@
    "author": null,
    "license": "CC0",
    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  }
+ },
+ "XCG-10": {
+  "id": 464105,
+  "title": "10 Caribbean Guilder",
+  "years": [
+   2025,
+   2025
+  ],
+  "issuer": "curacao_sint_marteen",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/curacao_sint_marteen/67f8e5581f9b64.69380494-original.jpg",
+   "author": "ajbbarbados",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Multicolor printing, on yellow underprint. Gray angelfish at center, Queen Conch to left, issuer name on lower right, face value in numbers on top right and lower left corners, in letters on top left.\r\nTwo brown signatures on lower left."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/curacao_sint_marteen/67f8e558250468.43505140-original.jpg",
+   "author": "ajbbarbados",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Multicolor printing on yellow underprint, vertical layout; some lettering on horizontal direction.\r\nKlein Curaçao Lighthouse at center, issuer name on top right, face value in numbers on top left and lower right corners, in letters below image. Black serial #s 9 digits with 1 letter prefix on top left and lower right. Issuing date on top right."
+  }
+ },
+ "XCG-20": {
+  "id": 464541,
+  "title": "20 Caribbean Guilder",
+  "years": [
+   2025,
+   2025
+  ],
+  "issuer": "curacao_sint_marteen",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/curacao_sint_marteen/68290d16c751c1.43478375-original.jpg",
+   "author": "ajbbarbados",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Multicolor printing, on blue underprint. Spotted Eagle Ray at center, Yellow Cowry to left, issuer name on lower right, face value in numbers on top right and lower left corners, in letters on top left.\r\nTwo brown signatures on lower left."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/curacao_sint_marteen/6829257fdab148.80770354-original.jpg",
+   "author": "ajbbarbados",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Multicolor printing on blue underprint, vertical layout; some lettering on horizontal direction.\r\nPelican on flight with Simpson Bay, Sint Maarten in background, at center, issuer name on top right, face value in numbers on top left and lower right corners, in letters below image. Black serial #s 9 digits with 1 letter prefix on top left and lower right. Issuing date on top right."
+  }
+ },
+ "XCG-50": {
+  "id": 464428,
+  "title": "50 Caribbean Guilder",
+  "years": [
+   2025,
+   2025
+  ],
+  "issuer": "curacao_sint_marteen",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/curacao_sint_marteen/68708c39d626c7.85377925-original.jpg",
+   "author": "ajbbarbados",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Dutch text; favored tellin shell in blue-to-green OVI; Chelonia mydas (green sea turtle)."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/curacao_sint_marteen/68708c3ad1d0d1.05827047-original.jpg",
+   "author": "ajbbarbados",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "(Vertical) Dutch text; Playa Kenepa Grandi Beach. Green windowed security thread with waves."
+  }
+ },
+ "XCG-100": {
+  "id": 464506,
+  "title": "100 Caribbean Guilder",
+  "years": [
+   2025,
+   2025
+  ],
+  "issuer": "curacao_sint_marteen",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/curacao_sint_marteen/69dd90f5b4b746.29310445-original.jpg",
+   "author": "ajbbarbados",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Dutch text; common music volute conch in blue-to-green OVI; spotlight parrot fish."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/curacao_sint_marteen/69dd90f6d3dda7.92194072-original.jpg",
+   "author": "ajbbarbados",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "(Vertical) Dutch text; Courthouse of Sint Maarten. Red windowed security thread with waves."
+  }
+ },
+ "XCG-200": {
+  "id": 464507,
+  "title": "200 Caribbean Guilder",
+  "years": [
+   2025,
+   2025
+  ],
+  "issuer": "curacao_sint_marteen",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/curacao_sint_marteen/6a22392c549747.26179628-original.jpg",
+   "author": "ajbbarbados",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Dutch text; giant tun shell in blue-to-green OVI; Hippocampus reidi (longsnout seahorse)."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/curacao_sint_marteen/6a22392d6a47b7.05146214-original.jpg",
+   "author": "ajbbarbados",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "(Vertical) Dutch text; Queen Emma Bridge. Purple windowed security thread with waves."
   }
  }
 }

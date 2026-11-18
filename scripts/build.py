@@ -14,6 +14,7 @@ def main():
         for n in c["notes"]:
             k = f'{c["code"]}-{n[0]}'
             sides = {s: f"img/{k}-{s}.jpg" for s in "fb" if os.path.exists(os.path.join(IMG, f"{k}-{s}.jpg"))}
+            sides.update({s + "l": f"img/lg/{k}-{s}.jpg" for s in "fb" if os.path.exists(os.path.join(IMG, "lg", f"{k}-{s}.jpg"))})
             if sides:
                 img[k] = sides
                 if n[1] in ("#777777", "#000000") and "f" in sides:  # colour for newly added notes

@@ -1375,5 +1375,50 @@
    ]
   ],
   "suf": " shillings"
+ },
+ {
+  "code": "XCG",
+  "iso": "CW",
+  "country": "Curaçao and Sint Maarten",
+  "cur": "Caribbean guilder",
+  "sym": "Cg",
+  "issuer": "Central Bank of Curaçao and Sint Maarten",
+  "region": "Americas",
+  "series": "2025 series",
+  "year": 2025,
+  "mat": "Paper",
+  "notes": [
+   [
+    10,
+    "#777777",
+    "Grey angelfish and queen conch",
+    "Klein Curaçao lighthouse"
+   ],
+   [
+    20,
+    "#777777",
+    "Spotted eagle ray and yellow cowry",
+    "Pelican over Simpson Bay, Sint Maarten"
+   ],
+   [
+    50,
+    "#777777",
+    "Green sea turtle and favoured tellin shell",
+    "Playa Kenepa Grandi beach"
+   ],
+   [
+    100,
+    "#777777",
+    "Spotlight parrotfish and music volute shell",
+    "Courthouse of Sint Maarten"
+   ],
+   [
+    200,
+    "#777777",
+    "Longsnout seahorses and giant tun shell",
+    "Queen Emma Bridge"
+   ]
+  ],
+  "info": "Introduced in 2025, replacing the Netherlands Antilles guilder. The 200 guilder is the IBNS Banknote of the Year 2025."
  }
 ]

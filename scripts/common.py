@@ -78,6 +78,13 @@ def download(url, out, referer=None, max_side=640):
     with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=60) as f:
         data = f.read()
     im = Image.open(io.BytesIO(data)).convert("RGB")
+    if im.height > im.width * 1.1:  # vertical note: show it horizontally
+        im = im.rotate(90, expand=True)
+    lg = os.path.join(os.path.dirname(out), "lg", os.path.basename(out))
+    os.makedirs(os.path.dirname(lg), exist_ok=True)
+    big = im.copy()
+    big.thumbnail((1600, 1600))
+    big.save(lg, "JPEG", quality=82, optimize=True, progressive=True)
     im.thumbnail((max_side, max_side))
     im.save(out, "JPEG", quality=78, optimize=True, progressive=True)
     time.sleep(0.3)

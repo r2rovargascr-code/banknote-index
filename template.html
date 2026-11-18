@@ -9,7 +9,7 @@
 <style>
 :root{--bg:#000;--panel:#0d0d0d;--key:#262626;--line:#1f1f1f;--ink:#f2f2f2;--mute:#8a8a8a;--acc:#c9a36a}
 *{box-sizing:border-box;margin:0;padding:0}
-body{background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;font-weight:300;-webkit-font-smoothing:antialiased;min-height:100vh}
+body{background:var(--bg);color:var(--ink);font-family:"Twemoji Country Flags",Inter,system-ui,sans-serif;font-weight:300;-webkit-font-smoothing:antialiased;min-height:100vh}
 button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:0 28px;height:56px;border-bottom:1px solid var(--line);position:sticky;top:0;background:#000;z-index:30}
 .logo{font-weight:200;letter-spacing:.32em;font-size:13px}
@@ -117,7 +117,7 @@ nav button.star{color:var(--acc)}
 .msg{font-size:13px;line-height:1.6;color:#cfcfcf;padding:10px 0 10px 14px;border-left:1px solid var(--acc);margin-bottom:10px}
 .msg.i{border-color:#444}
 .notes{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:34px 26px;margin-top:30px}
-.nb{text-align:left;perspective:1200px}
+.nb{text-align:left;perspective:1200px;cursor:pointer}
 .flip{position:relative;transition:transform .6s cubic-bezier(.3,.7,.3,1);transform-style:preserve-3d}
 .nb.b .flip{transform:rotateY(180deg)}
 .flip>*{backface-visibility:hidden;-webkit-backface-visibility:hidden}
@@ -127,9 +127,24 @@ nav button.star{color:var(--acc)}
 .nb dl{display:grid;grid-template-columns:52px 1fr;gap:3px 12px;font-size:12.5px;margin-top:8px;line-height:1.5}
 .cred{font-size:10.5px;color:#666;margin-top:10px;letter-spacing:.02em}.cred a{color:#888}
 .nb dt{color:var(--mute);font-size:10px;letter-spacing:.18em;text-transform:uppercase;padding-top:2px}
+.nbtns{display:flex;gap:8px;margin-top:10px}
+.nbtns button{border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:11px;letter-spacing:.08em;color:var(--mute)}
+.nbtns button:hover{color:var(--ink);border-color:#444}
+#viewer{position:fixed;inset:0;background:rgba(0,0,0,.94);z-index:100;display:none;flex-direction:column;align-items:center;justify-content:center;padding:20px}
+#viewer.on{display:flex}
+#viewer .stage{flex:1;width:100%;display:flex;align-items:center;justify-content:center;overflow:hidden}
+#viewer img,#viewer .tile{max-width:92vw;max-height:78vh;transition:transform .35s ease;object-fit:contain}
+#viewer .tile{width:min(92vw,900px)}
+#viewer.rot img,#viewer.rot .tile{transform:rotate(-90deg);max-width:78vh;max-height:92vw}
+#viewer .bar2{display:flex;gap:10px;align-items:center;padding:16px 0 4px;flex-wrap:wrap;justify-content:center}
+#viewer .bar2 button{border:1px solid #333;border-radius:999px;padding:8px 18px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#ddd}
+#viewer .bar2 button:hover{border-color:#777;color:#fff}
+#viewer .cap{color:var(--mute);font-size:12px;letter-spacing:.06em;margin-right:6px}
+#viewer .x{position:absolute;top:16px;right:22px;font-size:26px;font-weight:200;color:#aaa}
 footer{border-top:1px solid var(--line);padding:24px 28px 36px;color:#666;font-size:11.5px;line-height:1.8}
 @media (max-width:760px){.key{width:30px;height:38px;padding-left:9px;font-size:15px}.kr{gap:6px}.kb{gap:8px}.boty{grid-template-columns:1fr}.lrow{grid-template-columns:1fr}header{padding:0 12px}.logo{display:none}}
 </style>
+<script type="module">import{polyfillCountryFlagEmojis}from"https://cdn.jsdelivr.net/npm/country-flag-emoji-polyfill@0.1/+esm";polyfillCountryFlagEmojis();</script>
 </head>
 <body>
 <header>
@@ -170,6 +185,9 @@ footer{border-top:1px solid var(--line);padding:24px 28px 36px;color:#666;font-s
 
 <section class="view" id="v-country"><div class="sec" id="cbox"></div></section>
 
+<div id="viewer" role="dialog" aria-modal="true"><button class="x" onclick="closeViewer()" aria-label="Close">×</button>
+  <div class="stage" id="vstage"></div>
+  <div class="bar2"><span class="cap" id="vcap"></span><button onclick="vFlip()">Front / Back</button><button onclick="vRot()">Rotate</button><button onclick="closeViewer()">Close</button></div></div>
 <footer id="foot"></footer>
 
 <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
@@ -183,7 +201,8 @@ const VERIFIED = "17 November 2026";
 const IMG = /*IMG*/{};
 const CREDITS = /*CREDITS*/{};
 
-const NUM = {"US":"840","GB":"826","JP":"392","CN":"156","IN":"356","CA":"124","AU":"036","NZ":"554","CH":"756","SE":"752","NO":"578","DK":"208","KR":"410","SG":"702","MX":"484","BR":"076","ZA":"710","TR":"792","TH":"764","PH":"608","ID":"360","VN":"704","MY":"458","KE":"404","TW":"158","CO":"170"};
+const NUM = {"US":"840","GB":"826","JP":"392","CN":"156","IN":"356","CA":"124","AU":"036","NZ":"554","CH":"756","SE":"752","NO":"578","DK":"208","KR":"410","SG":"702","MX":"484","BR":"076","ZA":"710","TR":"792","TH":"764","PH":"608","ID":"360","VN":"704","MY":"458","KE":"404","TW":"158","CO":"170","CW":"531"};
+const EXTRA_IDS={"534":"XCG"};
 const EURO = ["040","056","100","191","196","233","246","250","276","300","372","380","428","440","442","470","528","620","703","705","724"];
 
 const BOTY = {
@@ -204,8 +223,9 @@ const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"
 const fmt=n=>n.toLocaleString("en-US");
 const flag=iso=>iso?String.fromCodePoint(...[...iso].map(c=>127397+c.charCodeAt(0))):"";
 const val=(c,n)=>(c.sym||"")+fmt(n[0])+(c.suf||"");
-function note(c,n,side="f",extra=""){
+function note(c,n,side="f",extra="",big=false){
   const im=IMG[c.code+"-"+n[0]];
+  if(big&&im&&im[side+"l"]) return `<img class="bn ph ${extra}" src="${im[side+"l"]}"`+` alt="${esc(c.country+" "+val(c,n))}">`;
   if(im&&im[side]) return `<img class="bn ph ${extra}" src="${im[side]}" alt="${esc(c.country+" "+val(c,n)+(side==="b"?" back":" front"))}" loading="lazy">`;
   return `<div class="bn tile ${extra}" style="--c:${n[1]}" role="img" aria-label="${esc(c.country+" "+val(c,n))}"><span class="d">${esc(val(c,n))}</span><span class="k">${esc(c.country)}</span><span class="s">${side==="b"?"Back":"Front"}</span></div>`;
 }
@@ -222,14 +242,14 @@ const FAM={Red:"#c84a4a",Orange:"#e08a3a",Yellow:"#e0b83a",Green:"#4aa05a",Teal:
 const ALL=D.flatMap(c=>c.notes.map(n=>({c,n,fam:family(n[1])})));
 
 /* ---------- explore: keyboard + ticker ---------- */
-const KEYS=["QWERTYUIOP","ASDFGHJKL","ZXCVBNM"];
+const KEYS=["ABCDEFGHI","JKLMNOPQR","STUVWXYZ"];
 const byLetter=L=>D.filter(c=>c.country.normalize("NFD")[0].toUpperCase()===L).sort((a,b)=>a.country.localeCompare(b.country));
 let letter=null;
 $("#kb").innerHTML=KEYS.map(r=>`<div class="kr">${[...r].map(k=>`<button class="key" data-k="${k}" ${byLetter(k).length?"":"disabled"}>${k}</button>`).join("")}</div>`).join("");
 $("#kb").addEventListener("click",e=>{const b=e.target.closest(".key:not(:disabled)");if(b)pick(b.dataset.k)});
 function pick(L){
   letter=L;document.querySelectorAll(".key").forEach(k=>k.classList.toggle("on",k.dataset.k===L));
-  $("#hits").innerHTML=byLetter(L).map(c=>{const n=c.notes[c.notes.length-1];return `<button class="hit" data-code="${c.code}">${note(c,n)}${esc(c.country)}</button>`}).join("");
+  $("#hits").innerHTML=byLetter(L).map(c=>{const n=[...c.notes].reverse().find(n=>IMG[c.code+"-"+n[0]])||c.notes[c.notes.length-1];return `<button class="hit" data-code="${c.code}">${note(c,n)}${esc(c.country)}</button>`}).join("");
 }
 $("#hits").addEventListener("click",e=>{const b=e.target.closest(".hit");if(b)go(b.dataset.code.toLowerCase())});
 document.addEventListener("keydown",e=>{if(!$("#v-explore").classList.contains("on")||e.target.tagName==="INPUT"||e.metaKey||e.ctrlKey)return;const L=e.key.toUpperCase();if(/^[A-Z]$/.test(L)&&byLetter(L).length)pick(L)});
@@ -273,7 +293,7 @@ async function renderMap(){
   let topo;try{topo=await (await fetch("world.json")).json()}catch(e){$("#mapbox").insertAdjacentHTML("beforeend",'<p style="color:#666">Map data could not load.</p>');return}
   const feats=topojson.feature(topo,topo.objects.countries).features.filter(f=>f.id!=="010");
   const proj=d3.geoMiller().fitExtent([[6,6],[W-6,H-6]],{type:"FeatureCollection",features:feats}),path=d3.geoPath(proj);
-  const byNum={};D.forEach(c=>{if(NUM[c.iso])byNum[NUM[c.iso]]=c});const sl=D.find(c=>c.code==="SLS");feats.forEach(f=>{if(f.properties.name==="Somaliland"){f.id="SL-x";byNum["SL-x"]=sl}});const eur=D.find(c=>c.code==="EUR");EURO.forEach(n=>byNum[n]=eur);
+  const byNum={};D.forEach(c=>{if(NUM[c.iso])byNum[NUM[c.iso]]=c});const sl=D.find(c=>c.code==="SLS");feats.forEach(f=>{if(f.properties.name==="Somaliland"){f.id="SL-x";byNum["SL-x"]=sl}});const eur=D.find(c=>c.code==="EUR");EURO.forEach(n=>byNum[n]=eur);Object.entries(EXTRA_IDS).forEach(([id,code])=>byNum[id]=D.find(c=>c.code===code));
   const tip=$("#tip"),box=$("#mapbox");
   svg.append("g").selectAll("path").data(feats).join("path")
     .attr("d",path).attr("class",d=>"c"+(byNum[d.id]?" on":""))
@@ -282,14 +302,21 @@ async function renderMap(){
       if(!d.properties.name){tip.style.display="none";return}tip.innerHTML=c?`${esc(d.properties.name)} · <span style="color:#c9a36a">${esc(c.cur)}</span> · ${c.notes.length} notes`:`${esc(d.properties.name)} <span style="color:#666">· not listed yet</span>`})
     .on("mouseleave",()=>tip.style.display="none")
     .on("click",(ev,d)=>{const c=byNum[d.id];if(c){tip.style.display="none";go(c.code.toLowerCase())}});
+  const prb=D.find(c=>c.code==="PRB");
+  if(prb){let ring=[[28.45,48.17],[28.75,48.13],[29.05,47.95],[29.25,47.75],[29.35,47.45],[29.55,47.3],[29.7,47.1],[29.9,46.95],[30.13,46.62],[30.05,46.52],[29.75,46.65],[29.55,46.8],[29.42,46.85],[29.25,46.95],[29.15,47.2],[29.05,47.45],[28.9,47.7],[28.7,47.95],[28.45,48.17]];
+    let f={type:"Feature",properties:{name:"Transnistria"},geometry:{type:"Polygon",coordinates:[ring]}};
+    if(d3.geoArea(f)>2*Math.PI){f.geometry.coordinates=[ring.slice().reverse()]}
+    svg.append("path").datum(f).attr("d",path).attr("class","c on").style("fill",prb.notes[Math.floor(prb.notes.length/2)][1]).style("stroke","#fff").style("stroke-width",".4")
+      .on("mousemove",(ev)=>{const r=box.getBoundingClientRect();tip.style.display="block";tip.style.left=(ev.clientX-r.left+14)+"px";tip.style.top=(ev.clientY-r.top+10)+"px";tip.innerHTML=`Transnistria · <span style="color:#c9a36a">${esc(prb.cur)}</span> · ${prb.notes.length} notes`})
+      .on("mouseleave",()=>tip.style.display="none").on("click",()=>{tip.style.display="none";go("prb")});}
 }
 
 /* ---------- banknote of the year ---------- */
 function renderBoty(){
   const B=BOTY,c={code:"BOTY",country:B.country,sym:"",cur:""},n=[200,B.color];
   const f=B.img.f?`<img class="bn ph" src="${B.img.f}" alt="Front">`:`<div class="bn tile" style="--c:${B.color}"><span class="d">200 Cg</span><span class="k">${esc(B.country)}</span><span class="s">Front</span></div>`;
-  const b=B.img.b?`<img class="bn ph vert" src="${B.img.b}" alt="Back">`:`<div class="bn tile vert" style="--c:${B.color}"><span class="d">200</span><span class="s">Back</span></div>`;
-  $("#botybox").innerHTML=`<div class="boty"><div><div class="yr">IBNS Banknote of the Year ${B.year}</div><h2>${esc(B.country)}<br>${esc(B.note)}</h2><div class="pair" style="margin-top:28px">${f}${b}</div><div class="cred"><a href="https://en.numista.com/464507" target="_blank" rel="noopener">${esc(B.credit)}</a></div></div>
+  const b=B.img.b?`<img class="bn ph" src="${B.img.b}" alt="Back">`:`<div class="bn tile vert" style="--c:${B.color}"><span class="d">200</span><span class="s">Back</span></div>`;
+  $("#botybox").innerHTML=`<div class="boty"><div><div class="yr">IBNS Banknote of the Year ${B.year}</div><h2>${esc(B.country)}<br>${esc(B.note)}</h2><div class="pair" style="margin-top:28px;flex-direction:column;align-items:stretch">${f}${b}</div><p style="margin-top:14px"><button class="back" onclick="go('xcg')">See all Caribbean guilder notes →</button></p><div class="cred"><a href="https://en.numista.com/464507" target="_blank" rel="noopener">${esc(B.credit)}</a></div></div>
    <div class="facts"><dl>
     <dt>Front</dt><dd>${esc(B.front)}</dd><dt>Back</dt><dd>${esc(B.back)}</dd><dt>Layout</dt><dd>${esc(B.layout)}</dd>
     <dt>Substrate</dt><dd>${esc(B.substrate)}</dd><dt>Printer</dt><dd>${esc(B.printer)}</dd><dt>Size</dt><dd>${esc(B.size)}</dd>
@@ -311,10 +338,20 @@ function renderCountry(c){
    <div style="display:flex;gap:8px"><button class="back" onclick="go('${p.code.toLowerCase()}')">← ${esc(p.country)}</button><button class="back" onclick="go('${nx.code.toLowerCase()}')">${esc(nx.country)} →</button></div></div>
    <div class="cfacts"><div><small>Series</small>${esc(c.series)}</div><div><small>Latest issue</small>${c.year}</div><div><small>Material</small>${esc(c.mat)}</div><div><small>Notes</small>${c.notes.length}</div></div>
    ${c.upcoming?`<div class="msg"><b style="font-weight:400;color:#c9a36a">Upcoming</b> · ${esc(c.upcoming)}</div>`:""}${c.info?`<div class="msg i">${esc(c.info)}</div>`:""}
-   <div class="notes">${c.notes.map(n=>`<button class="nb"><div class="flip">${note(c,n,"f")}${note(c,n,"b")}</div>
-     <h3>${esc(val(c,n))}<small>Tap to flip</small></h3><dl><dt>Front</dt><dd>${esc(n[2])}</dd><dt>Back</dt><dd>${esc(n[3])}</dd></dl>${credit(c,n)}</button>`).join("")}</div>`;
-  document.querySelectorAll(".nb").forEach(b=>b.addEventListener("click",()=>b.classList.toggle("b")));
+   <div class="notes">${c.notes.map(n=>`<div class="nb" role="button" tabindex="0"><div class="flip">${note(c,n,"f")}${note(c,n,"b")}</div>
+     <h3>${esc(val(c,n))}<small>Tap to flip</small></h3><div class="nbtns"><button type="button" class="vb" data-d="${n[0]}">View larger</button></div><dl><dt>Front</dt><dd>${esc(n[2])}</dd><dt>Back</dt><dd>${esc(n[3])}</dd></dl>${credit(c,n)}</div>`).join("")}</div>`;
+  document.querySelectorAll(".nb").forEach(b=>b.addEventListener("click",e=>{const v=e.target.closest(".vb");if(v){e.stopPropagation();openViewer(c,c.notes.find(n=>String(n[0])===v.dataset.d));return}b.classList.toggle("b")}));
 }
+
+/* ---------- viewer ---------- */
+let V=null;
+function vDraw(){$("#vstage").innerHTML=note(V.c,V.n,V.side,"",true);$("#vcap").textContent=`${V.c.country} · ${val(V.c,V.n)} · ${V.side==="f"?"Front":"Back"}`;$("#viewer").classList.toggle("rot",V.rot)}
+function openViewer(c,n){V={c,n,side:"f",rot:false};vDraw();$("#viewer").classList.add("on")}
+function closeViewer(){$("#viewer").classList.remove("on");V=null}
+function vFlip(){V.side=V.side==="f"?"b":"f";vDraw()}
+function vRot(){V.rot=!V.rot;vDraw()}
+$("#viewer").addEventListener("click",e=>{if(e.target.id==="viewer"||e.target.id==="vstage")closeViewer()});
+document.addEventListener("keydown",e=>{if(!V)return;if(e.key==="Escape")closeViewer();if(e.key==="f")vFlip();if(e.key==="r")vRot()});
 
 /* ---------- routing ---------- */
 const VIEWS=["explore","colors","map","all","boty"];

@@ -99,7 +99,126 @@ def commons(query):
         return (json.load(f).get("query") or {}).get("pages", {}).values()
 
 
+WIKI_ARTICLES = {
+ "USD": ["United States {word}-dollar bill", "Federal Reserve Note"], "EUR": ["Euro banknotes"],
+ "GBP": ["Banknotes of the pound sterling"], "JPY": ["Banknotes of the Japanese yen"],
+ "CNY": ["Renminbi banknotes", "Fifth series of the renminbi"], "INR": ["Indian rupee", "Mahatma Gandhi New Series"],
+ "CAD": ["Banknotes of the Canadian dollar", "Frontier Series"], "AUD": ["Banknotes of the Australian dollar"],
+ "NZD": ["Banknotes of the New Zealand dollar"], "CHF": ["Banknotes of the Swiss franc"], "SEK": ["Swedish krona"],
+ "NOK": ["Norwegian krone"], "DKK": ["Danish krone"], "KRW": ["South Korean won"], "SGD": ["Portrait series (Singapore)", "Singapore dollar"],
+ "MXN": ["Banknotes of the Mexican peso", "Mexican peso"], "BRL": ["Brazilian real"], "ZAR": ["South African rand"],
+ "TRY": ["Turkish lira"], "THB": ["Thai baht"], "PHP": ["Banknotes of the Philippine peso"], "IDR": ["Indonesian rupiah"],
+ "VND": ["Vietnamese đồng"], "MYR": ["Malaysian ringgit"], "KES": ["Kenyan shilling"], "TWD": ["New Taiwan dollar"],
+ "COP": ["Colombian peso"], "PRB": ["Transnistrian ruble"], "SLS": ["Somaliland shilling"], "XCG": ["Caribbean guilder"],
+}
+WORDS = {1: "one", 2: "two", 5: "five", 10: "ten", 20: "twenty", 50: "fifty", 100: "hundred", 200: "two-hundred",
+         500: "five-hundred", 1000: "thousand"}
+FRONT = r"obverse|front|anverso|recto|averse|face(?!s)"
+BACK = r"reverse|back|reverso|verso"
+
+
+def wiki_api(**params):
+    url = "https://en.wikipedia.org/w/api.php?" + urllib.parse.urlencode({"format": "json", **params})
+    with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=30) as f:
+        return json.load(f)
+
+
+def denom_in(title, denom):
+    flat = norm(title).replace(",", "").replace(".", "").replace(" ", "_").replace("-", "_")
+    if re.search(rf"(^|[^\d]){denom}([^\d]|$)", flat):
+        return True
+    w = WORDS.get(denom)
+    return bool(w) and re.search(rf"(^|[^a-z]){w.replace('-', '_')}([^a-z]|$)", flat) is not None
+
+
+def pick_files(titles, c, denom, need, strict_year):
+    """Choose one file per needed side from a list of 'File:...' titles."""
+    min_year = c.get("year", CUR_YEAR) - 10
+    chosen = {}
+    for t in titles:
+        tl = norm(t)
+        if not denom_in(t, denom) or any(w in tl for w in EXCLUDED_WORDS):
+            continue
+        years = [int(y) for y in re.findall(r"(?:19|20)\d\d", tl)]
+        if years and max(years) < min_year:
+            continue
+        if strict_year and not years:
+            continue
+        side = "f" if re.search(FRONT, tl) else "b" if re.search(BACK, tl) else None
+        if side in need and side not in chosen:
+            chosen[side] = t
+    return chosen
+
+
+def file_info(titles):
+    out = {}
+    for i in range(0, len(titles), 40):
+        d = wiki_api(action="query", titles="|".join(titles[i:i + 40]), prop="imageinfo",
+                     iiprop="url|extmetadata", iiurlwidth=900)
+        for p in (d.get("query") or {}).get("pages", {}).values():
+            info = (p.get("imageinfo") or [{}])[0]
+            meta = info.get("extmetadata") or {}
+            out[p.get("title")] = {
+                "img": info.get("thumburl") or info.get("url"), "page": info.get("descriptionurl"),
+                "license": (meta.get("LicenseShortName") or {}).get("value", ""),
+                "license_url": (meta.get("LicenseUrl") or {}).get("value"),
+                "author": re.sub(r"<[^>]+>", "", (meta.get("Artist") or {}).get("value", "")).strip()[:80]}
+    return out
+
+
+def save_sides(chosen, infos, k, credits, source):
+    got = {}
+    for side, t in chosen.items():
+        i = infos.get(t) or {}
+        if i.get("img") and OK_LICENSE.match(i.get("license") or ""):
+            try:
+                download(i["img"], os.path.join(IMG, f"{k}-{side}.jpg"))
+                got[side] = {"author": i["author"] or "Wikimedia contributor", "license": i["license"],
+                             "license_url": i["license_url"], "page": i["page"]}
+            except Exception as e:
+                print("  wiki download failed", k, side, e)
+    if not got:
+        return False
+    cr = credits.get(k) or {}
+    cr.update({"source": "wikimedia", "url": next(iter(got.values()))["page"]})
+    for side, v in got.items():
+        cr[side] = {x: v[x] for x in ("author", "license", "license_url")}
+    credits[k] = cr
+    return True
+
+
+def missing_sides(k):
+    return {s for s in "fb" if not os.path.exists(os.path.join(IMG, f"{k}-{s}.jpg"))}
+
+
+def from_wikipedia(c, denom, k, credits, article_cache):
+    need = missing_sides(k)
+    for art in WIKI_ARTICLES.get(c["code"], []):
+        art = art.replace("{word}", WORDS.get(denom, str(denom)))
+        if art not in article_cache:
+            try:
+                d = wiki_api(action="query", titles=art, prop="images", imlimit=500, redirects=1)
+                article_cache[art] = [im["title"] for p in (d.get("query") or {}).get("pages", {}).values()
+                                      for im in p.get("images", [])]
+            except Exception as e:
+                print("  wiki article failed", art, e); article_cache[art] = []
+        chosen = pick_files(article_cache[art], c, denom, need, strict_year=False)
+        if chosen and save_sides(chosen, file_info(list(chosen.values())), k, credits, "wikipedia"):
+            need = missing_sides(k)
+            if not need:
+                return True
+    return not missing_sides(k)
+
+
 def from_wikimedia(c, denom, k, credits):
+    need = missing_sides(k)
+    pages = list(commons(f'{c["country"]} {denom} {c["cur"]} banknote'))
+    titles = [p.get("title") for p in pages]
+    chosen = pick_files(titles, c, denom, need, strict_year=True)
+    return bool(chosen) and save_sides(chosen, file_info(list(chosen.values())), k, credits, "commons") and not missing_sides(k)
+
+
+def _old_commons(c, denom, k, credits):
     pages = list(commons(f'{c["country"]} {denom} {c["cur"]} banknote'))
     min_year = c.get("year", CUR_YEAR) - 10
     found = {}
@@ -140,7 +259,7 @@ def main():
     credits = load("credits.json", {})
     banks = load("bank_sources.json", {})
     nm = Numista(os.environ.get("NUMISTA_KEY"), BUDGET)
-    added = []
+    added, article_cache = [], {}
     for c in notes:
         for n in c["notes"]:
             k = f'{c["code"]}-{n[0]}'
@@ -154,12 +273,27 @@ def main():
                         cache[k] = numista_find(nm, c, n[0], n[2], n[3], cache) or {"none": True}
                     if from_numista(cache[k], k, credits):
                         added.append(f"{k} (Numista)"); continue
+                if from_wikipedia(c, n[0], k, credits, article_cache):
+                    added.append(f"{k} (Wikipedia)"); continue
                 if from_wikimedia(c, n[0], k, credits):
-                    added.append(f"{k} (Wikimedia)"); continue
+                    added.append(f"{k} (Wikimedia Commons)"); continue
             except RuntimeError as e:
                 print("STOP:", e); break
             except Exception as e:
                 print("  error", k, e)
+    # large versions for the viewer (Numista photos saved before large copies existed)
+    for k, cr in credits.items():
+        if cr.get("source") != "numista" or not isinstance(cache.get(k), dict):
+            continue
+        for s, side in (("f", "obverse"), ("b", "reverse")):
+            small = os.path.join(IMG, f"{k}-{s}.jpg")
+            if os.path.exists(small) and not os.path.exists(os.path.join(IMG, "lg", f"{k}-{s}.jpg")):
+                p = cache[k].get(side) or {}
+                if p.get("picture") and OK_LICENSE.match(p.get("license") or ""):
+                    try:
+                        download(p["picture"], small, referer=cr.get("url"))
+                    except Exception as e:
+                        print("  large copy failed", k, s, e)
     save("numista_cache.json", cache)
     save("credits.json", credits)
     print(f"photos added: {len(added)}; Numista requests used: {nm.used}")
