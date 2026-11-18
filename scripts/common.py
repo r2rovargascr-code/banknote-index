@@ -119,3 +119,29 @@ def short(desc, limit=90):
     d = re.split(r"(?<=[.;])\s", d.strip())[0].strip(" .;,")
     d = d[:1].upper() + d[1:]
     return d if len(d) <= limit else d[:limit].rsplit(" ", 1)[0] + "…"
+
+
+SPECIMEN_REQUIRED = ("GBP",)  # Bank of England: images showing >50% of a side must carry SPECIMEN
+
+
+def stamp_specimen(path):
+    """Bold grey SPECIMEN at 45 degrees through the centre, >=1/3 of the length and >=1/10 of the height."""
+    from PIL import ImageDraw, ImageFont
+    im = Image.open(path).convert("RGBA")
+    w, h = im.size
+    size = max(12, int(h * 0.2))
+    font = None
+    for f in ("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", "DejaVuSans-Bold.ttf"):
+        try:
+            font = ImageFont.truetype(f, size); break
+        except Exception:
+            pass
+    font = font or ImageFont.load_default()
+    layer = Image.new("RGBA", (w * 2, h * 2), (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    text = "SPECIMEN"
+    tw = d.textlength(text, font=font)
+    d.text(((w * 2 - tw) / 2, (h * 2 - size) / 2), text, font=font, fill=(110, 110, 110, 210))
+    layer = layer.rotate(45, resample=Image.BICUBIC)
+    layer = layer.crop((w // 2, h // 2, w // 2 + w, h // 2 + h))
+    Image.alpha_composite(im, layer).convert("RGB").save(path, "JPEG", quality=82)

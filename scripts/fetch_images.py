@@ -414,6 +414,40 @@ def from_openverse(c, denom, k, credits):
     return got and not missing_sides(k)
 
 
+def ecb_pack(notes, credits):
+    """Euro notes: the ECB's official low-resolution SPECIMEN images, free to use under its reproduction rules."""
+    import zipfile, io
+    eur = next((c for c in notes if c["code"] == "EUR"), None)
+    if not eur or all(have(f'EUR-{n[0]}') for n in eur["notes"]):
+        return []
+    url = "https://www.ecb.europa.eu/euro/shared/img/Banknotes%20ES2%20Specimen%2072dpi.zip"
+    with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=120) as f:
+        z = zipfile.ZipFile(io.BytesIO(f.read()))
+    names = [n for n in z.namelist() if re.search(r"\.(jpe?g|png|tif+)$", n, re.I)]
+    print("ECB pack files:", names[:40])
+    added = []
+    for n in eur["notes"]:
+        k = f'EUR-{n[0]}'
+        for name in names:
+            low = norm(os.path.basename(name))
+            if not re.search(rf"(^|[^\d]){n[0]}([^\d]|$)", low):
+                continue
+            side = "f" if re.search(r"front|recto|obverse|vorder|_a[._]|\ba\b", low) else \
+                   "b" if re.search(r"back|verso|reverse|rueck|ruck|_b[._]|\bb\b", low) else None
+            if not side or os.path.exists(os.path.join(IMG, f"{k}-{side}.jpg")):
+                continue
+            from PIL import Image
+            im = Image.open(io.BytesIO(z.read(name))).convert("RGB")
+            im.save(os.path.join(IMG, f"{k}-{side}.jpg"), "JPEG", quality=85)  # kept at the ECB's own 72 dpi size
+            cr = {"author": "European Central Bank", "license": "ECB reproduction rules",
+                  "license_url": "https://www.ecb.europa.eu/euro/banknotes/images/html/index.en.html"}
+            credits[k] = {"source": "bank", "bank": "European Central Bank",
+                          "url": "https://www.ecb.europa.eu/euro/banknotes/images/html/index.en.html", "f": cr, "b": cr,
+                          **{x: credits.get(k, {}).get(x) for x in () }}
+            added.append(f"{k}-{side} (ECB)")
+    return added
+
+
 def main():
     os.makedirs(IMG, exist_ok=True)
     notes = load("notes.json", [])
@@ -423,6 +457,10 @@ def main():
     overrides = load("commons_overrides.json", {})
     nm = Numista(os.environ.get("NUMISTA_KEY"), BUDGET)
     added, article_cache = [], {}
+    try:
+        added += ecb_pack(notes, credits)
+    except Exception as e:
+        print("  ECB pack error:", e)
     numista_ok = bool(nm.key) and BUDGET > 0
     import time
     deadline = time.time() + 60 * float(os.environ.get("FETCH_MINUTES", "40"))
@@ -488,6 +526,16 @@ def main():
                         download(p["picture"], small, referer=cr.get("url")); fails = 0
                     except Exception as e:
                         fails += 1; print("  large copy failed", k, s, e)
+    # banks that require a SPECIMEN overprint on screen images
+    stamped = set(load("stamped.json", []))
+    for fn in sorted(os.listdir(IMG)):
+        code = fn.split("-")[0]
+        if code in SPECIMEN_REQUIRED and fn.endswith(".jpg") and fn not in stamped:
+            stamp_specimen(os.path.join(IMG, fn)); stamped.add(fn)
+            lg = os.path.join(IMG, "lg", fn)
+            if os.path.exists(lg) and "lg/" + fn not in stamped:
+                stamp_specimen(lg); stamped.add("lg/" + fn)
+    save("stamped.json", sorted(stamped))
     save("numista_cache.json", cache)
     save("credits.json", credits)
     print(f"photos added: {len(added)}; Numista requests used: {nm.used}")
