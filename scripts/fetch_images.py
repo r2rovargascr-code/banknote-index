@@ -444,7 +444,10 @@ def main():
                 continue
             attempt("Openverse", lambda: from_openverse(c, n[0], k, credits))
     # large versions for the viewer (Numista photos saved before large copies existed)
-    for k, cr in credits.items():
+    fails = 0
+    for k, cr in list(credits.items()):
+        if time.time() > deadline or fails >= 5:
+            break
         if cr.get("source") != "numista" or not isinstance(cache.get(k), dict):
             continue
         for s, side in (("f", "obverse"), ("b", "reverse")):
@@ -453,9 +456,9 @@ def main():
                 p = cache[k].get(side) or {}
                 if p.get("picture") and OK_LICENSE.match(p.get("license") or ""):
                     try:
-                        download(p["picture"], small, referer=cr.get("url"))
+                        download(p["picture"], small, referer=cr.get("url")); fails = 0
                     except Exception as e:
-                        print("  large copy failed", k, s, e)
+                        fails += 1; print("  large copy failed", k, s, e)
     save("numista_cache.json", cache)
     save("credits.json", credits)
     print(f"photos added: {len(added)}; Numista requests used: {nm.used}")
