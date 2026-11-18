@@ -395,9 +395,14 @@ def main():
     nm = Numista(os.environ.get("NUMISTA_KEY"), BUDGET)
     added, article_cache = [], {}
     numista_ok = bool(nm.key) and BUDGET > 0
-    for c in notes:
-        for n in c["notes"]:
+    import time
+    deadline = time.time() + 60 * float(os.environ.get("FETCH_MINUTES", "40"))
+    # notes never tried before go first, then the rest (so every run makes progress)
+    order = sorted(((c, n) for c in notes for n in c["notes"]), key=lambda cn: f'{cn[0]["code"]}-{cn[1][0]}' in credits)
+    for c, n in order:
             k = f'{c["code"]}-{n[0]}'
+            if time.time() > deadline:
+                print("Time limit reached; the next run continues."); break
             if have(k) and k in credits:
                 continue
             # each source is tried on its own; a failure in one never stops the others
