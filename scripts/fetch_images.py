@@ -415,37 +415,26 @@ def from_openverse(c, denom, k, credits):
 
 
 def ecb_pack(notes, credits):
-    """Euro notes: the ECB's official low-resolution SPECIMEN images, free to use under its reproduction rules."""
+    """Euro notes: download the ECB's official low-resolution SPECIMEN images into preview/ for approval
+    (they are not used on the site until moved into img/)."""
     import zipfile, io
-    eur = next((c for c in notes if c["code"] == "EUR"), None)
-    if not eur or all(have(f'EUR-{n[0]}') for n in eur["notes"]):
+    prev = os.path.join(ROOT, "preview", "ecb")
+    if os.path.exists(prev):
         return []
     url = "https://www.ecb.europa.eu/euro/shared/img/Banknotes%20ES2%20Specimen%2072dpi.zip"
     with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=120) as f:
         z = zipfile.ZipFile(io.BytesIO(f.read()))
-    names = [n for n in z.namelist() if re.search(r"\.(jpe?g|png|tif+)$", n, re.I)]
-    print("ECB pack files:", names[:40])
-    added = []
-    for n in eur["notes"]:
-        k = f'EUR-{n[0]}'
-        for name in names:
-            low = norm(os.path.basename(name))
-            if not re.search(rf"(^|[^\d]){n[0]}([^\d]|$)", low):
-                continue
-            side = "f" if re.search(r"front|recto|obverse|vorder|_a[._]|\ba\b", low) else \
-                   "b" if re.search(r"back|verso|reverse|rueck|ruck|_b[._]|\bb\b", low) else None
-            if not side or os.path.exists(os.path.join(IMG, f"{k}-{side}.jpg")):
-                continue
-            from PIL import Image
-            im = Image.open(io.BytesIO(z.read(name))).convert("RGB")
-            im.save(os.path.join(IMG, f"{k}-{side}.jpg"), "JPEG", quality=85)  # kept at the ECB's own 72 dpi size
-            cr = {"author": "European Central Bank", "license": "ECB reproduction rules",
-                  "license_url": "https://www.ecb.europa.eu/euro/banknotes/images/html/index.en.html"}
-            credits[k] = {"source": "bank", "bank": "European Central Bank",
-                          "url": "https://www.ecb.europa.eu/euro/banknotes/images/html/index.en.html", "f": cr, "b": cr,
-                          **{x: credits.get(k, {}).get(x) for x in () }}
-            added.append(f"{k}-{side} (ECB)")
-    return added
+    os.makedirs(prev, exist_ok=True)
+    from PIL import Image
+    saved = []
+    for name in z.namelist():
+        if not re.search(r"\.(jpe?g|png|tif+)$", name, re.I):
+            continue
+        out = os.path.join(prev, re.sub(r"[^\w.-]+", "_", os.path.basename(name)).rsplit(".", 1)[0] + ".jpg")
+        Image.open(io.BytesIO(z.read(name))).convert("RGB").save(out, "JPEG", quality=88)
+        saved.append(os.path.basename(out))
+    print("ECB preview files:", saved)
+    return [f"ECB preview: {len(saved)} images in preview/ecb (awaiting approval)"]
 
 
 def main():

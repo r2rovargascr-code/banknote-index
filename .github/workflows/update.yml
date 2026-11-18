@@ -49,6 +49,7 @@ jobs:
         env:
           NUMISTA_KEY: ${{ secrets.NUMISTA_KEY }}
           NUMISTA_BUDGET: ${{ github.event.schedule == '41 11 * * 3' && '0' || '300' }}
+          FETCH_MINUTES: ${{ github.event_name == 'push' && '8' || '40' }}
         run: python scripts/fetch_images.py
 
       - name: Build site
@@ -58,7 +59,7 @@ jobs:
         run: |
           git config user.name "banknote-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data img
+          git add data img preview 2>/dev/null || git add data img
           if ! git diff --cached --quiet; then
             git commit -m "Monthly update: new notes and photos"
             git push
