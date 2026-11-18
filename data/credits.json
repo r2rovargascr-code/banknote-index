@@ -83,80 +83,75 @@
   "title": "10 Euro (Europa Series)",
   "url": "https://en.numista.com/204879",
   "f": {
-   "author": "ECB",
-   "license": null,
-   "license_url": null
+   "author": "European Central Bank",
+   "license": "ECB reproduction rules (specimen)"
   },
   "b": {
-   "author": "ECB",
-   "license": null,
-   "license_url": null
+   "author": "European Central Bank",
+   "license": "ECB reproduction rules (specimen)"
   },
-  "source": "numista"
+  "source": "bank",
+  "bank": "European Central Bank"
  },
  "EUR-20": {
   "id": 204877,
   "title": "20 Euro (Europa Series)",
   "url": "https://en.numista.com/204877",
   "f": {
-   "author": "ECB",
-   "license": null,
-   "license_url": null
+   "author": "European Central Bank",
+   "license": "ECB reproduction rules (specimen)"
   },
   "b": {
-   "author": "ECB",
-   "license": null,
-   "license_url": null
+   "author": "European Central Bank",
+   "license": "ECB reproduction rules (specimen)"
   },
-  "source": "numista"
+  "source": "bank",
+  "bank": "European Central Bank"
  },
  "EUR-50": {
   "id": 204874,
   "title": "50 Euro (Europa Series)",
   "url": "https://en.numista.com/204874",
   "f": {
-   "author": "ECB",
-   "license": null,
-   "license_url": null
+   "author": "European Central Bank",
+   "license": "ECB reproduction rules (specimen)"
   },
   "b": {
-   "author": "ECB",
-   "license": null,
-   "license_url": null
+   "author": "European Central Bank",
+   "license": "ECB reproduction rules (specimen)"
   },
-  "source": "numista"
+  "source": "bank",
+  "bank": "European Central Bank"
  },
  "EUR-100": {
   "id": 207796,
   "title": "100 Euro (Europa Series)",
   "url": "https://en.numista.com/207796",
   "f": {
-   "author": "ECB",
-   "license": null,
-   "license_url": null
+   "author": "European Central Bank",
+   "license": "ECB reproduction rules (specimen)"
   },
   "b": {
-   "author": "ECB",
-   "license": null,
-   "license_url": null
+   "author": "European Central Bank",
+   "license": "ECB reproduction rules (specimen)"
   },
-  "source": "numista"
+  "source": "bank",
+  "bank": "European Central Bank"
  },
  "EUR-200": {
   "id": 208216,
   "title": "200 Euro (Europa Series)",
   "url": "https://en.numista.com/208216",
   "f": {
-   "author": "ECB",
-   "license": null,
-   "license_url": null
+   "author": "European Central Bank",
+   "license": "ECB reproduction rules (specimen)"
   },
   "b": {
-   "author": "ECB",
-   "license": null,
-   "license_url": null
+   "author": "European Central Bank",
+   "license": "ECB reproduction rules (specimen)"
   },
-  "source": "numista"
+  "source": "bank",
+  "bank": "European Central Bank"
  },
  "CNY-1": {
   "id": 220873,
@@ -2221,5 +2216,31 @@
    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
   },
   "source": "numista"
+ },
+ "EUR-5": {
+  "source": "bank",
+  "bank": "European Central Bank",
+  "url": "https://www.ecb.europa.eu/euro/banknotes/images/html/index.en.html",
+  "f": {
+   "author": "European Central Bank",
+   "license": "ECB reproduction rules (specimen)"
+  },
+  "b": {
+   "author": "European Central Bank",
+   "license": "ECB reproduction rules (specimen)"
+  }
+ },
+ "EUR-500": {
+  "source": "bank",
+  "bank": "European Central Bank",
+  "url": "https://www.ecb.europa.eu/euro/banknotes/images/html/index.en.html",
+  "f": {
+   "author": "European Central Bank",
+   "license": "ECB reproduction rules (specimen)"
+  },
+  "b": {
+   "author": "European Central Bank",
+   "license": "ECB reproduction rules (specimen)"
+  }
  }
 }
