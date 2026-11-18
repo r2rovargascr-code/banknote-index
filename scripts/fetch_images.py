@@ -74,6 +74,8 @@ def numista_find(nm, c, denom, front, back, cache):
 def from_numista(pick, k, credits):
     if not pick or pick.get("none"):
         return False
+    if os.environ.get("NUMISTA_DOWNLOAD") != "1":
+        return False  # Numista photos are loaded live in the visitor's browser, not downloaded
     ref = f'https://en.numista.com/{pick["id"]}'
     ok = False
     for s, side in (("f", "obverse"), ("b", "reverse")):
