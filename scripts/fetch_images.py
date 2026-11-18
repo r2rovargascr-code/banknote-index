@@ -256,6 +256,34 @@ def _old_commons(c, denom, k, credits):
     return True
 
 
+def from_openverse(c, denom, k, credits):
+    """Openverse (openly licensed images from Flickr, museums, archives). Strict filename-style matching."""
+    need = missing_sides(k)
+    q = f'{c["country"]} {denom} {c["cur"]} banknote'
+    url = "https://api.openverse.org/v1/images/?" + urllib.parse.urlencode({"q": q, "page_size": 40})
+    with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=30) as f:
+        results = json.load(f).get("results", [])
+    by_title = {}
+    for r in results:
+        if r.get("license") and r.get("url"):
+            by_title.setdefault("File:" + (r.get("title") or ""), r)
+    chosen = pick_files(list(by_title), c, denom, need, strict_year=True)
+    got = False
+    for side, t in chosen.items():
+        r = by_title[t]
+        lic = ("CC " + r["license"].upper() + " " + (r.get("license_version") or "")).strip() if r["license"] not in ("pdm", "cc0") else "Public domain"
+        try:
+            download(r["url"], os.path.join(IMG, f"{k}-{side}.jpg"))
+        except Exception as e:
+            print("  openverse download failed", k, side, e); continue
+        cr = credits.get(k) or {}
+        cr.update({"source": "openverse", "url": r.get("foreign_landing_url") or r["url"]})
+        cr[side] = {"author": (r.get("creator") or "Openverse contributor")[:80], "license": lic, "license_url": r.get("license_url")}
+        credits[k] = cr
+        got = True
+    return got and not missing_sides(k)
+
+
 def main():
     os.makedirs(IMG, exist_ok=True)
     notes = load("notes.json", [])
@@ -281,6 +309,8 @@ def main():
                     added.append(f"{k} (Wikipedia)"); continue
                 if from_wikimedia(c, n[0], k, credits):
                     added.append(f"{k} (Wikimedia Commons)"); continue
+                if from_openverse(c, n[0], k, credits):
+                    added.append(f"{k} (Openverse)"); continue
             except RuntimeError as e:
                 print("STOP:", e); break
             except Exception as e:

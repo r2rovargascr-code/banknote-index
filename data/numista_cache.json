@@ -106,7 +106,26 @@
   "MR": "mauritanie",
   "KM": "comores",
   "FJ": "fidji",
-  "PG": "papouasie-nouvelle-guinee"
+  "PG": "papouasie-nouvelle-guinee",
+  "PE": "perou",
+  "BO": "bolivie",
+  "CR": "costa_rica",
+  "NI": "nicaragua",
+  "BM": "bermudes",
+  "AW": "aruba",
+  "MD": "moldavie",
+  "RU": "russia-empire",
+  "RS": "serbie",
+  "JE": "jersey",
+  "GG": "guernesey",
+  "IM": "ile_de_man",
+  "GI": "gibraltar",
+  "FK": "iles_malouines",
+  "SH": "sainte-helene",
+  "FO": "feroe",
+  "CK": "iles_cook",
+  "SCT": "scotland",
+  "NIR": "northern_ireland"
  },
  "USD-20": {
   "id": 201837,
@@ -10920,78 +10939,1612 @@
    "description": "Coffee Beans & Cardamom Seeds & A Coconut Tree ,Fishes, Timber ,Cargo Ship carrying Containers, Oil Rig ,Dumper Truck & Mobile Signal Tower"
   }
  },
- "_pending": {
-  "1": {
-   "id": 213390,
-   "title": "1 Tālā",
-   "years": [
-    1980,
-    2020
-   ],
-   "issuer": "samoa",
-   "score": 9,
-   "obverse": {
-    "picture": "https://en.numista.com/catalogue/photos/samoa/5eb8f020062b63.72983273-original.jpg",
-    "author": "M Perton",
-    "license": null,
-    "license_url": null,
-    "description": "National Flag of Samoa, View of Samoan coastline from a distance, and Female weavers"
-   },
-   "reverse": {
-    "picture": "https://en.numista.com/catalogue/photos/samoa/5eb8f0200c8f61.95542215-original.jpg",
-    "author": "M Perton",
-    "license": null,
-    "license_url": null,
-    "description": "National Flag of Samoa, Fishermen at sea."
-   }
+ "PE-10": {
+  "id": 300696,
+  "title": "10 Soles",
+  "years": [
+   2019,
+   2022
+  ],
+  "issuer": "perou",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/perou/623b67093f09a8.78233025-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Green on multicolor underprint.\r\nMaría Isabel Granda y Larco (known as \"Chabuca Granda\"); issuer name on top left; country name on center, turned 90º; face value in numbers on lower left, on numbers and letters on top right. \r\nMark on left for visually impaired."
   },
-  "2": {
-   "id": 201581,
-   "title": "2 Tālā",
-   "years": [
-    1967,
-    2020
-   ],
-   "issuer": "samoa",
-   "score": 9,
-   "obverse": {
-    "picture": "https://en.numista.com/catalogue/photos/samoa/5e98f37e2081d5.77473649-original.jpg",
-    "author": "BCNumismatics",
-    "license": null,
-    "license_url": null,
-    "description": "National Coat of Arms, and View of Samoan coastline from a distance"
-   },
-   "reverse": {
-    "picture": "https://en.numista.com/catalogue/photos/samoa/5e98f37fabd010.81483362-original.jpg",
-    "author": "BCNumismatics",
-    "license": null,
-    "license_url": null,
-    "description": "Thatched hut, and Denomination"
-   }
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/perou/675cdd8c917c08.73061588-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "(Vertical design)\r\nVicuña (vicugna vicugna) on left, amancaes flower)ismene amancaes) on right, Peruvian coat of arms below vicuña; country name on center top, face value in numbers below country name, and on lower right (turned 90º), in letters on top right (turned 90º)."
+  }
+ },
+ "PE-20": {
+  "id": 335051,
+  "title": "20 Soles",
+  "years": [
+   2019,
+   2022
+  ],
+  "issuer": "perou",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/perou/62e4906df108a7.07760655-original.jpg",
+   "author": "Samantha Escutia",
+   "license": null,
+   "license_url": null,
+   "description": "José María Arguedas Altamirano (1911-1969), Peruvian novelist, poet, and anthropologist."
   },
-  "5": {
-   "id": 393958,
-   "title": "5 Tālā",
-   "years": [
-    2023,
-    2023
-   ],
-   "issuer": "samoa",
-   "score": 9,
-   "obverse": {
-    "picture": "https://en.numista.com/catalogue/photos/samoa/65ca3e5496edd9.59928195-original.jpg",
-    "author": "hex7ech",
-    "license": "CC BY-NC",
-    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
-    "description": "One of Samoa's beautiful well-known sandy beaches, which is reflecting Samoa's main economic driver - the tourism industry"
-   },
-   "reverse": {
-    "picture": "https://en.numista.com/catalogue/photos/samoa/65ca3e59c62e87.40481337-original.jpg",
-    "author": "hex7ech",
-    "license": "CC BY-NC",
-    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
-    "description": "\"Villa Vailima\" residence (now museum) of world renowned Scottish author, Robert Louis Stevenson, localy known as Tusitala (Teller of Tales), and National Coat of Arms"
-   }
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/perou/62e4906f6f9335.78466472-original.jpg",
+   "author": "Samantha Escutia",
+   "license": null,
+   "license_url": null,
+   "description": "Andean condor; coat of arms; Cantuta flower."
+  }
+ },
+ "PE-50": {
+  "id": 335053,
+  "title": "50 Soles",
+  "years": [
+   2019,
+   2021
+  ],
+  "issuer": "perou",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/perou/62e491ac3d1216.09350257-original.jpg",
+   "author": "Samantha Escutia",
+   "license": null,
+   "license_url": null,
+   "description": "Dark purple print on light red-pink underprint, horizontal layout.\r\nMaría Rostworowski at right.\r\nIssuer name on top left; white country name on lower center, rotated 90º; face value in numbers on lower left corner, in numbers and letters on top right corner; black serial #s, seven digits with one letter prefix and one letter suffix, horizontal on lower left, vertical on right edge.\r\nThree signatures with titles below on top center; issuing date on lower left; watermark area on left; issuing date on lower left; windowed security strip on left; raised device for identification by visually impaired, three diagonal bars woth circle on top on left edge, without circle on right edge."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/perou/62e491ad9ff8a7.88202177-original.jpg",
+   "author": "Samantha Escutia",
+   "license": null,
+   "license_url": null,
+   "description": "Dark purple print on light red-pink underprint; vertical format.\r\nJaguar on left center, Puya raimondii plant; coat of arms of Peru on left, below jaguar.\r\nWhite country name on top, face value in numbers on top center and lower right, in letters on top right."
+  }
+ },
+ "PE-100": {
+  "id": 300713,
+  "title": "100 Soles",
+  "years": [
+   2019,
+   2021
+  ],
+  "issuer": "perou",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/perou/667d5082ef39d3.69101832-original.jpg",
+   "author": "Cesdroide28",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "description": "Pedro Paulet at center; issuer name on top left; country name on center, turned 90º; face value in numbers on lower left, on numbers and letters on top right. Mark on left for visually impaired."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/perou/667d5084bce941.39311230-original.jpg",
+   "author": "Cesdroide28",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "description": "(Vertical design)\r\nHummingbird (loddigesia mirabilis) on left, orchid (phragmipedium kovachii) on right, Peruvian coat of arms below hummingbird; country name on center top, face value in numbers below country name, and on lower right (turned 90º), in letters on top right (turned 90º)."
+  }
+ },
+ "PE-200": {
+  "id": 393807,
+  "title": "200 Soles",
+  "years": [
+   2021,
+   2024
+  ],
+  "issuer": "perou",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/perou/659708ea652216.04677501-original.jpg",
+   "author": "LFBR11",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "Tilsa Tsuchiya at center; issuer name on top left; country name on center, turned 90º; face value in numbers on lower left, on numbers and letters on top right. Mark on left for visually impaired."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/perou/675cddb7353a03.43801474-original.jpg",
+   "author": "LFBR11",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "(Vertical design)\r\nGallito de las rocas peruano (Rupicola peruvianus) on left and right, Flor Bella Abanquina (Dalechampia aristolochiifolia) on top, Peruvian coat of arms below Gallitos de las rocas peruano; country name on center top, face value in numbers below country name, and on lower right (turned 90º), in letters on top right (turned 90º)."
+  }
+ },
+ "BO-10": {
+  "id": 203878,
+  "title": "10 Bolivianos (Vargas, Tupa, Méndez)",
+  "years": [
+   2019,
+   2025
+  ],
+  "issuer": "bolivie",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bolivie/5e99f2cd886735.59775722-original.jpg",
+   "author": "James Castillo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Blue, black and multicolor. Caverna de Umajalanta in Torotoro at center. Portraits of José Santos Vargas, Apiaguaiki Túpa, and Eustaquio Méndez at right."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bolivie/5e99f2ce0aa265.76203118-original.jpg",
+   "author": "James Castillo",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Isla del Pescado with giant picaflor bird and Puya Raimondi cactus at center."
+  }
+ },
+ "BO-20": {
+  "id": 210038,
+  "title": "20 Bolivianos (Ríos, Katari, Muiba)",
+  "years": [
+   2019,
+   2025
+  ],
+  "issuer": "bolivie",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bolivie/67764ec0a8ce51.41261475-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Genoveva Rios, Tomás Katari, Pedro Ignacio Muiba at right, Samaypata fortress at center.\r\nIssuer and country names on top, face value in numbers on left corners, in numbers and letters on lower right corner. Black serial #s, 9 digits with suffix letteron top right and bottom left. Two black signatures, with red titles below on lower center, windowed security strip to left of center sowing Genoveva Rios image and number \"20\"; three raised bars on upper left, as device for visually impaired. Watermark area on right."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bolivie/67764ec2f17c25.84453799-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Black cayman on shore of Bay lake, and floss silk tree.\r\nIssuer and country names on top, face value in numbers on right corners (lower inverted as is perfect match device). in numbers and letters on lower left.\r\nPrinter name on lower right ."
+  }
+ },
+ "BO-50": {
+  "id": 210479,
+  "title": "50 Bolivianos (Baca, Racua and Willka)",
+  "years": [
+   2018,
+   2025
+  ],
+  "issuer": "bolivie",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bolivie/67765246d4a3c9.62089702-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Multicolor on light purple underprint.\r\nJosé Manuel Baca (\"Cañoto\"), Bruno Racua and Pablo Zárate Willka at right\r\nInkallajta Fortress at center.\r\nIssuer and country name in two lines on top; face value in numbers on both left corners, in numbers and letters on lower right corner; black serial #s, 9 digits with 1 letter suffix on top right and lower left. Two black signatures with titles below, on lower center; windowed security strip showing \"50\" and Baca image. Raised bar on top left, for identification by visually impaired. Watermark area on left. lower left \"50\" face value is also perfect match printing device."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bolivie/67765249420ec3.12270804-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Andean Flamingo and Royal Quinoa plant, Nevado Sajama mountain on background. Issuer and country names in two lines on top. Face value in numbers on top and lower right (lower is inverted, as perfect match printing device): in numbers and letters on lower left. There is also a \"50\" number turned 90° and cut in half, each part placed on side edges. Printer name on lower bottom corner."
+  }
+ },
+ "BO-100": {
+  "id": 210481,
+  "title": "100 Bolivianos (Padilla, Calatayud and Sucre)",
+  "years": [
+   2019,
+   2025
+  ],
+  "issuer": "bolivie",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bolivie/60e516314cb643.71125387-original.jpg",
+   "author": "CGB",
+   "license": null,
+   "license_url": null,
+   "description": "Juana Azurduy de Padilla, Alejo Calatayud and Antonio José de Sucre at right\r\nCasa de Moneda in centre"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bolivie/60e51631a57186.27069509-original.jpg",
+   "author": "CGB",
+   "license": null,
+   "license_url": null,
+   "description": "Blue-Throated Macaw and Patujú flower infront of Arco Iris waterfall"
+  }
+ },
+ "BO-200": {
+  "id": 210484,
+  "title": "200 Bolivianos (Katari, Sisa and Bolívar)",
+  "years": [
+   2019,
+   2025
+  ],
+  "issuer": "bolivie",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bolivie/660f34d4adafc6.46487366-original.jpg",
+   "author": "JuniorDantas2018",
+   "license": null,
+   "license_url": null,
+   "description": "Multicolor printing.\r\nTupak Katari, Bartolina Sisa and Simón Bolívar at right, Casa de la Libertad at center.\r\nissuer name on top, with country name below; face value in numbers on both left corners, in numbers and letters on lower right.\r\nBlack serial #s, 9 digits with 1 letter suffix on top right and lower left. 2 black signatures with brown titles below, on lower center.\r\nCreation Law date on top right, watermark area on left."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bolivie/660f34d7d68898.72294489-original.jpg",
+   "author": "JuniorDantas2018",
+   "license": null,
+   "license_url": null,
+   "description": "Multicolor printing.\r\nKantuta flower, Andean Mountain Cat, Tiwanaku on center and left.\r\nIssuer name on top, with country name below.\r\nFace value in numbers on top right corner; inverted on lower right corner, as is the counterpart of perfect match device on front; cut in halves on sides edges; in numbers and letters on lower left.\r\nPrinter name on lower right corner."
+  }
+ },
+ "NI-10": {
+  "id": 205097,
+  "title": "10 Córdobas",
+  "years": [
+   2014,
+   2022
+  ],
+  "issuer": "nicaragua",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/nicaragua/62d817d5a71f65.52258539-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Puerto Salvador Allende"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/nicaragua/62d817d6a046c5.12979406-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Fiestas patronales de Managua dancer"
+  }
+ },
+ "NI-20": {
+  "id": 204643,
+  "title": "20 Córdobas",
+  "years": [
+   2014,
+   2022
+  ],
+  "issuer": "nicaragua",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/nicaragua/6475ab992e3a33.47913914-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Iglesia Morava en Laguna de Perlas"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/nicaragua/6475ab9a733ec3.79180139-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Festival Maya Ya dancers"
+  }
+ },
+ "NI-50": {
+  "id": 208467,
+  "title": "50 Córdobas",
+  "years": [
+   2014,
+   2021
+  ],
+  "issuer": "nicaragua",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/nicaragua/6475aed544ce80.80779348-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Artisan Market, Masaya"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/nicaragua/6475aed671cd10.93653039-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Folkloristic ballet"
+  }
+ },
+ "NI-100": {
+  "id": 208470,
+  "title": "100 Córdobas",
+  "years": [
+   2014,
+   2021
+  ],
+  "issuer": "nicaragua",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/nicaragua/6475b09ead4a06.57859674-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Cathedral of Granada"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/nicaragua/6475b09fd2bf58.41012846-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Horse-drawn carriage, two drums. Nicaraguan coat of arms."
+  }
+ },
+ "NI-200": {
+  "id": 208472,
+  "title": "200 Córdobas",
+  "years": [
+   2014,
+   2022
+  ],
+  "issuer": "nicaragua",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/nicaragua/5ea7d76def6f20.52178524-original.jpg",
+   "author": null,
+   "license": null,
+   "license_url": null,
+   "description": "The Rubén Darío National Theatre (Spanish: Teatro Nacional Rubén Darío)"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/nicaragua/5ea7d76ea36938.88386307-original.jpg",
+   "author": null,
+   "license": null,
+   "license_url": null,
+   "description": "El Güegüense comedy ballet"
+  }
+ },
+ "NI-500": {
+  "id": 264563,
+  "title": "500 Córdobas",
+  "years": [
+   2017,
+   2021
+  ],
+  "issuer": "nicaragua",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/nicaragua/6841dfc0116797.39898854-original.jpg",
+   "author": "Brandon Bertolli",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "Cathedral of León."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/nicaragua/6841dfc1db00f0.21539807-original.jpg",
+   "author": "Brandon Bertolli",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "Momotombo volcano."
+  }
+ },
+ "NI-1000": {
+  "id": 264564,
+  "title": "1000 Córdobas",
+  "years": [
+   2017,
+   2017
+  ],
+  "issuer": "nicaragua",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/nicaragua/6a53ccde6bf5b8.73443647-original.jpg",
+   "author": "Brandon Bertolli",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "Hacienda San Jacinto, Tipitapa."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/nicaragua/6a53cce0072826.87038562-original.jpg",
+   "author": "Brandon Bertolli",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "Castle of the Immaculate Conception, Río San Juan."
+  }
+ },
+ "BM-20": {
+  "id": 275979,
+  "title": "20 Dollars - Elizabeth II (Whistling frog)",
+  "years": [
+   2009,
+   2009
+  ],
+  "issuer": "bermudes",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bermudes/69d98836d9aa55.66957009-original.jpg",
+   "author": "ajbbarbados",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Whistling Frog (Eleutherodactylus johnstonei) and flowers at bottom, profile of Queen Elizabeth II at lower left"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bermudes/69d988383b6501.99775758-original.jpg",
+   "author": "ajbbarbados",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Lighthouse and church at bottom, butterflies at lower left, butterfly and lizard at upper left"
+  }
+ },
+ "BM-50": {
+  "id": 275981,
+  "title": "50 Dollars - Elizabeth II (Tropic bird, longtail)",
+  "years": [
+   2012,
+   2012
+  ],
+  "issuer": "bermudes",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bermudes/6a309ce42b5d33.81599679-original.jpg",
+   "author": "ajbbarbados",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "White-tailed tropicbird (Phaethon lepturus) and flowers, profile of Queen Elizabeth II at lower left."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bermudes/6a309ce57adc31.86853119-original.jpg",
+   "author": "ajbbarbados",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Saint Peter's Church in Saint George, butterfly and bird at upper left."
+  }
+ },
+ "BM-100": {
+  "id": 253969,
+  "title": "100 Dollars - Elizabeth II (Red cardinal)",
+  "years": [
+   2009,
+   2009
+  ],
+  "issuer": "bermudes",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bermudes/60326002e0c695.29933068-original.jpg",
+   "author": "CGB",
+   "license": null,
+   "license_url": null,
+   "description": "Red Cardinal on branch and flowers, profile of Queen Elizabeth II at lower left"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/bermudes/603260032c17b0.52600693-original.jpg",
+   "author": "CGB",
+   "license": null,
+   "license_url": null,
+   "description": "House of Assembly in Hamilton, Cahow flying above, butterfly and bird at upper left"
+  }
+ },
+ "AW-10": {
+  "id": 209027,
+  "title": "10 Florin",
+  "years": [
+   2019,
+   2019
+  ],
+  "issuer": "aruba",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/aruba/64be73ad68a570.55908794-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Blue and light blue on multicolor underprint.\r\nWhite Turtle (Tortuga Blanco) at center; the Spotted Trunk Fish (Fototo) at upper and the Common Sea Fan (Waira di Lama) at the bottom."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/aruba/64be73ae478712.46600221-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Bushiribana gold smelter ruins, as well as the symbols and unique floor tiles that can be found in Aruba's antique houses; sea turtle at upper."
+  }
+ },
+ "AW-25": {
+  "id": 212032,
+  "title": "25 Florin",
+  "years": [
+   2019,
+   2019
+  ],
+  "issuer": "aruba",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/aruba/664f7e3a237891.85656242-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Orange on multicolore underprint.\r\nTroupial (Trupial) at center; the Burrowing Owl (Shoco) in upper; the Passion Flower (Shoshoro) at bottom."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/aruba/664f7e3bdeaad6.51923299-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Orange on multicolor underprint.\r\nArawak Indian cave paintings and Amerindian pottery as well as the symbols and unique floor tiles that can be found in Aruba's antique houses; Trupial at bottom."
+  }
+ },
+ "AW-50": {
+  "id": 212037,
+  "title": "50 Florin",
+  "years": [
+   2019,
+   2019
+  ],
+  "issuer": "aruba",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/aruba/684e324a032843.95879197-original.jpg",
+   "author": "ajbbarbados",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Red-pink on multicolor underprint.\r\nRed Land Crab (Cangreu di Tera) at center; the Whiptail Lizard (Cododo) at upper; and the Shoreline Purslane (Banana di Rif) at bottom."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/aruba/684e324acbfca9.20956819-original.jpg",
+   "author": "ajbbarbados",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Red-pink on multicolor underprint.\r\nThe Willem III towers, as well as the symbols and unique floor tiles that can be found in Aruba's antique houses; Red Land Crab at upper."
+  }
+ },
+ "AW-100": {
+  "id": 212042,
+  "title": "100 Florin",
+  "years": [
+   2019,
+   2019
+  ],
+  "issuer": "aruba",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/aruba/69e815a105bef9.93990226-original.jpg",
+   "author": "ajbbarbados",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Green on multicolor underprint.\r\nIguana (Yuwana) at center; the Striped Anole (Toteki) at upper; and the Aloe (Aloe) at bottom."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/aruba/69e815a21a7751.83569378-original.jpg",
+   "author": "ajbbarbados",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Green on multicolor underprint.\r\nAruba's traditional 'Baile di Cinta' (ribbon dance), as well as the symbols and unique floor tiles that can be found in Aruba's antique houses; Iguana at upper."
+  }
+ },
+ "AW-200": {
+  "id": 212044,
+  "title": "200 Florin",
+  "years": [
+   2019,
+   2019
+  ],
+  "issuer": "aruba",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/aruba/6465280f610841.52593798-original.jpg",
+   "author": "JessySz",
+   "license": null,
+   "license_url": null,
+   "description": "Violet and brown on multicolor underprint.\r\nThe Crested Caracara (Warawara) at center; the Ruby Topaz Hummingbird (Dornasol) at upper; and the Leaf Cactus (Tuna) at bottom."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/aruba/6465280fc07ff8.57913334-original.jpg",
+   "author": "JessySz",
+   "license": null,
+   "license_url": null,
+   "description": "Violet and brown on multicolor underprint.\r\nAruba's traditional instruments like the 'Caha di Orgel', 'Tambor', 'Wiri', as well as the symbols and unique floor tiles that can be found in Aruba's antique houses; The Crested Caracara at upper."
+  }
+ },
+ "MD-1": {
+  "id": 206675,
+  "title": "1 Leu",
+  "years": [
+   2015,
+   2015
+  ],
+  "issuer": "moldavie",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/moldavie/623b554feff8a3.30960250-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Stephen the Great"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/moldavie/623b5550851448.66138889-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Capriana monastery"
+  }
+ },
+ "MD-5": {
+  "id": 215690,
+  "title": "5 Lei",
+  "years": [
+   2015,
+   2015
+  ],
+  "issuer": "moldavie",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/moldavie/62eff7b1a7be23.19665823-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Stephen III"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/moldavie/62eff7b23c38b7.84769159-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "St.Dumitru Church,Orhei."
+  }
+ },
+ "MD-10": {
+  "id": 202336,
+  "title": "10 Lei",
+  "years": [
+   2015,
+   2015
+  ],
+  "issuer": "moldavie",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/moldavie/5e962e15da3e41.98959702-original.jpg",
+   "author": "CGB",
+   "license": null,
+   "license_url": null,
+   "description": "Portrait of Ştefan cel Mare (Stephen the Great). Victory token and coat of arms of Moldova on the right."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/moldavie/5e962e162647a6.65199915-original.jpg",
+   "author": "CGB",
+   "license": null,
+   "license_url": null,
+   "description": "View of the Hirjauca Monastery (Mănăstirea Hîrjauca). Logo of the Bank of Moldova."
+  }
+ },
+ "MD-20": {
+  "id": 215899,
+  "title": "20 Lei",
+  "years": [
+   2015,
+   2015
+  ],
+  "issuer": "moldavie",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/moldavie/69b7f2bf66fe25.91394332-original.jpg",
+   "author": "slamdunk",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "The Coat of Arms of the Republic of Moldova, inscriptions \"REPUBLICA MOLDOVA\" and \"ȘTEFAN CEL MARE\", the portrait of Ştefan cel Mare, a national multi-coloured ornament, two vertical decorative elements, the central rosette, nominal value printed in figures and words, the abbreviation \"BNM\", facsimile „GUVERNATOR, D. Drăguţanu\", circle wording \"PE-UN PICIOR DE PLAI, PE-O GURA DE RAI...\", victory token - „V\", the year of banknote issuance \"2015\", banknote number and series, the inscription „FALSIFICAREA ACESTOR BILETE SE PEDEPSEŞTE CONFORM LEGILOR\"."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/moldavie/69b7f2c109ee04.99320218-original.jpg",
+   "author": "slamdunk",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "The graphic image of Soroca Fortress within a frame and under which the inscription „CETATEA SOROCA”, nominal value in figures and words, two vertical decorative elements, the Coat of Arms of Ştefan cel Mare, stylised image of the Column of Traian, Column of Infinity and between them a crescent moon, inscription „BANCA NAŢIONALĂ A MOLDOVEI” and the NBM logo."
+  }
+ },
+ "MD-50": {
+  "id": 215902,
+  "title": "50 Lei",
+  "years": [
+   2015,
+   2015
+  ],
+  "issuer": "moldavie",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/moldavie/626b8101269db6.66487759-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "The Coat of Arms of the Republic of Moldova, inscriptions \"REPUBLICA MOLDOVA\" and \"ȘTEFAN CEL MARE\", the portrait of Ştefan cel Mare, a national multi-coloured ornament, two vertical decorative elements, the central rosette, nominal value printed in figures and words, the abbreviation \"BNM\", facsimile „GUVERNATOR, D. Drăguţanu\", circle wording \"PE-UN PICIOR DE PLAI, PE-O GURA DE RAI...\", victory token - „V\", the year of banknote issuance \"2015\", banknote number and series, the inscription „FALSIFICAREA ACESTOR BILETE SE PEDEPSEŞTE CONFORM LEGILOR\"."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/moldavie/626b8101a980c6.68720559-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "The graphic image of Hîrbovăț Monastery within a frame and under which the inscription „MĂNĂSTIREA HÎRBOVĂȚ”, nominal value in figures and words, two vertical decorative elements,the Coat of Arms of Ştefan cel Mare, stylised image of the Column of Traian, Column of Infinity and between them a crescent moon, inscription „BANCA NAŢIONALĂ A MOLDOVEI” and the NBM logo."
+  }
+ },
+ "MD-100": {
+  "id": 215905,
+  "title": "100 Lei",
+  "years": [
+   2015,
+   2015
+  ],
+  "issuer": "moldavie",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/moldavie/6997a5c46be9c0.71895115-original.jpg",
+   "author": "BanknoteBiscuit",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "The Coat of Arms of the Republic of Moldova, inscriptions \"REPUBLICA MOLDOVA\", „BANCA NAȚIONALĂ A MOLDOVEI” and \"ȘTEFAN CEL MARE\", the portrait of Ştefan cel Mare, a national multi-coloured ornament, three vertical decorative elements, the central rosette, nominal value printed in figures and words, the NBM logo, facsimile „GUVERNATOR, D. Drăguţanu\", circle wording \"PE-UN PICIOR DE PLAI, PE-O GURA DE RAI...\", victory token - „V\", the year of banknote issuance \"2015\", banknote number and series, the inscription „FALSIFICAREA ACESTOR BILETE SE PEDEPSEŞTE CONFORM LEGILOR\"."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/moldavie/6997a5ca474a30.12831435-original.jpg",
+   "author": "BanknoteBiscuit",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "The graphic image of Tighina Fortress within a frame and under which the inscription „CETATEA TIGHINA”, nominal value in figures and words, three vertical decorative elements, the Coat of Arms of Ştefan cel Mare, stylised image of the Column of Traian, Column of Infinity and between them a crescent moon, inscription „BANCA NAŢIONALĂ A MOLDOVEI” and the NBM logo."
+  }
+ },
+ "MD-200": {
+  "id": 215907,
+  "title": "200 Lei",
+  "years": [
+   2015,
+   2015
+  ],
+  "issuer": "moldavie",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/moldavie/6997a62d9653f4.38436908-original.jpg",
+   "author": "BanknoteBiscuit",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "The Coat of Arms of the Republic of Moldova, inscriptions \"REPUBLICA MOLDOVA\", „BANCA NAȚIONALĂ A MOLDOVEI” and \"ȘTEFAN CEL MARE\", the portrait of Ştefan cel Mare, a national multi-coloured ornament, three vertical decorative elements, the central rosette, nominal value printed in figures and words, the NBM logo, facsimile „GUVERNATOR, D. Drăguţanu\", circle wording \"PE-UN PICIOR DE PLAI, PE-O GURA DE RAI...\", victory token - „V\", the year of banknote issuance \"2015\", banknote number and series, the inscription „FALSIFICAREA ACESTOR BILETE SE PEDEPSEŞTE CONFORM LEGILOR\"."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/moldavie/6997a6340e4041.62976553-original.jpg",
+   "author": "BanknoteBiscuit",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "The graphic image of the Municipality of Chișinău within a frame and under which the inscription „Primăria Municipiului Chișinău”, nominal value in figures and words, three vertical decorative elements,the Coat of Arms of Ştefan cel Mare, stylised image of the Column of Traian, Column of Infinity and between them a crescent moon, inscription „BANCA NAŢIONALĂ A MOLDOVEI” and the NBM logo."
+  }
+ },
+ "MD-500": {
+  "id": 215909,
+  "title": "500 Lei",
+  "years": [
+   2015,
+   2015
+  ],
+  "issuer": "moldavie",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/moldavie/66587eecbc96f0.30877122-original.jpg",
+   "author": "gillesdebilde2003",
+   "license": null,
+   "license_url": null,
+   "description": "The Coat of Arms of the Republic of Moldova, inscriptions \"REPUBLICA MOLDOVA\", „BANCA NAȚIONALĂ A MOLDOVEI” and \"ȘTEFAN CEL MARE\", the portrait of Ştefan cel Mare, a national multicolored ornament, three vertical decorative elements, the central rosette, nominal value printed in figures and words, the NBM logo, facsimile „GUVERNATOR, D. Drăguţanu\", circle wording \"PE-UN PICIOR DE PLAI, PE-O GURA DE RAI...\", victory token - „V\", the year of banknote issuance \"2015\", banknote number and series, the inscription „FALSIFICAREA ACESTOR BILETE SE PEDEPSEŞTE CONFORM LEGILOR\"."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/moldavie/66587eeec7ade4.42093205-original.jpg",
+   "author": "gillesdebilde2003",
+   "license": null,
+   "license_url": null,
+   "description": "The graphic image of the Cathedral of Chișinău within a frame and under which the inscription „Chișinău. Catedrala”, the nominal value in figures and words, three vertical decorative elements, the Coat of Arms of Ştefan cel Mare, stylized image of the Column of Traian, Column of Infinity and between them a crescent moon, inscription „BANCA NAŢIONALĂ A MOLDOVEI” and the NBM logo."
+  }
+ },
+ "JE-1": {
+  "id": 202689,
+  "title": "1 Pound - Elizabeth II",
+  "years": [
+   2010,
+   2018
+  ],
+  "issuer": "jersey",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/jersey/649d9fa17e6574.31847877-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Green on multicolour underprint\r\nElizabeth II facing at right\r\nMonument to Freedom in Liberation Square at centre."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/jersey/649d9fa2b38e01.16118780-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "La Hougue Bie Neolithic burial mount at centre.\r\nLe Hocq Tower in St. Clement at left."
+  }
+ },
+ "JE-5": {
+  "id": 213124,
+  "title": "5 Pounds - Elizabeth II",
+  "years": [
+   2010,
+   2010
+  ],
+  "issuer": "jersey",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/jersey/67540b95a0b9a6.14044075-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Elizabeth II at right\r\nLe Rât Cottage in centre under arms"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/jersey/67540b97b636c5.70092300-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Archirondel Tower at left\r\nLes Augrès Manor in centre"
+  }
+ },
+ "JE-10": {
+  "id": 213126,
+  "title": "10 Pounds - Elizabeth II",
+  "years": [
+   2010,
+   2010
+  ],
+  "issuer": "jersey",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/jersey/5eb5769b271db3.41215558-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null,
+   "description": "Elizabeth II at right\r\nHermitage at Elizabeth Castle in centre under arms"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/jersey/5eb5769b52eb41.38716806-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null,
+   "description": "Seymour Tower at left\r\nGlass sculptures of St. Matthew's church, Saint Lawrence (by Rene Lalique) in centre"
+  }
+ },
+ "JE-20": {
+  "id": 213127,
+  "title": "20 Pounds - Elizabeth II",
+  "years": [
+   2010,
+   2010
+  ],
+  "issuer": "jersey",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/jersey/64f5ea32b14d45.10475209-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Elizabeth II at right\r\nStates Building in centre under arms"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/jersey/64f5ea340c8954.49131640-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "La Rocco Tower, Saint Jean at left\r\nInterior of the States Chamber in centre"
+  }
+ },
+ "JE-50": {
+  "id": 213128,
+  "title": "50 Pounds - Elizabeth II",
+  "years": [
+   2010,
+   2018
+  ],
+  "issuer": "jersey",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/jersey/5eb57822bfed36.87162599-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null,
+   "description": "Elizabeth II at right\r\nMont Orgueil Castle in centre under arms"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/jersey/5eb57822e829f2.76751777-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null,
+   "description": "Ouaisné Tower at left\r\nLes Écréhous in centre"
+  }
+ },
+ "GG-1": {
+  "id": 209965,
+  "title": "1 Pound (Small size)",
+  "years": [
+   1991,
+   2016
+  ],
+  "issuer": "guernesey",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/guernesey/6297b58e413d96.17499386-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "The Market, St Peter Port."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/guernesey/6297b58eefaca7.27740983-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Daniel De Lisle Brock, Bailiff of Guernsey 1762-1842, The Royal Court, and Scene of St. Peter Port in 1840."
+  }
+ },
+ "GG-5": {
+  "id": 211066,
+  "title": "5 Pounds - Elizabeth II",
+  "years": [
+   1996,
+   2023
+  ],
+  "issuer": "guernesey",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/guernesey/60de4e338d5b25.17247531-original.jpg",
+   "author": "CGB",
+   "license": null,
+   "license_url": null,
+   "description": "Elizabeth II at right\r\nTown Church, St. Peter Port at bottom left"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/guernesey/60de4e33ebaa88.01092583-original.jpg",
+   "author": "CGB",
+   "license": null,
+   "license_url": null,
+   "description": "Fort Grey in centre\r\nHanois Lighthouse at right"
+  }
+ },
+ "GG-10": {
+  "id": 211069,
+  "title": "10 Pounds - Elizabeth II",
+  "years": [
+   1995,
+   2023
+  ],
+  "issuer": "guernesey",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/guernesey/5eaec943d84635.56507204-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null,
+   "description": "Elizabeth II at right\r\nElizabeth College at bottom left"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/guernesey/5eaec944096667.61969579-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null,
+   "description": "Saumarez Park at top\r\nLes Niaux watermill at left\r\nLe Trépied dolmen at right"
+  }
+ },
+ "GG-20": {
+  "id": 357120,
+  "title": "20 Pounds - Elizabeth II (Posthumous; Vertical hologram)",
+  "years": [
+   2023,
+   2023
+  ],
+  "issuer": "guernesey",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/guernesey/63f9182b125d76.98764215-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null,
+   "description": "Elizabeth II at right\r\nSt. James Concert Hall at bottom left"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/guernesey/63f9182b79b0c7.89866824-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null,
+   "description": "St. Sampson's church and Vale Castle\r\nSailing boats"
+  }
+ },
+ "IM-10": {
+  "id": 206785,
+  "title": "10 Pounds - Elizabeth II",
+  "years": [
+   1998,
+   2022
+  ],
+  "issuer": "ile_de_man",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/ile_de_man/5ea1a2af73ccf0.70992413-original.jpg",
+   "author": "Ian",
+   "license": null,
+   "license_url": null,
+   "description": "ISLE of MAN Government Above Standard Description with Note Value in Writing TEN POUNDS Queen Elizabeth II Facing Left. Encircled triskelion in centre."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/ile_de_man/5ea1a2b179f7e5.04268884-original.jpg",
+   "author": "Ian",
+   "license": null,
+   "license_url": null,
+   "description": "Image of Peel Castle in 1830 in the background with Fishermen in the Forground"
+  }
+ },
+ "IM-20": {
+  "id": 235714,
+  "title": "20 Pounds",
+  "years": [
+   2013,
+   2013
+  ],
+  "issuer": "ile_de_man",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/ile_de_man/5f5273130e4b44.24105535-original.jpg",
+   "author": null,
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "description": "Queen Elizabeth II at right\r\nArms and map in center"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/ile_de_man/5f527313c970e2.46747345-original.jpg",
+   "author": null,
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "description": "Laxey wheel with crowd (1800's)"
+  }
+ },
+ "GI-5": {
+  "id": 312894,
+  "title": "5 Pounds - Elizabeth II (Windsor Bridge)",
+  "years": [
+   2020,
+   2020
+  ],
+  "issuer": "gibraltar",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/gibraltar/64dbadc697b2e6.28105597-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Portrait of Queen Elizabeth II"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/gibraltar/64dbadc8155101.16491011-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Windsor Bridge"
+  }
+ },
+ "GI-10": {
+  "id": 206858,
+  "title": "10 Pounds - Elizabeth II (Great Siege of Gibraltar)",
+  "years": [
+   2010,
+   2016
+  ],
+  "issuer": "gibraltar",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/gibraltar/5ea1e0bc778bb0.47062796-original.jpg",
+   "author": "alexmusat",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "Queen Elizabeth II at left centre."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/gibraltar/5ea1e0be683552.03677138-original.jpg",
+   "author": "alexmusat",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "John Trumbull's painting 'Sortie' made by the Garrison of Gibraltar."
+  }
+ },
+ "GI-20": {
+  "id": 210047,
+  "title": "20 Pounds - Elizabeth II (HMS Victory)",
+  "years": [
+   2011,
+   2011
+  ],
+  "issuer": "gibraltar",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/gibraltar/6003988373dc60.72379640-original.jpg",
+   "author": "CGB",
+   "license": null,
+   "license_url": null,
+   "description": "Queen Elizabeth II"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/gibraltar/600398840125b8.28359509-original.jpg",
+   "author": "CGB",
+   "license": null,
+   "license_url": null,
+   "description": "HMS Victory Returning to Gibraltar 1805"
+  }
+ },
+ "GI-50": {
+  "id": 228128,
+  "title": "50 Pounds - Elizabeth II (Grand Casemates Square)",
+  "years": [
+   2010,
+   2019
+  ],
+  "issuer": "gibraltar",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/gibraltar/6003acb8df2fe3.51606773-original.jpg",
+   "author": "CGB",
+   "license": null,
+   "license_url": null,
+   "description": "Elizabeth II"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/gibraltar/6003acb954d6f9.25572340-original.jpg",
+   "author": "CGB",
+   "license": null,
+   "license_url": null,
+   "description": "Casemates Square"
+  }
+ },
+ "GI-100": {
+  "id": 254378,
+  "title": "100 Pounds - Elizabeth II (King's Bastion Leisure Centre)",
+  "years": [
+   2011,
+   2011
+  ],
+  "issuer": "gibraltar",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/gibraltar/6003c7422a3a09.95266943-original.jpg",
+   "author": "CGB",
+   "license": null,
+   "license_url": null,
+   "description": "Portrait of Queen Elizabeth II."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/gibraltar/6003c74333f323.66511414-original.jpg",
+   "author": "CGB",
+   "license": null,
+   "license_url": null,
+   "description": "King's Bastion Leisure Centre."
+  }
+ },
+ "FK-5": {
+  "id": 484737,
+  "title": "5 Pounds - Charles III",
+  "years": [
+   2025,
+   2025
+  ],
+  "issuer": "iles_malouines",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/iles_malouines/69d4af3d525800.48298778-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Predominantly red.\r\n\r\nPortrait of King Charles III at right.\r\nFive black-browed albatrosses in flight at centre centre.\r\nMap of the Falkland Islands in central field.\r\nCoat of arms at bottom right."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/iles_malouines/69d4af4027cdd4.57922418-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Red and multicoloured.\r\n\r\nFive species of penguin at bottom left.\r\nNational flower, pale maiden in centre.\r\nMountain on Steeple Jason Island at right."
+  }
+ },
+ "FK-10": {
+  "id": 484738,
+  "title": "10 Pounds - Charles III",
+  "years": [
+   2025,
+   2025
+  ],
+  "issuer": "iles_malouines",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/iles_malouines/69a702fe86d355.85506774-original.jpg",
+   "author": "Brandon Bertolli",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "Predominantly green.\r\n\r\nPortrait of King Charles III at right.\r\nFive black-browed albatrosses in flight at centre centre.\r\nMap of the Falkland Islands in central field.\r\nCoat of arms at bottom right."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/iles_malouines/69a702ffe87178.51135121-original.jpg",
+   "author": "Brandon Bertolli",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "Green and multicoloured.\r\n\r\nFive species of penguin at bottom left.\r\nNational flower, pale maiden in centre.\r\nMountain on Steeple Jason Island at right."
+  }
+ },
+ "FK-20": {
+  "id": 484739,
+  "title": "20 Pounds - Charles III",
+  "years": [
+   2025,
+   2025
+  ],
+  "issuer": "iles_malouines",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/iles_malouines/69a71098dbe781.03323543-original.jpg",
+   "author": "Brandon Bertolli",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "Predominantly brown.\r\n\r\nPortrait of King Charles III at right.\r\nFive black-browed albatrosses in flight at centre centre.\r\nMap of the Falkland Islands in central field.\r\nCoat of arms at bottom right."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/iles_malouines/69a7109adc8725.76290840-original.jpg",
+   "author": "Brandon Bertolli",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "Brown and multicoloured.\r\n\r\nFive species of penguin at bottom left.\r\nNational flower, pale maiden in centre.\r\nMountain on Steeple Jason Island at right."
+  }
+ },
+ "SH-5": {
+  "id": 555750,
+  "title": "5 Pounds",
+  "years": [
+   2026,
+   2026
+  ],
+  "issuer": "sainte-helene",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/sainte-helene/6a1837d34c4f49.19904913-original.jpg",
+   "author": "wisso",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "Coat of arms of Saint Helena (in transparent window) at left; forward facing portrait of King Charles III in ceremonial uniform at right; cross profile of Saint Helena island at top."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/sainte-helene/6a14bb012155a2.08682625-original.jpg",
+   "author": "wisso",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "Saint Helena ebony (Melhania ebenus) at left; Jonathan the tortoise (Aldabrachelys gigantea) at center; coat of arms of Saint Helena (in transparent window) at right; cross profile of Saint Helena island (with prominent geological features labeled) at bottom."
+  }
+ },
+ "SH-10": {
+  "id": 555751,
+  "title": "10 Pounds",
+  "years": [
+   2026,
+   2026
+  ],
+  "issuer": "sainte-helene",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/sainte-helene/6a14c41a30b057.90340494-original.jpg",
+   "author": "wisso",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "Coat of arms of Saint Helena (in transparent window) at left; forward facing portrait of King Charles III in ceremonial uniform at right; cross profile of Saint Helena island at top."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/sainte-helene/6a18374f36b280.04471372-original.jpg",
+   "author": "wisso",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "Saint Helena ebony (Melhania ebenus) at left; Jonathan the tortoise (Aldabrachelys gigantea) at center; coat of arms of Saint Helena (in transparent window) at right; cross profile of Saint Helena island (with prominent geological features labeled) at bottom."
+  }
+ },
+ "SH-20": {
+  "id": 555752,
+  "title": "20 Pounds",
+  "years": [
+   2026,
+   2026
+  ],
+  "issuer": "sainte-helene",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/sainte-helene/69eb711c692e09.75235332-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null,
+   "description": "Coat of arms of Saint Helena (in transparent window) at left; forward facing portrait of King Charles III in ceremonial uniform at right; cross profile of Saint Helena island at top."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/sainte-helene/69eb711cb70856.18062103-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null,
+   "description": "Saint Helena ebony (Melhania ebenus) at left; Jonathan the tortoise (Aldabrachelys gigantea) at center; coat of arms of Saint Helena (in transparent window) at right; cross profile of Saint Helena island (with prominent geological features labeled) at bottom."
+  }
+ },
+ "FO-50": {
+  "id": 206849,
+  "title": "50 Krónur (Faroese animals and landscapes. Type 2; thick security thread; enhanced security features)",
+  "years": [
+   2011,
+   2011
+  ],
+  "issuer": "feroe",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/feroe/62e3af3ba8a566.00512429-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "Grey print.\r\nRam's horn"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/feroe/62e3af3ddf8dc1.15380053-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "Grey print.\r\nHillside by Sumba village"
+  }
+ },
+ "FO-100": {
+  "id": 206851,
+  "title": "100 Krónur (Faroese animals and landscapes. Type 2; thick security thread; enhanced security features)",
+  "years": [
+   2012,
+   2012
+  ],
+  "issuer": "feroe",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/feroe/62e3a77ef14fc6.24213569-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "Orange and grey print.\r\nCodfish tail and thick security line at right. Circular drawing at top left."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/feroe/62e3a7817d1ff0.54730618-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "Orange and brown print.\r\nRound drawing at top right. Klaksvik at center and left."
+  }
+ },
+ "FO-200": {
+  "id": 207588,
+  "title": "200 Krónur (Faroese animals and landscapes. Type 2; thick security thread; enhanced security features)",
+  "years": [
+   2012,
+   2012
+  ],
+  "issuer": "feroe",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/feroe/62e3a793748660.38573059-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "Grey and yellow print.\r\nGhost Moth and broad security stripe at right.\r\nRound drawing at top left."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/feroe/62e3a7961eeda5.00144889-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "Grey and yellow print.\r\nTindhólmur at center and left. Round drawing at top right."
+  }
+ },
+ "FO-500": {
+  "id": 207590,
+  "title": "500 Krónur (Faroese animals and landscapes. Type 2; thick security thread; enhanced security features)",
+  "years": [
+   2012,
+   2012
+  ],
+  "issuer": "feroe",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/feroe/62e3a78e63fc09.61976471-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "Green and grey print.\r\nCrab's claw and broad security strip at right. Round drawing at top left."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/feroe/62e3a790dae9f0.36935774-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "Grey, green and yellow print.\r\nHvannasundi at center and left. Round drawing at top right."
+  }
+ },
+ "FO-1000": {
+  "id": 208699,
+  "title": "1000 Krónur (Faroese animals and landscapes. Type 2; thick security thread; enhanced security features)",
+  "years": [
+   2012,
+   2012
+  ],
+  "issuer": "feroe",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/feroe/62e3a798ee0ee2.74986360-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "Red and grey print.\r\nBlack Grey Sandpiper. Thick security stripe at right"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/feroe/62e3a79bc724e8.96577471-original.jpg",
+   "author": "ngdawa",
+   "license": "CC BY-NC-SA",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+   "description": "Red and grey print.\r\nIsland of Sandoy"
+  }
+ },
+ "CK-3": {
+  "id": 300216,
+  "title": "3 Dollars",
+  "years": [
+   2021,
+   2021
+  ],
+  "issuer": "iles_cook",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/iles_cook/62b9f68bb669d3.40802208-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Nude Ina holding a coconut while riding on Mango the shark"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/iles_cook/62b9f68c79ea00.95026268-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Fishing canoe, and God of Te-Rongo"
+  }
+ },
+ "SCT-10": {
+  "id": 207392,
+  "title": "10 Pounds (Royal Bank Of Scotland)",
+  "years": [
+   2016,
+   2021
+  ],
+  "issuer": "scotland",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/scotland/63273a42a1c9c9.25612177-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Mary Somerville"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/scotland/63273a4364fa10.25314187-original.jpg",
+   "author": "hex7ech",
+   "license": "CC BY-NC",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+   "description": "Otters\r\nQuotation from poet Norman MacCaig"
+  }
+ },
+ "SCT-20": {
+  "id": 220147,
+  "title": "20 Pounds (Bank of Scotland)",
+  "years": [
+   2019,
+   2021
+  ],
+  "issuer": "scotland",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/scotland/6505de3d4b4144.70520526-original.jpg",
+   "author": "Pulee78",
+   "license": null,
+   "license_url": null,
+   "description": "Sir Walter Scott at right.\r\nHologram to left with brail bottom left corner.\r\nThistles over bank building in centre."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/scotland/6505de404d3070.92610782-original.jpg",
+   "author": "Pulee78",
+   "license": null,
+   "license_url": null,
+   "description": "Forth Bridges.\r\nHologram on right side of note."
+  }
+ },
+ "SCT-50": {
+  "id": 287529,
+  "title": "50 Pounds (Bank of Scotland)",
+  "years": [
+   2020,
+   2020
+  ],
+  "issuer": "scotland",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/scotland/60c5d1ef955fd4.70980789-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null,
+   "description": "Sir Walter Scott at right.\r\nHologram to left with brail bottom left corner.\r\nThistles over bank building in centre."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/scotland/60c5d1efcf2ad5.51243949-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null,
+   "description": "Falkirk ship lifting wheel at left"
+  }
+ },
+ "SCT-100": {
+  "id": 325051,
+  "title": "100 Pounds (Bank of Scotland)",
+  "years": [
+   2021,
+   2021
+  ],
+  "issuer": "scotland",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/scotland/628a1733827094.63260093-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null,
+   "description": "Sir Walter Scott at right.\r\nThistles over bank building in centre.\r\nHologram to left with Flora Murray, brail in bottom left corner."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/scotland/628a1733ba7096.12096203-original.jpg",
+   "author": "Bank Note Museum",
+   "license": null,
+   "license_url": null,
+   "description": "Flora Murray in centre.\r\nFemale stretcher bearers with soldier and truck outside Covent Garden hospital at left.\r\nFlora Murray writing at desk and stretcher bearers below bank bulding at right."
+  }
+ },
+ "NIR-20": {
+  "id": 240602,
+  "title": "20 Pounds (Ulster Bank)",
+  "years": [
+   2019,
+   2023
+  ],
+  "issuer": "northern_ireland",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/northern_ireland/6adfb2fc8c8384.39377588-original.jpg",
+   "author": "BanknoteBiscuit",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "Eels at top\r\nHawthorne flowers at right\r\nButterfly at left"
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/northern_ireland/6adfb2fe0d61d2.17032745-original.jpg",
+   "author": "BanknoteBiscuit",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "Eels at top\r\nMusicians"
+  }
+ },
+ "NIR-50": {
+  "id": 331605,
+  "title": "50 Pounds (Ulster Bank)",
+  "years": [
+   2021,
+   2021
+  ],
+  "issuer": "northern_ireland",
+  "score": 9,
+  "obverse": {
+   "picture": "https://en.numista.com/catalogue/photos/northern_ireland/67bcd275af0012.23533276-original.jpg",
+   "author": "Hibernia",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "Pine martin top left\r\nGorse at right with Cryptic Wood White butterfly at left."
+  },
+  "reverse": {
+   "picture": "https://en.numista.com/catalogue/photos/northern_ireland/67bcd298baa894.39139119-original.jpg",
+   "author": "Hibernia",
+   "license": "CC BY-SA",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "description": "Pine martin top right\r\nScientist at left, a loom worker and airplane building at right"
   }
  }
 }

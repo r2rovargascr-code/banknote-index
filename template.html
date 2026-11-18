@@ -33,9 +33,21 @@ nav button.star{color:var(--acc)}
 
 /* keyboard */
 .kbwrap{background:var(--panel);padding:34px 20px 30px;border-bottom:1px solid var(--line)}
-.kb{display:flex;flex-direction:column;align-items:center;gap:14px}
-.kr{display:flex;gap:14px}
-.key{width:72px;height:42px;border-radius:5px;background:var(--key);text-align:left;padding-left:13px;font-size:19px;font-weight:300;color:#ddd;border:1px solid transparent;transition:.12s}
+.kb{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:0 auto;max-width:calc(9 * var(--kw) + 8 * 8px);--kw:min(64px,calc((100vw - 40px - 64px) / 9))}
+.key{width:var(--kw);height:40px;border-radius:5px;background:var(--key);text-align:center;font-size:17px;font-weight:300;color:#ddd;border:1px solid transparent;transition:.12s}
+@media (max-width:899px){
+ .kbwrap{padding:22px 12px}
+ .kb{display:grid;grid-template-columns:repeat(9,1fr);gap:6px;max-width:600px}
+ .key{width:auto;height:38px;font-size:15px;padding:0}
+}
+@media (min-width:900px){
+ .kbwrap{padding:26px 20px 22px}
+ .kb{max-width:none;gap:4px 6px;--kw:44px;max-width:calc(13 * 44px + 12 * 6px)}
+ .key{background:transparent;height:44px;font-size:24px;font-weight:200;color:#bbb;border:0;border-bottom:1px solid transparent;border-radius:0}
+ .key:hover:not(:disabled){background:transparent;color:#fff}
+ .key:disabled{border:0;color:#2c2c2c}
+ .kb .key.on{background:transparent;color:var(--acc);border-bottom-color:var(--acc)}
+}
 .key:hover:not(:disabled){background:#333}
 .key:disabled{background:transparent;border-color:#262626;color:#3a3a3a;cursor:default}
 .key.on{border-color:var(--acc);background:#1c1c1c;color:#fff}
@@ -84,7 +96,11 @@ nav button.star{color:var(--acc)}
 /* map */
 #mapbox{position:relative}
 #map{width:100%;height:auto;display:block}
-#map path.c{fill:#1c1c1c;stroke:#000;stroke-width:.5}
+#map path.c{fill:#1c1c1c;stroke:#000;stroke-width:.5;vector-effect:non-scaling-stroke}
+#map{cursor:grab;touch-action:none}
+.zbtns{position:absolute;right:10px;top:10px;display:flex;flex-direction:column;gap:6px}
+.zbtns button{width:34px;height:34px;border:1px solid #333;border-radius:6px;background:#0d0d0d;color:#ddd;font-size:18px;font-weight:300}
+.zbtns button:hover{border-color:#777}
 #map path.on{cursor:pointer;fill-opacity:.85}
 #map path.on:hover{fill-opacity:1;stroke:#fff;stroke-width:.8}
 #map .grat{fill:none;stroke:#141414;stroke-width:.5}
@@ -117,28 +133,31 @@ nav button.star{color:var(--acc)}
 .msg{font-size:13px;line-height:1.6;color:#cfcfcf;padding:10px 0 10px 14px;border-left:1px solid var(--acc);margin-bottom:10px}
 .msg.i{border-color:#444}
 .notes{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:34px 26px;margin-top:30px}
-.nb{text-align:left;perspective:1200px;cursor:pointer}
-.flip{position:relative;transition:transform .6s cubic-bezier(.3,.7,.3,1);transform-style:preserve-3d}
-.nb.b .flip{transform:rotateY(180deg)}
-.flip>*{backface-visibility:hidden;-webkit-backface-visibility:hidden}
-.flip>*:last-child{position:absolute;inset:0;transform:rotateY(180deg)}
+.nb{text-align:left;cursor:pointer}
+.flip{transition:transform .2s ease-in}
+.flip.squash{transform:scaleX(0)}
+.flip>*:last-child{display:none}
+.nb.b .flip>*:first-child{display:none}
+.nb.b .flip>*:last-child{display:block}
 .nb h3{font-weight:300;font-size:18px;margin-top:14px;display:flex;justify-content:space-between;align-items:baseline}
 .nb h3 small{font-size:10px;letter-spacing:.2em;color:var(--mute);text-transform:uppercase}
 .nb dl{display:grid;grid-template-columns:52px 1fr;gap:3px 12px;font-size:12.5px;margin-top:8px;line-height:1.5}
 .cred{font-size:10.5px;color:#666;margin-top:10px;letter-spacing:.02em}.cred a{color:#888}
 .nb dt{color:var(--mute);font-size:10px;letter-spacing:.18em;text-transform:uppercase;padding-top:2px}
 .nbtns{display:flex;gap:8px;margin-top:10px}
-.nbtns button{border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:11px;letter-spacing:.08em;color:var(--mute)}
-.nbtns button:hover{color:var(--ink);border-color:#444}
+.nbtns button{border:1.5px solid #555;border-radius:999px;padding:9px 20px;font-size:12px;font-weight:400;letter-spacing:.12em;text-transform:uppercase;color:#e6e6e6;background:#141414}
+.nbtns button:hover{color:#000;background:var(--acc);border-color:var(--acc)}
 #viewer{position:fixed;inset:0;background:rgba(0,0,0,.94);z-index:100;display:none;flex-direction:column;align-items:center;justify-content:center;padding:20px}
 #viewer.on{display:flex}
 #viewer .stage{flex:1;width:100%;display:flex;align-items:center;justify-content:center;overflow:hidden}
-#viewer .vcard{perspective:2000px;transition:transform .45s ease}
+#viewer .vcard{transition:transform .45s ease}
 #viewer.rot .vcard{transform:rotate(-90deg)}
-#viewer .vflip{position:relative;transition:transform .7s cubic-bezier(.3,.7,.3,1);transform-style:preserve-3d}
-#viewer.back .vflip{transform:rotateY(180deg)}
-#viewer .vflip>*{backface-visibility:hidden;-webkit-backface-visibility:hidden;display:block}
-#viewer .vflip>*:last-child{position:absolute;inset:0;transform:rotateY(180deg);width:100%;height:100%}
+#viewer .vflip{transition:transform .22s ease-in;cursor:pointer}
+#viewer .vflip.squash{transform:scaleX(0)}
+#viewer .vflip>*{display:block}
+#viewer .vflip>*:last-child{display:none}
+#viewer.back .vflip>*:first-child{display:none}
+#viewer.back .vflip>*:last-child{display:block}
 #viewer img,#viewer .tile{max-width:92vw;max-height:76vh;object-fit:contain}
 #viewer .tile{width:min(92vw,900px)}
 #viewer.rot img,#viewer.rot .tile{max-width:76vh;max-height:88vw}
@@ -149,8 +168,9 @@ nav button.star{color:var(--acc)}
 #viewer .x{position:absolute;top:16px;right:22px;font-size:26px;font-weight:200;color:#aaa}
 .bigbtn{display:block;margin-top:34px;text-align:center;padding:20px 24px;border:1px solid var(--acc);border-radius:10px;color:var(--acc);text-decoration:none;font-size:15px;letter-spacing:.24em;text-transform:uppercase}
 .bigbtn:hover{background:var(--acc);color:#000}
+.fsvg{display:inline-block;width:1.25em;height:.84em;vertical-align:-.04em;border-radius:2px}
 footer{border-top:1px solid var(--line);padding:24px 28px 36px;color:#666;font-size:11.5px;line-height:1.8}
-@media (max-width:760px){.key{width:30px;height:38px;padding-left:9px;font-size:15px}.kr{gap:6px}.kb{gap:8px}.boty{grid-template-columns:1fr}.lrow{grid-template-columns:1fr}header{padding:0 12px}.logo{display:none}}
+@media (max-width:760px){.boty{grid-template-columns:1fr}.lrow{grid-template-columns:1fr}header{padding:0 12px}.logo{display:none}}
 </style>
 <script type="module">import{polyfillCountryFlagEmojis}from"https://cdn.jsdelivr.net/npm/country-flag-emoji-polyfill@0.1/+esm";polyfillCountryFlagEmojis();</script>
 </head>
@@ -180,8 +200,8 @@ footer{border-top:1px solid var(--line);padding:24px 28px 36px;color:#666;font-s
 
 <section class="view" id="v-map"><div class="sec">
   <div class="label">World map</div>
-  <div id="mapbox"><svg id="map"></svg><div class="tip" id="tip"></div></div>
-  <div class="legend">Each country is shaded in the colour of one of its current notes. Click a country to open it.</div>
+  <div id="mapbox"><svg id="map"></svg><div class="tip" id="tip"></div><div class="zbtns"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">−</button><button id="zreset" aria-label="Reset" style="font-size:12px">⟲</button></div></div>
+  <div class="legend">Each country is shaded in the colour of one of its current notes. Scroll or pinch to zoom, drag to move, click a country to open it.</div>
 </div></section>
 
 <section class="view" id="v-all"><div class="sec">
@@ -230,6 +250,16 @@ const $=s=>document.querySelector(s);
 const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;");
 const fmt=n=>n.toLocaleString("en-US");
 const flag=iso=>iso?String.fromCodePoint(...[...iso].map(c=>127397+c.charCodeAt(0))):"";
+const FLAGSVG={
+ PRB:'<rect width="30" height="20" fill="#c8102e"/><rect y="6.7" width="30" height="6.6" fill="#00843d"/>',
+ SLS:'<rect width="30" height="20" fill="#fff"/><rect width="30" height="6.7" fill="#00843d"/><rect y="13.3" width="30" height="6.7" fill="#d21034"/><polygon points="15,7.4 15.7,9.4 17.8,9.4 16.1,10.6 16.7,12.6 15,11.4 13.3,12.6 13.9,10.6 12.2,9.4 14.3,9.4" fill="#000"/>',
+ SCT:'<rect width="30" height="20" fill="#005eb8"/><path d="M0,0L30,20M30,0L0,20" stroke="#fff" stroke-width="3.2"/>',
+ NIR:'<rect width="30" height="20" fill="#fff"/><path d="M0,0L30,20M30,0L0,20" stroke="#c8102e" stroke-width="3.2"/>',
+ XOF:'<rect width="30" height="20" fill="#1d6b3a"/><text x="15" y="14" font-size="9" text-anchor="middle" fill="#fff" font-family="sans-serif">CFA</text>',
+ XAF:'<rect width="30" height="20" fill="#a3262a"/><text x="15" y="14" font-size="8" text-anchor="middle" fill="#fff" font-family="sans-serif">FCFA</text>',
+ XCD:'<rect width="30" height="20" fill="#0b4ea2"/><text x="15" y="14" font-size="9" text-anchor="middle" fill="#fff" font-family="sans-serif">EC$</text>',
+ XPF:'<rect width="30" height="20" fill="#002f6c"/><text x="15" y="14" font-size="9" text-anchor="middle" fill="#fff" font-family="sans-serif">CFP</text>'};
+const flagOf=c=>c.iso?flag(c.iso):FLAGSVG[c.code]?`<svg class="fsvg" viewBox="0 0 30 20" aria-hidden="true">${FLAGSVG[c.code]}</svg>`:"";
 const val=(c,n)=>(c.sym||"")+fmt(n[0])+(c.suf||"");
 function note(c,n,side="f",extra="",big=false){
   const im=IMG[c.code+"-"+n[0]];
@@ -253,7 +283,7 @@ const ALL=D.flatMap(c=>c.notes.map(n=>({c,n,fam:family(n[1])})));
 const KEYS=["ABCDEFGHI","JKLMNOPQR","STUVWXYZ"];
 const byLetter=L=>D.filter(c=>c.country.normalize("NFD")[0].toUpperCase()===L).sort((a,b)=>a.country.localeCompare(b.country));
 let letter=null;
-$("#kb").innerHTML=KEYS.map(r=>`<div class="kr">${[...r].map(k=>`<button class="key" data-k="${k}" ${byLetter(k).length?"":"disabled"}>${k}</button>`).join("")}</div>`).join("");
+$("#kb").innerHTML=[...KEYS.join("")].map(k=>`<button class="key" data-k="${k}" ${byLetter(k).length?"":"disabled"}>${k}</button>`).join("");
 $("#kb").addEventListener("click",e=>{const b=e.target.closest(".key:not(:disabled)");if(b)pick(b.dataset.k)});
 function pick(L){
   letter=L;document.querySelectorAll(".key").forEach(k=>k.classList.toggle("on",k.dataset.k===L));
@@ -289,7 +319,7 @@ $("#q").addEventListener("input",renderList);
 function renderList(){
   const q=$("#q").value.trim().toLowerCase();
   const L=D.filter(c=>(reg==="All"||c.region===reg)&&(!q||[c.country,c.cur,c.code,...c.notes.flatMap(n=>[n[2],n[3]])].join(" ").toLowerCase().includes(q))).sort((a,b)=>a.country.localeCompare(b.country));
-  $("#list").innerHTML=L.map(c=>`<button class="lrow" data-code="${c.code}"><div class="lname">${flag(c.iso)} ${esc(c.country)} <small>${c.code}</small></div><div class="lstrip">${c.notes.map(n=>note(c,n)).join("")}</div></button>`).join("")||`<p style="padding:30px 0;color:#666">No matches.</p>`;
+  $("#list").innerHTML=L.map(c=>`<button class="lrow" data-code="${c.code}"><div class="lname">${flagOf(c)} ${esc(c.country)} <small>${c.code}</small></div><div class="lstrip">${c.notes.map(n=>note(c,n)).join("")}</div></button>`).join("")||`<p style="padding:30px 0;color:#666">No matches.</p>`;
 }
 $("#list").addEventListener("click",e=>{const b=e.target.closest(".lrow");if(b)go(b.dataset.code.toLowerCase())});
 
@@ -303,7 +333,13 @@ async function renderMap(){
   const proj=d3.geoMiller().fitExtent([[6,6],[W-6,H-6]],{type:"FeatureCollection",features:feats}),path=d3.geoPath(proj);
   const byNum={};D.forEach(c=>{if(NUM[c.iso])byNum[NUM[c.iso]]=c;(c.map||[]).forEach(id=>byNum[id]=c)});const sl=D.find(c=>c.code==="SLS");feats.forEach(f=>{if(f.properties.name==="Somaliland"){f.id="SL-x";byNum["SL-x"]=sl}});const eur=D.find(c=>c.code==="EUR");EURO.forEach(n=>byNum[n]=eur);Object.entries(EXTRA_IDS).forEach(([id,code])=>byNum[id]=D.find(c=>c.code===code));
   const tip=$("#tip"),box=$("#mapbox");
-  svg.append("g").selectAll("path").data(feats).join("path")
+  const g=svg.append("g");
+  const zoom=d3.zoom().scaleExtent([1,10]).translateExtent([[0,0],[W,H]]).on("zoom",e=>g.attr("transform",e.transform));
+  svg.call(zoom).on("dblclick.zoom",null);
+  $("#zin").onclick=()=>svg.transition().duration(300).call(zoom.scaleBy,1.8);
+  $("#zout").onclick=()=>svg.transition().duration(300).call(zoom.scaleBy,1/1.8);
+  $("#zreset").onclick=()=>svg.transition().duration(300).call(zoom.transform,d3.zoomIdentity);
+  g.selectAll("path").data(feats).join("path")
     .attr("d",path).attr("class",d=>"c"+(byNum[d.id]?" on":""))
     .style("fill",d=>{const c=byNum[d.id];return c?c.notes[Math.floor(c.notes.length/2)][1]:null})
     .on("mousemove",(ev,d)=>{const c=byNum[d.id],r=box.getBoundingClientRect();tip.style.display="block";tip.style.left=(ev.clientX-r.left+14)+"px";tip.style.top=(ev.clientY-r.top+10)+"px";
@@ -314,7 +350,7 @@ async function renderMap(){
   if(prb){let ring=[[28.45,48.17],[28.75,48.13],[29.05,47.95],[29.25,47.75],[29.35,47.45],[29.55,47.3],[29.7,47.1],[29.9,46.95],[30.13,46.62],[30.05,46.52],[29.75,46.65],[29.55,46.8],[29.42,46.85],[29.25,46.95],[29.15,47.2],[29.05,47.45],[28.9,47.7],[28.7,47.95],[28.45,48.17]];
     let f={type:"Feature",properties:{name:"Transnistria"},geometry:{type:"Polygon",coordinates:[ring]}};
     if(d3.geoArea(f)>2*Math.PI){f.geometry.coordinates=[ring.slice().reverse()]}
-    svg.append("path").datum(f).attr("d",path).attr("class","c on").style("fill",prb.notes[Math.floor(prb.notes.length/2)][1]).style("stroke","#fff").style("stroke-width",".4")
+    g.append("path").datum(f).attr("d",path).attr("class","c on").style("fill",prb.notes[Math.floor(prb.notes.length/2)][1]).style("stroke","#fff").style("stroke-width",".4")
       .on("mousemove",(ev)=>{const r=box.getBoundingClientRect();tip.style.display="block";tip.style.left=(ev.clientX-r.left+14)+"px";tip.style.top=(ev.clientY-r.top+10)+"px";tip.innerHTML=`Transnistria · <span style="color:#c9a36a">${esc(prb.cur)}</span> · ${prb.notes.length} notes`})
       .on("mouseleave",()=>tip.style.display="none").on("click",()=>{tip.style.display="none";go("prb")});}
 }
@@ -338,18 +374,18 @@ function renderBoty(){
 function credit(c,n){const k=c.code+"-"+n[0],cr=CREDITS[k];if(!cr||!IMG[k])return"";
   const who=[...new Set(["f","b"].map(s=>cr[s]&&IMG[k][s]?cr[s].author:null).filter(Boolean))].join(", ");
   const lic=(cr.f&&cr.f.license)||(cr.b&&cr.b.license)||"";
-  const src={numista:"Numista",wikimedia:"Wikimedia Commons",bank:cr.bank||"Issuing bank"}[cr.source||"numista"];
+  const src={numista:"Numista",wikimedia:"Wikimedia Commons",openverse:"Openverse",bank:cr.bank||"Issuing bank"}[cr.source||"numista"];
   return `<div class="cred">Photo: ${esc(who||src)}${lic?" · "+esc(lic):""} · <a href="${cr.url}" target="_blank" rel="noopener">${esc(src)}</a></div>`}
 function renderCountry(c){
   const S=[...D].sort((a,b)=>a.country.localeCompare(b.country)),i=S.indexOf(c),p=S[(i-1+S.length)%S.length],nx=S[(i+1)%S.length];
   $("#cbox").innerHTML=`<button class="back" onclick="history.length>1?history.back():go('explore')">← Back</button>
-   <div class="chead"><div><h2>${flag(c.iso)} ${esc(c.country)}</h2><div class="sub">${[c.cur,c.code.length===3?c.code:"",c.issuer].filter(Boolean).map(esc).join(" · ")}</div></div>
+   <div class="chead"><div><h2>${flagOf(c)} ${esc(c.country)}</h2><div class="sub">${[c.cur,c.code.length===3?c.code:"",c.issuer].filter(Boolean).map(esc).join(" · ")}</div></div>
    <div style="display:flex;gap:8px"><button class="back" onclick="go('${p.code.toLowerCase()}')">← ${esc(p.country)}</button><button class="back" onclick="go('${nx.code.toLowerCase()}')">${esc(nx.country)} →</button></div></div>
    <div class="cfacts"><div><small>Series</small>${esc(c.series)}</div><div><small>Latest issue</small>${c.year}</div><div><small>Material</small>${esc(c.mat)}</div><div><small>Notes</small>${c.notes.length}</div></div>
    ${c.upcoming?`<div class="msg"><b style="font-weight:400;color:#c9a36a">Upcoming</b> · ${esc(c.upcoming)}</div>`:""}${c.info?`<div class="msg i">${esc(c.info)}</div>`:""}${c.partial?`<div class="msg i">Some of this country's notes are still being added.</div>`:""}
    <div class="notes">${c.notes.map(n=>`<div class="nb" role="button" tabindex="0"><div class="flip">${note(c,n,"f")}${note(c,n,"b")}</div>
      <h3>${esc(val(c,n))}<small>Tap to flip</small></h3><div class="nbtns"><button type="button" class="vb" data-d="${n[0]}">View larger</button></div><dl><dt>Front</dt><dd>${esc(n[2])}</dd><dt>Back</dt><dd>${esc(n[3])}</dd></dl>${credit(c,n)}</div>`).join("")}</div>`;
-  document.querySelectorAll(".nb").forEach(b=>b.addEventListener("click",e=>{const v=e.target.closest(".vb");if(v){e.stopPropagation();openViewer(c,c.notes.find(n=>String(n[0])===v.dataset.d));return}b.classList.toggle("b")}));
+  document.querySelectorAll(".nb").forEach(b=>b.addEventListener("click",e=>{const v=e.target.closest(".vb");if(v){e.stopPropagation();openViewer(c,c.notes.find(n=>String(n[0])===v.dataset.d));return}squashFlip(b.querySelector(".flip"),()=>b.classList.toggle("b"))}));
 }
 
 /* ---------- viewer ---------- */
@@ -358,7 +394,8 @@ function vCap(){$("#vcap").textContent=`${V.c.country} · ${val(V.c,V.n)} · ${V
 function vDraw(){$("#viewer").classList.toggle("rot",V.rot);$("#viewer").classList.toggle("back",V.side==="b");vCap()}
 function openViewer(c,n){V={c,n,side:"f",rot:false};$("#vstage").innerHTML=`<div class="vcard"><div class="vflip">${note(c,n,"f","",true)}${note(c,n,"b","",true)}</div></div>`;vDraw();$("#viewer").classList.add("on")}
 function closeViewer(){$("#viewer").classList.remove("on");V=null}
-function vFlip(){V.side=V.side==="f"?"b":"f";vDraw()}
+function squashFlip(el,swap){el.classList.add("squash");setTimeout(()=>{swap();el.classList.remove("squash")},200)}
+function vFlip(){squashFlip($("#viewer .vflip"),()=>{V.side=V.side==="f"?"b":"f";vDraw()})}
 function vRot(){V.rot=!V.rot;vDraw()}
 $("#viewer").addEventListener("click",e=>{if(e.target.closest(".vflip")){vFlip();return}if(e.target.id==="viewer"||e.target.id==="vstage")closeViewer()});
 document.addEventListener("keydown",e=>{if(!V)return;if(e.key==="Escape")closeViewer();if(e.key==="f")vFlip();if(e.key==="r")vRot()});

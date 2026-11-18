@@ -1340,7 +1340,7 @@
     "Decree founding Tiraspol and fortress plan"
    ]
   ],
-  "info": "Issued by Transnistria's own central bank. The 50, 100 and 200 ruble notes were redesigned in 2025. Transnistria is not shown separately on the map.",
+  "info": "Issued by Transnistria's own central bank. The 50, 100 and 200 ruble notes were redesigned in 2025. Its outline on the map is approximate.",
   "suf": " rubles"
  },
  {
@@ -4629,6 +4629,877 @@
    "598"
   ],
   "code": "PG",
+  "partial": true
+ },
+ {
+  "iso": "PE",
+  "country": "Peru",
+  "cur": "Peruvian sol",
+  "sym": "S/",
+  "issuer": "",
+  "region": "Americas",
+  "series": "Current notes",
+  "year": 2021,
+  "mat": "Paper",
+  "notes": [
+   [
+    10,
+    "#6eb464",
+    "María Isabel Granda y Larco",
+    "Vicuña"
+   ],
+   [
+    20,
+    "#b49e64",
+    "José María Arguedas Altamirano, Peruvian novelist, poet, and anthropologist",
+    "Andean condor"
+   ],
+   [
+    50,
+    "#b4647d",
+    "María Rostworowski",
+    "Jaguar"
+   ],
+   [
+    100,
+    "#629bb3",
+    "Pedro Paulet",
+    "Hummingbird"
+   ],
+   [
+    200,
+    "#7464b4",
+    "Tilsa Tsuchiya",
+    "Gallito de las rocas peruano"
+   ]
+  ],
+  "map": [
+   "604"
+  ],
+  "code": "PE",
+  "partial": false
+ },
+ {
+  "iso": "BO",
+  "country": "Bolivia",
+  "cur": "Boliviano",
+  "sym": "Bs",
+  "issuer": "",
+  "region": "Americas",
+  "series": "Current notes",
+  "year": 2019,
+  "mat": "Paper",
+  "notes": [
+   [
+    10,
+    "#798a89",
+    "Blue, black and multicolor",
+    "Isla del Pescado with giant picaflor bird and Puya Raimondi cactus"
+   ],
+   [
+    20,
+    "#c67252",
+    "Genoveva Rios, Tomás Katari, Pedro Ignacio Muiba",
+    "Black cayman on shore of Bay lake, and floss silk tree., Issuer and country names on top"
+   ],
+   [
+    50,
+    "#b47c64",
+    "José Manuel Baca, Bruno Racua and Pablo Zárate Willka",
+    "Andean Flamingo and Royal Quinoa plant, Nevado Sajama mountain on background"
+   ],
+   [
+    100,
+    "#c86b4f",
+    "Juana Azurduy de Padilla, Alejo Calatayud and Antonio José de Sucre",
+    "Blue-Throated Macaw and Patujú flower infront of Arco Iris waterfall"
+   ],
+   [
+    200,
+    "#b49764",
+    "Tupak Katari, Bartolina Sisa and Simón Bolívar",
+    "Kantuta flower, Andean Mountain Cat, Tiwanaku"
+   ]
+  ],
+  "map": [
+   "068"
+  ],
+  "code": "BO",
+  "partial": false
+ },
+ {
+  "iso": "NI",
+  "country": "Nicaragua",
+  "cur": "Nicaraguan córdoba",
+  "sym": "C$",
+  "issuer": "",
+  "region": "Americas",
+  "series": "Current notes",
+  "year": 2017,
+  "mat": "Polymer",
+  "notes": [
+   [
+    10,
+    "#7db362",
+    "Puerto Salvador Allende",
+    "Fiestas patronales de Managua dancer"
+   ],
+   [
+    20,
+    "#c28455",
+    "Iglesia Morava en Laguna de Perlas",
+    "Festival Maya Ya dancers"
+   ],
+   [
+    50,
+    "#6a5aaf",
+    "Artisan Market, Masaya",
+    "Folkloristic ballet"
+   ],
+   [
+    100,
+    "#629bb6",
+    "Cathedral of Granada",
+    "Horse-drawn carriage, two drums"
+   ],
+   [
+    200,
+    "#b47c64",
+    "The Rubén Darío National Theatre",
+    "El Güegüense comedy ballet"
+   ],
+   [
+    500,
+    "#b96f5e",
+    "Cathedral of León",
+    "Momotombo volcano"
+   ],
+   [
+    1000,
+    "#64b481",
+    "Hacienda San Jacinto, Tipitapa",
+    "Castle of the Immaculate Conception, Río San Juan"
+   ]
+  ],
+  "map": [
+   "558"
+  ],
+  "code": "NI",
+  "partial": false
+ },
+ {
+  "iso": "BM",
+  "country": "Bermuda",
+  "cur": "Bermudian dollar",
+  "sym": "$",
+  "issuer": "",
+  "region": "Americas",
+  "series": "Current notes",
+  "year": 2012,
+  "mat": "Paper",
+  "notes": [
+   [
+    20,
+    "#64b476",
+    "Whistling Frog and flowers at bottom, profile of Queen Elizabeth II at lower left",
+    "Lighthouse and church at bottom, butterflies at lower left, butterfly and lizard at upper…"
+   ],
+   [
+    50,
+    "#b4a164",
+    "White-tailed tropicbird and flowers, profile of Queen Elizabeth II at lower left",
+    "Saint Peter's Church in Saint George, butterfly and bird at upper left"
+   ],
+   [
+    100,
+    "#bd6a5a",
+    "Red Cardinal on branch and flowers, profile of Queen Elizabeth II at lower left",
+    "House of Assembly in Hamilton, Cahow flying above, butterfly and bird at upper left"
+   ]
+  ],
+  "map": [
+   "060"
+  ],
+  "code": "BM",
+  "partial": true
+ },
+ {
+  "iso": "AW",
+  "country": "Aruba",
+  "cur": "Aruban florin",
+  "sym": "ƒ",
+  "issuer": "",
+  "region": "Americas",
+  "series": "Current notes",
+  "year": 2019,
+  "mat": "Paper",
+  "notes": [
+   [
+    10,
+    "#6497b4",
+    "White Turtle",
+    "Bushiribana gold smelter ruins, as well as the symbols and unique floor tiles that can be…"
+   ],
+   [
+    25,
+    "#c08858",
+    "Troupial",
+    "Arawak Indian cave paintings and Amerindian pottery as well as the symbols and unique…"
+   ],
+   [
+    50,
+    "#b46466",
+    "Red Land Crab",
+    "The Willem III towers, as well as the symbols and unique floor tiles that can be found in…"
+   ],
+   [
+    100,
+    "#64b497",
+    "Iguana",
+    "Aruba's traditional 'Baile di Cinta', as well as the symbols and unique floor tiles that…"
+   ],
+   [
+    200,
+    "#9f754c",
+    "The Crested Caracara",
+    "Aruba's traditional instruments like the 'Caha di Orgel', 'Tambor', 'Wiri', as well as…"
+   ]
+  ],
+  "map": [
+   "533"
+  ],
+  "code": "AW",
+  "partial": false
+ },
+ {
+  "iso": "MD",
+  "country": "Moldova",
+  "cur": "Moldovan leu",
+  "sym": "L",
+  "issuer": "",
+  "region": "Europe",
+  "series": "Current notes",
+  "year": 2015,
+  "mat": "Paper",
+  "notes": [
+   [
+    1,
+    "#c39d54",
+    "Stephen the Great",
+    "Capriana monastery"
+   ],
+   [
+    5,
+    "#64a2b4",
+    "Stephen III",
+    "St.Dumitru Church,Orhei"
+   ],
+   [
+    10,
+    "#c88450",
+    "Ştefan cel Mare",
+    "View of the Hirjauca Monastery"
+   ],
+   [
+    20,
+    "#8ab464",
+    "The Coat of Arms of the Republic of Moldova, inscriptions \"REPUBLICA MOLDOVA\" and \"ȘTEFAN…",
+    "The graphic image of Soroca Fortress within a frame and under which the inscription…"
+   ],
+   [
+    50,
+    "#b56364",
+    "The Coat of Arms of the Republic of Moldova, inscriptions \"REPUBLICA MOLDOVA\" and \"ȘTEFAN…",
+    "The graphic image of Hîrbovăț Monastery within a frame and under which the inscription…"
+   ],
+   [
+    100,
+    "#b49463",
+    "The Coat of Arms of the Republic of Moldova, inscriptions \"REPUBLICA MOLDOVA\", „BANCA…",
+    "The graphic image of Tighina Fortress within a frame and under which the inscription…"
+   ],
+   [
+    200,
+    "#b68f61",
+    "The Coat of Arms of the Republic of Moldova, inscriptions \"REPUBLICA MOLDOVA\", „BANCA…",
+    "The graphic image of the Municipality of Chișinău within a frame and under which the…"
+   ],
+   [
+    500,
+    "#ac9554",
+    "The Coat of Arms of the Republic of Moldova, inscriptions \"REPUBLICA MOLDOVA\", „BANCA…",
+    "The graphic image of the Cathedral of Chișinău within a frame and under which the…"
+   ]
+  ],
+  "map": [
+   "498"
+  ],
+  "code": "MD",
+  "partial": false
+ },
+ {
+  "code": "CR",
+  "iso": "CR",
+  "country": "Costa Rica",
+  "cur": "Costa Rican colón",
+  "sym": "₡",
+  "issuer": "Banco Central de Costa Rica",
+  "region": "Americas",
+  "series": "Ecosystems family",
+  "year": 2018,
+  "mat": "Paper & polymer",
+  "map": [
+   "188"
+  ],
+  "notes": [
+   [
+    1000,
+    "#c8504a",
+    "Braulio Carrillo Colina",
+    "Tropical dry forest with white-tailed deer"
+   ],
+   [
+    2000,
+    "#3a6ab0",
+    "Mauro Fernández Acuña",
+    "Coral reef with bull shark"
+   ],
+   [
+    5000,
+    "#d9b236",
+    "Alfredo González Flores",
+    "Mangrove with white-faced capuchin"
+   ],
+   [
+    10000,
+    "#4aa05a",
+    "José Figueres Ferrer",
+    "Rainforest with two-toed sloth"
+   ],
+   [
+    20000,
+    "#e08a3a",
+    "María Isabel Carvajal (Carmen Lyra)",
+    "Cloud forest with hummingbird"
+   ],
+   [
+    50000,
+    "#8a5aa8",
+    "Ricardo Jiménez Oreamuno",
+    "Páramo"
+   ]
+  ],
+  "info": "Each note shows one of Costa Rica's ecosystems with a native animal."
+ },
+ {
+  "code": "RU",
+  "iso": "RU",
+  "country": "Russia",
+  "cur": "Russian ruble",
+  "sym": "₽",
+  "issuer": "Bank of Russia",
+  "region": "Europe",
+  "series": "1997 series (modified) with 2017 and 2022 additions",
+  "year": 2022,
+  "mat": "Paper",
+  "map": [
+   "643"
+  ],
+  "notes": [
+   [
+    50,
+    "#3a6ab0",
+    "Rostral column and Neva statue, Saint Petersburg",
+    "Peter and Paul Fortress"
+   ],
+   [
+    100,
+    "#a8703a",
+    "Rzhev Memorial to the Soviet Soldier",
+    "Spasskaya Tower, Moscow Kremlin"
+   ],
+   [
+    200,
+    "#4a9a7a",
+    "Monument to the Scuttled Ships, Sevastopol",
+    "Chersonesus"
+   ],
+   [
+    500,
+    "#8a5aa8",
+    "Peter the Great monument, Arkhangelsk",
+    "Solovetsky Monastery"
+   ],
+   [
+    1000,
+    "#4a9a5a",
+    "Yaroslav the Wise monument, Yaroslavl",
+    "Church of St John the Baptist, Yaroslavl"
+   ],
+   [
+    2000,
+    "#3a7ab0",
+    "Russky Bridge, Vladivostok",
+    "Vostochny Cosmodrome"
+   ],
+   [
+    5000,
+    "#c87a4a",
+    "Muravyov-Amursky monument, Khabarovsk",
+    "Khabarovsk bridge over the Amur"
+   ]
+  ],
+  "info": "The 100 ruble was redesigned in 2022; earlier designs of several notes remain legal tender."
+ },
+ {
+  "code": "RS",
+  "iso": "RS",
+  "country": "Serbia",
+  "cur": "Serbian dinar",
+  "sym": "din.",
+  "issuer": "National Bank of Serbia",
+  "region": "Europe",
+  "series": "2003–2014 series",
+  "year": 2014,
+  "mat": "Paper",
+  "map": [
+   "688"
+  ],
+  "notes": [
+   [
+    10,
+    "#777777",
+    "Vuk Stefanović Karadžić",
+    "—"
+   ],
+   [
+    20,
+    "#777777",
+    "Petar II Petrović-Njegoš",
+    "—"
+   ],
+   [
+    50,
+    "#777777",
+    "Stevan Stojanović Mokranjac",
+    "—"
+   ],
+   [
+    100,
+    "#777777",
+    "Nikola Tesla",
+    "Electromagnetic induction motif"
+   ],
+   [
+    200,
+    "#777777",
+    "Nadežda Petrović",
+    "Gračanica Monastery"
+   ],
+   [
+    500,
+    "#777777",
+    "Jovan Cvijić",
+    "—"
+   ],
+   [
+    1000,
+    "#777777",
+    "Đorđe Vajfert",
+    "National Bank of Serbia building"
+   ],
+   [
+    2000,
+    "#777777",
+    "Milutin Milanković",
+    "Milanković's climate diagrams"
+   ],
+   [
+    5000,
+    "#777777",
+    "Slobodan Jovanović",
+    "—"
+   ]
+  ]
+ },
+ {
+  "iso": "JE",
+  "country": "Jersey",
+  "cur": "Jersey pound",
+  "sym": "£",
+  "issuer": "",
+  "region": "Europe",
+  "series": "Current notes",
+  "year": 2010,
+  "mat": "Paper",
+  "notes": [
+   [
+    1,
+    "#85b464",
+    "—",
+    "La Hougue Bie Neolithic burial mount"
+   ],
+   [
+    5,
+    "#64b4b2",
+    "Elizabeth II",
+    "Archirondel Tower"
+   ],
+   [
+    10,
+    "#b47964",
+    "Elizabeth II",
+    "Seymour Tower"
+   ],
+   [
+    20,
+    "#6e51a9",
+    "Elizabeth II",
+    "La Rocco Tower, Saint Jean"
+   ],
+   [
+    50,
+    "#b4646d",
+    "Elizabeth II",
+    "Ouaisné Tower"
+   ]
+  ],
+  "map": [
+   "832"
+  ],
+  "code": "JE",
+  "partial": false
+ },
+ {
+  "iso": "GG",
+  "country": "Guernsey",
+  "cur": "Guernsey pound",
+  "sym": "£",
+  "issuer": "",
+  "region": "Europe",
+  "series": "Current notes",
+  "year": 2023,
+  "mat": "Paper",
+  "notes": [
+   [
+    1,
+    "#64b46b",
+    "The Market, St Peter Port",
+    "Daniel De Lisle Brock, Bailiff of Guernsey 1762-1842, The Royal Court, and Scene of St"
+   ],
+   [
+    5,
+    "#b17e5e",
+    "Elizabeth II",
+    "Fort Grey in centre, Hanois Lighthouse"
+   ],
+   [
+    10,
+    "#6c64b4",
+    "Elizabeth II",
+    "Saumarez Park at top, Les Niaux watermill"
+   ],
+   [
+    20,
+    "#b4646e",
+    "Elizabeth II",
+    "St"
+   ]
+  ],
+  "map": [
+   "831"
+  ],
+  "code": "GG",
+  "partial": false
+ },
+ {
+  "iso": "IM",
+  "country": "Isle of Man",
+  "cur": "Manx pound",
+  "sym": "£",
+  "issuer": "",
+  "region": "Europe",
+  "series": "Current notes",
+  "year": 2013,
+  "mat": "Paper",
+  "notes": [
+   [
+    10,
+    "#b38161",
+    "ISLE of MAN Government Above Standard Description with Note Value in Writing TEN POUNDS…",
+    "Peel Castle in 1830 in the background with Fishermen in the Forground"
+   ],
+   [
+    20,
+    "#b46469",
+    "Queen Elizabeth II",
+    "Laxey wheel with crowd"
+   ]
+  ],
+  "map": [
+   "833"
+  ],
+  "code": "IM",
+  "partial": true
+ },
+ {
+  "iso": "GI",
+  "country": "Gibraltar",
+  "cur": "Gibraltar pound",
+  "sym": "£",
+  "issuer": "",
+  "region": "Europe",
+  "series": "Current notes",
+  "year": 2020,
+  "mat": "Paper",
+  "notes": [
+   [
+    5,
+    "#5ebaa0",
+    "Queen Elizabeth II",
+    "Windsor Bridge"
+   ],
+   [
+    10,
+    "#6491b4",
+    "Queen Elizabeth II",
+    "John Trumbull's painting 'Sortie' made by the Garrison of Gibraltar"
+   ],
+   [
+    20,
+    "#b68762",
+    "Queen Elizabeth II",
+    "HMS Victory Returning to Gibraltar 1805"
+   ],
+   [
+    50,
+    "#bb5d63",
+    "Elizabeth II",
+    "Casemates Square"
+   ],
+   [
+    100,
+    "#aa5eb1",
+    "Queen Elizabeth II",
+    "King's Bastion Leisure Centre"
+   ]
+  ],
+  "map": [
+   "292"
+  ],
+  "code": "GI",
+  "partial": false
+ },
+ {
+  "iso": "FK",
+  "country": "Falkland Islands",
+  "cur": "Falkland Islands pound",
+  "sym": "£",
+  "issuer": "",
+  "region": "Americas",
+  "series": "Current notes",
+  "year": 2025,
+  "mat": "Polymer",
+  "notes": [
+   [
+    5,
+    "#c45360",
+    "Predominantly red., Portrait of King Charles III",
+    "Red and multicoloured., Five species of penguin at bottom left., National flower, pale…"
+   ],
+   [
+    10,
+    "#56a1ad",
+    "Predominantly green., Portrait of King Charles III",
+    "Green and multicoloured., Five species of penguin at bottom left., National flower, pale…"
+   ],
+   [
+    20,
+    "#b47364",
+    "Predominantly brown., Portrait of King Charles III",
+    "Brown and multicoloured., Five species of penguin at bottom left., National flower, pale…"
+   ]
+  ],
+  "map": [
+   "238"
+  ],
+  "code": "FK",
+  "partial": true
+ },
+ {
+  "iso": "SH",
+  "country": "Saint Helena",
+  "cur": "Saint Helena pound",
+  "sym": "£",
+  "issuer": "",
+  "region": "Africa",
+  "series": "Current notes",
+  "year": 2026,
+  "mat": "Polymer",
+  "notes": [
+   [
+    5,
+    "#6390b5",
+    "Coat of arms of Saint Helena",
+    "Saint Helena ebony"
+   ],
+   [
+    10,
+    "#b7617d",
+    "Coat of arms of Saint Helena",
+    "Saint Helena ebony"
+   ],
+   [
+    20,
+    "#b57063",
+    "Coat of arms of Saint Helena",
+    "Saint Helena ebony"
+   ]
+  ],
+  "map": [
+   "654"
+  ],
+  "code": "SH",
+  "partial": true
+ },
+ {
+  "iso": "FO",
+  "country": "Faroe Islands",
+  "cur": "Faroese króna",
+  "sym": "kr",
+  "issuer": "",
+  "region": "Europe",
+  "series": "Current notes",
+  "year": 2012,
+  "mat": "Paper",
+  "notes": [
+   [
+    50,
+    "#456f90",
+    "Grey print., Ram's horn",
+    "Grey print., Hillside by Sumba village"
+   ],
+   [
+    100,
+    "#b47b64",
+    "Orange and grey print., Codfish tail and thick security line",
+    "Orange and brown print., Round drawing at top right"
+   ],
+   [
+    200,
+    "#676273",
+    "Grey and yellow print., Ghost Moth and broad security stripe",
+    "Grey and yellow print., Tindhólmur"
+   ],
+   [
+    500,
+    "#4b9c7d",
+    "Green and grey print., Crab's claw and broad security strip",
+    "Grey, green and yellow print., Hvannasundi"
+   ],
+   [
+    1000,
+    "#954855",
+    "Red and grey print., Black Grey Sandpiper",
+    "Red and grey print., Island of Sandoy"
+   ]
+  ],
+  "map": [
+   "234"
+  ],
+  "code": "FO",
+  "partial": false
+ },
+ {
+  "iso": "CK",
+  "country": "Cook Islands",
+  "cur": "Cook Islands dollar",
+  "sym": "$",
+  "issuer": "",
+  "region": "Oceania",
+  "series": "Current notes",
+  "year": 2021,
+  "mat": "Polymer",
+  "notes": [
+   [
+    3,
+    "#64a9b4",
+    "Nude Ina holding a coconut while riding on Mango the shark",
+    "Fishing canoe, and God of Te-Rongo"
+   ]
+  ],
+  "map": [
+   "184"
+  ],
+  "code": "CK",
+  "partial": true
+ },
+ {
+  "iso": null,
+  "country": "Scotland",
+  "cur": "Pound sterling (Scottish banknotes)",
+  "sym": "£",
+  "issuer": "",
+  "region": "Europe",
+  "series": "Current notes",
+  "year": 2021,
+  "mat": "Polymer",
+  "notes": [
+   [
+    10,
+    "#b47664",
+    "Mary Somerville",
+    "Otters, Quotation from poet Norman MacCaig"
+   ],
+   [
+    20,
+    "#594fa5",
+    "Sir Walter Scott",
+    "Forth Bridges., Hologram"
+   ],
+   [
+    50,
+    "#b46465",
+    "Sir Walter Scott",
+    "Falkirk ship lifting wheel"
+   ],
+   [
+    100,
+    "#59afa0",
+    "Sir Walter Scott",
+    "Flora Murray in centre., Female stretcher bearers with soldier and truck outside Covent…"
+   ]
+  ],
+  "map": [],
+  "code": "SCT",
+  "partial": false
+ },
+ {
+  "iso": null,
+  "country": "Northern Ireland",
+  "cur": "Pound sterling (Northern Ireland banknotes)",
+  "sym": "£",
+  "issuer": "",
+  "region": "Europe",
+  "series": "Current notes",
+  "year": 2021,
+  "mat": "Polymer",
+  "notes": [
+   [
+    20,
+    "#814590",
+    "Eels at top, Hawthorne flowers",
+    "Eels at top, Musicians"
+   ],
+   [
+    50,
+    "#b1645e",
+    "Pine martin top left, Gorse",
+    "Pine martin top right, Scientist"
+   ]
+  ],
+  "map": [],
+  "code": "NIR",
   "partial": true
  }
 ]

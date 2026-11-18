@@ -70,6 +70,10 @@ COUNTRIES = [
  ("SL","Sierra Leone","Sierra Leone","Sierra Leonean leone","Le","Africa"),("LR","Liberia","Liberia","Liberian dollar","L$","Africa"),
  ("CV","Cape Verde","Cape Verde","Cape Verdean escudo","Esc","Africa"),("ST","Sao Tome and Principe","São Tomé and Príncipe","São Tomé dobra","Db","Africa"),
  ("MR","Mauritania","Mauritania","Mauritanian ouguiya","UM","Africa"),("KM","Comoros","Comoros","Comorian franc","CF","Africa"),
+ ("JE","Jersey","Jersey","Jersey pound","£","Europe"),("GG","Guernsey","Guernsey","Guernsey pound","£","Europe"),
+ ("IM","Isle of Man","Isle of Man","Manx pound","£","Europe"),("GI","Gibraltar","Gibraltar","Gibraltar pound","£","Europe"),
+ ("FK","Falkland Islands","Falkland Islands","Falkland Islands pound","£","Americas"),("SH","Saint Helena","Saint Helena","Saint Helena pound","£","Africa"),
+ ("FO","Faroe Islands","Faroe Islands","Faroese króna","kr","Europe"),("CK","Cook Islands","Cook Islands","Cook Islands dollar","$","Oceania"),
  ("FJ","Fiji","Fiji","Fijian dollar","FJ$","Oceania"),("PG","Papua New Guinea","Papua New Guinea","Papua New Guinean kina","K","Oceania"),
  ("WS","Samoa","Samoa","Samoan tālā","WS$","Oceania"),("TO","Tonga","Tonga","Tongan paʻanga","T$","Oceania"),
  ("VU","Vanuatu","Vanuatu","Vanuatu vatu","VT","Oceania"),("SB","Solomon Islands","Solomon Islands","Solomon Islands dollar","SI$","Oceania"),
@@ -79,6 +83,8 @@ UNIONS = [
  ("XOF","West African CFA franc zone","West African CFA franc","CFA","Africa","West African States",["BJ","BF","CI","GW","ML","NE","SN","TG"]),
  ("XAF","Central African CFA franc zone","Central African CFA franc","FCFA","Africa","Central African States",["CM","CF","TD","CG","GQ","GA"]),
  ("XCD","Eastern Caribbean","East Caribbean dollar","EC$","Americas","Eastern Caribbean States",["AG","DM","GD","KN","LC","VC","AI","MS"]),
+ ("SCT","Scotland","Pound sterling (Scottish banknotes)","£","Europe","Scotland",[]),
+ ("NIR","Northern Ireland","Pound sterling (Northern Ireland banknotes)","£","Europe","Northern Ireland",[]),
  ("XPF","CFP franc zone (French Pacific)","CFP franc","₣","Oceania","French Pacific Territories",["PF","NC","WF"]),
 ]
 
