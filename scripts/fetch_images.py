@@ -137,9 +137,33 @@ def pick_files(titles, c, denom, need, strict_year):
            {s: v[0][0] for s, v in rank_files(titles, c, denom, need).items() if v}
 
 
+GENERIC = set("dollar dollars peso pesos pound pounds franc francs rupee rupees rupiah shilling shillings dinar dinars "
+              "riyal riyals rial rials krone kroner krona kronor euro euros ruble rubles rouble roubles dirham dirhams "
+              "lira lire banknote banknotes note notes bill bills billete billetes billet billets cedula manat som won yuan "
+              "real reais pataca kwacha leu lei lev cent cents new old series obverse reverse front back anverso reverso".split())
+
+
+def specific_tokens(c, denom):
+    words = set()
+    for src in (c["country"], c["cur"], c.get("issuer") or ""):
+        for w in re.split(r"[^a-z]+", norm(src)):
+            if len(w) >= 4 and w not in GENERIC:
+                words.add(w)
+    for u in unit_words(c, denom):
+        for w in re.split(r"[^a-z]+", norm(u)):
+            if len(w) >= 4 and w not in GENERIC:
+                words.add(w)
+                if w.endswith("n"):
+                    words.add(w + "es")  # colon -> colones
+    words |= {norm(c["code"]).lower()} if len(c["code"]) == 3 else set()
+    return words
+
+
 def rank_files(titles, c, denom, need):
-    """Per side: list of (title, has_recent_year), recent-year files first."""
+    """Per side: list of (title, has_recent_year), recent-year files first.
+    A file must name the country or a currency word specific to it (not just 'dollar' or 'peso')."""
     min_year = c.get("year", CUR_YEAR) - 10
+    tokens = specific_tokens(c, denom)
     rejected = {norm(x) for x in load("rejected_photos.json", [])}
     out = {s: [] for s in need}
     for t in titles:
@@ -147,6 +171,9 @@ def rank_files(titles, c, denom, need):
         if tl in rejected or norm(t.replace("_", " ")) in rejected:
             continue
         if not denom_in(t, denom) or any(w in tl for w in EXCLUDED_WORDS) or re.search(r"\bcoins?\b|\bfils\b|piastre|\bkurus|\bcentavos?\b|\bcents?\b|conmemorativ|commemorativ|specimen.*19|resello", tl):
+            continue
+        twords = set(re.split(r"[^a-z]+", tl))
+        if not (tokens & twords) and not any(tok in tl for tok in tokens if len(tok) >= 6):
             continue
         years = [int(y) for y in re.findall(r"(?:19|20)\d\d", tl)]
         if years and max(years) < min_year:
@@ -210,7 +237,7 @@ def hue_ok(path, expected):
     if s1 < .2 or s2 < .2:
         return True
     d = abs(h1 - h2) % 360
-    return min(d, 360 - d) <= 45
+    return min(d, 360 - d) <= 30
 
 
 def try_candidates(ranked, k, credits, expected, source):
@@ -236,7 +263,7 @@ def try_candidates(ranked, k, credits, expected, source):
                 continue
             cr = credits.get(k) or {}
             cr.update({"source": "wikimedia", "url": i["page"]})
-            cr[side] = {"author": i["author"] or "Wikimedia contributor", "license": i["license"], "license_url": i["license_url"]}
+            cr[side] = {"author": i["author"] or "Wikimedia contributor", "license": i["license"], "license_url": i["license_url"], "page": t}
             credits[k] = cr
             got = True
             break

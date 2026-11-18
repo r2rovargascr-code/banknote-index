@@ -1,17 +1,5 @@
 {
- "CR-1000": {
-  "f": "File:Anverso billete 1000 colones.jpg",
-  "b": "File:Billete 1000 colones serie A 2009 reverso.jpg"
- },
  "CR-2000": {
   "f": "File:Billete 2000 colones anverso.jpg"
- },
- "CR-5000": {
-  "f": "File:Billete 5000 colones A Anverso.jpg",
-  "b": "File:Billte 5000 colones reverso.jpg"
- },
- "CR-10000": {
-  "f": "File:Billete 10000 colones anverso.jpg",
-  "b": "File:Billete 10000 colones reverso.jpg"
  }
 }
