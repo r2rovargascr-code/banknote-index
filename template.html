@@ -201,7 +201,7 @@ footer{border-top:1px solid var(--line);padding:24px 28px 36px;color:#666;font-s
 <section class="view" id="v-map"><div class="sec">
   <div class="label">World map</div>
   <div id="mapbox"><svg id="map"></svg><div class="tip" id="tip"></div><div class="zbtns"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">−</button><button id="zreset" aria-label="Reset" style="font-size:12px">⟲</button></div></div>
-  <div class="legend">Each country is shaded in the colour of one of its current notes. Scroll or pinch to zoom, drag to move, click a country to open it.</div>
+  <div class="legend">Each country is shaded in the colour of one of its current notes; faded countries use another country's currency. Scroll or pinch to zoom, drag to move, click a country to open it.</div>
 </div></section>
 
 <section class="view" id="v-all"><div class="sec">
@@ -231,6 +231,9 @@ const CREDITS = /*CREDITS*/{};
 
 const NUM = {"US":"840","GB":"826","JP":"392","CN":"156","IN":"356","CA":"124","AU":"036","NZ":"554","CH":"756","SE":"752","NO":"578","DK":"208","KR":"410","SG":"702","MX":"484","BR":"076","ZA":"710","TR":"792","TH":"764","PH":"608","ID":"360","VN":"704","MY":"458","KE":"404","TW":"158","CO":"170","CW":"531"};
 const EXTRA_IDS={"534":"XCG"};
+/* Places on the map that use another country's currency (not listed on the front page) */
+const USES={"218":"USD","222":"USD","591":"USD","626":"USD","583":"USD","584":"USD","585":"USD","630":"USD","016":"USD","316":"USD","850":"USD","092":"USD","796":"USD","580":"USD",
+ "499":"EUR","020":"EUR","492":"EUR","674":"EUR","336":"EUR","Kosovo":"EUR","438":"CHF","296":"AUD","520":"AUD","304":"DKK"};
 const EURO = ["040","056","100","191","196","233","246","250","276","300","372","380","428","440","442","470","528","620","703","705","724"];
 
 const BOTY = {
@@ -325,13 +328,16 @@ $("#list").addEventListener("click",e=>{const b=e.target.closest(".lrow");if(b)g
 
 /* ---------- map ---------- */
 let mapDone=false;
+function usesOf(d){const code=USES[d.id]||USES[d.properties.name];return code?D.find(c=>c.code===code):null}
 async function renderMap(){
   if(mapDone)return; mapDone=true;
   const svg=d3.select("#map"),W=1000,H=600;svg.attr("viewBox",`0 0 ${W} ${H}`);
   let topo;try{topo=await (await fetch("world.json")).json()}catch(e){$("#mapbox").insertAdjacentHTML("beforeend",'<p style="color:#666">Map data could not load.</p>');return}
-  const feats=topojson.feature(topo,topo.objects.countries).features.filter(f=>f.id!=="010");
+  let feats=topojson.feature(topo,topo.objects.countries).features.filter(f=>f.id!=="010"&&f.id!=="376"&&f.id!=="275");
+  const pal=topojson.merge(topo,topo.objects.countries.geometries.filter(g=>g.id==="376"||g.id==="275"));
+  feats.push({type:"Feature",id:"PS-x",properties:{name:"Palestine",nocur:true},geometry:pal});
   const proj=d3.geoMiller().fitExtent([[6,6],[W-6,H-6]],{type:"FeatureCollection",features:feats}),path=d3.geoPath(proj);
-  const byNum={};D.forEach(c=>{if(NUM[c.iso])byNum[NUM[c.iso]]=c;(c.map||[]).forEach(id=>byNum[id]=c)});const sl=D.find(c=>c.code==="SLS");feats.forEach(f=>{if(f.properties.name==="Somaliland"){f.id="SL-x";byNum["SL-x"]=sl}});const eur=D.find(c=>c.code==="EUR");EURO.forEach(n=>byNum[n]=eur);Object.entries(EXTRA_IDS).forEach(([id,code])=>byNum[id]=D.find(c=>c.code===code));
+  const byNum={};D.forEach(c=>{if(NUM[c.iso])byNum[NUM[c.iso]]=c;(c.map||[]).forEach(id=>byNum[id]=c)});if(byNum["504"])byNum["732"]=byNum["504"];const sl=D.find(c=>c.code==="SLS");feats.forEach(f=>{if(f.properties.name==="Somaliland"){f.id="SL-x";byNum["SL-x"]=sl}});const eur=D.find(c=>c.code==="EUR");EURO.forEach(n=>byNum[n]=eur);Object.entries(EXTRA_IDS).forEach(([id,code])=>byNum[id]=D.find(c=>c.code===code));
   const tip=$("#tip"),box=$("#mapbox");
   const g=svg.append("g");
   const zoom=d3.zoom().scaleExtent([1,10]).translateExtent([[0,0],[W,H]]).on("zoom",e=>g.attr("transform",e.transform));
@@ -340,12 +346,24 @@ async function renderMap(){
   $("#zout").onclick=()=>svg.transition().duration(300).call(zoom.scaleBy,1/1.8);
   $("#zreset").onclick=()=>svg.transition().duration(300).call(zoom.transform,d3.zoomIdentity);
   g.selectAll("path").data(feats).join("path")
-    .attr("d",path).attr("class",d=>"c"+(byNum[d.id]?" on":""))
-    .style("fill",d=>{const c=byNum[d.id];return c?c.notes[Math.floor(c.notes.length/2)][1]:null})
+    .attr("d",path).attr("class",d=>"c"+(byNum[d.id]||usesOf(d)?" on":""))
+    .style("fill",d=>{const c=byNum[d.id]||usesOf(d);return c?c.notes[Math.floor(c.notes.length/2)][1]:null})
+    .style("fill-opacity",d=>!byNum[d.id]&&usesOf(d)?.45:null)
     .on("mousemove",(ev,d)=>{const c=byNum[d.id],r=box.getBoundingClientRect();tip.style.display="block";tip.style.left=(ev.clientX-r.left+14)+"px";tip.style.top=(ev.clientY-r.top+10)+"px";
-      if(!d.properties.name){tip.style.display="none";return}tip.innerHTML=c?`${esc(d.properties.name)} · <span style="color:#c9a36a">${esc(c.cur)}</span> · ${c.notes.length} notes`:`${esc(d.properties.name)} <span style="color:#666">· not listed yet</span>`})
+      if(!d.properties.name){tip.style.display="none";return}
+      const u=!c&&usesOf(d);if(u){tip.innerHTML=`${esc(d.properties.name)} · <span style="color:#888">uses the ${esc(u.cur)}</span>`;return}
+      if(d.properties.nocur){tip.innerHTML=`${esc(d.properties.name)} · <span style="color:#888">no currency of its own</span>`;return}
+      const nm=d.id==="732"?"Western Sahara":d.properties.name;
+      tip.innerHTML=c?`${esc(nm)} · <span style="color:#c9a36a">${esc(c.cur)}</span> · ${c.notes.length} notes`:`${esc(d.properties.name)} <span style="color:#666">· not listed yet</span>`})
     .on("mouseleave",()=>tip.style.display="none")
-    .on("click",(ev,d)=>{const c=byNum[d.id];if(c){tip.style.display="none";go(c.code.toLowerCase())}});
+    .on("click",(ev,d)=>{const c=byNum[d.id]||usesOf(d);if(c){tip.style.display="none";go(c.code.toLowerCase())}});
+  // Western Sahara: hide the line-of-control border inside the territory, draw the 27°40'N boundary dashed
+  const ma=byNum["504"], maCol=ma?ma.notes[Math.floor(ma.notes.length/2)][1]:"#1c1c1c";
+  g.append("path").datum(topojson.mesh(topo,topo.objects.countries,(a,b)=>(a.id==="504"&&b.id==="732")||(a.id==="732"&&b.id==="504")))
+    .attr("d",path).attr("fill","none").attr("stroke",maCol).attr("stroke-width",1.6).style("vector-effect","non-scaling-stroke").style("pointer-events","none");
+  const wsLine={type:"LineString",coordinates:[[-13.17,27.667],[-8.667,27.667]]};
+  g.append("path").datum(wsLine).attr("d",path).attr("fill","none").attr("stroke","#000").attr("stroke-width",1.4).style("vector-effect","non-scaling-stroke").style("pointer-events","none");
+  g.append("path").datum(wsLine).attr("d",path).attr("fill","none").attr("stroke","#e8e8e8").attr("stroke-width",.9).attr("stroke-dasharray","3 2.5").style("vector-effect","non-scaling-stroke").style("pointer-events","none");
   const prb=D.find(c=>c.code==="PRB");
   if(prb){let ring=[[28.45,48.17],[28.75,48.13],[29.05,47.95],[29.25,47.75],[29.35,47.45],[29.55,47.3],[29.7,47.1],[29.9,46.95],[30.13,46.62],[30.05,46.52],[29.75,46.65],[29.55,46.8],[29.42,46.85],[29.25,46.95],[29.15,47.2],[29.05,47.45],[28.9,47.7],[28.7,47.95],[28.45,48.17]];
     let f={type:"Feature",properties:{name:"Transnistria"},geometry:{type:"Polygon",coordinates:[ring]}};

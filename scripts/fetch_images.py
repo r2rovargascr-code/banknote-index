@@ -437,6 +437,35 @@ def ecb_pack(notes, credits):
     return [f"ECB preview: {len(saved)} images in preview/ecb (awaiting approval)"]
 
 
+def us_currency(notes, credits):
+    """US notes: official public-domain images from the U.S. Currency Education Program (uscurrency.gov)."""
+    usd = next((c for c in notes if c["code"] == "USD"), None)
+    if not usd:
+        return []
+    added = []
+    for n in usd["notes"]:
+        k = f'USD-{n[0]}'
+        if (credits.get(k) or {}).get("source") == "bank" and have(k):
+            continue
+        page = f"https://www.uscurrency.gov/denominations/{n[0]}"
+        with urllib.request.urlopen(urllib.request.Request(page, headers={"User-Agent": UA}), timeout=30) as f:
+            html = f.read().decode("utf-8", "ignore")
+        got = {}
+        for side, word in (("f", "front"), ("b", "back")):
+            m = re.findall(rf"/sites/default/files/(?:styles/[\w_]+/public/)?denominations/{n[0]}_(\d{{4}})-present-{word}\.jpg", html)
+            if m:
+                year = max(m)
+                got[side] = f"https://www.uscurrency.gov/sites/default/files/denominations/{n[0]}_{year}-present-{word}.jpg"
+        if len(got) < 2:
+            print("  uscurrency: no current images found for", k); continue
+        for side, url in got.items():
+            download(url, os.path.join(IMG, f"{k}-{side}.jpg"))
+        cr = {"author": "U.S. Currency Education Program", "license": "Public domain", "license_url": page}
+        credits[k] = {"source": "bank", "bank": "U.S. Currency Education Program", "url": page, "f": cr, "b": cr}
+        added.append(f"{k} (U.S. Currency Education Program; sides fb)")
+    return added
+
+
 def main():
     os.makedirs(IMG, exist_ok=True)
     notes = load("notes.json", [])
@@ -446,6 +475,10 @@ def main():
     overrides = load("commons_overrides.json", {})
     nm = Numista(os.environ.get("NUMISTA_KEY"), BUDGET)
     added, article_cache = [], {}
+    try:
+        added += us_currency(notes, credits)
+    except Exception as e:
+        print("  uscurrency error:", e)
     try:
         if os.environ.get("ECB_ENABLED") == "1":  # off until the user approves the euro images
             added += ecb_pack(notes, credits)
