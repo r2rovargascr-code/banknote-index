@@ -3330,5 +3330,149 @@
    "license": "CC BY-SA 4.0",
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
+ },
+ "AUD-100": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:Obverse_of_the_series_2025_$100_Federal_Reserve_Note.jpg",
+  "f": {
+   "author": "Donald Trump (via Truth Social account).",
+   "license": "Public domain",
+   "license_url": null,
+   "page": "File:Obverse of the series 2025 $100 Federal Reserve Note.jpg"
+  }
+ },
+ "NZD-100": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:Obverse_of_the_series_2009_$100_Federal_Reserve_Note.jpg",
+  "b": {
+   "author": "The Canal &amp; Banking Co.",
+   "license": "Public domain",
+   "license_url": null,
+   "page": "File:100 Dollars - Canal Bank (18xx) Banknotes.com - Reverse.jpg"
+  },
+  "f": {
+   "author": "Bureau of Engraving and Printing",
+   "license": "Public domain",
+   "license_url": null,
+   "page": "File:Obverse of the series 2009 $100 Federal Reserve Note.jpg"
+  }
+ },
+ "CHF-1000": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:CHF1000_4_front_horizontal.jpg",
+  "b": {
+   "author": "Wikimedia contributor",
+   "license": "Public domain",
+   "license_url": null,
+   "page": "File:CHF1000 7 back horizontal.jpg"
+  },
+  "f": {
+   "author": "Wikimedia contributor",
+   "license": "Public domain",
+   "license_url": null,
+   "page": "File:CHF1000 4 front horizontal.jpg"
+  }
+ },
+ "PHP-100": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:NDS_obverse_100_Philippine_peso_bill.jpg",
+  "f": {
+   "author": "Bangko Sentral ng Pilipinas",
+   "license": "Public domain",
+   "license_url": null,
+   "page": "File:NDS obverse 100 Philippine peso bill.jpg"
+  }
+ },
+ "UA-100": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:100_hryvnia_2018_reverse.jpg",
+  "b": {
+   "author": "NBU",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "File:100 hryvnia 2018 reverse.jpg"
+  }
+ },
+ "PK-10": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:RBI_10_Rupees,_King_George_VI,_Pakistan_Refused,_reverse.jpg",
+  "b": {
+   "author": "Reserve Bank of India",
+   "license": "Public domain",
+   "license_url": null,
+   "page": "File:RBI 10 Rupees, King George VI, Pakistan Refused, reverse.jpg"
+  }
+ },
+ "IR-50": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:Kingdom_of_Iran_100_Rials_Banknote_for_50th_Anniversary_of_Pahlavi_Dynasty_(obverse).png",
+  "f": {
+   "author": "Kingdom of Iran Central Bank",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "File:Kingdom of Iran 100 Rials Banknote for 50th Anniversary of Pahlavi Dynasty (obverse).png"
+  }
+ },
+ "EG-1": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:1_Egyptian_Pound_Backside.jpg",
+  "b": {
+   "author": "AmrAmin",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "File:1 Egyptian Pound Backside.jpg"
+  }
+ },
+ "ZW-100": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:Reserve_Bank_of_Zimbabwe_100_dollars_2020_obverse.jpg",
+  "b": {
+   "author": "HandGrenadePins",
+   "license": "Public domain",
+   "license_url": null,
+   "page": "File:Zimbabwean 100 million dollar note (back).JPG"
+  },
+  "f": {
+   "author": "Reserve Bank of Zimbabwe",
+   "license": "Public domain",
+   "license_url": null,
+   "page": "File:Reserve Bank of Zimbabwe 100 dollars 2020 obverse.jpg"
+  }
+ },
+ "MU-500": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:Mauritius_500_rupees_averse.jpg",
+  "f": {
+   "author": "Szajci",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "File:Mauritius 500 rupees averse.jpg"
+  }
+ },
+ "CR-1000": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:Billete_1000_Colones_A_reverso.jpg",
+  "b": {
+   "author": "Banco Central de Costa Rica",
+   "license": "Public domain",
+   "license_url": null,
+   "page": "File:Billete 1000 Colones A reverso.jpg"
+  }
+ },
+ "RU-100": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:100_fotball_rubles_2018_obverse.jpg",
+  "b": {
+   "author": "ЦБ РФ",
+   "license": "Public domain",
+   "license_url": null,
+   "page": "File:Russia 100 Rubles 2018 reverse.jpg"
+  },
+  "f": {
+   "author": "ЦБ РФ",
+   "license": "Public domain",
+   "license_url": null,
+   "page": "File:Russia 100 Rubles 2018 obverse.jpg"
+  }
  }
 }
