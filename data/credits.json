@@ -65,13 +65,17 @@
  },
  "USD-5": {
   "source": "wikimedia",
-  "url": "https://commons.wikimedia.org/wiki/File:US_$5_Series_2006_obverse.jpg",
+  "url": "https://commons.wikimedia.org/wiki/File:Reverse_of_the_series_2021_$5_Federal_Reserve_Note.jpg",
   "f": {
    "author": "MikeSwanson",
    "license": "Public domain",
    "license_url": null
   },
-  "b": null
+  "b": {
+   "author": "Aisrotkev8000",
+   "license": "Public domain",
+   "license_url": null
+  }
  },
  "USD-10": {
   "id": 201824,
@@ -188,44 +192,48 @@
  "JPY-1000": {
   "id": 385520,
   "title": "1000 Yen",
-  "url": "https://en.numista.com/385520",
+  "url": "https://commons.wikimedia.org/wiki/File:Series_B_1000_Yen_Bank_of_Japan_note_-_back.jpg",
   "f": {
-   "author": "akina1015",
-   "license": null,
+   "author": "Eclipse2009",
+   "license": "Public domain",
    "license_url": null
   },
   "b": {
-   "author": "akina1015",
-   "license": null,
+   "author": "Eclipse2009",
+   "license": "Public domain",
    "license_url": null
   },
-  "source": "numista"
+  "source": "wikimedia"
  },
  "JPY-5000": {
   "source": "wikimedia",
-  "url": "https://commons.wikimedia.org/wiki/File:5000_yen_obverse_scheduled_to_be_issued_2024_front.jpg",
+  "url": "https://commons.wikimedia.org/wiki/File:Series_F_5,000_yen_reverse.jpg",
   "f": {
    "author": "Ministry of Finance Japan",
    "license": "CC BY 4.0",
    "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
-  "b": null
+  "b": {
+   "author": "RegoParkRen",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0"
+  }
  },
  "JPY-10000": {
   "id": 385524,
   "title": "10 000 Yen",
-  "url": "https://en.numista.com/385524",
+  "url": "https://commons.wikimedia.org/wiki/File:10000_Yenes_(Anverso).jpg",
   "f": {
-   "author": "akina1015",
-   "license": null,
+   "author": "Fer1997",
+   "license": "Public domain",
    "license_url": null
   },
   "b": {
-   "author": "akina1015",
-   "license": null,
+   "author": "Fer1997",
+   "license": "Public domain",
    "license_url": null
   },
-  "source": "numista"
+  "source": "wikimedia"
  },
  "CNY-1": {
   "id": 220873,
@@ -646,18 +654,18 @@
  "CHF-1000": {
   "id": 203275,
   "title": "1000 Francs (9th series)",
-  "url": "https://en.numista.com/203275",
+  "url": "https://commons.wikimedia.org/wiki/File:CHF1000_1_back_horizontal.jpg",
   "f": {
-   "author": "Bank Note Museum",
-   "license": null,
+   "author": "Wikimedia contributor",
+   "license": "Public domain",
    "license_url": null
   },
   "b": {
-   "author": "Bank Note Museum",
-   "license": null,
+   "author": "Wikimedia contributor",
+   "license": "Public domain",
    "license_url": null
   },
-  "source": "numista"
+  "source": "wikimedia"
  },
  "SEK-20": {
   "id": 201994,
@@ -982,18 +990,18 @@
  "BRL-2": {
   "id": 202197,
   "title": "2 Reais (2nd. Family; Casa da Moeda do Brasil)",
-  "url": "https://en.numista.com/202197",
+  "url": "https://commons.wikimedia.org/wiki/File:2_Brazil_real_First_Obverse.jpg",
   "f": {
-   "author": "SmoCa",
-   "license": null,
-   "license_url": null
+   "author": "Rawlan1998",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "b": {
-   "author": "SmoCa",
-   "license": null,
-   "license_url": null
+   "author": "Rawlan1998",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
-  "source": "numista"
+  "source": "wikimedia"
  },
  "BRL-5": {
   "id": 201713,
@@ -1174,18 +1182,18 @@
  "TRY-200": {
   "id": 206562,
   "title": "200 Lira",
-  "url": "https://en.numista.com/206562",
+  "url": "https://commons.wikimedia.org/wiki/File:200_T%C3%BCrk_Liras%C4%B1_front.jpg",
   "f": {
-   "author": "Pulee78",
-   "license": null,
+   "author": "Central Bank of the Republic of Turkey",
+   "license": "Public domain",
    "license_url": null
   },
   "b": {
-   "author": "Pulee78",
-   "license": null,
+   "author": "Central Bank of the Republic of Turkey",
+   "license": "Public domain",
    "license_url": null
   },
-  "source": "numista"
+  "source": "wikimedia"
  },
  "THB-20": {
   "id": 317869,
@@ -1286,18 +1294,18 @@
  "PHP-100": {
   "id": 446774,
   "title": "100 Piso (Seal type 7; polymer)",
-  "url": "https://en.numista.com/446774",
+  "url": "https://commons.wikimedia.org/wiki/File:100-peso_VICTORY-CBP_banknote_obverse.png",
   "f": {
-   "author": "Vic_29Vic (CC BY-SA)",
-   "license": null,
+   "author": "United States Bureau of Engraving and Printing",
+   "license": "Public domain",
    "license_url": null
   },
   "b": {
-   "author": "Vic_29Vic (CC BY-SA)",
-   "license": null,
+   "author": "United States Bureau of Engraving and Printing",
+   "license": "Public domain",
    "license_url": null
   },
-  "source": "numista"
+  "source": "wikimedia"
  },
  "PHP-200": {
   "id": 232127,
@@ -1798,34 +1806,34 @@
  "PRB-50": {
   "id": 473427,
   "title": "50 Roubles",
-  "url": "https://en.numista.com/473427",
+  "url": "https://commons.wikimedia.org/wiki/File:50_Kupon_Ruble_Obverse.jpg",
   "f": {
-   "author": "https://www.cbpmr.net",
-   "license": null,
+   "author": "Transnistrian Republican Bank",
+   "license": "Public domain",
    "license_url": null
   },
   "b": {
-   "author": "https://www.cbpmr.net",
-   "license": null,
+   "author": "Transnistrian Republican Bank",
+   "license": "Public domain",
    "license_url": null
   },
-  "source": "numista"
+  "source": "wikimedia"
  },
  "PRB-100": {
   "id": 611200,
   "title": "100 Roubles",
-  "url": "https://en.numista.com/611200",
+  "url": "https://commons.wikimedia.org/wiki/File:100_Kupon_Ruble_Obverse.png",
   "f": {
-   "author": "Bank Note Museum",
-   "license": null,
+   "author": "Transnistrian Republican Bank",
+   "license": "Public domain",
    "license_url": null
   },
   "b": {
-   "author": "Bank Note Museum",
-   "license": null,
+   "author": "Transnistrian Republican Bank",
+   "license": "Public domain",
    "license_url": null
   },
-  "source": "numista"
+  "source": "wikimedia"
  },
  "PRB-200": {
   "id": 565087,
@@ -2498,5 +2506,19 @@
    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
   },
   "source": "numista"
+ },
+ "USD-1": {
+  "source": "wikimedia",
+  "url": "https://commons.wikimedia.org/wiki/File:Obverse_of_the_series_2021_$1_Federal_Reserve_Note.jpg",
+  "f": {
+   "author": "Aisrotkev8000",
+   "license": "Public domain",
+   "license_url": null
+  },
+  "b": {
+   "author": "Aisrotkev8000",
+   "license": "Public domain",
+   "license_url": null
+  }
  }
 }
